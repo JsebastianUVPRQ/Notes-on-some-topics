@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "8995b7483e1e6236",
+    "type": "split",
+    "children": [
+      {
+        "id": "1024c8f36272103e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af0f33d9faa6aa5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Métodos Matemáticos Física/Funciones de green.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Funciones de green"
+            }
+          },
+          {
+            "id": "2e7f60c2698e380f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica fundamental 5/Course overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Course overview"
+            }
+          },
+          {
+            "id": "bd90709250f3a4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Métodos Matemáticos Física/Ejercicios Transformadas de Fourier Normas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ejercicios Transformadas de Fourier Normas"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5316e61eea017d2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb62be729d58b96e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "462ca3772624e6b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "5c668d8ade8a9252",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "green",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "5a0c44109724f21e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341.501522064209
+  },
+  "right": {
+    "id": "0462a9795628c375",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f84212e55523fc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0244bae83f13e567",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker/Configuring environment containers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Configuring environment containers"
+            }
+          },
+          {
+            "id": "5717b4ba59f9aecc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Docker/Configuring environment containers.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Configuring environment containers"
+            }
+          },
+          {
+            "id": "f85cf6faf8044dd7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e867a9d9fabcca2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker/Configuring environment containers.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Configuring environment containers"
+            }
+          },
+          {
+            "id": "c0dd57a609b4a439",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Complemento no activo"
+            }
+          },
+          {
+            "id": "07b4b76d33b97bd9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "zk-prefixer:Crear nueva nota única": false,
+      "random-note:Abrir nota al azar": false,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false
+    }
+  },
+  "active": "bd90709250f3a4db",
+  "lastOpenFiles": [
+    "Métodos Matemáticos Física/SOLUCION.md",
+    "Métodos Matemáticos Física/Funciones de green.md",
+    "Analisis, algebra lineal, basics/Calculo tensorial/Temario - Cálculo Tensorial Aplicado a Física Fundamental.md",
+    "Mecánica Estadística/1 - 2 unidades.md",
+    "Fisica fundamental 5/Course overview.md",
+    "Untitled.canvas",
+    "Pasted image 20250629004524.png",
+    "2025-06-09.md",
+    "Fisica fundamental 5/Taller 3.md",
+    "Fisica fundamental 5/geometría algebraica.md",
+    "Fisica fundamental 5/Taller 1.md",
+    "Fisica fundamental 6 VI/desarrollo del curso.md",
+    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
+    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+    "Fisica fundamental 6 VI/unidad 1 - Introducción a la Física Nuclear.md",
+    "Fisica fundamental 6 VI/Unidad 9 - Partículas Elementales - Explicación Pedagógica Completa.md",
+    "Electromagnetismo/tricky nabla operator del diferencial.md",
+    "Pasted image 20250629004303.png",
+    "Pasted image 20250614183610.png",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Sin título 2.canvas",
+    "Fisica fundamental 6 VI/Unidad 8 - Fisión y Fusión Nuclear - Explicación Profunda y Conceptual.md",
+    "Fisica fundamental 6 VI/Unidad 7 - Efectos Biológicos de la Radiación.md",
+    "Fisica fundamental 6 VI/Unidad 3 - Modelos Nucleares y Estabilidad Nuclear.md",
+    "Fisica fundamental 6 VI/Unidad 2 - Detectores e Instrumentación Nuclear.md",
+    "Fisica fundamental 6 VI/Unidad 5 - Reacciones Nucleares.md",
+    "Fisica fundamental 6 VI/Unidad 6 - Interacción de la Radiación con la Materia.md",
+    "Fisica fundamental 6 VI/Unidad 4 - Inestabilidad Nuclear - Emisiones α, β y γ.md",
+    "Fisica fundamental 6 VI",
+    "Métodos Matemáticos Física/Matematicas Especiales.md",
+    "Azure ML E/Módulo creacion con diseñador/Clasificacion con diseñador/Azure ML Clasificación con diseñador.md",
+    "Analisis, algebra lineal, basics/Calculo tensorial",
+    "marco legal fundaciones/Conclusiones.md",
+    "Métodos Matemáticos Física/The Fourier transform.md",
+    "Métodos Matemáticos Física/The Fourier transform - 2.md",
+    "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
+    "Pasted image 20250614181627.png",
+    "Estadística para DS y ML/Estadística inferencial/Statistical_test_HipoProve.png",
+    "Mecánica Cuántica/PARCIALES/TEST 2 MIT",
+    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS",
+    "Mecánica Cuántica/PARCIALES",
+    "Python/streamlit - planetas - web app",
+    "Electromagnetismo/Parciales",
+    "Electromagnetismo",
+    "Python/Figures academia papers/Pasted image 20230810021247.png",
+    "Python/Figures academia papers/Pasted image 20230810021106.png",
+    "Python/Figures academia papers/Seaborn",
+    "Python/Figures academia papers",
+    "Pasted image 20241231214942.png",
+    "Pasted image 20240228002856.png"
+  ]
+}

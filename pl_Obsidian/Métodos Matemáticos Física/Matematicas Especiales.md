@@ -155,7 +155,7 @@ Ejemplos importantes:
 
 - **Grupo de Lorentz:** El conjunto de todas las transformaciones lineales que dejan invariante la métrica de Minkowski forma el grupo de Lorentz, $\mathrm{O}(1,3)$. El subgrupo conexo y orientado en el tiempo se denota como $\mathrm{SO}^+(1,3)$. Este grupo es central en la relatividad especial, ya que sus elementos (las matrices de Lorentz) son las transformaciones entre sistemas inerciales.
 - **$\mathrm{SO}(3)$:** Es el grupo de rotaciones en el espacio tridimensional y se utiliza, por ejemplo, para describir la simetría esférica de un átomo o de la distribución de carga en un cuerpo.
-- **Grupo Especial Unitario $\mathrm{SU}(2)$:** Aunque matemáticamente distinto, $\mathrm{SU}(2)$ es el doble recubrimiento de $\mathrm{SO}(3)$ y aparece en la descripción del spin en mecánica cúantica. Las matrices en $\mathrm{SU}(2)$ son matrices $2\times 2$ unitarias con determinante 1 y se relacionan con las rotaciones en el espacio, pero tienen una estructura algebraica que permite la descripción de estados cuánticos de espín $1/2$.
+- **Grupo Especial Unitario $\mathrm{SU}(2)$:** Aunque matemáticamente distinto, $\mathrm{SU}(2)$ es el doble recubrimiento de $\mathrm{SO}(3)$ y aparece en la descripción del spin en mecánica cuántica. Las matrices en $\mathrm{SU}(2)$ son matrices $2\times 2$ unitarias con determinante 1 y se relacionan con las rotaciones en el espacio, pero tienen una estructura algebraica que permite la descripción de estados cuánticos de espín $1/2$.
 
 ### Álgebras de Lie
 

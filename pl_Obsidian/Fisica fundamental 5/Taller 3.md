@@ -17,10 +17,10 @@ Derive the Rutherford formula for the scattering of positive ions by atoms accor
 
 **Setup:**
 - Consider two rigid spheres, one with radius $r_A $(the projectile) and another with radius $r_B$(the target).
-- The scattering occurs when the distance between their centers is less than or equal to$r_A + r_B $, which defines the effective "collision radius."
+- The scattering occurs when the distance between their centers is less than or equal to $r_A + r_B$, which defines the effective "collision radius."
 
 **Differential Cross-section:**
-The differential cross-section$\frac{d\sigma}{d\Omega}$describes how the scattering depends on the solid angle $d\Omega $. For rigid spheres, the scattering is isotropic because all impact parameters $b $(the perpendicular distance between the initial trajectory of the projectile and the center of the target) are equally likely. Therefore:
+The differential cross-section$\frac{d\sigma}{d\Omega}$describes how the scattering depends on the solid angle $d\Omega$. For rigid spheres, the scattering is isotropic because all impact parameters $b$ (the perpendicular distance between the initial trajectory of the projectile and the center of the target) are equally likely. Therefore:
 $$
 \frac{d\sigma}{d\Omega} = \text{constant}.
 $$
@@ -28,7 +28,7 @@ $$
 To determine the constant, we integrate over all solid angles to find the total cross-section.
 
 **Total Cross-section:**
-The total cross-section $\sigma $is the effective area that the target presents to the incoming projectile. For rigid spheres, this is simply the geometric cross-sectional area of the combined sphere:
+The total cross-section $\sigma$ is the effective area that the target presents to the incoming projectile. For rigid spheres, this is simply the geometric cross-sectional area of the combined sphere:
 $$
 \sigma = \pi (r_A + r_B)^2.
 $$
@@ -74,11 +74,11 @@ $$
 #### **Problem 12 — Size of the atomic nucleus**
 
 **Setup:**
-- A beam of α particles with kinetic energy $E = 12.75 \, \text{MeV}$ is scattered by an aluminum nucleus ($Z = 13$).
+- A beam of α particles with kinetic energy $E = 12.75 \, \text{MeV}$ is scattered by an aluminum nucleus   ($Z = 13$).
 - At large angles ($\theta = 54^\circ$), deviations from pure Coulomb scattering indicate the presence of the nuclear force, which becomes significant when the α particle approaches the nucleus closely.
 
 **Key Idea:**
-The deviation occurs when the distance of closest approach $r_{\text{min}} $between the α particle and the nucleus is comparable to the sum of their radii:
+The deviation occurs when the distance of closest approach $r_{\text{min}}$ between the α particle and the nucleus is comparable to the sum of their radii:
 $$
 r_{\text{min}} \approx R_\alpha + R_{\text{nucleus}},
 $$
@@ -91,12 +91,14 @@ r_{\text{min}} = \frac{k q_1 q_2}{E},
 $$
 where:
 - $k = \frac{1}{4\pi \epsilon_0} = 8.99 \times 10^9 \, \text{N·m}^2/\text{C}^2$,
-- $q_1 = 2e$(charge of α particle),
-- $q_2 = 13e$(charge of aluminum nucleus),
+- $q_1 = 2e$ (charge of α particle),
+- $q_2 = 13e$ (charge of aluminum nucleus),
 - $e = 1.6 \times 10^{-19} \, \text{C}$,
 - $E = 12.75 \, \text{MeV} = 12.75 \times 10^6 \times 1.6 \times 10^{-19} \, \text{J} = 2.04 \times 10^{-12} \, \text{J}$.
 
+
 Substitute these values:
+
 $$
 r_{\text{min}} = \frac{(8.99 \times 10^9) (2 \cdot 1.6 \times 10^{-19}) (13 \cdot 1.6 \times 10^{-19})}{2.04 \times 10^{-12}}.
 $$
@@ -128,7 +130,7 @@ $$
 R_{\text{nucleus}} = r_{\text{min}} - R_\alpha.
 $$
 
-Substitute $r_{\text{min}} = 2.93 \times 10^{-14} \, \text{m}$and $R_\alpha = 2 \times 10^{-15} \, \text{m}$:
+Substitute $r_{\text{min}} = 2.93 \times 10^{-14} \, \text{m}$ and  $R_\alpha = 2 \times 10^{-15} \, \text{m}$:
 $$
 R_{\text{nucleus}} = 2.93 \times 10^{-14} - 2 \times 10^{-15}.
 $$

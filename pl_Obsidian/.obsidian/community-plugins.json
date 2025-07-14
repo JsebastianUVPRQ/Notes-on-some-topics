@@ -3,5 +3,9 @@
   "obsidian-tasks-plugin",
   "obsidian-outliner",
   "dataview",
-  "calendar"
+  "calendar",
+  "mermaid-tools",
+  "obsidian-latex-environments",
+  "obsidian-latex-suite",
+  "mehrmaid"
 ]

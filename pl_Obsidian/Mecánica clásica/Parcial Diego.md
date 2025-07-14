@@ -299,12 +299,11 @@ Here is the complete text of the exam in its original Spanish language:
 #### **Encabezado**
 **Grupo:**  
 **Calificación:**
-
-**Durante el desarrollo de la evaluación no está permitido el uso de apuntes y aparatos electrónicos. Toda respuesta debe ir acompañada de un procedimiento o una justificación adecuada según se solicite, de no ser así dicha solución no tendrá ninguna validez. La notación incorrecta o inconsistente también será evaluada. Solamente se calificarán las respuestas y los procedimientos contenidos en la hoja establecida para ello, no se aceptan hojas sueltas que no hayan sido previamente verificadas. No se aceptarán reclamaciones de soluciones escritas a lápiz o que su desarrollo no sea claro. TIEMPO DE LA PRUEBA: 110 min.**
+TIEMPO DE LA PRUEBA: 110 min.**
 
 ---
 
-### **Problema 1 (3 puntos)**
+# **Problema 1 (3 puntos)**
 El principio de Fermat establece que la trayectoria que sigue un rayo de luz entre dos puntos es aquella que corresponde al tiempo mínimo. Use esta idea y el principio variacional para determinar la trayectoria de un rayo de luz entre dos puntos en el plano$xx$si se considera que el medio tiene un índice de refracción$n = c/v$, donde$c$es la rapidez de la luz en el vacío y$v$es la rapidez de la luz en el medio dado por:
 $$
 n(z) = n_0 - \alpha z, \quad n_0, \alpha > 0.
@@ -337,7 +336,7 @@ donde $\mathbf{r}$ es el radio vector medido desde el origen del sistema de refe
 
 ---
 
-### **Problema 4**
+# **Problema 4**
 A las modificaciones del Lagrangiano que tienen la forma:
 $$
 L(q, \dot{q}) \longrightarrow L'(q, \dot{q}) = L(q, \dot{q}) + \frac{d}{dt} M(q, t),
@@ -357,8 +356,6 @@ y explique qué implicaciones tiene este resultado.
 ---
 
 
-
----
 ---
 Aquí está tu texto reescrito con notación LaTeX precisa y corregido en los puntos identificados:
 
@@ -543,3 +540,119 @@ $$
 4. Espaciado con `\,` en términos como $m\, \mathbf{n} \cdot \ldots$.  
 
 ¿Necesitas ajustes adicionales o explicaciones sobre algún paso? 😊
+
+Solucion problema 1
+Claro, aquí está la solución detallada al problema.
+
+# **Solución al Problema 1: Trayectoria de un Rayo de Luz**
+
+
+### **Solución al Problema 1: Trayectoria de un Rayo de Luz**
+
+El problema nos pide determinar la trayectoria de un rayo de luz en un medio con un índice de refracción variable $n(z) = n_0 - \alpha z$, utilizando el principio de Fermat y el cálculo de variaciones.
+
+#### **1. Principio de Fermat y el Funcional del Tiempo**
+El principio de Fermat establece que la luz recorre la trayectoria que minimiza el tiempo de viaje. El tiempo total de viaje $T$ entre dos puntos A y B es:
+
+$$
+T = \int_A^B dt
+$$
+
+La velocidad de la luz en el medio es $v = c/n$, donde $c$ es la velocidad de la luz en el vacío. Con $dt = ds/v$, obtenemos:
+
+$$
+T = \frac{1}{c} \int_A^B n  ds
+$$
+
+Minimizar $T$ equivale a minimizar la **longitud del camino óptico** $S = \int_A^B n  ds$.
+
+#### **2. Formulación Variacional**
+Buscamos la trayectoria $z(x)$ en el plano $xz$. El elemento de longitud de arco es $ds = \sqrt{dx^2 + dz^2}$. Considerando $x$ como función de $z$ ($x(z)$):
+
+$$
+ds = \sqrt{x'^2 + 1}  dz, \quad \text{donde} \quad x' = \frac{dx}{dz}
+$$
+
+El funcional se expresa como:
+
+$$
+S = \int_{z_1}^{z_2} (n_0 - \alpha z) \sqrt{x'^2 + 1}  dz
+$$
+
+El Lagrangiano es $L(z, x') = (n_0 - \alpha z) \sqrt{x'^2 + 1}$, que no depende explícitamente de $x$.
+
+#### **3. Ecuación de Euler-Lagrange**
+La ecuación de Euler-Lagrange para $L(z, x')$:
+
+$$
+\frac{d}{dz} \left( \frac{\partial L}{\partial x'} \right) - \frac{\partial L}{\partial x} = 0
+$$
+
+Como $\partial L / \partial x = 0$, simplificamos a:
+
+$$
+\frac{d}{dz} \left( \frac{\partial L}{\partial x'} \right) = 0 \implies \frac{\partial L}{\partial x'} = C \quad (C \text{ constante})
+$$
+
+Calculamos la derivada parcial:
+
+$$
+\frac{\partial L}{\partial x'} = (n_0 - \alpha z) \frac{x'}{\sqrt{x'^2 + 1}} = C
+$$
+
+#### **4. Resolviendo la Ecuación Diferencial**
+Reorganizando la ecuación:
+
+$$
+x' = \frac{dx}{dz} = \frac{C}{\sqrt{(n_0 - \alpha z)^2 - C^2}}
+$$
+
+Integramos con respecto a $z$:
+
+$$
+x(z) = \int \frac{C}{\sqrt{(n_0 - \alpha z)^2 - C^2}}  dz + C_2
+$$
+
+Usando la sustitución $\xi = n_0 - \alpha z$, $d\xi = -\alpha  dz$:
+
+$$
+x(\xi) = -\frac{C}{\alpha} \int \frac{d\xi}{\sqrt{\xi^2 - C^2}} = -\frac{C}{\alpha} \cosh^{-1}\left(\frac{\xi}{C}\right) + C_2
+$$
+
+Sustituyendo $\xi = n_0 - \alpha z$:
+
+$$
+x = -\frac{C}{\alpha} \cosh^{-1}\left(\frac{n_0 - \alpha z}{C}\right) + C_2
+$$
+
+#### **5. Ecuación de la Trayectoria y Bosquejo**
+Despejando $z$ en función de $x$:
+
+$$
+z(x) = \frac{n_0}{\alpha} - \frac{C}{\alpha} \cosh\left(\frac{\alpha(x - C_2)}{C}\right)
+$$
+
+Esta es la ecuación de una **catenaria invertida**.
+
+**Propiedades de la trayectoria:**
+- Tiene un máximo en $z= C_2$- Altura máxima: $z_{\text{max}} = \dfrac{n_0 - C}{\alpha}$.
+- Simétrica respecto a $x = C_2$.
+
+**Bosquejo:**
+```
+      ^ z
+      |
+      |   n(z) decrece con la altura
+z_max | . . . . . . . . . . . . . . . . . . . (x=C₂, z=z_max)
+      |                  ***
+      |                ** **
+      |               *   *
+      |              *     *
+      |             *       *
+      |            *         *
+      |           *           *
+      +-----------------------------------------------------> x
+```
+
+**Interpretación física:**  
+El rayo se curva hacia la región de mayor índice de refracción ($z$ pequeño). La curvatura hacia abajo se debe a que $n(z)$ disminuye con la altura, análogo a espejismos invertidos.

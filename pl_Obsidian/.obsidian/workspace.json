@@ -1,52 +1,52 @@
 {
   "main": {
-    "id": "8995b7483e1e6236",
+    "id": "a6b8401158925299",
     "type": "split",
     "children": [
       {
-        "id": "1024c8f36272103e",
+        "id": "4090121e77be4302",
         "type": "tabs",
         "children": [
           {
-            "id": "af0f33d9faa6aa5a",
+            "id": "647154e38bc49f3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica Estadística/CONTENT.md",
+                "file": "Mecánica clásica/valenzuela - talleres - tareas/asignacion3-valenzuela-6-7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CONTENT"
+              "title": "asignacion3-valenzuela-6-7"
             }
           },
           {
-            "id": "c9aefcef5050e0c6",
+            "id": "751e917b32fe5d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+                "file": "Mecánica Cuántica/Ecuaciones fundamentales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teorema del residuo - Cauchy"
+              "title": "Ecuaciones fundamentales"
             }
           },
           {
-            "id": "1a56bf6d5a1b3292",
+            "id": "ea4c8f37963d99a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/Parcial Diego.md",
+                "file": "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parcial Diego"
+              "title": "conceptualizacion conway"
             }
           }
         ],
@@ -56,20 +56,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5316e61eea017d2d",
+    "id": "c3d519638e57e37b",
     "type": "split",
     "children": [
       {
-        "id": "bb62be729d58b96e",
+        "id": "6edb28c804bf6e89",
         "type": "tabs",
         "children": [
           {
-            "id": "462ca3772624e6b5",
+            "id": "2ceb808bd3dccc9b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -77,12 +77,12 @@
             }
           },
           {
-            "id": "5c668d8ade8a9252",
+            "id": "fb143e39f1c0540f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "gauge",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,37 +94,36 @@
             }
           },
           {
-            "id": "5a0c44109724f21e",
+            "id": "9c011f6f6cd41fdd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.501522064209
+    "width": 300
   },
   "right": {
-    "id": "0462a9795628c375",
+    "id": "0f1e7719f9f91383",
     "type": "split",
     "children": [
       {
-        "id": "7f84212e55523fc4",
+        "id": "cdaabe283150e160",
         "type": "tabs",
         "children": [
           {
-            "id": "0244bae83f13e567",
+            "id": "d64263a215259310",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Configuring environment containers.md",
+                "file": "Mecánica Cuántica/Ecuaciones fundamentales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Configuring environment containers"
+              "title": "Enlaces entrantes de Ecuaciones fundamentales"
             }
           },
           {
-            "id": "5717b4ba59f9aecc",
+            "id": "0e98f0034a9fe3dd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Configuring environment containers.md",
+                "file": "Mecánica Cuántica/Ecuaciones fundamentales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Configuring environment containers"
+              "title": "Enlaces salientes de Ecuaciones fundamentales"
             }
           },
           {
-            "id": "f85cf6faf8044dd7",
+            "id": "2343b21aba5b368f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -163,46 +162,32 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "e867a9d9fabcca2d",
+            "id": "2ea0cb704843c48d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Configuring environment containers.md",
+                "file": "Mecánica Cuántica/Ecuaciones fundamentales.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Configuring environment containers"
+              "title": "Esquema de Ecuaciones fundamentales"
             }
           },
           {
-            "id": "c0dd57a609b4a439",
+            "id": "4828342a45dd3acf",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Complemento no activo"
-            }
-          },
-          {
-            "id": "07b4b76d33b97bd9",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -214,67 +199,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "zk-prefixer:Crear nueva nota única": false,
-      "random-note:Abrir nota al azar": false,
-      "workspaces:Gestionar disposiciones de espacio de trabajo": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1a56bf6d5a1b3292",
+  "active": "ea4c8f37963d99a9",
   "lastOpenFiles": [
-    "Métodos Matemáticos Física/Taller 12 Metodos matematicos.md",
-    "Métodos Matemáticos Física/Deep research gemini - Desarrollo teórico mat especiales.md",
-    "Métodos Matemáticos Física/Matematicas Especiales.md",
-    "Electromagnetismo/Sin título.md",
-    "Untitled.canvas",
-    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
-    "Mecánica Estadística/CONTENT.md",
-    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
-    "Mecánica Estadística/Tipos de variables.md",
-    "Mecánica Estadística/Equilibrio.md",
-    "Mecánica Estadística/1 - 2 unidades.md",
-    "Métodos Matemáticos Física/SOLUCION.md",
-    "Sin título.canvas",
-    "Exposicion de datos.md",
-    "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
+    "Analisis, algebra lineal, basics/Conway Complex functions I/compendium Conway analysis Functions  Complex variable.md",
+    "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
+    "Métodos Matemáticos Física/Funciones de green.md",
+    "Analisis, algebra lineal, basics/Conway Complex functions I",
     "Métodos Matemáticos Física/Taller00.md",
-    "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
-    "Pasted image 20250614183610.png",
-    "Métodos Matemáticos Física/Orthonormal System of Functions Ortonormales.md",
-    "Métodos Matemáticos Física/inner product - producto interno.md",
-    "Métodos Matemáticos Física/Computación fundamental.md",
-    "Pasted image 20250614181627.png",
-    "Métodos Matemáticos Física/Operadores.md",
-    "Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
-    "Fisica fundamental 5/Course overview.md",
+    "Mecánica clásica/valenzuela - talleres - tareas/asignacion3-valenzuela-6-7.md",
+    "Mecánica Cuántica/Ecuaciones fundamentales.md",
+    "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
+    "Mecánica Estadística/1 - 2 unidades.md",
+    "Mecánica clásica/valenzuela - talleres - tareas",
+    "Mecánica Cuántica/Formalismo.md",
+    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
+    "Exposicion de datos.md",
+    "Pasted image 20231117001019.png",
+    "Pasted image 20250220221007.png",
+    "Pasted image 20250224233959.png",
+    "Pasted image 20250224233910.png",
+    "Untitled.canvas",
     "2025-06-09.md",
-    "Algoritmos/Gradient Descent.md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Pasted image 20250614183610.png",
+    "Sin título 2.canvas",
+    "Mecánica Estadística/Tipos de variables.md",
+    "Pasted image 20250614181627.png",
+    "Mecánica Estadística/Equilibrio.md",
+    "Mecánica Estadística/CONTENT.md",
+    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+    "Métodos Matemáticos Física/The Fourier transform - 2.md",
+    "Fisica fundamental 6 VI/unidad 1 - Introducción a la Física Nuclear.md",
+    "Fisica fundamental 6 VI/Unidad 2 - Detectores e Instrumentación Nuclear.md",
+    "Fisica fundamental 6 VI/Unidad 5 - Reacciones Nucleares.md",
+    "Fisica fundamental 5/Course overview.md",
+    "Fisica fundamental 5/geometría algebraica.md",
     "Fisica fundamental 5/Taller 3.md",
-    "Algoritmos/Algoritmos de ML/no-supervisado/k-means clustering.md",
-    "Algoritmos/django-fastapi-itecol.md",
-    "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
-    "Mecánica Cuántica/Schrödinger Equation.md",
-    "Estadística para DS y ML/Estadística inferencial/Statistical_test_HipoProve.png",
+    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
+    "Fisica fundamental 5/taller 6-9/preguntas.md",
+    "Fisica fundamental 5/taller 6-9/TALLER.md",
+    "Fisica fundamental 5/taller 6-9",
+    "Analisis, algebra lineal, basics/Calculo tensorial/Temario - Cálculo Tensorial Aplicado a Física Fundamental.md",
+    "Sin nombre",
+    "Azure ML E/DP-100/SQL en Azure/Provisioning, deployment, query relational data in Azure",
     "Mecánica Cuántica/PARCIALES/TEST 2 MIT",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS",
     "Mecánica Cuántica/PARCIALES",
-    "Python/streamlit - planetas - web app",
-    "Electromagnetismo/Parciales",
-    "Electromagnetismo",
-    "Python/Figures academia papers/Pasted image 20230810021247.png",
-    "Python/Figures academia papers/Pasted image 20230810021106.png",
-    "Python/Figures academia papers/Seaborn",
-    "Python/Figures academia papers",
-    "Métodos Matemáticos Física",
-    "Mecánica Estadística",
-    "Pasted image 20241231214942.png",
-    "Pasted image 20240228002856.png",
-    "Pasted image 20240228002622.png",
-    "Pasted image 20240228002550.png"
+    "Azure ML E/Mod 10-Entrenamiento y evaluacion/Modelo regresión",
+    "Azure ML E/Mod 10-Entrenamiento y evaluacion",
+    "Azure ML E/DP-900/CosmosDB Azure",
+    "SQL-DS-ML/PostgreSQL/Apunte_durability_PostgreSQL.png",
+    "Azure ML E/Mód 8 - Exploración y análisis con Python/Pasted image 20230811015608.png",
+    "Azure ML E/Mód 8 - Exploración y análisis con Python/Pasted image 20230811015555.png",
+    "Azure ML E/Mód 8 - Exploración y análisis con Python/Pasted image 20230810021528.png"
   ]
 }
