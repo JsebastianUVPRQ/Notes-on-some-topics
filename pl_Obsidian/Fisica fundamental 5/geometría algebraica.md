@@ -123,9 +123,10 @@ Geometric Algebra provides a coherent language for physics, where bivectors and 
 ### **Chapter 1: Classical Mechanics with Bivectors**  
 #### **1.1 Angular Momentum and Torque**  
 In classical mechanics, angular momentum is typically introduced via the cross product:  
-\$$
+$$
 \mathbf{L} = \mathbf{r} \times \mathbf{p}, \quad \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}.
-$$  
+$$
+
 However, the cross product is limited to 3D and lacks geometric intuition. Geometric algebra replaces this with the **wedge product** (denoted $\wedge$), which constructs bivectors representing oriented planes.  
 
 **Definition**:  
@@ -175,15 +176,18 @@ In the body-fixed frame, Euler’s equations simplify to:
 $$
 \frac{d\mathbf{L}}{dt} + \boldsymbol{\Omega} \times \mathbf{L} = \boldsymbol{\tau},
 $$  
-where $\boldsymbol{\Omega} \times \mathbf{L} = \frac{1}{2}(\boldsymbol{\Omega} \mathbf{L} - \mathbf{L} \boldsymbol{\Omega})$arises from the non-commutativity of bivectors.  
+ $\boldsymbol{\Omega} \times \mathbf{L} = \frac{1}{2}(\boldsymbol{\Omega} \mathbf{L} - \mathbf{L} \boldsymbol{\Omega})$
+
+arises from the non-commutativity of bivectors.  
 
 **Example**:  
 For a symmetric top ($\mathcal{I}_1 = \mathcal{I}_2$), precession is described by:  
 $$
 \boldsymbol{\Omega} = \boldsymbol{\Omega}_\text{spin} + \boldsymbol{\Omega}_\text{precess},
-$$  
-with solutions derived from bivector exponentials $e^{\boldsymbol{\Omega} t}$.  
-
+$$
+  
+with solutions derived from bivector exponentials $e^{\boldsymbol{\Omega} t}$  
+ 
 ---
 
 #### **1.3 Hamiltonian Mechanics and Symplectic Structure**  
