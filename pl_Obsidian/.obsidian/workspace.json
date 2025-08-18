@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08cf1e5539673a6d",
+            "id": "cfd1b41324d490e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md",
+                "file": "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Corchetes de Poisson"
+              "title": "Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM"
             }
           },
           {
-            "id": "a082b956ce1aacad",
+            "id": "ff2801e9112af6d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica fundamental 6 VI/unidad 1 - Introducción a la Física Nuclear.md",
-                "mode": "source",
+                "file": "Fisica fundamental 5/taller 6-9/TALLER 7.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "unidad 1 - Introducción a la Física Nuclear"
+              "title": "TALLER 7"
             }
           }
         ],
@@ -55,7 +55,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -73,7 +73,7 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Buscar"
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
+                "file": "Ecuaciones Diferenciales/Topic 6 Series Solutions of Differential Equations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Sistemas de coordenadas"
+              "title": "Esquema de Topic 6 Series Solutions of Differential Equations"
             }
           },
           {
@@ -172,22 +172,12 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "74fb1a16831539e2",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Cola de notas a revisar"
+              "icon": "lucide-file",
+              "title": "Complemento no activo"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -202,48 +192,49 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "markdown-importer:Abrir el importador de Markdown": false,
-      "obsidian-spaced-repetition:Revisar Tarjetas": false
+      "markdown-importer:Abrir el importador de Markdown": false
     }
   },
-  "active": "a082b956ce1aacad",
+  "active": "2ceb808bd3dccc9b",
   "lastOpenFiles": [
-    "Fisica fundamental 6 VI/Unidad 9 - Partículas Elementales - Explicación Pedagógica Completa.md",
-    "Fisica fundamental 5/Course overview.md",
-    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
-    "Fisica fundamental 5/Taller 1.md",
-    "Fisica fundamental 5/Taller 3.md",
-    "Fisica fundamental 6 VI/Unidad 2 - Detectores e Instrumentación Nuclear.md",
-    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-PARCIAL-2022/SOLUCION - TEORÍA.md",
-    "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
-    "bcf80f47-0874-482c-872a-ae58829a6db6.png",
-    "Pasted image 20250805203530.png",
-    "2025-08-05.md",
-    "Fisica fundamental 5/geometría algebraica.md",
-    "Pasted image 20250805203504.png",
-    "Pasted image 20250805203056.png",
-    "Mecánica Cuántica/Formalismo.md",
-    "Mecánica clásica/Hamiltoniana",
+    "Ecuaciones Diferenciales/Content differential equations.md",
+    "Analisis, algebra lineal, basics/Matematicas Especiales/Temario Matematicas Especiales.md",
+    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
+    "Mecánica Estadística/CONTENT.md",
+    "Analisis, algebra lineal, basics/Matematicas Especiales/Temario - Cálculo Tensorial Aplicado a Física Fundamental.md",
     "Mecánica Cuántica/unidades-contenido-cuantica-univalle/3-8.md",
-    "Mecánica clásica/Fuerzas generalizadas.md",
-    "Mecánica clásica/pendulo con resorte.md",
-    "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
-    "Electromagnetismo/Contenido/Temario 3 y 4.md",
-    "Electromagnetismo/Contenido/tensor de esfuerzos.md",
-    "Electromagnetismo/Contenido/Temario 7 y 8.md",
-    "Electromagnetismo/Contenido/Temario 1 y 2.md",
-    "Electromagnetismo/Contenido/Temario 5 y 6.md",
-    "Electromagnetismo/Contenido",
-    "Electromagnetismo/tricky nabla operator del diferencial.md",
-    "Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
-    "Electromagnetismo/Parciales/Calero-parcial2-electromagnetismo2.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-UNIANDES.md",
+    "Mecánica Cuántica/PARCIALES/COMPENDIO FÓRMULAS.md",
+    "Analisis, algebra lineal, basics/Conway Complex functions I/compendium Conway analysis Functions  Complex variable.md",
+    "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
+    "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
+    "Fisica fundamental 5/taller 6-9/TALLER 7.md",
+    "Métodos Matemáticos Física/Capitulo 5 Mary Boas - Integrales Múltiples.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-PARCIAL-2022/Ejercicios MET-MAT-MMF-2022.md",
+    "Métodos Matemáticos Física/Taller-1-MIT/soluciones.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-PARCIAL-2022/SOLUCION - TEORÍA.md",
+    "Métodos Matemáticos Física/Taller-1-MIT/MT 2009 - Set de Problemas 1 - Álgebra Lineal I.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Taller00.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/SOLUCION.md",
     "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-QUIZ-1/Quiz 1.md",
-    "2.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-QUIZ-1",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Taller 12 Metodos matematicos.md",
+    "Métodos Matemáticos Física/Funciones de green.md",
+    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+    "Métodos Matemáticos Física/Hypergraph.md",
+    "Métodos Matemáticos Física/Computación fundamental.md",
+    "Métodos Matemáticos Física/Integrales y espacios complejos.md",
+    "Métodos Matemáticos Física/The Fourier transform.md",
+    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
+    "Métodos Matemáticos Física/Taller-1-MIT",
+    "Pasted image 20250805203530.png",
+    "Pasted image 20250805203056.png",
     "Untitled.canvas",
+    "Pasted image 20250805203504.png",
+    "bcf80f47-0874-482c-872a-ae58829a6db6.png",
+    "Pasted image 20250807210238.png",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-Final-2023",
+    "Mecánica clásica/Hamiltoniana",
+    "Electromagnetismo/Contenido",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-QUIZ-1",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Mecánica Cuántica/unidades-contenido-cuantica-univalle",
@@ -256,9 +247,6 @@
     "Pasted image 20250224233959.png",
     "Pasted image 20250224233910.png",
     "Pasted image 20250614183610.png",
-    "Sin título 2.canvas",
-    "Pasted image 20250614181627.png",
-    "Fisica fundamental 5/taller 6-9",
-    "Sin nombre"
+    "Sin título 2.canvas"
   ]
 }

@@ -14,16 +14,16 @@ Texto:
 #### **Página 2**  
 **Fórmulas**:  
 1. Constantes físicas:  
-   \( \hbar c \simeq 197.3 \, \text{MeV} \cdot \text{fm}, \, m_e c^2 \simeq 0.511 \, \text{MeV}, \, m_p c^2 = 938 \, \text{MeV}, \, \frac{e^2}{\hbar c} \simeq \frac{1}{137} \).  
+   $\hbar c \simeq 197.3 \, \text{MeV} \cdot \text{fm}, \, m_e c^2 \simeq 0.511 \, \text{MeV}, \, m_p c^2 = 938 \, \text{MeV}, \, \frac{e^2}{\hbar c} \simeq \frac{1}{137}$.  
 
 2. Relatividad:  
-   \( p = \gamma mv, \, E = \gamma mc^2, \, E^2 = p^2 c^2 + m^2 c^4, \, \gamma = \frac{1}{\sqrt{1 - \beta^2}}, \, \beta = \frac{v}{c} \).  
+   $= \gamma mv, \, E = \gamma mc^2, \, E^2 = p^2 c^2 + m^2 c^4, \, \gamma = \frac{1}{\sqrt{1 - \beta^2}}, \, \beta = \frac{v}{c}$ 
 
 3. Fotones:  
-   \( E = h\nu, \, p = \frac{h}{\lambda}, \, \text{o} \, E = \hbar \omega, \, p = \hbar k \).  
+   $E = h\nu, \, p = \frac{h}{\lambda}, \, \text{o} \, E = \hbar \omega, \, p = \hbar k$.  
 
 4. Longitudes de onda:  
-   \( \lambda = \frac{h}{p} \) (de Broglie), \( \lambda_C = \frac{h}{mc} \) (Compton).  
+   $\lambda = \frac{h}{p}$ (de Broglie), $\lambda_C = \frac{h}{mc}$ (Compton).  
 
 5. Operadores de momento y posición:  
    $$

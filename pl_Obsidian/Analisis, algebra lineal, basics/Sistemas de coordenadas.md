@@ -36,7 +36,7 @@ Cylindrical coordinates $(r, \phi, z)$ are useful for problems with cylindrical 
 - $\hat{\mathbf{z}}$: Points along the $z$-axis.
 
 Unlike Cartesian basis vectors, $\hat{\mathbf{r}}$ and $\hat{\boldsymbol{\phi}}$ are position-dependent—they change direction as you move around the space.
-	![[Pasted image 20250220215002.png]]
+	
 
 #### **c. Spherical Coordinates**
 Spherical coordinates $(r, \theta, \phi)$ are ideal for problems with spherical symmetry. The basis vectors are:
@@ -362,3 +362,5 @@ These derivatives are essential for analyzing time-varying systems, such as rota
 Cylindrical and spherical coordinate systems are indispensable tools for solving problems with axial or radial symmetry. Their position-dependent basis vectors adapt to the geometry of the problem, simplifying mathematical formulations and physical interpretations. By understanding the definitions, relationships among unit vectors, transformations, and applications of these coordinate systems, we gain powerful tools for tackling a wide range of scientific and engineering challenges.
 
 If you have further questions or need clarification on any specific aspect, feel free to ask!
+
+![[Pasted image 20250220215002.png]]
