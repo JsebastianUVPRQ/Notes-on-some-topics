@@ -361,3 +361,6 @@ Como en el Problema 43, determine en qué cuadrantes se encuentran las raíces d
 47. $z^3+4z^2+12=0$
 
 48. $z^4-z^3+6z^2-32z+5=0$
+
+# Soluciones
+
