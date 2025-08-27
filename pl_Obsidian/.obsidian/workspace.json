@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e697668d5d9683e0",
+        "id": "452dba0572ac8b77",
         "type": "tabs",
         "children": [
           {
-            "id": "8612a43b7ff20632",
+            "id": "5bf1e33844811aa7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
+                "file": "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parcial II"
+              "title": "diferenciales - surface integrals - integrales de linea - integrales de superficie"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "surface i",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,10 +193,24 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "8612a43b7ff20632",
+  "active": "5bf1e33844811aa7",
   "lastOpenFiles": [
-    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md",
+    "2025-08-26.md",
+    "2025-08-27.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Taller00.md",
+    "Métodos Matemáticos Física/Integrales y espacios complejos.md",
+    "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
+    "Métodos Matemáticos Física/Taller-1-MIT/soluciones.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Parcial 1 - Calero.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/SOLUCION.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Taller 12 Metodos matematicos.md",
+    "Fisica fundamental 5/taller 6-9/preguntas 6, 7, 8 y 9.md",
+    "Fisica fundamental 5/Taller 1.md",
+    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-PARCIAL-2022/Ejercicios MET-MAT-MMF-2022.md",
+    "marco legal fundaciones/Conclusiones.md",
+    "2025-08-25.md",
     "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
+    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md",
     "Mecánica clásica/valenzuela - talleres - tareas/asignacion3-valenzuela-6-7.md",
     "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/POTENCIALES - KEPLER - ORBITAS.md",
@@ -206,15 +220,6 @@
     "Mecánica Cuántica/PARCIALES/asignacion 5 - mec - quant.md",
     "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
     "Mecánica clásica/pendulo con resorte.md",
-    "Mecánica clásica/Parcial Diego.md",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/GRAFICOS KEPLER - POTENCIALES - NUMERICOS.md",
-    "Analisis, algebra lineal, basics/Sistemas de coordenadas.md",
-    "2025-08-24.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Parcial 1 - Calero.md",
-    "Métodos Matemáticos Física/The Fourier transform - 2.md",
-    "Analisis, algebra lineal, basics/diferenciales coordenadas generalizadas.md",
-    "Analisis, algebra lineal, basics/diferenciales - surface integrals - integrales de linea - integrales de superficie.md",
-    "2025-08-23.md",
-    "Exposicion de datos.md"
+    "Mecánica clásica/Parcial Diego.md"
   ]
 }
