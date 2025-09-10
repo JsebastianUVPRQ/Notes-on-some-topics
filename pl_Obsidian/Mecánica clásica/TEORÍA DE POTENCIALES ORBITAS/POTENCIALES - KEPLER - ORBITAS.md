@@ -367,11 +367,3 @@ $$
 \omega_r = \sqrt{\frac{k_{\text{eff}}}{\mu}}
 $$  
 Esta frecuencia caracteriza las oscilaciones radiales alrededor de la órbita circular estable y es un parámetro clave para estudiar la estabilidad dinámica del sistema .  
-
----
-
-### Notas técnicas:
-1. Se corrigieron errores de sintaxis en LaTeX (uso de `\dot{}`, `\ddot{}`, `\frac{}{}`, `\sqrt{}`).  
-2. Se normalizó la notación física (ej: $V_{\text{eff}}$ en lugar de $V_{\text{efectiva}}$).  
-3. Se añadieron referencias cruzadas a las fuentes proporcionadas (ej: , ).  
-4. Se ajustaron espacios y alineaciones para mejorar la legibilidad.

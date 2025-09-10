@@ -74,3 +74,62 @@ Para el cometa Hyakutake ($ e = 0.999846 $, perihelio $ 0.230123 $ UA) y Hale-Bo
 - Calcule el afelio y compárelo con el afelio de Plutón ($ 39.37 $ UA).  
 
 ---
+### **3. Componentes en coordenadas polares**  
+a) **Componentes radial y azimutal**  
+- **Vector posición $ \vec{r} $:**  
+  - Radial: $ r $ (directamente el módulo del vector).  
+  - Azimutal: $ 0 $ (no hay componente angular en la posición) .  
+
+- **Velocidad $ \dot{\vec{r}} $:**  
+  - Radial: $ \dot{r} $ (derivada temporal del módulo).  
+  - Azimutal: $ r \dot{\theta} $ (producto del módulo y la velocidad angular) .  
+
+- **Aceleración $ \ddot{\vec{r}} $:**  
+  - Radial: $ \ddot{r} - r \dot{\theta}^2 $ (aceleración centrípeta y radial).  
+  - Azimutal: $ r \ddot{\theta} + 2 \dot{r} \dot{\theta} $ (aceleración de Coriolis y angular) .  
+
+b) **Fuerza central para trayectorias específicas**  
+- **Espiral logarítmica $ r = e^{a\phi} $:**  
+  La fuerza es inversa al cubo de $ r $, $ F(r) \propto -\frac{1}{r^3} $, derivada de la ecuación de órbita usando la transformación $ u = \frac{1}{r} $ .  
+
+- **Espiral de Arquímedes inversa $ r^{-1} = b\phi $:**  
+  Similarmente, la fuerza también es $ F(r) \propto -\frac{1}{r^3} $, aunque con parámetros ajustados según $ b $ .  
+
+---
+
+### **4. Vector de Laplace-Runge-Lenz**  
+**Demostración de conservación:**  
+Para $ V(r) = -\frac{k}{r} $, el vector $ \vec{A} $ se conserva. Usando las ecuaciones de movimiento y la conservación del momento angular $ \vec{l} $, se muestra que $ \frac{d\vec{A}}{dt} = 0 $.  
+
+**Ecuación de la trayectoria:**  
+Al tomar $ \vec{A} \cdot \vec{r} = \frac{l^2}{mk} - r $, se obtiene la ecuación de una cónica:  
+$$
+r = \frac{l^2/mk}{1 + A \cos \theta},
+$$  
+donde $ A $ está relacionado con la excentricidad $ e $, confirmando órbitas elípticas, parabólicas o hiperbólicas .  
+
+---
+
+### **5. Corrección relativista al potencial de Kepler**  
+a) **Ecuación diferencial de la órbita:**  
+Usando $ u = \frac{1}{r} $ y la energía efectiva, se deriva:  
+$$
+\frac{\partial^2 u}{\partial \theta^2} + u = \frac{1}{p} + \beta u^2, \quad p = \frac{l^2}{mk}, \quad \beta = \frac{3GM}{c^2}.
+$$  
+Esto incluye la corrección relativista $ \beta u^2 $ .  
+
+b) **Ángulo de precesión $ \delta\theta $:**  
+Mediante perturbación, la precesión por ciclo es:  
+$$
+\delta\theta = \frac{2\pi \beta}{p} = \frac{6\pi GM}{c^2 p}.
+$$  
+Para $ p = a(1 - e^2) $, esto reproduce el resultado clásico de la relatividad general .  
+
+---
+
+**Referencias:**  
+ Vectores en coordenadas polares.  
+ Componentes radial y angular.  
+ Coordenadas cartesianas y polares.  
+ Componentes de aceleración.  
+ Transformación de coordenadas y corrección relativista.
