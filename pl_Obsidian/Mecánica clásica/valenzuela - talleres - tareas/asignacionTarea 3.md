@@ -99,10 +99,10 @@ b) **Fuerza central para trayectorias específicas**
 
 ### **4. Vector de Laplace-Runge-Lenz**  
 **Demostración de conservación:**  
-Para $ V(r) = -\frac{k}{r} $, el vector $ \vec{A} $ se conserva. Usando las ecuaciones de movimiento y la conservación del momento angular $ \vec{l} $, se muestra que $ \frac{d\vec{A}}{dt} = 0 $.  
+Para $V(r) = -\frac{k}{r}$, el vector $\vec{A}$ se conserva. Usando las ecuaciones de movimiento y la conservación del momento angular $\vec{l}$, se muestra que $\frac{d\vec{A}}{dt} = 0$.  
 
 **Ecuación de la trayectoria:**  
-Al tomar $ \vec{A} \cdot \vec{r} = \frac{l^2}{mk} - r $, se obtiene la ecuación de una cónica:  
+Al tomar $\vec{A} \cdot \vec{r} = \frac{l^2}{mk} - r$, se obtiene la ecuación de una cónica:  
 $$
 r = \frac{l^2/mk}{1 + A \cos \theta},
 $$  
