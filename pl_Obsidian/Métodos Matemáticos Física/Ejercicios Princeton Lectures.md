@@ -108,3 +108,408 @@ Sugerencia: La función $f/(\psi_{z_1}\cdots\psi_{z_N})$ no se anula en ninguna 
    Para establecer (b), nótese que $|F(z)| \leq \sum_{n=0}^{\infty} |c_n|r^n$, $r/n^\rho \leq \epsilon$, para alguna constante $c$,           ya que $n^n \geq n!$. Esto produce una reducción al Problema 3.
 
 ## Soluciones 5
+
+
+# # Vol. II — Complex Analysis (Tratamiento orientado a Física)
+
+  
+
+> **Objetivo:** dar un tratamiento extenso y enfocado a aplicaciones físicas del análisis complejo: integrales de contorno, teorema de Cauchy, residuos, ramas y cortes, continuación analítica, métodos asintóticos (saddle point / steepest descent), funciones armónicas y kernel de Poisson, y aplicaciones concretas en mecánica cuántica, teoría de campos, óptica, y mecánica de fluidos.
+
+  
+
+---
+
+  
+
+## 0. Convenciones y notación
+
+- Denotamos funciones holomorfas por $f(z)$. Un contorno $\gamma$ orientado positivamente es recorrido antihorario salvo que se indique.
+
+- Integral de contorno: $\displaystyle\oint_\gamma f(z)\,dz$.
+
+- Polo de orden $m$ en $z_0$: expansión local $f(z)=\sum_{k=-m}^{\infty} a_k (z-z_0)^k$.
+
+- Rama principal del logaritmo: $\arg z\in(-\pi,\pi]$ salvo que indiquemos otra.
+
+  
+
+---
+
+  
+
+## 1. Capítulo 1 — Funciones Analíticas y Teorema de Cauchy
+
+  
+
+### 1.1. Holomorfía y física
+
+- Interpretación física: amplitud/funciones de respuesta analíticas en el plano complejo de la frecuencia/energía manifiestan causalidad y propiedades de disipación.
+
+- Analiticidad implica infinitas derivadas y expansión en series de potencias (usos: desarrollo en series para perturbaciones pequeñas).
+
+  
+
+### 1.2. Teorema de Cauchy y fórmulas
+
+- Cauchy integral formula: $f^{(n)}(z_0)=\frac{n!}{2\pi i}\oint_\gamma \frac{f(z)}{(z-z_0)^{n+1}}dz$.
+
+- Consecuencias: representación de soluciones via integrales de contorno; valores interiores determinados por valores en la frontera (principio de unicidad para problemas de contorno).
+
+  
+
+### 1.3. Aplicaciones físicas
+
+- Representaciones integrales para funciones de Green (valores dentro de dominios a partir de condiciones en la frontera).
+
+- Identificación de singularidades en función de respuesta (poles como resonancias).
+
+  
+
+### 1.4. Ejercicio físico sugerido
+
+- Dada la función de respuesta $H(\omega)=\frac{1}{\omega_0^2-\omega^2+i\gamma\omega}$, considerar $\omega$ complejo y discutir ubicación de polos (resonancias amortiguadas) y su relación con la respuesta temporal.
+
+  
+
+---
+
+  
+
+## 2. Capítulo 2 — Integrales de contorno y técnicas elementales
+
+  
+
+### 2.1. Integrales sobre semicírculos y caminos de Jordan
+
+- Uso para evaluar integrales reales de la forma $\int_{-\infty}^{\infty} R(x)\,dx$ donde $R$ racional y decae apropiadamente.
+
+- Criterio para cerrar en semicírculo superior/inferior según factor exponencial ($e^{ikx}$ con signo de $k$ y $x$).
+
+  
+
+### 2.2. Integración de funciones con singularidades en el eje real
+
+- Prescripción de paso por polos (principal value) y relación con transformadas inversas de Fourier/Laplace.
+
+  
+
+### 2.3. Ejemplos físicos
+
+- Integral de Fourier de una función racional que aparece en transformadas de respuesta: evaluarla mediante residuos.
+
+- Inversas de Laplace para resolver EDOs con condiciones iniciales.
+
+  
+
+### 2.4. Ejercicio trabajado
+
+- Compute $\int_{-\infty}^{\infty} \frac{e^{ikx}}{x^2+a^2}\,dx$ via residues and relate to Green's function of Helmholtz in 1D.
+
+  
+
+---
+
+  
+
+## 3. Capítulo 3 — Teorema de los residuos y aplicaciones prácticas
+
+  
+
+### 3.1. Residuos: definición y cálculo
+
+- Residuo $\operatorname{Res}(f,z_0)=a_{-1}$ en la expansión de Laurent.
+
+- Fórmulas prácticas: polo simple $\operatorname{Res} = \lim_{z\to z_0}(z-z_0)f(z)$; para polo de orden $m$ usar derivadas.
+
+  
+
+### 3.2. Uso en integrales reales
+
+- Integrales con $\cos,\sin$ multiplicadas por racionales: transformar en $e^{ikx}$ y cerrar contorno; tomar contribución de polos en semiplano correspondiente.
+
+  
+
+### 3.3. Sumatorias mediante integrales
+
+- Técnica: convertir series en integrales de contorno que encierran polos en enteros (ej.: fórmulas tipo Mittag-Leffler, evaluación de sumas $\sum f(n)$).
+
+  
+
+### 3.4. Aplicaciones físicas
+
+- Evaluación de integrales térmicas y sumas de Matsubara en teoría estadística cuántica mediante contornos en el plano complejo de la energía.
+
+- Residuos y resonancias: interpretación física de los términos contribuyentes.
+
+  
+
+### 3.5. Ejercicios sugeridos
+
+1) Calcular $\int_{-\infty}^{\infty} \frac{x^2}{(x^2+1)^2}dx$ por residuos. 2) Sumar $\sum_{n=-\infty}^{\infty} \frac{1}{(n+a)^2}$ usando función $\pi\cot(\pi z)$.
+
+  
+
+---
+
+  
+
+## 4. Capítulo 4 — Principio del argumento y teoremas relacionados
+
+  
+
+### 4.1. Enunciado y significado
+
+- El principio del argumento relaciona el número de ceros menos polos dentro de un contorno con la variación del argumento de $f(z)$ sobre la frontera.
+
+  
+
+### 4.2. Aplicaciones físicas
+
+- Estabilidad de sistemas: análisis de polos/ceros de funciones de transferencia (control y respuesta lineal).
+
+- Conteo de modos resonantes en cavidades: número de ceros de funciones determinadas por condiciones en la frontera.
+
+  
+
+### 4.3. Rouché y localización de ceros
+
+- Rouché permite estimar dónde están los ceros; útil para aproximaciones de raíces de polinomios que aparecen en denominadores de funciones de respuesta.
+
+  
+
+### 4.4. Ejercicio sugerido
+
+- Use Rouché to estimate zeros of a polynomial characteristic equation for a damped oscillator network.
+
+  
+
+---
+
+  
+
+## 5. Capítulos 5–6 — Funciones armónicas y kernel de Poisson; Aplicaciones a potenciales
+
+  
+
+### 5.1. Funciones armónicas: vínculo con campos físicos
+
+- Una función armónica es el real (o imaginario) de una función analítica. Estas satisfacen la ecuación de Laplace: $\Delta u=0$.
+
+- Interpretación física: potencial electrostático en regiones sin cargas.
+
+  
+
+### 5.2. Poisson kernel y solución de Dirichlet
+
+- Fórmula de Poisson en disco/semiplano: reconstrucción del valor interior a partir de la frontera.
+
+- Aplicación: resolver problemas de potencial con datos de contorno (p. ej. potencial en cavidad, temperatura estacionaria).
+
+  
+
+### 5.3. Conformal maps (mapeos conformes)
+
+- Transformaciones que preservan ángulos: útil para transformar dominios complicados en dominios simples donde las soluciones son conocidas.
+
+- Aplicación en mecánica de fluidos potenciales y electrostática (flujo alrededor de perfiles, método de Joukowski para alas).
+
+  
+
+### 5.4. Ejemplos trabajados
+
+- Solve Laplace's equation in a half-plane with given boundary potential using Poisson kernel.
+
+- Map a flow past a cylinder to flow past an airfoil via Joukowski transform and compute pressure distribution (Bernoulli + potencial).
+
+  
+
+---
+
+  
+
+## 6. Capítulos 7–9 — Extensiones útiles y funciones especiales (breve)
+
+  
+
+### 6.1. Continuación analítica y ramas
+
+- Cómo extender funciones definidas por series/integrales a dominios más grandes usando contornos y la unicidad de la continuación analítica.
+
+- Ramas y cortes: tratamiento de $\sqrt z$ y $\log z$ — vital en integrales que involucran raíces y en la elección de caminos de integración.
+
+  
+
+### 6.2. Aplicaciones físicas
+
+- Elección de ramas en funciones de dispersión y en definición de impedancia compleja.
+
+- Analytic continuation in complex energy plane: locating resonances as poles on unphysical sheets.
+
+  
+
+### 6.3. Funciones especiales y transformadas
+
+- Uso de funciones gamma, beta, y zeta para evaluar integrales y regularizar sumas divergentes (casos en QFT y energía de punto cero).
+
+  
+
+---
+
+  
+
+## 7. Métodos asintóticos y la integral de paso estacionario (saddle point / steepest descent)
+
+  
+
+### 7.1. Idea básica
+
+- Cuando $I(\lambda)=\int e^{\lambda S(z)}g(z)dz$ con $\lambda\gg1$, la contribución dominante viene de puntos críticos de $S$ (saddle points) y de contornos de steepest descent.
+
+  
+
+### 7.2. Procedimiento operativo
+
+1. Localizar puntos críticos $S'(z_0)=0$.
+
+2. Deformar contorno a curvas de steepest descent donde $\Im S$ es constante y $\Re S$ máximo negativo fuera del punto.
+
+3. Aproximar integral por contribución gaussiana local: $I\sim e^{\lambda S(z_0)}\sqrt{\frac{2\pi}{\lambda |S''(z_0)|}}g(z_0)$ con factores de fase.
+
+  
+
+### 7.3. Aplicaciones físicas
+
+- Asymptotics of integrals in semiclassical approximations (WKB, path integrals), diffraction integrals (Kirchhoff/Geometrical Theory of Diffraction), and integral representations of special functions (Bessel, Airy) for large parameters.
+
+  
+
+### 7.4. Ejemplo trabajado
+
+- Derive asymptotic form of Bessel function for large order using saddle point, relate to stationary phase for wave propagation.
+
+  
+
+---
+
+  
+
+## 8. Aplicaciones concretas a física (resumen y ejemplos trabajados)
+
+  
+
+### 8.1. Evaluación de integrales de Fourier mediante contornos
+
+- Ejemplo: integral tipo Fresnel $\int e^{i(ax^2+bx)}dx$ y relación con propagadores cuánticos y patrones de difracción.
+
+  
+
+### 8.2. Kramers–Kronig (relaciones de dispersión)
+
+- La causalidad (respuesta nula para t<0) implica que la transformada de Fourier de la respuesta es analítica en el semiplano superior, lo que lleva a relaciones entre parte real e imaginaria (Hilbert transform). Estas son las relaciones Kramers–Kronig en óptica y teoría de la respuesta lineal.
+
+  
+
+### 8.3. Polos, cortes y resonancias (QM y QFT)
+
+- Polos reales ↔ estados ligados; polos en semiplanos superiores/inferiores ↔ resonancias con decaimiento exponencial. Branch cuts aparecen por continua espectral (por ejemplo arriba de umbral de dispersión).
+
+  
+
+### 8.4. Sumas de Matsubara y contornos térmicos
+
+- Técnica: transformar sumas sobre frecuencias discretas en integrales en el plano complejo usando contorno que envuelve polos de la función $n_B(\omega)=1/(e^{\beta\omega}-1)$ o $n_F$ para fermiones.
+
+  
+
+### 8.5. Transformada inversa de Laplace y problemas iniciales
+
+- Desarrollo práctico: elegir contorno de Bromwich, desplazar y capturar polos para obtener soluciones temporales por inversión.
+
+  
+
+### 8.6. Ejemplo trabajado final: función de Green retarded para un oscilador acoplado a continuo
+
+- Construir $G_R(\omega)$ con cortes y polos; analizar respuesta temporal por transformada inversa y ubicación de singularidades.
+
+  
+
+---
+
+  
+
+## 9. Ejercicios integradores y retos
+
+1. Evalúe integrales reales relevantes mediante residuos (varios niveles). 2. Use método de steepest descent para obtener comportamiento asintótico de una integral de Fourier oscilatoria con parámetro grande. 3. Aplicar Kramers–Kronig a un modelo simple de susceptibilidad. 4. Mapear un flujo potencial alrededor de una geometría y calcular fuerzas de presión.
+
+  
+
+---
+
+  
+
+## 10. Peligros y recomendaciones prácticas
+
+- Cuidado con la elección de hoja de la función multivaluada y con la orientación de cortes.
+
+- Antes de deformar contornos, comprobar decaimiento/exponencial en infinito de las integrandas en dicha dirección.
+
+- En métodos asintóticos, asegúrese de que el punto crítico contribuye (no estar en borde o en singularidad) y tenga en cuenta posibles contribuciones de endpoints y singularidades cercanas.
+
+  
+
+---
+
+  
+
+## 11. Plan de estudio y prioridades (14 días intensivos o 6 semanas tranquilo)
+
+- Días 1–3: Cap.1 — Cauchy y fórmulas; problemas de contorno simples.
+
+- Días 4–6: Cap.2–3 — Integrales de contorno y residuos; prácticas de evaluación de integrales reales.
+
+- Días 7–9: Cap.4–6 — Argument principle, funciones armónicas, Poisson kernel, ejercicios de potencial.
+
+- Días 10–12: Ramas/cortes y funciones especiales; lectura aplicada a resonances.
+
+- Días 13–14: Métodos asintóticos (saddle point) y aplicaciones (difracción, WKB).
+
+  
+
+---
+
+  
+
+## 12. Lecturas cruzadas y recursos adicionales
+
+- Vol. I (Fourier) — para transformadas e inversión por contornos.
+
+- Vol. III–IV — para distribuciones y operadores no acotados en QFT/QM.
+
+- Textos clásicos: Ahlfors (Complex Analysis), Bender & Orszag (Advanced Mathematical Methods) para técnicas asintóticas.
+
+  
+
+---
+
+  
+
+**Sugerencia final:** aplica cada técnica inmediatamente a un problema físico concreto (propagador, diferencial de respuesta, integral térmica) — la abstracción queda mucho más clara cuando ves cómo afectan polos, ramas y contornos a la evolución temporal y a la estabilidad.
+
+  
+
+# Ampliación de la teoría y las matemáticas tratadas anteriormente
+
+0. Convenciones y notaciones
+
+  
+
+- **Integral de contorno:** Definidas en el plano complejo, estas integrales son fundamentales para el análisis complejo y se denotan como $\oint_C f(z) dz$, donde $C$ es un contorno cerrado en el plano complejo.
+
+$$
+
+\oint_C f(z) dz = 2\pi i \sum \text{Res}(f, z_k)
+
+$$
+
+Se puede interpretar intuitivamente como una generalización de la fórmula de integración por partes, donde los residuos en los polos de la función compleja $f(z)$ contribuyen a la integral a lo largo del contorno $C$. Esto es especialmente útil en física, donde a menudo se necesita evaluar integrales que aparecen en el contexto de teorías cuánticas de campos y mecánica cuántica.

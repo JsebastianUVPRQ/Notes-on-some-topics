@@ -89,11 +89,11 @@ Aquí están las fórmulas para los diferenciales de longitud, área y volumen e
 ---
 
 ### **Resumen de factores de escala**
-| **Coordenadas** | \(h_1\)       | \(h_2\)          | \(h_3\)       |
-|-----------------|---------------|------------------|---------------|
-| Cartesianas     | \(h_x = 1\)   | \(h_y = 1\)      | \(h_z = 1\)   |
-| Cilíndricas     | \(h_\rho = 1\)| \(h_\phi = \rho\)| \(h_z = 1\)   |
-| Esféricas       | \(h_r = 1\)   | \(h_\theta = r\) | \(h_\phi = r \sin\theta\) |
+| **Coordenadas** | \(h_1\)        | \(h_2\)           | \(h_3\)                   |
+| --------------- | -------------- | ----------------- | ------------------------- |
+| Cartesianas     | \(h_x = 1\)    | \(h_y = 1\)       | \(h_z = 1\)               |
+| Cilíndricas     | \(h_\rho = 1\) | \(h_\phi = \rho\) | \(h_z = 1\)               |
+| Esféricas       | \(h_r = 1\)    | \(h_\theta = r\)  | \(h_\phi = r \sin\theta\) |
 
 ---
 
