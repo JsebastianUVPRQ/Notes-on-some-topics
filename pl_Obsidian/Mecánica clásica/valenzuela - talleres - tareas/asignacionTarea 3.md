@@ -17,11 +17,80 @@ b) **Potencial de Yukawa**: $V(r) = -\frac{k}{r} e^{-r/a}$, con $k$ y $a$ consta
 ---
 
 ## **3. Componentes en coordenadas polares**  
-a) Determine las componentes radial y azimutal del vector posición $\vec{r}$, velocidad $\dot{\vec{r}}$ y aceleración $\ddot{\vec{r}}$.  
+a) Determine las componentes radial y azimutal del vector posición $\vec{r}$, velocidad $\dot{\vec{r}}$ y aceleración $\ddot{\vec{r}}$. 
+### respuesta
+
+
 b) ¿Qué fuerza central produce las siguientes trayectorias?  
    - Espiral logarítmica: $r = e^{a\phi}$.  
    - Espiral de Arquímedes inversa: $r^{-1} = b\phi$, con $a > 0$, $b > 0$.  
+### Respuesta
+Para determinar la fuerza central $r)$ que produce una trayectoria dada en coordenadas polares $(r, \phi)$, se utiliza la **ecuación de Binet**:
 
+$$
+F(r) = -\frac{m h^2}{r^2} \left( \frac{d^2 u}{d\phi^2} + u \right),
+$$
+
+donde $u = \frac{1}{r}$ y $h$ es el momento angular por unidad de masa.
+
+---
+
+#### Espiral logarítmica: $r = e^{a\phi}$
+
+- Expresamos $u$ en términos de $\phi$:
+  $$
+  u = \frac{1}{r} = e^{-a\phi}.
+  $$
+
+- Calculamos las derivadas:
+  $$
+  \frac{du}{d\phi} = -a e^{-a\phi} = -a u, \quad \frac{d^2 u}{d\phi^2} = a^2 e^{-a\phi} = a^2 u.
+  $$
+
+- Sustituimos en la ecuación de Binet:
+  $$
+  F(r) = -\frac{m h^2}{r^2} \left( a^2 u + u \right) = -\frac{m h^2}{r^2} u (a^2 + 1) = -\frac{m h^2 (a^2 + 1)}{r^3}.
+  $$
+
+✅ **Fuerza central:**
+$$
+\boxed{-\frac{m h^2 (1+a^2)}{r^3}}
+$$
+
+---
+
+#### Espiral de Arquímedes inversa: $r^{-1} = b\phi$
+
+- Expresamos $u$ en términos de $\phi$:
+  $$
+  u = \frac{1}{r} = b\phi.
+  $$
+
+- Calculamos las derivadas:
+  $$
+  \frac{du}{d\phi} = b, \quad \frac{d^2 u}{d\phi^2} = 0.
+  $$
+
+- Sustituimos en la ecuación de Binet:
+  $$
+  F(r) = -\frac{m h^2}{r^2} \left( 0 + u \right) = -\frac{m h^2}{r^2} (b\phi).
+  $$
+
+- Usando $\phi = \frac{1}{b r}$, obtenemos:
+  $$
+  F(r) = -\frac{m h^2}{r^2} \cdot b \cdot \frac{1}{b r} = -\frac{m h^2}{r^3}.
+  $$
+
+✅ **Fuerza central:**
+$$
+\boxed{-\frac{m h^2}{r^3}}
+$$
+
+---
+
+### Conclusión
+
+Ambas trayectorias son producidas por una **fuerza central atractiva inversamente proporcional al cubo de la distancia**, es decir, $F(r) \propto -\frac{1}{r^3}$
 ---
 
 ## **4. Vector de Laplace-Runge-Lenz**  
@@ -175,7 +244,21 @@ a) Demuestre que la ecuación diferencial de la órbita es:
 $$
 \frac{\partial^2 u}{\partial \theta^2} + u = \frac{1}{p} + \beta u^2, \quad p = \frac{l^2}{mk}, \quad \beta = \frac{3GM}{c^2}.
 $$  
-b) Calcule el ángulo de precesión del perihelio por ciclo $ \delta\theta $ mediante una solución perturbativa.  
+b) Calcule el ángulo de precesión del perihelio por ciclo $\delta\theta$ mediante una solución perturbativa.  
+
+a) **Ecuación diferencial de la órbita:**  
+Usando $u = \frac{1}{r}$ y la energía efectiva, se deriva:  
+$$
+\frac{\partial^2 u}{\partial \theta^2} + u = \frac{1}{p} + \beta u^2, \quad p = \frac{l^2}{mk}, \quad \beta = \frac{3GM}{c^2}.
+$$  
+Esto incluye la corrección relativista $\beta u^2$ .  
+
+b) **Ángulo de precesión $\delta\theta$:**  
+Mediante perturbación, la precesión por ciclo es:  
+$$
+\delta\theta = \frac{2\pi \beta}{p} = \frac{6\pi GM}{c^2 p}.
+$$  
+Para $p = a(1 - e^2)$, esto reproduce el resultado clásico de la relatividad general .  
 
 ---
 
@@ -210,56 +293,6 @@ Para el cometa Hyakutake ($ e = 0.999846 $, perihelio $ 0.230123 $ UA) y Hale-Bo
 - Calcule el afelio y compárelo con el afelio de Plutón ($ 39.37 $ UA).  
 
 ---
-## **3. Componentes en coordenadas polares**  
-a) **Componentes radial y azimutal**  
-- **Vector posición $ \vec{r} $:**  
-  - Radial: $ r $ (directamente el módulo del vector).  
-  - Azimutal: $ 0 $ (no hay componente angular en la posición) .  
-
-- **Velocidad $ \dot{\vec{r}} $:**  
-  - Radial: $ \dot{r} $ (derivada temporal del módulo).  
-  - Azimutal: $ r \dot{\theta} $ (producto del módulo y la velocidad angular) .  
-
-- **Aceleración $ \ddot{\vec{r}} $:**  
-  - Radial: $ \ddot{r} - r \dot{\theta}^2 $ (aceleración centrípeta y radial).  
-  - Azimutal: $ r \ddot{\theta} + 2 \dot{r} \dot{\theta} $ (aceleración de Coriolis y angular) .  
-
-b) **Fuerza central para trayectorias específicas**  
-- **Espiral logarítmica $ r = e^{a\phi} $:**  
-  La fuerza es inversa al cubo de $ r $, $ F(r) \propto -\frac{1}{r^3} $, derivada de la ecuación de órbita usando la transformación $ u = \frac{1}{r} $ .  
-
-- **Espiral de Arquímedes inversa $ r^{-1} = b\phi $:**  
-  Similarmente, la fuerza también es $ F(r) \propto -\frac{1}{r^3} $, aunque con parámetros ajustados según $ b $ .  
-
----
-
-## **4. Vector de Laplace-Runge-Lenz**  
-**Demostración de conservación:**  
-Para $V(r) = -\frac{k}{r}$, el vector $\vec{A}$ se conserva. Usando las ecuaciones de movimiento y la conservación del momento angular $\vec{l}$, se muestra que $\frac{d\vec{A}}{dt} = 0$.  
-
-**Ecuación de la trayectoria:**  
-Al tomar $\vec{A} \cdot \vec{r} = \frac{l^2}{mk} - r$, se obtiene la ecuación de una cónica:  
-$$
-r = \frac{l^2/mk}{1 + A \cos \theta},
-$$  
-donde $ A $ está relacionado con la excentricidad $ e $, confirmando órbitas elípticas, parabólicas o hiperbólicas .  
-
----
-
-## **5. Corrección relativista al potencial de Kepler**  
-a) **Ecuación diferencial de la órbita:**  
-Usando $ u = \frac{1}{r} $ y la energía efectiva, se deriva:  
-$$
-\frac{\partial^2 u}{\partial \theta^2} + u = \frac{1}{p} + \beta u^2, \quad p = \frac{l^2}{mk}, \quad \beta = \frac{3GM}{c^2}.
-$$  
-Esto incluye la corrección relativista $ \beta u^2 $ .  
-
-b) **Ángulo de precesión $ \delta\theta $:**  
-Mediante perturbación, la precesión por ciclo es:  
-$$
-\delta\theta = \frac{2\pi \beta}{p} = \frac{6\pi GM}{c^2 p}.
-$$  
-Para $ p = a(1 - e^2) $, esto reproduce el resultado clásico de la relatividad general .  
 
 ---
 

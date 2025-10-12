@@ -2,12 +2,12 @@
 
 #### **Ejercicio 1**
 Muestre que el sistema de todas las matrices de la forma especial  
-\[
+$$
 \begin{pmatrix}
 \alpha & \beta \\
 -\beta & \alpha
 \end{pmatrix}
-\]  
+$$
 combinado con la adición y multiplicación de matrices, es isomorfo al campo de los números complejos.
 
 ---
