@@ -291,16 +291,7 @@ ESPAÑOL
 ---
 
 Here is the complete text of the exam in its original Spanish language:
-
----
-
 ### **Examen de Física**
-
-#### **Encabezado**
-**Grupo:**  
-**Calificación:**
-TIEMPO DE LA PRUEBA: 110 min.**
-
 ---
 
 # **Problema 1 (3 puntos)**
