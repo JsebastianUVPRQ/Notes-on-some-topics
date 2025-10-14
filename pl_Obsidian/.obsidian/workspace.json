@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-14.md",
+                "file": "5-6-metodos-2025-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-14"
+              "title": "5-6-metodos-2025-2"
             }
           },
           {
@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "cosenza3"
             }
+          },
+          {
+            "id": "3e8b4759852a3247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-6-metodos-2025-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5-6-metodos-2025-2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -221,16 +235,28 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "938e079e9610d6ff",
+  "active": "3e8b4759852a3247",
   "lastOpenFiles": [
+    "obsidian_Electromagnetismo/Contenido/Temario 5 y 6.md",
+    "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
+    "Métodos Matemáticos Física/Ejercicios Princeton Lectures.md",
+    "5-6-metodos-2025-2.md",
     "2025-10-13.md",
-    "2025-10-14.md",
     "Cosenza 2.md",
     "2025-10-04.md",
     "2025-09-28.md",
     "2025-09-16.md",
-    "Untitled.canvas",
+    "Métodos Matemáticos Física/Orthonormal System of Functions Ortonormales.md",
+    "Métodos Matemáticos Física/Integrales y espacios complejos.md",
+    "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
+    "Métodos Matemáticos Física/Funciones de green.md",
+    "Métodos Matemáticos Física/Taller-1-MIT/MT 2009 - Set de Problemas 1 - Álgebra Lineal I.md",
+    "Métodos Matemáticos Física/Taller-1-MIT/soluciones.md",
+    "Métodos Matemáticos Física/Taller-0-Uniandes.md",
+    "Métodos Matemáticos Física/Examenes Finales 2025-2/Solucion paso a paso.md",
+    "Métodos Matemáticos Física/Capitulo 5 Mary Boas - Integrales Múltiples.md",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
+    "Untitled.canvas",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/POTENCIALES - KEPLER - ORBITAS.md",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/GRAFICOS KEPLER - POTENCIALES - NUMERICOS.md",
     "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
@@ -238,18 +264,6 @@
     "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
     "Mecánica clásica/Fuerzas generalizadas.md",
     "Mecánica clásica/Variational calculus - Calculo de variaciones.md",
-    "Mecánica clásica/pendulo con resorte.md",
-    "Mecánica clásica/Parcial Diego.md",
-    "Métodos Matemáticos Física/Taller-0-Uniandes.md",
-    "2025-10-10.md",
-    "2025-10-09.md",
-    "Analisis, algebra lineal, basics/diferenciales coordenadas generalizadas.md",
-    "Métodos Matemáticos Física/Computación fundamental.md",
-    "Mecánica Cuántica/PARCIALES/COMPENDIO FÓRMULAS.md",
-    "Métodos Matemáticos Física/Examenes Finales 2025-2/Ejercicios - Problemas.md",
-    "Métodos Matemáticos Física/Examenes Finales 2025-2/Solucion paso a paso.md",
-    "Métodos Matemáticos Física/Taller 2 y taller 2B/Taller 2B.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Parcial 1 - Calero.md",
     "Métodos Matemáticos Física/Taller 2 y taller 2B",
     "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
     "Métodos Matemáticos Física/Examenes Finales 2025-2",
