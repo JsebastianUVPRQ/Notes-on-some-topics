@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-17.md",
+                "file": "2025-10-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-17"
+              "title": "2025-10-19"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "moiv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,8 +238,10 @@
   },
   "active": "8c9263ecd67d372c",
   "lastOpenFiles": [
-    "2025-10-15.md",
+    "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
+    "2025-10-19.md",
     "2025-10-17.md",
+    "2025-10-15.md",
     "5-6-metodos-2025-2.md",
     "obsidian_Electromagnetismo/Contenido/Temario 5 y 6.md",
     "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
@@ -262,8 +265,6 @@
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/POTENCIALES - KEPLER - ORBITAS.md",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/GRAFICOS KEPLER - POTENCIALES - NUMERICOS.md",
     "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
-    "Mecánica clásica/valenzuela - talleres - tareas/asignacion3-valenzuela-6-7.md",
-    "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
     "Métodos Matemáticos Física/Taller 2 y taller 2B",
     "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
     "Métodos Matemáticos Física/Examenes Finales 2025-2",
