@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "moiv",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +117,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -236,7 +235,7 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "3e8b4759852a3247",
+  "active": "8c9263ecd67d372c",
   "lastOpenFiles": [
     "2025-10-19.md",
     "2025-10-22.md",
