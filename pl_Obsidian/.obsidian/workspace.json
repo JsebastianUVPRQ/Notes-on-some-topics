@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-22.md",
+                "file": "2025-10-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-22"
+              "title": "2025-10-23"
             }
           }
         ],
@@ -237,8 +237,9 @@
   },
   "active": "8c9263ecd67d372c",
   "lastOpenFiles": [
-    "2025-10-19.md",
     "2025-10-22.md",
+    "2025-10-23.md",
+    "2025-10-19.md",
     "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
     "2025-10-17.md",
     "2025-10-15.md",
@@ -263,7 +264,6 @@
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
     "Untitled.canvas",
     "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/POTENCIALES - KEPLER - ORBITAS.md",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/GRAFICOS KEPLER - POTENCIALES - NUMERICOS.md",
     "Métodos Matemáticos Física/Taller 2 y taller 2B",
     "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
     "Métodos Matemáticos Física/Examenes Finales 2025-2",
