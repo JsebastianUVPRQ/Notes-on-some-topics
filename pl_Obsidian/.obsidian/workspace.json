@@ -34,37 +34,9 @@
               "icon": "lucide-file",
               "title": "5-6-metodos-2025-2"
             }
-          },
-          {
-            "id": "ef7de804df63626a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cosenza3"
-            }
-          },
-          {
-            "id": "3e8b4759852a3247",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-10-23.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-23"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,15 +207,17 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "8c9263ecd67d372c",
+  "active": "938e079e9610d6ff",
   "lastOpenFiles": [
-    "2025-10-22.md",
+    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
+    "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
+    "5-6-metodos-2025-2.md",
     "2025-10-23.md",
+    "2025-10-22.md",
     "2025-10-19.md",
     "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
     "2025-10-17.md",
     "2025-10-15.md",
-    "5-6-metodos-2025-2.md",
     "obsidian_Electromagnetismo/Contenido/Temario 5 y 6.md",
     "Métodos Matemáticos Física/Capitulo 14 SEC 7 - Mary Boas - EVALUATION OF DEFINITE INTEGRALS BY USE OF THE RESIDUE THEOREM.md",
     "Métodos Matemáticos Física/Ejercicios Princeton Lectures.md",
@@ -261,9 +235,7 @@
     "Métodos Matemáticos Física/Taller-0-Uniandes.md",
     "Métodos Matemáticos Física/Examenes Finales 2025-2/Solucion paso a paso.md",
     "Métodos Matemáticos Física/Capitulo 5 Mary Boas - Integrales Múltiples.md",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
     "Untitled.canvas",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/POTENCIALES - KEPLER - ORBITAS.md",
     "Métodos Matemáticos Física/Taller 2 y taller 2B",
     "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
     "Métodos Matemáticos Física/Examenes Finales 2025-2",
