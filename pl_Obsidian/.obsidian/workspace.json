@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0f49783b0f67847",
+            "id": "c3ed5c2b6edac732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
+                "file": "2025-10-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asignacionTarea 3"
-            }
-          },
-          {
-            "id": "938e079e9610d6ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-10-24.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-24"
+              "title": "2025-10-27"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,16 +192,19 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "938e079e9610d6ff",
+  "active": "c3ed5c2b6edac732",
   "lastOpenFiles": [
-    "Métricas en análisis complejo.md",
-    "2025-10-24.md",
+    "2025-10-25.md",
+    "2025-10-27.md",
+    "Métodos Matemáticos Física/Examenes Finales 2025-2/Ejercicios - Problemas.md",
     "2025-10-23.md",
+    "Métricas en análisis complejo.md",
     "5-6-metodos-2025-2.md",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
-    "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
-    "2025-10-22.md",
     "2025-10-19.md",
+    "2025-10-22.md",
+    "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
+    "2025-10-24.md",
+    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
     "Analisis, algebra lineal, basics/Conway Complex functions I/conceptualizacion conway.md",
     "2025-10-17.md",
     "2025-10-15.md",
@@ -232,9 +220,6 @@
     "Métodos Matemáticos Física/Integrales y espacios complejos.md",
     "Métodos Matemáticos Física/Teorema del residuo - Cauchy.md",
     "Métodos Matemáticos Física/Funciones de green.md",
-    "Métodos Matemáticos Física/Taller-1-MIT/MT 2009 - Set de Problemas 1 - Álgebra Lineal I.md",
-    "Métodos Matemáticos Física/Taller-1-MIT/soluciones.md",
-    "Métodos Matemáticos Física/Taller-0-Uniandes.md",
     "Untitled.canvas",
     "Métodos Matemáticos Física/Taller 2 y taller 2B",
     "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",

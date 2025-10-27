@@ -9,14 +9,14 @@ La **métrica hiperbólica** es una forma de medir distancias en geometría no e
 ## 🧮 **Formalización Matemática**
 
 ### **En el Disco Unitario (Modelo de Poincaré):**
-En el disco $athbb{D} = \{z \in \mathbb{C}: |z| < 1\}$, la métrica hiperbólica se define como:
-$$ath
+En el disco $\mathbb{D} = \{z \in \mathbb{C}: |z| < 1\}$, la métrica hiperbólica se define como:
+$$
 ds^2 = \frac{4|dz|^2}{(1-|z|^2)^2}
 $$
 
 ### **En el Semi-Plano Superior (Modelo de Poincaré):**
 En $\mathbb{H} = \{z \in \mathbb{C}: \text{Im}(z) > 0\}$:
-$$math
+$$
 ds^2 = \frac{dx^2 + dy^2}{y^2}
 $$
 
