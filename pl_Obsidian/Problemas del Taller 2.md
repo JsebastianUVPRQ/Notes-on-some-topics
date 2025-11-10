@@ -1,0 +1,440 @@
+**Resolución de los Problemas del Taller 2**
+
+---
+
+### **Problema 1 — Números Complejos**
+
+**Enunciado:** Sean $z_1, z_2, z_3$ números complejos con $|z_1| = |z_2| = |z_3| = 1$ y $z_1 + z_2 + z_3 = 0$. Demuestre que el triángulo con vértices en $z_1, z_2, z_3$ es equilátero.
+
+**Prerrequisitos:**
+- Números complejos en forma polar: $z = e^{i\theta}$.
+- Propiedades de módulo y argumento.
+- Relaciones geométricas en el plano complejo.
+
+**Demostración:**
+
+1. **Expresión en forma polar:**  
+   Dado que $|z_i| = 1$, escribimos:
+   $$
+   z_1 = e^{i\theta_1}, \quad z_2 = e^{i\theta_2}, \quad z_3 = e^{i\theta_3}.
+   $$
+
+2. **Condición de suma nula:**  
+   $$
+   e^{i\theta_1} + e^{i\theta_2} + e^{i\theta_3} = 0.
+   $$
+   Esto implica que los vectores unitarios en el plano complejo suman cero, lo cual solo es posible si forman ángulos de $120^\circ$ entre sí.
+
+3. **Relación entre argumentos:**  
+   Multiplicamos la ecuación por $e^{-i\theta_1}$ (equivalente a rotar el plano):
+   $$
+   1 + e^{i(\theta_2 - \theta_1)} + e^{i(\theta_3 - \theta_1)} = 0.
+   $$
+   Sean $u = e^{i(\theta_2 - \theta_1)}$, $v = e^{i(\theta_3 - \theta_1)}$. Entonces:
+   $$
+   1 + u + v = 0.
+   $$
+   Como $|u| = |v| = 1$, $u$ y $v$ son las raíces cúbicas de la unidad no triviales:
+   $$
+   u = e^{2\pi i/3}, \quad v = e^{4\pi i/3}.
+   $$
+   Por lo tanto:
+   $$
+   \theta_2 - \theta_1 = \frac{2\pi}{3}, \quad \theta_3 - \theta_1 = \frac{4\pi}{3}.
+   $$
+   Los puntos están equiespaciados en el círculo unitario, formando un triángulo equilátero.
+
+---
+
+### **Problema 2 — Sucesiones**
+
+**Enunciado:** Sea $z = e^{2i\pi\alpha}$, con $\alpha \in \mathbb{R}$. Considere la sucesión $\{z_n = z^n\}_{n=0}^\infty$.
+
+**(a) Si $\alpha$ es racional, la sucesión tiene un número finito de términos distintos.**
+
+**Prerrequisitos:**
+- Raíces de la unidad.
+- Periodicidad de exponenciales complejas con argumento racional.
+
+**Demostración:**
+
+1. Sea $\alpha = \frac{p}{q}$ con $p, q \in \mathbb{Z}$, $q > 0$, y $\gcd(p, q) = 1$.
+2. Entonces:
+   $$
+   z = e^{2\pi i \frac{p}{q}}.
+   $$
+3. Para cualquier $n$, $z_n = e^{2\pi i n \frac{p}{q}}$.
+4. Note que $z_q = e^{2\pi i p} = 1$, y en general $z_{n+q} = z_n$.
+5. Por lo tanto, la sucesión es periódica con período $q$, y solo hay $q$ términos distintos: $z_0, z_1, \dots, z_{q-1}$.
+
+**(b) Si $\alpha$ es irracional, la sucesión llena densamente el círculo unitario.**
+
+**Prerrequisitos:**
+- Equidistribución de sucesiones módulo 1.
+- Densidad de $\{ n\alpha \}$ en $(0,1)$ para $\alpha$ irracional.
+
+**Demostración:**
+
+1. Sea $\xi = e^{2\pi i \theta}$ un punto en el círculo unitario y $\varepsilon > 0$.
+2. Queremos encontrar $n$ tal que $|\xi - z_n| < \varepsilon$.
+3. Esto equivale a que la distancia angular entre $n\alpha$ y $\theta$ (módulo 1) sea menor que $\delta$, para algún $\delta$ pequeño.
+4. Como $\alpha$ es irracional, la sucesión $\{ n\alpha \}$ es densa en $[0,1)$. Existe $n$ tal que:
+   $$
+   |\{ n\alpha \} - \theta| < \delta.
+   $$
+5. Por continuidad uniforme de $e^{2\pi i x}$, si $\delta$ es suficientemente pequeño, entonces:
+   $$
+   |e^{2\pi i \{ n\alpha \}} - e^{2\pi i \theta}| < \varepsilon.
+   $$
+6. Luego, $|z_n - \xi| < \varepsilon$, lo que prueba la densidad.
+
+---
+
+### **Problema 3 — Serie Geométrica**
+
+**Enunciado:** Sean $z_0 \in \mathbb{C}$, $0 < r \in \mathbb{R}$.
+
+**(a) Describa el conjunto $|\xi - z_0| = r$.**
+
+**Respuesta:**  
+Es el círculo de radio $r$ centrado en $z_0$.
+
+**(b) Si $|z - z_0| < r$ y $|\xi - z_0| = r$, demuestre:**
+$$
+\frac{1}{\xi - z} = \sum_{n=0}^\infty \frac{(z - z_0)^n}{(\xi - z_0)^{n+1}}.
+$$
+
+**Demostración:**
+
+1. Escribimos:
+   $$
+   \frac{1}{\xi - z} = \frac{1}{(\xi - z_0) - (z - z_0)} = \frac{1}{\xi - z_0} \cdot \frac{1}{1 - \frac{z - z_0}{\xi - z_0}}.
+   $$
+2. Dado que $\left| \frac{z - z_0}{\xi - z_0} \right| = \frac{|z - z_0|}{r} < 1$, aplicamos la serie geométrica:
+   $$
+   \frac{1}{1 - w} = \sum_{n=0}^\infty w^n, \quad \text{con } w = \frac{z - z_0}{\xi - z_0}.
+   $$
+3. Sustituyendo:
+   $$
+   \frac{1}{\xi - z} = \frac{1}{\xi - z_0} \sum_{n=0}^\infty \left( \frac{z - z_0}{\xi - z_0} \right)^n = \sum_{n=0}^\infty \frac{(z - z_0)^n}{(\xi - z_0)^{n+1}}.
+   $$
+
+**(c) Si $|z - z_0| > r$ y $|\xi - z_0| = r$, demuestre:**
+$$
+\frac{1}{\xi - z} = -\sum_{n=0}^\infty \frac{(\xi - z_0)^n}{(z - z_0)^{n+1}}.
+$$
+
+**Demostración:**
+
+1. Escribimos:
+   $$
+   \frac{1}{\xi - z} = -\frac{1}{z - \xi} = -\frac{1}{(z - z_0) - (\xi - z_0)} = -\frac{1}{z - z_0} \cdot \frac{1}{1 - \frac{\xi - z_0}{z - z_0}}.
+   $$
+2. Dado que $\left| \frac{\xi - z_0}{z - z_0} \right| = \frac{r}{|z - z_0|} < 1$, aplicamos la serie geométrica:
+   $$
+   \frac{1}{1 - w} = \sum_{n=0}^\infty w^n, \quad \text{con } w = \frac{\xi - z_0}{z - z_0}.
+   $$
+3. Sustituyendo:
+   $$
+   \frac{1}{\xi - z} = -\frac{1}{z - z_0} \sum_{n=0}^\infty \left( \frac{\xi - z_0}{z - z_0} \right)^n = -\sum_{n=0}^\infty \frac{(\xi - z_0)^n}{(z - z_0)^{n+1}}.
+   $$
+
+---
+Te ayudo a ampliar los procedimientos matemáticos de cada sección, desarrollando las demostraciones y cálculos que solo se enuncian:
+
+# **Análisis Complejo en Física: Fundamentos Matemáticos Profundos - Ampliación de Procedimientos**
+
+## **I. La Estructura Algebraica y Geométrica de ℂ**
+
+### **1.1 Forma Polar y Exponencial Compleja**
+
+**Demostración del Teorema de Euler:**
+Usamos series de Taylor:
+$$
+e^{i\theta} = \sum_{n=0}^\infty \frac{(i\theta)^n}{n!}
+= \sum_{k=0}^\infty \frac{(i\theta)^{2k}}{(2k)!} + \sum_{k=0}^\infty \frac{(i\theta)^{2k+1}}{(2k+1)!}
+$$
+$$
+= \sum_{k=0}^\infty \frac{(-1)^k\theta^{2k}}{(2k)!} + i\sum_{k=0}^\infty \frac{(-1)^k\theta^{2k+1}}{(2k+1)!}
+= \cos\theta + i\sin\theta
+$$
+
+**Derivada de la exponencial compleja:**
+$$
+\frac{d}{dt}e^{i\omega t} = \frac{d}{dt}(\cos\omega t + i\sin\omega t)
+= -\omega\sin\omega t + i\omega\cos\omega t
+= i\omega(\cos\omega t + i\sin\omega t) = i\omega e^{i\omega t}
+$$
+
+### **1.2 Solución Compleja del Oscilador Armónico**
+
+**Verificación de la solución:**
+Sea $z(t) = Ae^{i\omega t} + Be^{-i\omega t}$, entonces:
+$$
+\frac{dz}{dt} = i\omega Ae^{i\omega t} - i\omega Be^{-i\omega t}
+$$
+$$
+\frac{d^2z}{dt^2} = (i\omega)^2 Ae^{i\omega t} + (-i\omega)^2 Be^{-i\omega t}
+= -\omega^2(Ae^{i\omega t} + Be^{-i\omega t}) = -\omega^2 z(t)
+$$
+Por lo tanto, $\frac{d^2z}{dt^2} + \omega^2 z = 0$.
+
+---
+
+## **II. Funciones Analíticas y Ecuaciones de Cauchy-Riemann**
+
+### **2.2 Ecuaciones de Cauchy-Riemann - Demostración Detallada**
+
+Sea $f(z) = u(x,y) + iv(x,y)$ y $z_0 = x_0 + iy_0$.
+
+**Caso 1:** $h \to 0$ real ($h \in \mathbb{R}$):
+$$
+f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}
+= \lim_{h \to 0} \frac{u(x_0+h,y_0) + iv(x_0+h,y_0) - u(x_0,y_0) - iv(x_0,y_0)}{h}
+$$
+$$
+= \frac{\partial u}{\partial x}(x_0,y_0) + i\frac{\partial v}{\partial x}(x_0,y_0)
+$$
+
+**Caso 2:** $h \to 0$ imaginario puro ($h = ik, k \in \mathbb{R}$):
+$$
+f'(z_0) = \lim_{k \to 0} \frac{f(z_0 + ik) - f(z_0)}{ik}
+= \lim_{k \to 0} \frac{u(x_0,y_0+k) + iv(x_0,y_0+k) - u(x_0,y_0) - iv(x_0,y_0)}{ik}
+$$
+$$
+= \frac{1}{i}\left(\frac{\partial u}{\partial y}(x_0,y_0) + i\frac{\partial v}{\partial y}(x_0,y_0)\right)
+= -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}
+$$
+
+Igualando ambas expresiones para $f'(z_0)$:
+$$
+\frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}
+$$
+
+Igualando partes real e imaginaria:
+$$
+\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \quad \text{y} \quad \frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}
+$$
+
+### **2.3 Consecuencias de la Analyticidad - Demostraciones**
+
+**Armonicidad de u y v:**
+De las ecuaciones de Cauchy-Riemann:
+$$
+\frac{\partial^2 u}{\partial x^2} = \frac{\partial}{\partial x}\left(\frac{\partial v}{\partial y}\right)
+= \frac{\partial}{\partial y}\left(\frac{\partial v}{\partial x}\right)
+= \frac{\partial}{\partial y}\left(-\frac{\partial u}{\partial y}\right)
+= -\frac{\partial^2 u}{\partial y^2}
+$$
+Por lo tanto, $\nabla^2 u = \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$.
+
+Análogamente para v.
+
+---
+
+## **III. Teorema de los Residuos y Aplicaciones Físicas**
+
+### **3.3 Aplicación: Integral de Dispersión Cuántica - Cálculo Completo**
+
+**Integral:** $I = \int_{-\infty}^\infty \frac{e^{ipx}}{p^2 - k^2}dp$
+
+**Paso 1:** Singularidades en $p = \pm k$. Consideramos $k > 0$.
+
+**Paso 2:** Para $x > 0$, consideramos el contorno semicircular en el semiplano superior.
+
+**Paso 3:** Cálculo del residuo en $p = k$:
+$$
+\text{Res}(f,k) = \lim_{p \to k} (p-k)\frac{e^{ipx}}{(p-k)(p+k)}
+= \lim_{p \to k} \frac{e^{ipx}}{p+k} = \frac{e^{ikx}}{2k}
+$$
+
+**Paso 4:** Aplicación del teorema de los residuos:
+$$
+\oint_C f(p)dp = 2\pi i \cdot \text{Res}(f,k) = 2\pi i \cdot \frac{e^{ikx}}{2k}
+= \frac{\pi i}{k}e^{ikx}
+$$
+
+**Paso 5:** Mostrar que la integral sobre el arco semicircular tiende a cero cuando $R \to \infty$:
+En el semiplano superior, $p = Re^{i\theta}$, $0 \leq \theta \leq \pi$:
+$$
+|e^{ipx}| = |e^{iR\cos\theta x - R\sin\theta x}| = e^{-R x \sin\theta}
+$$
+Como $x > 0$ y $\sin\theta \geq 0$ en $[0,\pi]$, la integral sobre el arco tiende a cero.
+
+---
+
+## **IV. Transformaciones Conformes y Problemas de Contorno**
+
+### **4.1 Demostración de la Preservación de Ángulos**
+
+Sea $f$ holomorfa con $f'(z) \neq 0$. Consideremos dos curvas $\gamma_1, \gamma_2$ que se intersectan en $z_0$ con ángulo $\theta$.
+
+Bajo $f$, las curvas se transforman en $f\circ\gamma_1, f\circ\gamma_2$. Sus vectores tangentes son:
+$$
+(f\circ\gamma_i)'(t) = f'(\gamma_i(t))\cdot\gamma_i'(t)
+$$
+En $z_0$:
+$$
+(f\circ\gamma_i)'(t_0) = f'(z_0)\cdot\gamma_i'(t_0)
+$$
+El ángulo entre los vectores transformados es:
+$$
+\arg\left(\frac{f'(z_0)\gamma_1'(t_0)}{f'(z_0)\gamma_2'(t_0)}\right)
+= \arg\left(\frac{\gamma_1'(t_0)}{\gamma_2'(t_0)}\right)
+$$
+que es el mismo ángulo original.
+
+### **4.3 Transformación de Joukowski - Cálculos Detallados**
+
+**Mapeo del círculo:** Sea $\zeta = Re^{i\theta}$, entonces:
+$$
+z = Re^{i\theta} + \frac{R^2}{Re^{i\theta}} = Re^{i\theta} + Re^{-i\theta}
+= R(\cos\theta + i\sin\theta) + R(\cos\theta - i\sin\theta)
+= 2R\cos\theta
+$$
+Por lo tanto, $z \in [-2R, 2R]$.
+
+**Velocidad compleja:**
+$$
+\frac{dF}{d\zeta} = \frac{d}{d\zeta}\left[U\left(\zeta + \frac{R^2}{\zeta}\right)\right]
+= U\left(1 - \frac{R^2}{\zeta^2}\right)
+$$
+
+---
+
+## **V. Singularidades y su Interpretación Física**
+
+### **5.2 Polos y Estados Ligados - Desarrollo Matemático**
+
+**Forma Breit-Wigner:**
+Sea $S(E) = \frac{1}{E - (E_0 - i\Gamma/2)}$, entonces:
+$$
+|S(E)|^2 = \frac{1}{(E - E_0)^2 + \Gamma^2/4}
+$$
+
+**Expansión alrededor del polo:**
+Para $E \approx E_0$, desarrollamos:
+$$
+S(E) \approx \frac{1}{(E - E_0) + i\Gamma/2}
+= \frac{(E - E_0) - i\Gamma/2}{(E - E_0)^2 + \Gamma^2/4}
+$$
+La parte imaginaria contiene la información del ancho de decaimiento.
+
+---
+
+## **VI. Método del Descenso Más Pronunciado**
+
+### **6.2 Aplicación al Túnel Cuántico - Desarrollo Completo**
+
+**Ecuación de Schrödinger en región prohibida:**
+$$
+-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V(x)\psi = E\psi
+$$
+$$
+\frac{d^2\psi}{dx^2} = \frac{2m}{\hbar^2}(V(x) - E)\psi
+$$
+
+**Solución WKB:** Asumimos $\psi(x) = e^{iS(x)/\hbar}$ y desarrollamos:
+$$
+S(x) = S_0(x) + \frac{\hbar}{i}S_1(x) + \cdots
+$$
+
+Sustituyendo:
+$$
+\left(\frac{i}{\hbar}\frac{dS}{dx}\right)^2 - \frac{i}{\hbar}\frac{d^2S}{dx^2}
+= \frac{2m}{\hbar^2}(V(x) - E)
+$$
+
+A orden cero en $\hbar$:
+$$
+\left(\frac{dS_0}{dx}\right)^2 = 2m(E - V(x))
+$$
+$$
+S_0(x) = \pm \int \sqrt{2m(E - V(x))}dx
+$$
+
+En región prohibida ($E < V$):
+$$
+p(x) = i\sqrt{2m(V(x) - E)}
+$$
+$$
+\psi(x) \approx \frac{1}{\sqrt{|p(x)|}} \exp\left(-\frac{1}{\hbar}\int \sqrt{2m(V(x) - E)}dx\right)
+$$
+
+---
+
+## **VII. Fórmulas de Dispersión y Relaciones de Kramers-Kronig**
+
+### **7.2 Demostración de las Relaciones de Kramers-Kronig**
+
+**Paso 1:** Por causalidad, $\chi(t) = 0$ para $t < 0$, entonces $\chi(\omega)$ es analítica en $\text{Im}(\omega) > 0$.
+
+**Paso 2:** Aplicamos la fórmula integral de Cauchy a $\chi(z) - 1$:
+$$
+\chi(\omega) - 1 = \frac{1}{2\pi i} \oint_C \frac{\chi(\omega') - 1}{\omega' - \omega}d\omega'
+$$
+
+**Paso 3:** Tomamos el contorno que consiste en el eje real y un semicírculo en el semiplano superior. Por el lema de Jordan, la integral sobre el semicírculo tiende a cero.
+
+**Paso 4:** Obtenemos:
+$$
+\chi(\omega) - 1 = \frac{1}{2\pi i} \mathcal{P} \int_{-\infty}^\infty \frac{\chi(\omega') - 1}{\omega' - \omega}d\omega'
+$$
+
+**Paso 5:** Separando parte real e imaginaria:
+$$
+\text{Re}[\chi(\omega) - 1] = \frac{1}{\pi} \mathcal{P} \int_{-\infty}^\infty \frac{\text{Im}[\chi(\omega')]}{\omega' - \omega}d\omega'
+$$
+$$
+\text{Im}[\chi(\omega) - 1] = -\frac{1}{\pi} \mathcal{P} \int_{-\infty}^\infty \frac{\text{Re}[\chi(\omega') - 1]}{\omega' - \omega}d\omega'
+$$
+
+---
+
+## **VIII. Aplicación Avanzada: Tiempo Imaginario y Temperatura Finita**
+
+### **8.1 Rotación de Wick - Desarrollo Matemático**
+
+**Propagador en tiempo real:**
+$$
+K(x,t;x',0) = \langle x|e^{-iHt}|x' \rangle
+$$
+
+**Rotación de Wick:** $t \to -i\tau$, $\tau > 0$:
+$$
+K(x,-i\tau;x',0) = \langle x|e^{-H\tau}|x' \rangle
+$$
+
+**Función de partición:**
+$$
+Z(\beta) = \text{Tr}(e^{-\beta H}) = \int dx \langle x|e^{-\beta H}|x \rangle
+= \int dx K(x,-i\beta;x,0)
+$$
+
+**Integral de camino en tiempo imaginario:**
+$$
+K(x,\tau;x',0) = \int \mathcal{D}x e^{-S_E[x]}
+$$
+donde $S_E[x] = \int_0^\beta d\tau \left[\frac{1}{2}m\left(\frac{dx}{d\tau}\right)^2 + V(x)\right]$
+
+### **8.2 Campo Escalar - Cálculo de la Rotación**
+
+**Métrica de Minkowski:** $^2 = dt^2 - dx^2 - dy^2 - dz^2$**Rotación de Wick:** $t = -i\tau$, entonces:
+$$
+ds^2 = (-id\tau)^2 - dx^2 - dy^2 - dz^2 = -[d\tau^2 + dx^2 + dy^2 + dz^2]
+$$
+
+**Derivadas:** $\partial_t = i\partial_\tau$, $\partial_t^2 = -\partial_\tau^2$
+
+**Acción lorentziana:**
+$$
+S = \int d^4x \left[\frac{1}{2}(\partial_t\phi)^2 - \frac{1}{2}(\nabla\phi)^2 - \frac{1}{2}m^2\phi^2\right]
+$$
+
+**Acción euclidiana:**
+$$
+S_E = i\int d^4x_E \left[-\frac{1}{2}(\partial_\tau\phi)^2 - \frac{1}{2}(\nabla\phi)^2 - \frac{1}{2}m^2\phi^2\right]
+= \int d^4x_E \left[\frac{1}{2}(\partial_\mu\phi)^2 + \frac{1}{2}m^2\phi^2\right]
+$$
+
+Estos desarrollos matemáticos detallados proporcionan la base rigurosa para las aplicaciones físicas del análisis complejo.
