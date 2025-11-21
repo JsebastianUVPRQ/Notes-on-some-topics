@@ -1,38 +1,38 @@
 {
   "main": {
-    "id": "1eae2dca88091637",
+    "id": "b4e2ab6ccd8ad67a",
     "type": "split",
     "children": [
       {
-        "id": "f61102c3cae6fcc4",
+        "id": "16e727ad6584fdc1",
         "type": "tabs",
         "children": [
           {
-            "id": "0f93fc186c4eff4b",
+            "id": "b15a12ac2586cfb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-10-22.md",
+                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-22"
+              "title": "Parcial II"
             }
           },
           {
-            "id": "f69e8e6c7413fe1c",
+            "id": "f39d1e4b857ba02e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-11-01.md",
+                "file": "Mecánica clásica/pset 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-01"
+              "title": "pset 1"
             }
           }
         ],
@@ -42,20 +42,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "06504061b74ba24f",
+    "id": "4d539ec6d2c244e2",
     "type": "split",
     "children": [
       {
-        "id": "a100f5cb5621381b",
+        "id": "4f913836dbd8642d",
         "type": "tabs",
         "children": [
           {
-            "id": "f715c17ee9e4279b",
+            "id": "352c68c373077a83",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "9a9e43feb97f6fa0",
+            "id": "fa5fcbc28db170f9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,14 +73,14 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Buscar"
             }
           },
           {
-            "id": "609b8fffe882f4b7",
+            "id": "6f4520d7beed9c0d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "4184df34cf9a6998",
+    "id": "dcc6817ed5d894e9",
     "type": "split",
     "children": [
       {
-        "id": "6e22a995738b5c6b",
+        "id": "2314b4db4caa637e",
         "type": "tabs",
         "children": [
           {
-            "id": "9ae237225fb04577",
+            "id": "3e1d0b24d1bcee15",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-08-21.md",
+                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 2025-08-21"
+              "title": "Enlaces entrantes de Parcial II"
             }
           },
           {
-            "id": "49c4eabacd0f863d",
+            "id": "65be692ef210fe33",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-08-21.md",
+                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 2025-08-21"
+              "title": "Enlaces salientes de Parcial II"
             }
           },
           {
-            "id": "2531495a89721c1c",
+            "id": "0fe2d220f1298a94",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,22 +152,22 @@
             }
           },
           {
-            "id": "89ce37c46c81b904",
+            "id": "45c00b47c25a1ffb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
+                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de cosenza3"
+              "title": "Esquema de Parcial II"
             }
           },
           {
-            "id": "3a9f76b85923be43",
+            "id": "0854eecd344de7df",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -177,7 +177,7 @@
             }
           },
           {
-            "id": "8c9263ecd67d372c",
+            "id": "4b77d11d622edde3",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -207,48 +207,20 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "f69e8e6c7413fe1c",
+  "active": "f39d1e4b857ba02e",
   "lastOpenFiles": [
-    "función de Airy A_i(-x) y las funciones de Bessel J_nu(x).md",
-    "2025-11-01.md",
-    "2025-11-02.md",
-    "Péndulo y Ecuaciones de Euler-Lagrange.md",
-    "Ejercicio 1 Partícula en una Caja con Perturbación Delta de Dirac.md",
     "2025-10-22.md",
-    "2025-10-17.md",
-    "2025-10-19.md",
+    "Mecánica clásica/pset 1.md",
+    "2025-11-01.md",
     "Cosenza 2.md",
-    "2025-10-15.md",
-    "Ser diferenciable en el sentido complejo (holomorfa)..md",
-    "Cosmología FLRW vs. Agujero Negro de Schwarzschild.md",
-    "Problemas del Taller 2.md",
-    "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
-    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md",
-    "Mecánica clásica/TEORÍA DE POTENCIALES ORBITAS/cosenza3.md",
-    "Métodos Matemáticos Física/Funciones de green.md",
-    "Métodos Matemáticos Física/The Fourier transform.md",
-    "Métodos Matemáticos Física/Integrales y espacios complejos.md",
-    "Diferenciabilidad en R2 vs. C.md",
-    "2025-10-25.md",
+    "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
+    "2025-11-21.md",
+    "2025-11-20.md",
+    "2025-11-17.md",
     "Métricas en análisis complejo.md",
-    "5-6-metodos-2025-2.md",
-    "Métodos Matemáticos Física/Examenes Finales 2025-2/Ejercicios - Problemas.md",
-    "Mecánica clásica/valenzuela - talleres - tareas/asignacionTarea 3.md",
-    "2025-10-24.md",
-    "Untitled.canvas",
-    "Métodos Matemáticos Física/Taller 2 y taller 2B",
-    "Fisica fundamental 5/conceptualizacion fisica funcamental 5 V.canvas",
-    "Métodos Matemáticos Física/Examenes Finales 2025-2",
-    "Pasted image 20230804014318.png",
-    "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
-    "Pasted image 20250614181627.png",
-    "Pasted image 20250807210238.png",
-    "bcf80f47-0874-482c-872a-ae58829a6db6.png",
-    "obsidian_Electromagnetismo/Parciales/desktop.ini",
-    "obsidian_Electromagnetismo/Contenido/desktop.ini",
-    "obsidian_Electromagnetismo/Parciales",
-    "obsidian_Electromagnetismo/Contenido",
-    "obsidian_Electromagnetismo/desktop.ini",
-    "obsidian_Electromagnetismo"
+    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
+    "función de Airy A_i(-x) y las funciones de Bessel J_nu(x).md",
+    "Ecuaciones Diferenciales/Content differential equations.md",
+    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md"
   ]
 }

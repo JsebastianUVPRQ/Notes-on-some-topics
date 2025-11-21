@@ -1632,7 +1632,7 @@ construir el Hamiltoniano y verificar ecuaciones de Hamilton.
    $$
 
 4. **Consistencia**:
-   $\ddot{q} = \dot{p}/m = -\tfrac{k}{m} q $, que es la ecuación del oscilador armónico. ✔️
+   $\ddot{q} = \dot{p}/m = -\tfrac{k}{m} q$, que es la ecuación del oscilador armónico. ✔️
 
 ---
 
