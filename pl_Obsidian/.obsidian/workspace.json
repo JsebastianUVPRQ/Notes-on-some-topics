@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
+                "file": "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parcial II"
+              "title": "Segundo examen - MEC - CLAS - 2025-2"
             }
           },
           {
-            "id": "f39d1e4b857ba02e",
+            "id": "f5060a5fc76f24a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-11-25.md",
+                "file": "Mecánica clásica/Hamiltoniana/Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-25"
+              "title": "Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,21 +206,33 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "f39d1e4b857ba02e",
+  "active": "b15a12ac2586cfb5",
   "lastOpenFiles": [
-    "2025-11-23.md",
-    "2025-11-25.md",
+    "Mecánica clásica/Hamiltoniana/Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi.md",
+    "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
     "Mecánica clásica/pset 1.md",
+    "Cosenza 2.md",
+    "Cosmología FLRW vs. Agujero Negro de Schwarzschild.md",
+    "Diferenciabilidad en R2 vs. C.md",
+    "función de Airy A_i(-x) y las funciones de Bessel J_nu(x).md",
+    "Métricas en análisis complejo.md",
+    "Exposicion de datos.md",
+    "5-6-metodos-2025-2.md",
     "2025-10-22.md",
     "2025-11-01.md",
-    "Cosenza 2.md",
+    "2025-11-26.md",
+    "2025-11-29.md",
+    "2025-11-25.md",
+    "2025-11-23.md",
+    "2025-11-27.md",
+    "Problemas del Taller 2.md",
+    "Ser diferenciable en el sentido complejo (holomorfa)..md",
+    "Untitled.canvas",
     "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
     "2025-11-21.md",
     "2025-11-20.md",
     "2025-11-17.md",
-    "Métricas en análisis complejo.md",
     "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
-    "función de Airy A_i(-x) y las funciones de Bessel J_nu(x).md",
     "Ecuaciones Diferenciales/Content differential equations.md",
     "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md"
   ]
