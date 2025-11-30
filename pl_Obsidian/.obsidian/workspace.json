@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b15a12ac2586cfb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Segundo examen - MEC - CLAS - 2025-2"
-            }
-          },
-          {
             "id": "f5060a5fc76f24a2",
             "type": "leaf",
             "state": {
@@ -206,10 +192,12 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "b15a12ac2586cfb5",
+  "active": "f5060a5fc76f24a2",
   "lastOpenFiles": [
+    "2025-11-29.md",
     "Mecánica clásica/Hamiltoniana/Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi.md",
     "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
+    "Mecánica clásica/Hamiltoniana/Wronskiano.md",
     "Mecánica clásica/pset 1.md",
     "Cosenza 2.md",
     "Cosmología FLRW vs. Agujero Negro de Schwarzschild.md",
@@ -221,7 +209,6 @@
     "2025-10-22.md",
     "2025-11-01.md",
     "2025-11-26.md",
-    "2025-11-29.md",
     "2025-11-25.md",
     "2025-11-23.md",
     "2025-11-27.md",
@@ -233,7 +220,6 @@
     "2025-11-20.md",
     "2025-11-17.md",
     "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
-    "Ecuaciones Diferenciales/Content differential equations.md",
-    "Mecánica clásica/Hamiltoniana/Corchetes de Poisson.md"
+    "Ecuaciones Diferenciales/Content differential equations.md"
   ]
 }
