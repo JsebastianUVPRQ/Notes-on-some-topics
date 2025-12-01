@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecánica clásica/Hamiltoniana/Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi.md",
+                "file": "Cosecante compleja.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi"
+              "title": "Cosecante compleja"
             }
           }
         ]
@@ -194,20 +194,25 @@
   },
   "active": "f5060a5fc76f24a2",
   "lastOpenFiles": [
+    "Pasted image 20251130214507.png",
+    "Pasted image 20251130214416.png",
+    "Pasted image 20251130214342.png",
+    "2025-10-22.md",
+    "2025-11-01.md",
     "2025-11-29.md",
+    "Cosenza 2.md",
+    "Cosecante compleja.md",
+    "MIT - PROBLEM SET 1.md",
     "Mecánica clásica/Hamiltoniana/Transformaciones Canónicas, Teorema de Liouville y Ecuación de Hamilton-Jacobi.md",
     "Mecánica clásica/Hamiltoniana/Segundo examen - MEC - CLAS - 2025-2.md",
     "Mecánica clásica/Hamiltoniana/Wronskiano.md",
     "Mecánica clásica/pset 1.md",
-    "Cosenza 2.md",
     "Cosmología FLRW vs. Agujero Negro de Schwarzschild.md",
     "Diferenciabilidad en R2 vs. C.md",
     "función de Airy A_i(-x) y las funciones de Bessel J_nu(x).md",
     "Métricas en análisis complejo.md",
     "Exposicion de datos.md",
     "5-6-metodos-2025-2.md",
-    "2025-10-22.md",
-    "2025-11-01.md",
     "2025-11-26.md",
     "2025-11-25.md",
     "2025-11-23.md",
@@ -217,9 +222,6 @@
     "Untitled.canvas",
     "Mecánica clásica/valenzuela - talleres - tareas/Parcial II.md",
     "2025-11-21.md",
-    "2025-11-20.md",
-    "2025-11-17.md",
-    "Mecánica Cuántica/Hermite, Laguerre, Legendre.md",
-    "Ecuaciones Diferenciales/Content differential equations.md"
+    "2025-11-20.md"
   ]
 }
