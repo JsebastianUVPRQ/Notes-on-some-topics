@@ -124,9 +124,16 @@ In physics, Laplace transforms are widely used to analyze systems that evolve ov
    Resuelva la ecuación de difusión $\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$ con:  
    - Condición inicial $u(x,0) = e^{-x^2}$.  
    - Use transformada de Fourier en el espacio.  
-
 ---
-
+---
+**Resumen de resultados clave:**
+1. $|x| = π/2 - (4/π)∑[cos((2k+1)x)/(2k+1)²$
+2. $∫₀^π sin(nx)sin(mx)dx = (π/2)δ_nm$
+3. u(x,t) = sin(πx)cos(2πt)
+4. ℱ{e^{-|x|}cos(2x)} = 1/[1+(k-2)²] + 1/[1+(k+2)²]
+5. ℱ⁻¹{1/[(1+k²)(4+k²)]} = (1/6)(e^{-|x|} - e^{-2|x|})
+6. u(x,t) = (1/√(1+4αt))exp[-x²/(1+4αt)]
+---
 ### **Transformada de Laplace**  
 7. **Ejercicio 7:**  
    Encuentre la transformada de Laplace de $f(t) = t^2 e^{-3t} \sin(4t)$.  

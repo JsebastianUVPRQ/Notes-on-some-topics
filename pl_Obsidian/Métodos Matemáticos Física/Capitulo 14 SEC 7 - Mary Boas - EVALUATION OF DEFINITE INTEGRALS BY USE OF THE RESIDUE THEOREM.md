@@ -101,7 +101,7 @@ Este método funciona para cualquier función racional de $\sin \theta$ y $\cos 
    $$
    \oint_C = \int_{-\rho}^{\rho} \frac{e^{ix}}{1 + x^2} dx + \int_{\text{arco}} \frac{e^{iz}}{1 + z^2} dz.
    $$
-   - Integral sobre arco $\to 0$ porque $|e^{iz}| = e^{-\text{Im}(z) \leq 1$ en semiplano superior.  
+   - Integral sobre arco $\to 0$ porque $e^{iz} = e^{-\text{Im}(z)} \leq 1$ en semiplano superior.  
    - Entonces: $\int_{-\infty}^{\infty} \frac{e^{ix}}{1 + x^2} dx = \frac{\pi}{e}$.
 
 4. **Tomar parte real:**  

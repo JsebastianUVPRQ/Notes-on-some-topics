@@ -597,7 +597,7 @@ con matrices $\mathbf M,\mathbf K$ iguales a las que se obtienen por Newton. Res
 # Soluciones **paso-a-paso** para la sección **Mecánica Lagrangiana (L1–L10)**. 
 
 ---
-# L1. Péndulo con punto de suspensión acelerado horizontalmente $a(t)=a_0\cos\Omega t$.
+## L1. Péndulo con punto de suspensión acelerado horizontalmente $a(t)=a_0\cos\Omega t$.
 
 **Enunciado resumido:** Péndulo simple longitud $\ell$, masa $m$, punto de suspensión realiza movimiento horizontal $x_s(t)=X_0\cos\Omega t$ (o equivalently aceleración $a(t)$). Derivar ecuación de movimiento para el ángulo $\theta(t)$ y discutir resonancia paramétrica (aproximación de pequeñas oscilaciones → ecuación tipo Mathieu).
 
@@ -713,7 +713,7 @@ ecuación de Mathieu con $\omega_0^2=g/\ell$, $h=a_0/\ell$. Allí aparecen banda
 
 ---
 
-# L2. Cuentas en aro circular que rota con $\omega$ alrededor de un diámetro horizontal.
+## L2. Cuentas en aro circular que rota con $\omega$ alrededor de un diámetro horizontal.
 
 **Enunciado:** Aro de radio $R$ gira con velocidad angular $\omega$ alrededor de un diámetro horizontal (imaginemos que el aro está en un plano vertical y rota como un hula-hoop). Una cuenta sin rozamiento puede deslizar sin salirse; hallar posiciones de equilibrio y su estabilidad en función de $\omega$.
 
@@ -781,7 +781,7 @@ $$
 
 ---
 
-# L3. Ligadura no holónoma de rodadura: cilindro que rueda sin deslizar sobre plano móvil con velocidad $U$.
+## L3. Ligadura no holónoma de rodadura: cilindro que rueda sin deslizar sobre plano móvil con velocidad $U$.
 
 **Enunciado:** Cilindro de radio $R$ rueda sin deslizar sobre un plano que se mueve horizontalmente con velocidad $U$. Formulación lagrangiana con ligadura no holónoma (condición de rodadura).
 
@@ -857,7 +857,7 @@ Y usando condiciones iniciales se determina $\lambda$.
 
 ---
 
-# L4. Dos masas + resorte inclinadas sobre guías sin fricción; uso de coordenadas CM y relativas.
+## L4. Dos masas + resorte inclinadas sobre guías sin fricción; uso de coordenadas CM y relativas.
 
 **Enunciado:** Dos masas $m_1,m_2$ en una guía inclinada sin fricción conectadas por un resorte entre ellas (constante $k$). Se pide escribir el Lagrangiano en coordenadas centro de masa (CM) y relativa, desacoplar y encontrar integrales de movimiento.
 
@@ -931,7 +931,7 @@ $$
 
 ---
 
-# L5. Partícula en potencial anisótropo $V=\tfrac12(k_x x^2 + k_y y^2)$ con acoplo giroscópico por placa que rota a $\Omega$.
+## L5. Partícula en potencial anisótropo $V=\tfrac12(k_x x^2 + k_y y^2)$ con acoplo giroscópico por placa que rota a $\Omega$.
 
 **Enunciado:** Sistema en coordenadas del laboratorio o en un marco rotante con velocidad $\Omega$ produce términos tipo Coriolis. Escribir $L$ en coordenadas giratorias y discutir aparición de términos lineales en $\dot x,\dot y$ (Coriolis) y su efecto en estabilidad.
 
@@ -992,7 +992,7 @@ llevando a frecuencias $\omega = \sqrt{\omega_0^2 + \Omega^2}\pm \Omega$ tipo ef
 
 ---
 
-# L6. Péndulo esférico: ecuaciones en $(\theta,\phi)$; demostración de conservación de $p_\phi$. Linealización cerca de la vertical.
+## L6. Péndulo esférico: ecuaciones en $(\theta,\phi)$; demostración de conservación de $p_\phi$. Linealización cerca de la vertical.
 
 **Enunciado:** Masa $m$ unida a extremo de varilla inextensible longitud $\ell$, libre de moverse en esfera (péndulo esférico). Coordenadas esféricas $(\theta,\phi)$ (colatitud y longitud).
 
@@ -1079,7 +1079,7 @@ Si $p_\phi\neq0$ el término centrífugo diverge al pequeño $\theta$ → la ver
 
 ---
 
-# L7. Partícula con ligadura holónoma $f(x,y)=0$ — ejemplo práctica y multiplicador de Lagrange.
+## L7. Partícula con ligadura holónoma $f(x,y)=0$ — ejemplo práctica y multiplicador de Lagrange.
 
 **Enunciado:** ligadura holónoma $f(x,y)=0$ dada por una curva (por ejemplo cicloide). Usar multiplicador de Lagrange para hallar fuerza de reacción.
 
@@ -1120,7 +1120,7 @@ Si conocemos movimiento (o condiciones), $\lambda$ se determina imponiendo la li
 
 ---
 
-# L8. Sólido con un grado interno (masa dentro de cascarón que puede deslizar). Formular $L$, identificar generalizadas y reducción por simetría.
+## L8. Sólido con un grado interno (masa dentro de cascarón que puede deslizar). Formular $L$, identificar generalizadas y reducción por simetría.
 
 **Enunciado (geométrico):** masa $m$ dentro de un cascarón rígido que puede deslizar en una ranura circular; la posición interna $s$ es coordenada relativa; el cascarón de masa $M$ puede rotar con ángulo $\phi$. Sistema acoplado.
 
@@ -1149,7 +1149,7 @@ Si $\phi$ es variable cíclica (no aparece en $V$ y $L$ solo depende de $\dot\ph
 
 ---
 
-# L9. Partícula cargada $q$ en campo magnético uniforme $\mathbf B = B\hat z$ con potencial vector $\mathbf A=\tfrac12\mathbf B\times\mathbf r$. Escribir $L$ y demostrar conservación de energía y $p_z$, no de $\mathbf p$ mecánico.
+## L9. Partícula cargada $q$ en campo magnético uniforme $\mathbf B = B\hat z$ con potencial vector $\mathbf A=\tfrac12\mathbf B\times\mathbf r$. Escribir $L$ y demostrar conservación de energía y $p_z$, no de $\mathbf p$ mecánico.
 
 **Paso 1 — Potencial vector y Lagrangiano**
 Potencial vector conveniente (gauge simétrico):
@@ -1202,7 +1202,7 @@ Ecuaciones dan movimiento circular (giro) con frecuencia ciclótona $\omega_c = 
 
 ---
 
-# L10. Péndulo doble: Lagrangiano exacto (no lineal), derivación E-L y linealización (comparar con N10).
+## L10. Péndulo doble: Lagrangiano exacto (no lineal), derivación E-L y linealización (comparar con N10).
 
 **Enunciado:** Dos masas $m_1,m_2$ unidas por varillas inextensibles $\ell_1,\ell_2$ (péndulo doble). Derivar Lagrangiano no lineal en $\theta_1,\theta_2$, obtener E-L, y linearizar para obtener modos normales.
 

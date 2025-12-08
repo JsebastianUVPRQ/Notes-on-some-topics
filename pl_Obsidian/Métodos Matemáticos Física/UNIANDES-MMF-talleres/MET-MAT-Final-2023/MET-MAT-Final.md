@@ -69,7 +69,7 @@ Oscilador armónico forzado:
 $$
 m \frac{d^{2}X}{dt^{2}} + b \frac{dX}{dt} + kX = F(t), \quad X(0) = 0, \quad \dot{X}(0) = 0 \tag{1}
 $$  
-1. (5 pts) Transformar con Fourier para obtener $tilde{X}(\omega)$ en términos de $\Gamma = b/(2m)$, $\omega_0 = \sqrt{k/m}$, y $\tilde{F}(\omega)$.  
+1. (5 pts) Transformar con Fourier para obtener $\tilde{X}(\omega)$ en términos de $\Gamma = b/(2m)$, $\omega_0 = \sqrt{k/m}$, y $\tilde{F}(\omega)$.  
 2. (10 pts) Calcular $\mathcal{F}\left\{ H(t) e^{-\gamma t} \right\}$ ($\gamma > 0$).  
 3. (35 pts) Si $F(t) = F_0 H(t) e^{-\gamma t}$, usar residuos para hallar $X(t)$ ($t > 0$ y $t < 0$). Asumir $\Gamma > \omega_0$.  
 
@@ -140,7 +140,7 @@ $$
 $$
 \lambda(x,t) = \frac{N H(t)}{\sqrt{4\pi D t}} e^{-\Gamma t} e^{-\frac{(x-x_0)^2}{4Dt}}.
 $$  
-2. Mostrar que $int_{-\infty}^{\infty} \lambda(x,t)  dx \neq \text{const.}$, interpretar $N$ y $\Gamma$, y casos $\Gamma > 0$, $\Gamma < 0$.  
+2. Mostrar que $\int_{-\infty}^{\infty} \lambda(x,t)  dx \neq \text{const.}$, interpretar $N$ y $\Gamma$, y casos $\Gamma > 0$, $\Gamma < 0$.  
 3. Explicar límites $D \to 0$ y $D \to \infty$.  
 
 **3. Distribución de carga (20 puntos)**  
