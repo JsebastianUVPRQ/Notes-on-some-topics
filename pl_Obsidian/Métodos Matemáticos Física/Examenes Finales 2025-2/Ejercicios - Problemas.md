@@ -1,6 +1,6 @@
 ### Ejercicio 1
 
-La función $u(x, y) = \dfrac{x}{x^2 + y^2}$ es armónica porque satisface la ecuación de Laplace $\nabla^2 u = 0$. Esto se verificacion:
+La función $u(x, y) = \dfrac{x}{x^2 + y^2}$ es 2armónica porque satisface la ecuación de Laplace $\nabla^2 u = 0$. Esto se verificacion:
 a calculando las derivadas parciales segundas y mostrando que su suma es cero.
 
 La conjugada armónica $v(x, y)$e encuentra mediante las ecuaciones de Cauchy-Riemann:
