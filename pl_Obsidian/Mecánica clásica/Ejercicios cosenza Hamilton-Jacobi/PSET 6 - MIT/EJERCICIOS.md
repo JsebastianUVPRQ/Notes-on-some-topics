@@ -33,7 +33,7 @@ Usando variables de acción-ángulo, encuentre el periodo del movimiento como fu
 
 ---
 
-### 4. El potencial $\csc^{2}(x)$ [18 puntos] (Goldstein Cap.10 #15)
+### 4. El potencial $\csc^{2}(x)$  (Goldstein Cap.10 #15)
 
 Una partícula de masa $m$ y energía $E$ se mueve en una dimensión sujeta al potencial:
 
