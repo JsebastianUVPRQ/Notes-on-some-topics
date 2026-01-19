@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: cssclasses
+      direction: DESC
+    sort:
+      - property: file.mtime
+        direction: DESC
