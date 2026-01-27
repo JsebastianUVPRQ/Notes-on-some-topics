@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,11 +212,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c777a79df22bd122",
+  "active": "c2247245e388e537",
   "lastOpenFiles": [
-    "pl_Obsidian/2025-09-16.md",
-    "pl_Obsidian/Ejercicios de Quantum Physics II (8.05) – Traducidos al español.md",
+    "2026-01-18.md",
     "pl_Obsidian/Analisis, algebra lineal, basics/Conway Complex functions I/compendium Conway analysis Functions  Complex variable.md",
+    "pl_Obsidian/Ejercicios de Quantum Physics II (8.05) – Traducidos al español.md",
+    "pl_Obsidian/2025-09-16.md",
     "pl_Obsidian/Ecuaciones Diferenciales/Content differential equations.md",
     "pl_Obsidian/Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-PARCIAL-2022/Ejercicios MET-MAT-MMF-2022.md",
     "pl_Obsidian/2025-12-19.md",
@@ -237,7 +238,6 @@
     "pl_Obsidian/2025-12-15.md",
     "Untitled.base",
     "Untitled.canvas",
-    "2026-01-18.md",
     "pl_Obsidian/2025-09-28.md",
     "pl_Obsidian/Pasted image 20230809232558.png",
     "pl_Obsidian/2025-10-10.md",
