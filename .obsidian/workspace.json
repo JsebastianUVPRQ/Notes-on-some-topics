@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
+                "file": "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "geometría algebraica"
+              "title": "Notas Nielsen - Chuang"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,13 +212,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "242da92c576d8c98",
+  "active": "d3af52bee8ba5f35",
   "lastOpenFiles": [
-    "pl_Obsidian/Azure ML E/Uso de gráficos de cuadernos integrados.md",
-    "pl_Obsidian/Azure ML E/ENERO 2026-Trabajar con entornos en Acciones de GitHub/Pruebas unitarias.md",
-    "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
-    "pl_Obsidian/Fisica fundamental 5/Taller 1.md",
+    "pl_Obsidian/Mecánica Cuántica/Ecuaciones fundamentales.md",
+    "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
+    "pl_Obsidian/Mecánica Cuántica/Formalismo.md",
     "pl_Obsidian/Fisica fundamental 5/Course overview.md",
+    "pl_Obsidian/Fisica fundamental 5/Taller 1.md",
+    "pl_Obsidian/Fisica fundamental 5/Taller 3.md",
+    "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
+    "pl_Obsidian/Azure ML E/ENERO 2026-Trabajar con entornos en Acciones de GitHub/Pruebas unitarias.md",
+    "pl_Obsidian/Azure ML E/Uso de gráficos de cuadernos integrados.md",
     "La Diferencia entre C_n y R_n -- De las Matemáticas a la Mecánica Cuántica.md",
     "pl_Obsidian/Pasted image 20250224233910.png",
     "pl_Obsidian/Azure ML E/ENERO 2026-Trabajar con entornos en Acciones de GitHub/Uso de Spark en cuadernos.md",
@@ -238,10 +242,6 @@
     "pl_Obsidian/Mecánica Estadística/1 - 2 unidades.md",
     "pl_Obsidian/Ecuaciones Diferenciales/Course I differential equations.md",
     "pl_Obsidian/2025-12-31.md",
-    "pl_Obsidian/2025-12-11.md",
-    "pl_Obsidian/2025-12-17.md",
-    "pl_Obsidian/2025-10-24.md",
-    "pl_Obsidian/2025-11-23.md",
     "Untitled.base",
     "Untitled.canvas",
     "pl_Obsidian/Pasted image 20230809232558.png",
