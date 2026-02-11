@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,7 +212,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9825844f0a69794",
+  "active": "8bb45acaf3d4b414",
   "lastOpenFiles": [
     "pl_Obsidian/obsidian_Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
     "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
