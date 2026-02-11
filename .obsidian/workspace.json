@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "c626d00d09299aa3",
@@ -123,9 +124,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pl_Obsidian/2025-11-23.md",
+                "file": "pl_Obsidian/Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -133,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-11-23"
+              "title": "Backlinks for TALLER 20 EJERCICIOS IA"
             }
           },
           {
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pl_Obsidian/2025-11-23.md",
+                "file": "pl_Obsidian/Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-11-23"
+              "title": "Outline of TALLER 20 EJERCICIOS IA"
             }
           },
           {
@@ -194,12 +195,12 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,7 +213,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9825844f0a69794",
+  "active": "383cec3caa61a372",
   "lastOpenFiles": [
     "pl_Obsidian/obsidian_Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
     "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
