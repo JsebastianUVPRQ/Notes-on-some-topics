@@ -194,50 +194,50 @@ $$
 
 ## **Problema 27**
 
-Sean \(\hat{A}\) y \(\hat{B}\) dos observables compatibles, es decir, \([\hat{A},\hat{B}]=0\). Esto implica que sus proyectores espectrales también conmutan. Denotemos por \(P_n\) el proyector sobre el autoespacio de \(\hat{A}\) con autovalor \(a_n\), y por \(Q_m\) el proyector sobre el autoespacio de \(\hat{B}\) con autovalor \(b_m\). Entonces \([P_n, Q_m]=0\) para todo \(n,m\).
+Sean $\hat{A}$ y $\hat{B}$ dos observables compatibles, es decir, $[\hat{A},\hat{B}]=0$. Esto implica que sus proyectores espectrales también conmutan. Denotemos por $P_n$ el proyector sobre el autoespacio de $\hat{A}$ con autovalor $a_n$, y por $Q_m$ el proyector sobre el autoespacio de $\hat{B}$ con autovalor $b_m$. Entonces $[P_n, Q_m]=0$ para todo $n,m$.
 
-La probabilidad de obtener \(a_n\) en la primera medición y luego \(b_m\) en la segunda, partiendo de un estado normalizado \(|\psi\rangle\), es
-\[
+La probabilidad de obtener $a_n$ en la primera medición y luego $b_m$ en la segunda, partiendo de un estado normalizado $|\psi\rangle$, es
+$$
 \mathcal{P}(a_n, b_m) = \|Q_m P_n |\psi\rangle\|^2 = \langle\psi|P_n Q_m P_n|\psi\rangle.
-\]
+$$
 Análogamente,
-\[
+$$
 \mathcal{P}(b_m, a_n) = \|P_n Q_m |\psi\rangle\|^2 = \langle\psi|Q_m P_n Q_m|\psi\rangle.
-\]
-Como \(P_n\) y \(Q_m\) conmutan, se tiene \(P_n Q_m = Q_m P_n\), y además son proyectores (\(P_n^2=P_n\), etc.). Entonces
-\[
+$$
+Como $P_n$ y $Q_m$ conmutan, se tiene $P_n Q_m = Q_m P_n$, y además son proyectores ($P_n^2=P_n$, etc.). Entonces
+$$
 \|Q_m P_n |\psi\rangle\|^2 = \langle\psi|P_n Q_m Q_m P_n|\psi\rangle = \langle\psi|P_n Q_m P_n|\psi\rangle,
-\]
-\[
+$$
+$$
 \|P_n Q_m |\psi\rangle\|^2 = \langle\psi|Q_m P_n P_n Q_m|\psi\rangle = \langle\psi|Q_m P_n Q_m|\psi\rangle = \langle\psi|P_n Q_m P_n|\psi\rangle,
-\]
+$$
 donde en el último paso se usó nuevamente la conmutación. Por lo tanto,
-\[
+$$
 \mathcal{P}(a_n, b_m) = \mathcal{P}(b_m, a_n).
-\]
+$$
 
-El estado final después de medir primero \(\hat{A}\) y luego \(\hat{B}\) es, salvo normalización,
-\[
+El estado final después de medir primero $\hat{A}$ y luego $\hat{B}$ es, salvo normalización,
+$$
 |\psi_{nm}\rangle \propto Q_m P_n |\psi\rangle.
-\]
+$$
 Si se invierte el orden, el estado final es
-\[
+$$
 |\psi_{mn}\rangle \propto P_n Q_m |\psi\rangle.
-\]
-Como \(P_n Q_m = Q_m P_n\), ambos son proporcionales al mismo vector, y al normalizarlos obtenemos el mismo estado (las fases pueden diferir, pero el estado físico es el mismo). Luego \(|\psi_{nm}\rangle = |\psi_{mn}\rangle\).
+$$
+Como $P_n Q_m = Q_m P_n$, ambos son proporcionales al mismo vector, y al normalizarlos obtenemos el mismo estado (las fases pueden diferir, pero el estado físico es el mismo). Luego $|\psi_{nm}\rangle = |\psi_{mn}\rangle$.
 
 ---
 
 ## **Problema 28**
 
 #### (a) Hermiticidad
-Los operadores están dados en la base ortonormal \(\{|\varphi_1\rangle,|\varphi_2\rangle,|\varphi_3\rangle\}\).  
-\(\hat{H}_0 = \hbar\omega_0(|\varphi_1\rangle\langle\varphi_1| - |\varphi_2\rangle\langle\varphi_2| - |\varphi_3\rangle\langle\varphi_3|)\) es diagonal con coeficientes reales, por tanto \(\hat{H}_0^\dagger = \hat{H}_0\).  
-\(\hat{A} = a(|\varphi_1\rangle\langle\varphi_1| + |\varphi_2\rangle\langle\varphi_3| + |\varphi_3\rangle\langle\varphi_2|)\) con \(a\in\mathbb{R}\). Los términos \(|\varphi_2\rangle\langle\varphi_3|\) y \(|\varphi_3\rangle\langle\varphi_2|\) son conjugados entre sí, y \(|\varphi_1\rangle\langle\varphi_1|\) es autoadjunto. Luego \(\hat{A}^\dagger = \hat{A}\). Ambos son hermíticos.
+Los operadores están dados en la base ortonormal $\{|\varphi_1\rangle,|\varphi_2\rangle,|\varphi_3\rangle\}$.  
+$\hat{H}_0 = \hbar\omega_0(|\varphi_1\rangle\langle\varphi_1| - |\varphi_2\rangle\langle\varphi_2| - |\varphi_3\rangle\langle\varphi_3|)$ es diagonal con coeficientes reales, por tanto $\hat{H}_0^\dagger = \hat{H}_0$.  
+$\hat{A} = a(|\varphi_1\rangle\langle\varphi_1| + |\varphi_2\rangle\langle\varphi_3| + |\varphi_3\rangle\langle\varphi_2|)$ con $a\in\mathbb{R}$. Los términos $|\varphi_2\rangle\langle\varphi_3|$ y $|\varphi_3\rangle\langle\varphi_2|$ son conjugados entre sí, y $|\varphi_1\rangle\langle\varphi_1|$ es autoadjunto. Luego $\hat{A}^\dagger = \hat{A}$. Ambos son hermíticos.
 
 #### (b) Representación matricial
-En la base \(\{|\varphi_1\rangle,|\varphi_2\rangle,|\varphi_3\rangle\}\) (en ese orden):
-\[
+En la base $\{|\varphi_1\rangle,|\varphi_2\rangle,|\varphi_3\rangle\}$ (en ese orden):
+$$
 \hat{H}_0 = \begin{pmatrix}
 \hbar\omega_0 & 0 & 0 \\
 0 & -\hbar\omega_0 & 0 \\
@@ -248,41 +248,41 @@ a & 0 & 0 \\
 0 & 0 & a \\
 0 & a & 0
 \end{pmatrix}.
-\]
+$$
 
-#### (c) Autovalores y autovectores de \(\hat{H} = \hat{H}_0 + \hat{A}\)
+#### (c) Autovalores y autovectores de $\hat{H} = \hat{H}_0 + \hat{A}$
 Sumando:
-\[
+$$
 \hat{H} = \begin{pmatrix}
 \hbar\omega_0 + a & 0 & 0 \\
 0 & -\hbar\omega_0 & a \\
 0 & a & -\hbar\omega_0
 \end{pmatrix}.
-\]
-Es diagonal por bloques. El bloque \(1\times1\) da el autovalor \(E_1 = \hbar\omega_0 + a\) con autovector \(|\varphi_1\rangle\).  
-El bloque \(2\times2\):
-\[
+$$
+Es diagonal por bloques. El bloque $1\times1$ da el autovalor $E_1 = \hbar\omega_0 + a$ con autovector $|\varphi_1\rangle$.  
+El bloque $2\times2$:
+$$
 M = \begin{pmatrix}
 -\hbar\omega_0 & a \\
 a & -\hbar\omega_0
 \end{pmatrix}
-\]
-tiene autovalores \(\lambda = -\hbar\omega_0 \pm a\). Sus autovectores:
-- Para \(\lambda = -\hbar\omega_0 - a\): \((1,-1)\) en la base \(\{|\varphi_2\rangle,|\varphi_3\rangle\}\), es decir \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle - |\varphi_3\rangle)\).
-- Para \(\lambda = -\hbar\omega_0 + a\): \((1,1)\), es decir \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle + |\varphi_3\rangle)\).
+$$
+tiene autovalores $\lambda = -\hbar\omega_0 \pm a$. Sus autovectores:
+- Para $\lambda = -\hbar\omega_0 - a$: $(1,-1)$ en la base $\{|\varphi_2\rangle,|\varphi_3\rangle\}$, es decir $\frac{1}{\sqrt{2}}(|\varphi_2\rangle - |\varphi_3\rangle)$.
+- Para $\lambda = -\hbar\omega_0 + a$: $(1,1)$, es decir $\frac{1}{\sqrt{2}}(|\varphi_2\rangle + |\varphi_3\rangle)$.
 
-Por tanto, los autovalores y autovectores de \(\hat{H}\) son:
-\[
+Por tanto, los autovalores y autovectores de $\hat{H}$ son:
+$$
 \begin{aligned}
 E_1 &= \hbar\omega_0 + a, & |\psi_1\rangle &= |\varphi_1\rangle,\\
 E_2 &= -\hbar\omega_0 - a, & |\psi_2\rangle &= \frac{1}{\sqrt{2}}(|\varphi_2\rangle - |\varphi_3\rangle),\\
 E_3 &= -\hbar\omega_0 + a, & |\psi_3\rangle &= \frac{1}{\sqrt{2}}(|\varphi_2\rangle + |\varphi_3\rangle).
 \end{aligned}
-\]
+$$
 
 #### (d) Conmutación y base común
 Calculamos el conmutador. Con las matrices:
-\[
+$$
 \hat{H}_0\hat{A} = \begin{pmatrix}
 \hbar\omega_0 a & 0 & 0 \\
 0 & 0 & -\hbar\omega_0 a \\
@@ -293,75 +293,119 @@ a\hbar\omega_0 & 0 & 0 \\
 0 & 0 & -a\hbar\omega_0 \\
 0 & -a\hbar\omega_0 & 0
 \end{pmatrix},
-\]
-iguales, luego \([\hat{H}_0,\hat{A}]=0\).
+$$
+iguales, luego $[\hat{H}_0,\hat{A}]=0$.
 
-Buscamos una base de autovectores comunes. \(\hat{H}_0\) tiene autovalor \(\hbar\omega_0\) para \(|\varphi_1\rangle\) y autovalor \(-\hbar\omega_0\) para cualquier combinación de \(|\varphi_2\rangle,|\varphi_3\rangle\). \(\hat{A}\) tiene autovalores \(a\) (degenerado: \(|\varphi_1\rangle\) y \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)\)) y \(-a\) (no degenerado: \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)\)). Así, una base común es:
-\[
+Buscamos una base de autovectores comunes. $\hat{H}_0$ tiene autovalor $\hbar\omega_0$ para $|\varphi_1\rangle$ y autovalor $-\hbar\omega_0$ para cualquier combinación de $|\varphi_2\rangle,|\varphi_3\rangle$. $\hat{A}$ tiene autovalores $a$ (degenerado: $|\varphi_1\rangle$ y $\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)$) y $-a$ (no degenerado: $\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)$). Así, una base común es:
+$$
 \{ |\varphi_1\rangle,\; \frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle),\; \frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle) \}.
-\]
+$$
 Verificando:
-- \(|\varphi_1\rangle\): \(\hat{H}_0\) da \(\hbar\omega_0\), \(\hat{A}\) da \(a\).
-- \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)\): \(\hat{H}_0\) da \(-\hbar\omega_0\), \(\hat{A}\) da \(a\).
-- \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)\): \(\hat{H}_0\) da \(-\hbar\omega_0\), \(\hat{A}\) da \(-a\).
+- $|\varphi_1\rangle$: $\hat{H}_0$ da $\hbar\omega_0$, $\hat{A}$ da $a$.
+- $\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)$: $\hat{H}_0$ da $-\hbar\omega_0$, $\hat{A}$ da $a$.
+- $\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)$: $\hat{H}_0$ da $-\hbar\omega_0$, $\hat{A}$ da $-a$.
 
 #### (e) ¿Cuáles conjuntos forman un CCOC?
-Un conjunto de observables que conmutan forma un CCOC si sus autovalores conjuntos etiquetan unívocamente cada estado de la base (no hay degeneración residual).
+Un conjunto de observables que conmutan forma un CCOC, [[Conjunto Completo de Observables que Conmutan (CCOC)]], si sus autovalores conjuntos etiquetan unívocamente cada estado de la base (no hay degeneración residual).
 
-- \(\{\hat{H}_0\}\): tiene autovalor \(\hbar\omega_0\) (no degenerado) y \(-\hbar\omega_0\) (doble degeneración). No es CCOC.
-- \(\{\hat{A}\}\): tiene autovalor \(a\) (doble degeneración) y \(-a\) (no degenerado). No es CCOC.
-- \(\{\hat{H}_0,\hat{A}\}\): Los pares de autovalores son:
-  * \((\hbar\omega_0, a)\) → \(|\varphi_1\rangle\)
-  * \((-\hbar\omega_0, a)\) → \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)\)
-  * \((-\hbar\omega_0, -a)\) → \(\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)\)
-  Cada par corresponde a un único estado (salvo fase). Por tanto, \(\{\hat{H}_0,\hat{A}\}\) es un CCOC.
-- \(\{\hat{H}_0^2,\hat{A}\}\): \(\hat{H}_0^2 = (\hbar\omega_0)^2 \hat{I}\) es proporcional a la identidad, no aporta información. El conjunto equivale a \(\{\hat{A}\}\), que es degenerado. No es CCOC.
+- $\{\hat{H}_0\}$: tiene autovalor $\hbar\omega_0$ (no degenerado) y $-\hbar\omega_0$ (doble degeneración). No es CCOC.
+- $\{\hat{A}\}$: tiene autovalor $a$ (doble degeneración) y $-a$ (no degenerado). No es CCOC.
+- $\{\hat{H}_0,\hat{A}\}$: Los pares de autovalores son:
+  * $(\hbar\omega_0, a)$ → $|\varphi_1\rangle$
+  * $(-\hbar\omega_0, a)$ → $\frac{1}{\sqrt{2}}(|\varphi_2\rangle+|\varphi_3\rangle)$
+  * $(-\hbar\omega_0, -a)$ → $\frac{1}{\sqrt{2}}(|\varphi_2\rangle-|\varphi_3\rangle)$
+  Cada par corresponde a un único estado (salvo fase). Por tanto, $\{\hat{H}_0,\hat{A}\}$ es un CCOC.
+- $\{\hat{H}_0^2,\hat{A}\}$: $\hat{H}_0^2 = (\hbar\omega_0)^2 \hat{I}$ es proporcional a la identidad, no aporta información. El conjunto equivale a $\{\hat{A}\}$, que es degenerado. No es CCOC.
 
-Solo \(\{\hat{H}_0,\hat{A}\}\) forma un CCOC.
+Solo $\{\hat{H}_0,\hat{A}\}$ forma un CCOC.
 
 ## **Problema 29 — Operador paridad**
 
 #### (a) Hermiticidad y valores propios
 
-El operador de paridad \(\hat{\Pi}\) actúa sobre funciones de onda como \(\hat{\Pi}\psi(x) = \psi(-x)\). Para demostrar que es hermítico, consideramos el producto escalar en \(L^2(\mathbb{R})\):
+El operador de paridad $\hat{\Pi}$ actúa sobre funciones de onda como $\hat{\Pi}\psi(x) = \psi(-x)$. Para demostrar que es hermítico, consideramos el producto escalar en $L^2(\mathbb{R})$:
 
-\[
+$$
 \langle \hat{\Pi}\phi | \psi \rangle = \int_{-\infty}^{\infty} (\hat{\Pi}\phi)^*(x) \psi(x) \, dx = \int_{-\infty}^{\infty} \phi^*(-x) \psi(x) \, dx.
-\]
+$$
 
-Realizamos el cambio de variable \(y = -x\), de modo que \(x = -y\), \(dx = -dy\). Los límites de integración se invierten:
+Realizamos el cambio de variable $y = -x$, de modo que $x = -y$, $dx = -dy$. Los límites de integración se invierten:
 
-\[
+$$
 \int_{-\infty}^{\infty} \phi^*(-x) \psi(x) \, dx = \int_{\infty}^{-\infty} \phi^*(y) \psi(-y) (-dy) = \int_{-\infty}^{\infty} \phi^*(y) \psi(-y) \, dy.
-\]
+$$
 
-Esta última expresión es precisamente \(\langle \phi | \hat{\Pi}\psi \rangle\). Por lo tanto, \(\hat{\Pi}^\dagger = \hat{\Pi}\), es decir, es hermítico.
+Esta última expresión es precisamente $\langle \phi | \hat{\Pi}\psi \rangle$. Por lo tanto, $\hat{\Pi}^\dagger = \hat{\Pi}$, es decir, es hermítico.
 
-Para encontrar los valores propios, notamos que aplicar \(\hat{\Pi}\) dos veces devuelve la función original:
+Para encontrar los valores propios, notamos que aplicar $\hat{\Pi}$ dos veces devuelve la función original:
 
-\[
+$$
 \hat{\Pi}^2 \psi(x) = \hat{\Pi} \psi(-x) = \psi(x) \quad \Rightarrow \quad \hat{\Pi}^2 = \mathbb{I}.
-\]
+$$
 
-Si \(\lambda\) es un valor propio de \(\hat{\Pi}\), entonces \(\lambda^2 = 1\), de donde \(\lambda = \pm 1\). Estos son los únicos valores posibles, y son reales, como corresponde a un operador hermítico.
+Si $\lambda$ es un valor propio de $\hat{\Pi}$, entonces $\lambda^2 = 1$, de donde $\lambda = \pm 1$. Estos son los únicos valores posibles, y son reales, como corresponde a un operador hermítico.
 
 #### (b) Consecuencias de la conmutación con un hamiltoniano no degenerado
 
-Supongamos que \(\hat{\Pi}\) conmuta con el hamiltoniano \(\hat{H}\), es decir, \([\hat{H}, \hat{\Pi}] = 0\). Además, \(\hat{H}\) es no degenerado, lo que significa que cada autovalor de energía tiene un único autovector (salvo fase).
+Supongamos que $\hat{\Pi}$ conmuta con el hamiltoniano $\hat{H}$, es decir, $[\hat{H}, \hat{\Pi}] = 0$. Además, $\hat{H}$ es no degenerado, lo que significa que cada autovalor de energía tiene un único autovector (salvo fase).
 
-Sea \(\psi\) un autovector de \(\hat{H}\) con energía \(E\): \(\hat{H}\psi = E\psi\). Aplicando \(\hat{\Pi}\) a ambos lados y usando la conmutación:
+Sea $\psi$ un autovector de $\hat{H}$ con energía $E$: $\hat{H}\psi = E\psi$. Aplicando $\hat{\Pi}$ a ambos lados y usando la conmutación:
 
-\[
+$$
 \hat{H}(\hat{\Pi}\psi) = \hat{\Pi} \hat{H}\psi = E (\hat{\Pi}\psi).
-\]
+$$
 
-Por lo tanto, \(\hat{\Pi}\psi\) también es un autovector de \(\hat{H}\) con la misma energía \(E\). Dado que el espectro es no degenerado, \(\hat{\Pi}\psi\) debe ser proporcional a \(\psi\):
+Por lo tanto, $\hat{\Pi}\psi$ también es un autovector de $\hat{H}$ con la misma energía $E$. Dado que el espectro es no degenerado, $\hat{\Pi}\psi$ debe ser proporcional a $\psi$:
 
-\[
+$$
 \hat{\Pi}\psi = \lambda \psi, \quad \text{con } \lambda \in \mathbb{C}.
-\]
+$$
 
-Pero como \(\hat{\Pi}\) es hermítico y \(\lambda\) es un valor propio, ya sabemos que \(\lambda = \pm 1\). En consecuencia, toda autofunción de \(\hat{H}\) tiene paridad definida: es par (\(\lambda = 1\)) o impar (\(\lambda = -1\)). Así, las funciones propias de \(\hat{H}\) pertenecen a los subespacios propios de \(\hat{\Pi}\).
+Pero como $\hat{\Pi}$ es hermítico y $\lambda$ es un valor propio, ya sabemos que $\lambda = \pm 1$. En consecuencia, toda autofunción de $\hat{H}$ tiene paridad definida: es par ($\lambda = 1$) o impar ($\lambda = -1$). Así, las funciones propias de $\hat{H}$ pertenecen a los subespacios propios de $\hat{\Pi}$.
 
 ---
 
+### **Problema 30 — Pozo de potencial par**
+
+#### (a) Paridad de las funciones propias
+
+El potencial es par: $V(x)=V(-x)$. El operador de paridad $\hat{\Pi}$ definido por $\hat{\Pi}\psi(x)=\psi(-x)$ conmuta con el hamiltoniano $\hat{H}$, pues $\hat{H}$ depende de $x$ a través de $V(x)$ y del laplaciano, que es invariante ante $x\to -x$. Así, $[\hat{H},\hat{\Pi}]=0$.
+
+Sea $\psi(x)$ una autofunción de $\hat{H}$ con energía $E$ (estado ligado). Entonces $\hat{\Pi}\psi(x)=\psi(-x)$ también es autofunción con la misma energía. En una dimensión, los estados ligados de un potencial regular son no degenerados, por lo que $\psi(-x)$ debe ser proporcional a $\psi(x)$:
+$$
+\psi(-x) = \lambda \psi(x).
+$$
+Aplicando $\hat{\Pi}$ nuevamente,
+$$
+\psi(x) = \lambda \psi(-x) = \lambda^2 \psi(x),
+$$
+de donde $\lambda^2=1$ y, por tanto, $\lambda=\pm 1$. Así, $\psi$ es par ($\lambda=1$) o impar ($\lambda=-1$).
+
+#### (b) Existencia de al menos un estado ligado
+
+El pozo tiene profundidad $V_0 = \frac{\hbar^2 k_0^2}{2m}$ con $k_0 = \sqrt{2m V_0}/\hbar$, y ancho $L$ centrado en el origen. Para estados ligados ($E<0$), definimos
+$$
+k = \sqrt{\frac{2m(V_0-|E|)}{\hbar^2}}, \quad \kappa = \sqrt{\frac{2m|E|}{\hbar^2}},
+$$
+de modo que $k^2+\kappa^2 = k_0^2$.
+
+Buscamos soluciones pares (estado fundamental). En la región interior $|x|<L/2$, la función par es $\psi(x)=A\cos(kx)$; en el exterior $|x|>L/2$, $\psi(x)=B e^{-\kappa |x|}$. Las condiciones de continuidad de $\psi$ y su derivada en $x=L/2$ conducen a la ecuación
+$$
+k \tan\left(\frac{kL}{2}\right) = \kappa = \sqrt{k_0^2 - k^2}.
+$$
+Para $k=0$, el lado izquierdo es 0 y el derecho es $k_0>0$. Para $k\to k_0$, el lado derecho tiende a 0, mientras que el izquierdo crece sin límite cuando $kL/2\to \pi/2$ (si $k_0L/2 < \pi/2$ aún se alcanza un valor finito). En cualquier caso, la función $f(k)=k\tan(kL/2)$ es continua y creciente en $(0, \pi/L)$ (o hasta donde $kL/2<\pi/2$), y $g(k)=\sqrt{k_0^2-k^2}$ es decreciente de $k_0$ a 0. Por el teorema del valor intermedio, existe al menos un $k\in(0,k_0)$ que satisface la ecuación. Esto garantiza un estado ligado par, y por tanto existe al menos un estado ligado.
+
+#### (c) Estimación del número de estados ligados para $V_0 \gg \frac{\hbar^2}{mL^2}$
+
+En el límite de pozo profundo, $k_0 L \gg 1$. Los estados ligados se aproximan a los de un pozo infinito de ancho $L$, cuyos números de onda son $k_n = n\pi/L$ con $n=1,2,3,\ldots$ (los impares corresponden a funciones pares y los pares a impares). La condición de ligadura es $k_n < k_0$, es decir,
+$$
+\frac{n\pi}{L} < k_0 = \sqrt{\frac{2m V_0}{\hbar^2}} \quad \Rightarrow \quad n < \frac{L}{\pi}\sqrt{\frac{2m V_0}{\hbar^2}}.
+$$
+Por lo tanto, el número de estados ligados $N$ es aproximadamente el mayor entero menor que ese valor, es decir,
+$$
+N \approx \left\lfloor \frac{L}{\pi}\sqrt{\frac{2m V_0}{\hbar^2}} \right\rfloor.
+$$
+En el límite de gran profundidad, esto equivale a
+$$
+N \approx \frac{L}{\pi}\sqrt{\frac{2m V_0}{\hbar^2}} \quad \text{con un error de } \pm 1.
+$$
