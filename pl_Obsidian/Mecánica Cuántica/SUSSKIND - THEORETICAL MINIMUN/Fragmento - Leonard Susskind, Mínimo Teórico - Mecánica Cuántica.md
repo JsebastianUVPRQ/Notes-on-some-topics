@@ -49,7 +49,7 @@ El espín cuántico aislado es un ejemplo de la clase general de sistemas simple
 
 ### 1.3 Un Experimento
 
-Concretemos estas ideas, utilizando el ejemplo más simple que podamos encontrar. En la primera lección del Volumen I, comenzamos discutiendo un sistema determinista muy simple: una moneda que puede mostrar cara $(C)$ o cruz $(X)$. Podemos llamar a esto un sistema de dos estados, o un bit, con los dos estados siendo $C$ y $X$. Más formalmente, inventamos un "grado de libertad" llamado $\sigma$ que puede tomar dos valores, a saber $+1$ y $-1$.$l estado $C$ es reemplazado por
+Concretemos estas ideas, utilizando el ejemplo más simple que podamos encontrar. En la primera lección del Volumen I, comenzamos discutiendo un sistema determinista muy simple: una moneda que puede mostrar cara $(C)$ o cruz $(X)$. Podemos llamar a esto un sistema de dos estados, o un bit, con los dos estados siendo $C$ y $X$. Más formalmente, inventamos un "grado de libertad" llamado $\sigma$ que puede tomar dos valores, a saber $+1$ y $-1$. $l$ estado $C$ es reemplazado por
 
 $$\sigma = +1$$
 
@@ -59,9 +59,6 @@ $$\sigma = -1.$$
 
 Clásicamente, eso es todo lo que hay en el espacio de estados. El sistema está en el estado $\sigma = +1$ o $\sigma = -1$ y no hay
 
-===== Página 5 =====
-
-1.3. UN EXPERIMENTO
 
 nada intermedio. En mecánica cuántica, pensaremos en este sistema como un cúbit.
 
@@ -72,20 +69,9 @@ $$\sigma (n + 1) = \sigma (n). \quad (1.1)$$
 Revelemos una suposición oculta que descuidamos en el Volumen $I$. Un experimento implica más que solo un sistema a estudiar. También implica un aparato $\mathcal{A}$ para realizar mediciones y registrar los resultados de las mediciones. En el caso del sistema de dos estados, el aparato interactúa con el sistema (el espín) y registra el valor de $\sigma$. Piensa en el aparato como una caja negra $^{1}$ con una ventana que muestra el resultado de una medición. También hay una flecha de "este lado hacia arriba" en el aparato. La flecha hacia arriba es importante porque muestra cómo está orientado el aparato en el espacio, y su dirección afectará los resultados de nuestras mediciones. Comenzamos apuntándolo a lo largo del eje $z$ (Fig. 1.1). Inicialmente, no tenemos conocimiento de si $\sigma = +1$ o $\sigma = -1$. Nuestro propósito es hacer un experimento para averiguar el valor de $\sigma$.
 
 Antes de que el aparato interactúe con el espín, la ventana está en blanco (etiquetada con un signo de interrogación en nuestros diagramas). Después de que mide $\sigma$, la ventana muestra un $+1$ o un $-1$. Al
-
-===== Página 6 =====
-
-6 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
-
-Figura 1.1: (A) Espín y aparato libre de gatos antes de realizar ninguna medición. (B) Espín y aparato después de que se ha realizado una medición, dando como resultado $\sigma_{z} = +1$. El espín está ahora preparado en el estado $\sigma_{z} = +1$. Si el espín no es perturbado y el aparato mantiene la misma orientación, todas las mediciones subsiguientes darán el mismo resultado. Los ejes de coordenadas muestran nuestra convención para etiquetar las direcciones del espacio.
-
 mirar el aparato, determinamos el valor de $\sigma$. Todo ese proceso constituye un experimento muy simple diseñado para medir $\sigma$.
 
 Ahora que hemos medido $\sigma$, reiniciemos el aparato a neutral y, sin perturbar el espín, midamos $\sigma$ nuevamente. Asumiendo la ley simple de la Ec. 1.1, deberíamos obtener la misma respuesta que la primera vez. El resultado $\sigma = +1$ será
-
-===== Página 7 =====
-
-1.3. UN EXPERIMENTO
 
 seguido de $\sigma = +1$. Igualmente para $\sigma = -1$. Lo mismo será cierto para cualquier número de repeticiones. Esto es bueno porque nos permite confirmar el resultado de un experimento. También podemos decirlo de la siguiente manera: La primera interacción con el aparato $\mathcal{A}$ prepara el sistema en uno de los dos estados. Experimentos subsiguientes confirman ese estado. Hasta ahora, no hay diferencia entre la física clásica y la cuántica.
 
@@ -124,11 +110,6 @@ El experimento repetido escupe una serie aleatoria de unos positivos y unos nega
 que los números de eventos con $\sigma = +1$ y eventos con $\sigma = -1$ son estadísticamente iguales. En otras palabras, el valor promedio de $\sigma$ es cero. En lugar del resultado clásico (a saber, que la componente de $\sigma$ a lo largo del eje $x$ es cero), encontramos que el promedio de estas mediciones repetidas es cero.
 
  1.4: El aparato rotado un ángulo arbitrario dentro del plano $x - z$. El resultado promedio de la medición es $\hat{n} \cdot \hat{m}$.  hagamos todo de nuevo, pero en lugar de rotar $\mathcal{A}$ para que se sitúe en el eje $x$, rotémoslo a una dirección arbitraria a lo largo del vector unitario $^2\hat{n}$. Clásicamente, si $\sigma$ fuera un vector, esperaríamos que el resultado del experimento fuera la componente de $\sigma$ a lo largo del eje $\hat{n}$. Si $\hat{n}$ forma un ángulo $\theta$
-
-===== Página 11 =====
-
-1.3. UN EXPERIMENTO
-
 con respecto a $z$, la respuesta clásica sería $\sigma = \cos \theta$. Pero como habrás adivinado, cada vez que hacemos el experimento obtenemos $\sigma = +1$ o $\sigma = -1$. Sin embargo, el resultado está estadísticamente sesgado de modo que el valor promedio es $\cos \theta$.
 
 La situación es, por supuesto, más general. No tuvimos que comenzar con $\mathcal{A}$ orientado a lo largo de $z$. Elige cualquier dirección $\hat{m}$ y comienza con la flecha hacia arriba apuntando a lo largo de $\hat{m}$. Prepara un espín para que el aparato lea $+1$. Luego, sin perturbar el espín, rota el aparato a la dirección $\hat{n}$, como se muestra en la Fig. 1.4. Un nuevo experimento sobre el mismo espín dará resultados aleatorios $\pm 1$, pero con un valor promedio igual al coseno del ángulo entre $\hat{n}$ y $\hat{m}$. En otras palabras, el promedio será $\hat{n} \cdot \hat{m}$.
@@ -138,10 +119,6 @@ La notación mecanocuántica para el promedio estadístico de una cantidad $Q$ e
 $$\langle \sigma \rangle = \hat{n}\cdot \hat{m}.$$
 
 Lo que estamos aprendiendo es que los sistemas mecánico-cuánticos no son deterministas —los resultados de los experimentos pueden ser estadísticamente aleatorios— pero si repetimos un experimento muchas veces, las cantidades promedio pueden seguir las expectativas de la física clásica, al menos hasta cierto punto.
-
-===== Página 12 =====
-
-1.4 Los Experimentos Nunca Son Suaves
 
 Cada experimento involucra un sistema externo —un aparato— que debe interactuar con el sistema para registrar un resultado. En ese sentido, cada experimento es invasivo. Esto es cierto tanto en la física clásica como en la cuántica, pero solo la física cuántica le da gran importancia a esto. ¿Por qué es así? Clásicamente, un aparato de medición ideal tiene un efecto insignificantemente pequeño sobre el sistema que está midiendo. Los experimentos clásicos pueden ser arbitrariamente suaves y aun así registrar los resultados del experimento de manera precisa y reproducible. Por ejemplo, la dirección de una flecha se puede determinar reflejando luz en la flecha y enfocándola para formar una imagen. Si bien es cierto que la luz debe tener una longitud de onda lo suficientemente pequeña para formar una imagen, no hay nada en la física clásica que impida que la imagen se haga con luz arbitrariamente débil. En otras palabras, la luz puede tener un contenido de energía arbitrariamente pequeño.
 
@@ -158,12 +135,7 @@ Esto debería ser evidente en los ejemplos que involucran a $\mathcal{A}$ y $\si
 El espacio de estados de un sistema clásico es un conjunto matemático. Si el sistema es una moneda, el espacio de estados es un conjunto de dos elementos, $C$ y $X$. Usando notación de conjuntos, escribiríamos $\{C, X\}$. Si el sistema es un dado de seis caras, el espacio de estados tiene seis elementos etiquetados $\{1, 2, 3, 4, 5, 6\}$. La lógica de la teoría de conjuntos se llama lógica booleana. La lógica booleana es solo una versión formalizada de la lógica clásica familiar de proposiciones.
 
 Una idea fundamental en la lógica booleana es la noción de un valor de verdad. El valor de verdad de una proposición es verdadero o falso. No se permite nada intermedio. El concepto relacionado en la teoría de conjuntos es un subconjunto. En términos generales, una proposición es verdadera para todos los elementos en su subconjunto correspondiente y falsa para todos los elementos que no están en este subconjunto. Por ejemplo,
-
-===== Página 14 =====
-
-14 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
-
-si el conjunto representa los estados posibles de un dado, se puede considerar la proposición
+representa los estados posibles de un dado, se puede considerar la proposición
 
 A: El dado muestra una cara con número impar.
 

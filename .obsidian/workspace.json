@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
+                "file": "pl_Obsidian/Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica"
+              "title": "Outline of TALLER 20 EJERCICIOS IA"
             }
           },
           {
@@ -214,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,13 +227,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eba84972f21b2739",
+  "active": "c9825844f0a69794",
   "lastOpenFiles": [
-    "Pasted image 20260212224248.png",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
+    "pl_Obsidian/Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
+    "Pasted image 20260212224248.png",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN",
     "Untitled 1.base",
-    "pl_Obsidian/Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
     "pl_Obsidian/obsidian_Electromagnetismo/TALLER 20 EJERCICIOS IA.md",
     "pl_Obsidian/Fisica fundamental 5/geometría algebraica.md",
     "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
