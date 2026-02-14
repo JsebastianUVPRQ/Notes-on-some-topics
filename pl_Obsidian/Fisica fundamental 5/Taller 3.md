@@ -4,7 +4,7 @@
 
 **Problem 10 — Cross-section for rigid spheres**
 
-Consider the scattering process of rigid spheres with radius $r_A $by scattering centers consisting of rigid spheres with radius $r_B $. Find the differential cross-section and the total cross-section in this process.
+Consider the scattering process of rigid spheres with radius $r_A$ by scattering centers consisting of rigid spheres with radius $r_B$. Find the differential cross-section and the total cross-section in this process.
 
 ---
 
