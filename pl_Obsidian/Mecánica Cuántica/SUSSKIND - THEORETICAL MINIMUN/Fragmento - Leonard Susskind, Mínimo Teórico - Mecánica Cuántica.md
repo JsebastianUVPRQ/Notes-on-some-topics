@@ -3425,6 +3425,7 @@ $$\alpha_u|u, b\rangle + \alpha_d|d, b\rangle \rightarrow \alpha_u|u, +1\rangle 
 Este estado final es un estado entrelazado. De hecho, si $\alpha_u = -\alpha_d$, es el estado singlete máximamente entrelazado. Efectivamente, se puede mirar el aparato e inmediatamente deducir cuál es el estado del espín: si el aparato lee $+1$, el espín está arriba, y si lee $-1$, el espín está abajo. Además, la probabilidad de que el aparato final muestre $+1$ es
 
 ===== Página 242 =====
+<!--SR:!2000-01-01,1,250!2026-02-15,1,230-->
 
 7.8. EL PROCESO DE MEDICIÓN 221
 

@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pl_Obsidian/Fisica fundamental 5/taller 6-9/Taller 6 - Fis Fund V.md",
+                "file": "pl_Obsidian/Fisica fundamental 5/Flashcards Fisica Fundamental 5 V Physics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taller 6 - Fis Fund V"
+              "title": "Flashcards Fisica Fundamental 5 V Physics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LEON",
+                "query": "tag:#flashcards  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
+                "file": "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notas Nielsen - Chuang"
+              "title": "Outline of Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica"
             }
           },
           {
@@ -208,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,12 +224,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f8ef17505dc6b4c7",
+  "active": "eba84972f21b2739",
   "lastOpenFiles": [
-    "pl_Obsidian/Ejercicios de Quantum Physics II (8.05) – Traducidos al español.md",
-    "pl_Obsidian/Fisica fundamental 5/taller 6-9/Taller 6 - Fis Fund V.md",
-    "pl_Obsidian/Fisica fundamental 5/Proyectores.md",
+    "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
+    "pl_Obsidian/Fisica fundamental 5/Flashcards Fisica Fundamental 5 V Physics.md",
+    "Untitled 2.base",
+    "pl_Obsidian/Fisica fundamental 5/taller 6-9/Taller 6 - Fis Fund V.md",
+    "pl_Obsidian/Ejercicios de Quantum Physics II (8.05) – Traducidos al español.md",
+    "pl_Obsidian/Fisica fundamental 5/Proyectores.md",
     "pl_Obsidian/Fisica fundamental 5/Conjunto Completo de Observables que Conmutan (CCOC).md",
     "pl_Obsidian/Fisica fundamental 5/taller 6-9/preguntas 6, 7, 8 y 9.md",
     "pl_Obsidian/2025-12-31.md",
@@ -247,9 +252,6 @@
     "pl_Obsidian/2025-12-17.md",
     "pl_Obsidian/2025-10-24.md",
     "pl_Obsidian/2025-12-15.md",
-    "pl_Obsidian/2025-12-11.md",
-    "pl_Obsidian/2025-10-09.md",
-    "pl_Obsidian/2025-10-15.md",
     "Pasted image 20260212224248.png",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN",
     "Untitled 1.base",
@@ -265,7 +267,6 @@
     "pl_Obsidian/SQL-DS-ML/PostgreSQL/desktop.ini",
     "pl_Obsidian/SQL-DS-ML/Data fundamentals/desktop.ini",
     "pl_Obsidian/SQL-DS-ML/Azure SQL/desktop.ini",
-    "pl_Obsidian/Python/streamlit - planetas - web app/desktop.ini",
     "pl_Obsidian/bcf80f47-0874-482c-872a-ae58829a6db6.png",
     "pl_Obsidian/Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg"
   ]
