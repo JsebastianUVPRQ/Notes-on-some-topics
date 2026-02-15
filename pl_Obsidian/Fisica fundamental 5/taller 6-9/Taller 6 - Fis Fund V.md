@@ -9,7 +9,7 @@ This problem demonstrates a powerful alternative to the usual position-space met
 $$
 \tilde{f}(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} dx \, e^{-\frac{i}{\hbar} px} f(x)
 $$
-For the potential $ V(x) = -g\delta(x) $, we compute its Fourier transform:
+For the potential $V(x) = -g\delta(x)$, we compute its Fourier transform:
 $$
 V(p) = \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} dx \, e^{-\frac{i}{\hbar} px} (-g\delta(x))
 $$
@@ -17,13 +17,13 @@ Using the sifting property of the delta function, $\int_{-\infty}^{\infty} f(x)\
 $$
 V(p) = -\frac{g}{\sqrt{2\pi\hbar}} e^{0} = -\frac{g}{\sqrt{2\pi\hbar}}
 $$
-So, $ V(p) $ is a constant in momentum space. This is a key simplification: a Dirac delta in position becomes a constant in momentum .
+So, $V(p)$ is a constant in momentum space. This is a key simplification: a Dirac delta in position becomes a constant in momentum .
 
 **2. Substitute into the momentum-space Schrödinger equation.** The given equation is:
 $$
 \frac{p^2}{2\mu} \psi(p) + \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} dp' \, V(p-p') \psi(p') = E \psi(p)
 $$
-Notice there's a slight mismatch: the problem statement has $V(p') - p$ which seems like a typo. From the context of a convolution, it should be $V(p-p')$. We'll proceed with the correct form. Substituting $ V(p-p') = -\frac{g}{\sqrt{2\pi\hbar}} $:
+Notice there's a slight mismatch: the problem statement has $V(p') - p$ which seems like a typo. From the context of a convolution, it should be $V(p-p')$. We'll proceed with the correct form. Substituting $V(p-p') = -\frac{g}{\sqrt{2\pi\hbar}}$:
 $$
 \frac{p^2}{2\mu} \psi(p) + \frac{1}{\sqrt{2\pi\hbar}} \int_{-\infty}^{\infty} dp' \left( -\frac{g}{\sqrt{2\pi\hbar}} \right) \psi(p') = E \psi(p)
 $$
@@ -62,8 +62,8 @@ C = N \cdot \frac{\pi}{p_0}
 $$
 
 **2. Solve for $p_0$.** We have two expressions for $N$:
-- From the form of the solution: $ N = \frac{g \mu C}{\pi\hbar} $
-- From the integral condition: $ N = \frac{C p_0}{\pi} $
+- From the form of the solution: $N = \frac{g \mu C}{\pi\hbar}$
+- From the integral condition: $N = \frac{C p_0}{\pi}$
 
 Equate these two expressions for $N$:
 $$
