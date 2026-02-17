@@ -2,7 +2,7 @@ Resuelve PASO-A-PASO explicando los prerrequisitos, conceptos necesarios, tus ar
 
 ---
 
-Problema 19: Pozo Cuadrado Infinito
+## Problema 19: Pozo Cuadrado Infinito
 
 **Prerrequisitos y Conceptos:**
 
@@ -148,7 +148,7 @@ Es una parábola invertida (forma de $x(L-x)$) que oscila entre positiva y negat
 
 ---
 
-Problema 20: Potencial Delta de Dirac
+## Problema 20: Potencial Delta de Dirac
 
 **Prerrequisitos:**
 
@@ -319,7 +319,7 @@ A continuación, presento la solución rigurosa, paso a paso, utilizando el form
 
 ---
 
-### **Solución Problema 21: Potencial de Paso (Reflexión Cuántica)**
+## **Solución Problema 21: Potencial de Paso (Reflexión Cuántica)**
 
 El potencial es un escalón que cae hacia la izquierda:
 
@@ -506,7 +506,7 @@ $$ R = \frac{k - q}{k + q} \approx \frac{k - k}{2k} = 0 $$
 
 ---
 
-### **Solución Problema 22: Efecto Túnel en Barrera**
+## **Solución Problema 22: Efecto Túnel en Barrera**
 
 ![quantum barrier tunneling, generada por IA](https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS96ian3kYy_tOg9jiSTk6g8Akol6XOdFSK0q_ZbGPD36U3pwSOzl-0BsAZKuLRpsNBusnCO-deNN8K6HRMlZ6JL6ts1GTeqIaSpTfifGo1ZVt2yno)
 
