@@ -562,7 +562,6 @@ $A = UJ = KU, \quad (2.79)$
 
 donde los operadores positivos únicos $J$ y $K$ que satisfacen estas ecuaciones están definidos por $J\equiv \sqrt{A^{\dagger}A}$ y $K\equiv \sqrt{A A^{\dagger}}$. Además, si $A$ es invertible, entonces $U$ es único.
 
-===== Página 19 =====
 
 Llamamos a la expresión $A = UJ$ la descomposición polar izquierda de $A$, y a $A = KU$ la descomposición polar derecha de $A$. La mayoría de las veces, omitiremos la nomenclatura 'derecha' o 'izquierda', y usaremos el término 'descomposición polar' para ambas expresiones, indicando el contexto cuál se quiere decir.
 
