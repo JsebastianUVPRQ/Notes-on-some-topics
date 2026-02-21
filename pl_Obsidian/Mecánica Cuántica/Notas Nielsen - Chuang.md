@@ -591,3 +591,206 @@ Ejercicio 2.49: Expresa la descomposición polar de una matriz normal en la repr
 
 Ejercicio 2.50: Encuentra las descomposiciones polares izquierda y derecha de la matriz
 
+---
+---
+# Soluciones 
+
+Aquí tienes las soluciones detalladas, paso a paso y utilizando el formalismo del álgebra lineal avanzada (notación de Dirac y descomposición espectral cuando es pertinente), basadas en los teoremas proporcionados.
+
+---
+
+### Ejercicio 2.48: Casos Especiales de Descomposición Polar
+
+**Objetivo:** Encontrar $U$ y $J$ (para la izquierda $A=UJ$) en casos específicos. Según el Teorema 2.3, $J \equiv \sqrt{A^\dagger A}$.
+
+#### 1. Descomposición de una Matriz Positiva $P$
+
+Sea $A = P$, donde $P$ es un operador positivo (por definición, hermítico $P=P^\dagger$ y con valores propios no negativos).
+
+- **Paso 1: Calcular $J$.**
+    
+    Utilizamos la definición dada:
+    
+    $$J = \sqrt{A^\dagger A} = \sqrt{P^\dagger P}$$
+    
+    Como $P$ es hermítica, $P^\dagger = P$, entonces:
+    
+    $$J = \sqrt{P^2}$$
+    
+    Dado que $P$ es positivo, la raíz cuadrada única positiva de $P^2$ es simplemente $P$.
+    
+    $$\Rightarrow J = P$$
+    
+- **Paso 2: Determinar $U$.**
+    
+    Sustituimos en la ecuación $A = UJ$:
+    
+    $$P = U P$$
+    
+    Si $P$ es invertible, multiplicamos por $P^{-1}$ por la derecha: $I = U$.
+    
+    Si $P$ no es invertible, $U$ puede ser cualquier operador que actúe como la identidad en el rango de $P$. La elección canónica más simple es la identidad.
+    
+    $$\Rightarrow U = I$$
+    
+- **Resultado:** $P = I \cdot P$ (donde $U=I, J=P$).
+    
+
+#### 2. Descomposición de una Matriz Unitaria $V$
+
+Sea $A = V$, donde $V$ es unitaria ($V^\dagger V = I$).
+
+- **Paso 1: Calcular $J$.**
+    
+    $$J = \sqrt{V^\dagger V} = \sqrt{I} = I$$
+    
+    El operador positivo asociado es la Identidad.
+    
+- **Paso 2: Determinar $U$.**
+    
+    Sustituimos en $A = UJ$:
+    
+    $$V = U \cdot I \implies U = V$$
+    
+- **Resultado:** $V = V \cdot I$ (donde la parte unitaria es la misma matriz y la parte positiva es la identidad).
+    
+
+#### 3. Descomposición de una Matriz Hermítica $H$
+
+Sea $A = H$, donde $H$ es hermítica ($H = H^\dagger$). Nota: $H$ puede tener valores propios negativos.
+
+- **Paso 1: Descomposición Espectral de $H$.**
+    
+    $$H = \sum_k \lambda_k |k\rangle\langle k|$$
+    
+    Donde $\lambda_k \in \mathbb{R}$ son los valores propios y $|k\rangle$ los vectores propios ortonormales.
+    
+- **Paso 2: Calcular $J = \sqrt{H^\dagger H}$.**
+    
+    $$H^\dagger H = H^2 = \sum_k \lambda_k^2 |k\rangle\langle k|$$
+    
+    Tomando la raíz cuadrada positiva:
+    
+    $$J = \sqrt{H^2} = \sum_k |\lambda_k| |k\rangle\langle k|$$
+    
+    Es decir, $J$ es la matriz que contiene los valores absolutos de los valores propios de $H$.
+    
+- **Paso 3: Determinar $U$.**
+    
+    Queremos $H = UJ$. Proyectando sobre la base propia:
+    
+    $$\lambda_k |k\rangle = U (|\lambda_k| |k\rangle) = |\lambda_k| U |k\rangle$$
+    
+    - Si $\lambda_k > 0$, entonces $|\lambda_k| = \lambda_k$, lo que implica $U|k\rangle = |k\rangle$.
+        
+    - Si $\lambda_k < 0$, entonces $|\lambda_k| = -\lambda_k$, lo que implica $U|k\rangle = -|k\rangle$.
+        
+    - Si $\lambda_k = 0$, $U$ es arbitrario en ese subespacio (podemos elegir 1).
+        
+    
+    Por lo tanto, $U$ es una matriz diagonal de signos:
+    
+    $$U = \sum_k \text{sgn}(\lambda_k) |k\rangle\langle k|$$
+    
+    Donde $\text{sgn}(x) = 1$ si $x \ge 0$ y $-1$ si $x < 0$.
+    
+
+---
+
+### Ejercicio 2.49: Descomposición Polar de una Matriz Normal
+
+**Contexto:** Una matriz $A$ es normal si $[A, A^\dagger] = 0$. Por el Teorema Espectral para matrices normales, $A$ puede ser diagonalizada por una matriz unitaria.
+
+**Representación de Producto Externo:**
+
+Sea la descomposición espectral de $A$:
+
+$$A = \sum_k \lambda_k |k\rangle\langle k|$$
+
+Donde $\lambda_k \in \mathbb{C}$ son los valores propios complejos.
+
+**Solución Paso a Paso:**
+
+1. **Forma Polar de los Valores Propios:**
+    
+    Expresamos cada valor propio complejo $\lambda_k$ en su forma polar escalar:
+    
+    $$\lambda_k = r_k e^{i\theta_k}$$
+    
+    Donde $r_k = |\lambda_k| \ge 0$ (magnitud) y $\theta_k \in [0, 2\pi)$ (fase).
+    
+2. **Construcción de $J$ (Parte Positiva):**
+    
+    $$J = \sqrt{A^\dagger A} = \sqrt{\left(\sum_k \bar{\lambda}_k |k\rangle\langle k|\right)\left(\sum_j \lambda_j |j\rangle\langle j|\right)}$$
+    
+    Por ortonormalidad $\langle k|j \rangle = \delta_{kj}$:
+    
+    $$J = \sqrt{\sum_k |\lambda_k|^2 |k\rangle\langle k|} = \sum_k |\lambda_k| |k\rangle\langle k| = \sum_k r_k |k\rangle\langle k|$$
+    
+3. **Construcción de $U$ (Parte Unitaria):**
+    
+    Necesitamos $A = UJ$. Observando la estructura de $A$:
+    
+    $$A = \sum_k (r_k e^{i\theta_k}) |k\rangle\langle k| = \left( \sum_k e^{i\theta_k} |k\rangle\langle k| \right) \left( \sum_k r_k |k\rangle\langle k| \right)$$
+    
+    Identificamos el primer factor como $U$:
+    
+    $$U = \sum_k e^{i\theta_k} |k\rangle\langle k|$$
+    
+
+**Resultado Final:**
+
+La descomposición polar de una matriz normal $A$ es:
+
+$$J = \sum_k |\lambda_k| |k\rangle\langle k|, \quad U = \sum_k e^{i\arg(\lambda_k)} |k\rangle\langle k|$$
+
+_(Nota: Para matrices normales, las descomposiciones izquierda y derecha son idénticas porque $U$ y $J$ conmutan)._
+
+---
+
+### Ejercicio 2.50: Descomposición Polar de una Matriz $A$
+
+**Nota Importante:** En tu solicitud, el texto del Ejercicio 2.50 se cortó y no incluiste la matriz específica. Sin embargo, para cumplir con la instrucción de resolverlo de forma "AVANZADA", presentaré el **Algoritmo General Riguroso** para encontrar dicha descomposición para cualquier matriz cuadrada invertible $A$.
+
+Supongamos que la matriz es $A$. Buscamos $A = UJ$ (izquierda) y $A = KU$ (derecha).
+
+#### Procedimiento Paso a Paso
+
+1. **Calcular $J$ (Matriz Positiva Derecha):**
+    
+    - Calcula la matriz hermítica: $M = A^\dagger A$.
+        
+    - Diagonaliza $M$ para encontrar sus valores propios ($\sigma_i^2$) y vectores propios ($|v_i\rangle$). Como $M$ es positiva definida, $\sigma_i^2 \ge 0$.
+        
+    - Calcula la raíz cuadrada tomando la raíz de los valores propios:
+        
+        $$J = \sqrt{A^\dagger A} = \sum_i \sigma_i |v_i\rangle\langle v_i|$$
+        
+        (Donde $\sigma_i$ son los **valores singulares** de $A$).
+        
+2. **Calcular $U$ (Matriz Unitaria):**
+    
+    - Del teorema $A = UJ$, si $A$ es invertible, entonces $J$ es invertible.
+        
+    - Despejamos $U$:
+        
+        $$U = A J^{-1}$$
+        
+    - Si $A$ no fuera invertible, se utiliza la Descomposición en Valores Singulares (SVD). Si $A = V D W^\dagger$, entonces $U = V W^\dagger$.
+        
+3. **Calcular $K$ (Matriz Positiva Izquierda):**
+    
+    - Podemos calcularla directamente como $K = \sqrt{A A^\dagger}$.
+        
+    - O, más sencillamente, usando la relación de similitud con $J$ a través de $U$:
+        
+        $$A = KU \quad \text{y} \quad A = UJ$$
+        
+        $$UJ = KU \implies K = U J U^\dagger$$
+        
+    - Esto significa que $K$ tiene los mismos valores propios que $J$ (los valores singulares de $A$), pero sus vectores propios están rotados por $U$.
+        
+
+---
+
+**¿Deseas que resuelva el Ejercicio 2.50 para una matriz específica (como la matriz de cizalla $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ o la matriz de Pauli)? Si me proporcionas la matriz, aplicaré este algoritmo numéricamente.**

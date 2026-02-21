@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 4 - Fis Fund.md",
+                "file": "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taller 4 - Fis Fund"
+              "title": "Notas Nielsen - Chuang"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,16 +224,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a098e3a3f19cff7a",
+  "active": "8bb45acaf3d4b414",
   "lastOpenFiles": [
-    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Preguntas Taller 4-5 Fis Fund 5 V.md",
-    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 3.md",
+    "pl_Obsidian/Fisica fundamental 5/Flashcards Fisica Fundamental 5 V Physics.md",
+    "pl_Obsidian/Analisis, algebra lineal, basics/Conway Complex functions I/compendium Conway analysis Functions  Complex variable.md",
+    "pl_Obsidian/2025-12-18.md",
+    "pl_Obsidian/2025-10-04.md",
     "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 5 - Fis Fund.md",
+    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 3.md",
+    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 1.md",
     "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 4 - Fis Fund.md",
+    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Preguntas Taller 4-5 Fis Fund 5 V.md",
     "pl_Obsidian/Mecánica Cuántica/Notas Nielsen - Chuang.md",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN/Fragmento - Leonard Susskind, Mínimo Teórico - Mecánica Cuántica.md",
-    "pl_Obsidian/Fisica fundamental 5/taller 1-5/Taller 1.md",
-    "pl_Obsidian/Fisica fundamental 5/Flashcards Fisica Fundamental 5 V Physics.md",
     "pl_Obsidian/Fisica fundamental 5/taller 1-5",
     "Untitled 2.base",
     "pl_Obsidian/Fisica fundamental 5/taller 6-9/Taller 6 - Fis Fund V.md",
@@ -246,14 +249,11 @@
     "pl_Obsidian/2025-12-21.md",
     "pl_Obsidian/2025-12-19.md",
     "pl_Obsidian/2025-11-29.md",
-    "pl_Obsidian/2025-12-18.md",
     "pl_Obsidian/2025-12-08.md",
     "pl_Obsidian/2025-10-25.md",
     "pl_Obsidian/2025-10-12.md",
     "pl_Obsidian/2025-10-23.md",
     "pl_Obsidian/2025-10-19.md",
-    "pl_Obsidian/2025-10-04.md",
-    "pl_Obsidian/2025-09-16.md",
     "Pasted image 20260212224248.png",
     "pl_Obsidian/Mecánica Cuántica/SUSSKIND - THEORETICAL MINIMUN",
     "Untitled 1.base",
