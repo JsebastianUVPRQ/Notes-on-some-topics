@@ -1,7 +1,5 @@
 
-
 ---
-
 ## Taller 04
 
 ### Problema 19 — Pozo cuadrado infinito
