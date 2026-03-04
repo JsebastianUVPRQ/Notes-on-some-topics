@@ -794,3 +794,26 @@ Supongamos que la matriz es $A$. Buscamos $A = UJ$ (izquierda) y $A = KU$ (derec
 ---
 
 **¿Deseas que resuelva el Ejercicio 2.50 para una matriz específica (como la matriz de cizalla $\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ o la matriz de Pauli)? Si me proporcionas la matriz, aplicaré este algoritmo numéricamente.**
+
+**Problema 3.1:** El siguiente problema esboza una construcción más elaborada que logra una cota superior de $O(\log^2(1/\epsilon) \log^c (\log(1/\epsilon)))$ en el número de compuertas requeridas para aproximar con error $\epsilon$ una compuerta objetivo deseada, para cualquier $c > 2$.
+
+1.  Supón que $\mathcal{N}$ es una $\delta$-red en $S_\epsilon$, para $0 < \delta < \epsilon \leq \epsilon_0$, con $\epsilon_0$ suficientemente pequeño. Demuestra que $[\mathcal{N}, \mathcal{N}]_{\text{gp}}$ es una $d\delta \epsilon$-red en $S_{\epsilon^2}$, para alguna constante $d$.
+
+2.  Supón que $\mathcal{G}_l$ es una $\delta$-red en $S_\epsilon$, para $0 < \delta < \epsilon \leq \epsilon_0$. Demuestra que $\mathcal{G}_{4^k l}$ es una $d^k \delta \epsilon^{2^k - 1}$-red en $S_{\epsilon^{2^k}}$.
+
+3.  Supón que definimos $k$ como
+    $$k \equiv \left\lceil \log \left( \frac{\log(1/\epsilon)}{\log(1/\epsilon_0)} \right) \right\rceil,$$
+    y supón que podemos encontrar un $l$ tal que $\mathcal{G}_l$ es una $\delta_0$-red para $S_{\epsilon_0}$, donde
+    $$d^k \delta_0 = \epsilon_0. \tag{A3.24}$$
+    Demuestra que $\mathcal{G}_{4^k l}$s una $\epsilon$-red para $S_{\epsilon_0^{2^k}}$.
+
+4.  Usa la versión ya demostrada del teorema de Solovay–Kitaev para mostrar que elegir $l = O(k^c)$ es suficiente en la parte anterior de este problema, donde $c = \log(5)/\log(3/2)$ es la constante que aparece en el exponente en la versión ya demostrada del teorema de Solovay–Kitaev.
+
+5.  Combina los resultados anteriores para probar que se pueden usar $O(\log^2(1/\epsilon) \log^c (\log(1/\epsilon)))$ compuertas para $\epsilon$-aproximar una compuerta arbitraria en $SU(2)$.
+
+6.  Demuestra que cualquier $c > 2$ puede aparecer en la conclusión del resultado anterior.
+
+# SOLUCION
+
+
+

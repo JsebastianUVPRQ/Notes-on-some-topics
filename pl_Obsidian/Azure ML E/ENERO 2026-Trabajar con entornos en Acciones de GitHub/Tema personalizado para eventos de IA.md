@@ -4,7 +4,7 @@ Un tema personalizado proporciona un punto de conexión definido por el usuario 
 
 Azure CLI
 
-```
+```C
 az eventgrid topic create \
     --name ai-pipeline-events \
     --resource-group ai-platform-rg \
@@ -16,7 +16,7 @@ Después de crear el tema, necesita credenciales para publicar eventos. Puede re
 
 Azure CLI
 
-```
+```C
 az eventgrid topic show \
     --name ai-pipeline-events \
     --resource-group ai-platform-rg \
@@ -40,7 +40,7 @@ En la estructura siguiente se muestra un evento CloudEvents para una finalizaci�
 
 JSON
 
-```
+```JSON
 {
     "specversion": "1.0",
     "type": "com.contoso.ai.InferenceCompleted",
@@ -78,7 +78,7 @@ El `EventGridPublisherClient` de la biblioteca `azure-eventgrid` maneja la s
 
 Python
 
-```
+```PYTHON
 # Code fragment - focus on creating and sending a CloudEvent
 from azure.core.credentials import AzureKeyCredential
 from azure.core.messaging import CloudEvent
@@ -110,7 +110,7 @@ Para las implementaciones de producción, use `DefaultAzureCredential` para au
 
 Python
 
-```
+```Python
 # Code fragment - focus on managed identity authentication
 from azure.identity import DefaultAzureCredential
 from azure.core.messaging import CloudEvent
@@ -124,9 +124,8 @@ client = EventGridPublisherClient(endpoint, credential)
 
 Puede publicar eventos en lotes para mejorar el rendimiento. Al publicar una lista de eventos, el SDK los envía en una única solicitud HTTP. Este enfoque reduce la sobrecarga de red para las aplicaciones de inteligencia artificial que emiten varios eventos durante una ejecución de procesamiento, como publicar eventos de transición de fase para cada paso de una canalización:
 
-Python
 
-```
+```Python
 # Code fragment - focus on batch publishing
 events = [
     CloudEvent(
@@ -156,7 +155,7 @@ Para un tema personalizado configurado con el esquema de entrada de CloudEvents,
 
 Bash
 
-```
+```BASH
 curl -X POST \
     -H "Content-Type: application/cloudevents+json; charset=utf-8" \
     -H "aeg-sas-key: $EVENTGRID_TOPIC_KEY" \

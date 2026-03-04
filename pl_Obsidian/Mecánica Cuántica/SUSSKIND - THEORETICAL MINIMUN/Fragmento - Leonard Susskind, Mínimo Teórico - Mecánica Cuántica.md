@@ -2,16 +2,11 @@
 
 # Sistemas y Experimentos
 
-Lenny y Art vagan hacia el local de Hilbert.
-Art: ¿Qué es esto, la Dimensión Desconocida? ¿O una especie de casa de diversión? No puedo orientarme.
-Lenny: Respira hondo. Te acostumbrarás.
-Art: ¿Hacia dónde está arriba?
-
 ### 1.1 La Mecánica Cuántica es Diferente
 
 ¿Qué tiene de especial la mecánica cuántica? ¿Por qué es tan difícil de entender? Sería fácil culpar a las "matemáticas duras", y puede que haya algo de verdad en esa idea. Pero eso no puede ser todo. Muchos no físicos son
 
-===== Página 2 =====
+   
 
 2 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -25,9 +20,7 @@ La mecánica cuántica trata el comportamiento de objetos tan pequeños que los 
 
 2.  **Estados y Mediciones.** En el mundo clásico, la relación entre el estado de un sistema y el resultado de una medición sobre ese sistema es muy directa. De hecho, es trivial. Las etiquetas que describen
 
-===== Página 3 =====
-
-1.2. ESPINES Y CÚBITS
+    ESPINES Y CÚBITS
 
 un estado (la posición y el momento de una partícula, por ejemplo) son las mismas etiquetas que caracterizan las mediciones de ese estado. Dicho de otra manera, se puede realizar un experimento para determinar el estado de un sistema. En el mundo cuántico, esto no es cierto. Los estados y las mediciones son dos cosas diferentes, y la relación entre ellos es sutil y no intuitiva.
 
@@ -39,9 +32,7 @@ El concepto de espín deriva de la física de partículas. Las partículas tiene
 
 Podemos y abstraeremos la idea de un espín, y olvidaremos que está adherido a un electrón. El espín cuántico es un sistema que puede estudiarse por derecho propio. De hecho, el espín cuántico, aislado del electrón que lo lleva
 
-===== Página 4 =====
-
-4 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
+   CCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
 a través del espacio, es a la vez el más simple y el más cuántico de los sistemas.
 
@@ -79,17 +70,13 @@ seguido de $\sigma = +1$. Igualmente para $\sigma = -1$. Lo mismo será cierto p
 
 Ahora hagamos algo nuevo. Después de preparar el espín midiéndolo con $\mathcal{A}$, volteamos el aparato boca abajo y luego medimos $\sigma$ nuevamente (Fig. 1.2). Lo que encontramos es que si preparamos originalmente $\sigma = +1$, el aparato invertido registra $\sigma = -1$. De manera similar, si preparamos originalmente $\sigma = -1$, el aparato invertido registra $\sigma = +1$. En otras palabras,
 
-===== Página 8 =====
-
-voltear el aparato intercambia $\sigma = +1$ y $\sigma = -1$. De estos resultados, podríamos concluir que $\sigma$ es un grado de libertad que está asociado con un sentido de dirección en el espacio. Por ejemplo, si $\sigma$ fuera un vector orientado de algún tipo, entonces sería natural esperar que voltear el aparato invirtiera la lectura. Una explicación simple es que el aparato mide la componente del vector a lo largo de un eje incrustado en el aparato. ¿Es esta explicación correcta para todas las configuraciones?
+   ear el aparato intercambia $\sigma = +1$ y $\sigma = -1$. De estos resultados, podríamos concluir que $\sigma$ es un grado de libertad que está asociado con un sentido de dirección en el espacio. Por ejemplo, si $\sigma$ fuera un vector orientado de algún tipo, entonces sería natural esperar que voltear el aparato invirtiera la lectura. Una explicación simple es que el aparato mide la componente del vector a lo largo de un eje incrustado en el aparato. ¿Es esta explicación correcta para todas las configuraciones?
 
 Si estamos convencidos de que el espín es un vector, naturalmente lo describiríamos por tres componentes: $\sigma_{z}$, $\sigma_{x}$ y $\sigma_{y}$. Cuando el aparato está vertical a lo largo del eje $z$, está posicionado para medir $\sigma_{z}$.
 
  Figura 1.3: El aparato rotado $90^{\circ}$. Una nueva medición da como resultado $\sigma_{z} = -1$ con un 50 por ciento de probabilidad
 
-===== Página 9 =====
-
-1.3. UN EXPERIMENTO
+    UN EXPERIMENTO
 
 y la física cuántica. La diferencia solo se hace aparente cuando rotamos el aparato un ángulo arbitrario, digamos $\frac{\pi}{2}$ radianes (90 grados). El aparato comienza en la posición vertical (con la flecha hacia arriba a lo largo del eje $z$). Se prepara un espín con $\sigma = +1$. Luego, se rota $\mathcal{A}$ de modo que la flecha hacia arriba apunte a lo largo del eje $x$ (Fig. 1.3), y entonces se realiza una medición de lo que presumiblemente es la componente $x$ del espín, $\sigma_{x}$.
 
@@ -103,9 +90,7 @@ Sin embargo, sí encontramos algo interesante. Supongamos que repetimos la opera
 
 El experimento repetido escupe una serie aleatoria de unos positivos y unos negativos. El determinismo se ha roto, pero de una manera particular. Si hacemos muchas repeticiones, encontraremos
 
-===== Página 10 =====
-
-10 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
+  1 ECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
 que los números de eventos con $\sigma = +1$ y eventos con $\sigma = -1$ son estadísticamente iguales. En otras palabras, el valor promedio de $\sigma$ es cero. En lugar del resultado clásico (a saber, que la componente de $\sigma$ a lo largo del eje $x$ es cero), encontramos que el promedio de estas mediciones repetidas es cero.
 
@@ -126,7 +111,7 @@ En mecánica cuántica, la situación es fundamentalmente diferente. Cualquier i
 
 Esto debería ser evidente en los ejemplos que involucran a $\mathcal{A}$ y $\sigma$. Supongamos que comenzamos con $\sigma = +1$ a lo largo del eje $z$. Si medimos $\sigma$ nuevamente con $\mathcal{A}$ orientado a lo largo de $z$, confirmaremos el valor anterior. Podemos hacer esto una y otra vez sin cambiar el resultado. Pero considera esta posibilidad: entre mediciones sucesivas a lo largo del eje $z$, giramos $\mathcal{A}$ a través de
 
-===== Página 13 =====
+  1 
 
 90 grados, hacemos una medición intermedia y lo giramos de vuelta a su dirección original. ¿Una medición subsiguiente a lo largo del eje $z$ confirmará la medición original? La respuesta es no. La medición intermedia a lo largo del eje $x$ dejará el espín en una configuración completamente aleatoria en lo que respecta a la siguiente medición. No hay manera de hacer la determinación intermedia del espín sin alterar completamente la medición final. Se podría decir que medir una componente del espín destruye la información sobre otra componente. De hecho, simplemente no se pueden conocer simultáneamente las componentes del espín a lo largo de dos ejes diferentes, al menos no de manera reproducible. Hay algo fundamentalmente diferente entre el estado de un sistema cuántico y el estado de un sistema clásico.
 
@@ -155,7 +140,7 @@ El subconjunto para esta proposición negada es $\{2,4,6\}$.
 
 Hay reglas para combinar proposiciones en proposiciones más complejas, siendo las más importantes **y**, **o**, y **no**. Acabamos de ver un ejemplo de **no**, que se aplica a un solo subconjunto o proposición. **Y** es directo y se aplica a un par de proposiciones. Significa que ambas son verdaderas. Aplicado a dos subconjuntos, **y** da los elementos comunes a ambos, es decir, la intersección de los dos subconjuntos. En el ejemplo del dado, la intersección de los subconjuntos $A$ y $B$ es el subconjunto de elementos que son a la vez impares y menores que 4. La Fig. 1.5 utiliza un diagrama de Venn para mostrar cómo funciona esto.
 
-===== Página 15 =====
+
 
 1.5. PROPOSICIONES
 
@@ -173,9 +158,7 @@ Albert Einstein descubrió América o Isaac Newton era ruso.
 
 El **o** inclusivo tiene una interpretación en teoría de conjuntos como la unión de dos conjuntos: denota el subconjunto que contiene cualquier elemento que esté en uno u otro (o en ambos) de los subconjuntos componentes. En el ejemplo del dado, (A o B) denota el subconjunto $\{1,2,3,5\}$.
 
-===== Página 16 =====
-
-16 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
+  1 ECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
 Figura 1.5: Un Ejemplo del modelo clásico de Espacio de Estados. El subconjunto $A$ representa la proposición "el dado muestra una cara con número impar". El subconjunto $B$: "El dado muestra un número $< 4$". El sombreado oscuro muestra la intersección de $A$ y $B$, que representa la proposición ( $A$ y $B$ ). Los números blancos son elementos de la unión de $A$ con $B$, representando la proposición ( $A$ o $B$ ).
 
@@ -185,9 +168,7 @@ Regresemos al sistema cuántico simple que consiste en un solo espín, y a las d
 
 A: La componente $z$ del espín es $+1$.
 
-===== Página 17 =====
-
-1.6. PROBANDO PROPOSICIONES CLÁSICAS
+  1  PROBANDO PROPOSICIONES CLÁSICAS
 
 B: La componente $x$ del espín es $+1$.
 
@@ -206,7 +187,7 @@ Considera cómo probaríamos la proposición (A o $B$). Si los espines se compor
 - Medir suavemente $\sigma_{z}$ y registrar el valor. Si es $+1$, hemos terminado: la proposición (A o $B$) es verdadera. Si $\sigma_{z}$ es $-1$, continuar con el siguiente paso.
 - Medir suavemente $\sigma_{x}$. Si es $+1$, entonces la proposición (A o $B$) es verdadera. Si no, esto significa que ni $\sigma_{z}$ ni $\sigma_{x}$ fueron iguales a $+1$, y (A o $B$) es falsa.
 
-===== Página 18 =====
+  1 
 
 18 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -223,7 +204,7 @@ Ahora llegamos al mundo cuántico que describí anteriormente. Imaginemos una si
 
 Comenzamos midiendo $\sigma_{z}$. Dado que el agente desconocido ha preparado las cosas, descubriremos que $\sigma_{z} = +1$. Es innecesario continuar: ( $A$ o $B$ ) es verdadera. Sin embargo, podríamos probar $\sigma_{x}$
 
-===== Página 19 =====
+  1 
 
 1.7. PROBANDO PROPOSICIONES CUÁNTICAS 19
 
@@ -235,7 +216,7 @@ Ahora estamos listos para probar la segunda mitad de la proposición ( $B$ o $A$
 
 Evidentemente, en este ejemplo, el **o** inclusivo no es simétrico. La verdad de ( $A$ o $B$ ) puede depender del orden en que confirmamos las dos proposiciones. Esto no es algo menor; significa no solo que las leyes de la física cuántica son diferentes de sus contrapartes clásicas, sino que los fundamentos mismos de la lógica son diferentes en la física cuántica también.
 
-===== Página 20 =====
+  2 
 
 20 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -249,9 +230,7 @@ Esa misma partícula tiene momento $p$.
 
 A partir de estas, podemos formar las dos proposiciones compuestas
 
-===== Página 21 =====
-
-1.8. INTERLUDIO: NÚMEROS COMPLEJOS
+  2  INTERLUDIO: NÚMEROS COMPLEJOS
 
 La partícula tiene posición $x$ y la partícula tiene momento $p$.
 
@@ -267,7 +246,7 @@ Un número complejo $z$ es la suma de un número real y un número imaginario. P
 
 $$z = x + iy,$$
 
-===== Página 22 =====
+  2 
 
 22 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -275,7 +254,7 @@ $$z = x + iy,$$
 
 donde $x$ e $y$ son reales y $i^2 = -1$. Los números complejos se pueden sumar, multiplicar y dividir mediante las reglas estándar de la aritmética. Se pueden visualizar como puntos en el plano complejo con coordenadas $x, y$. También se pueden representar en coordenadas polares:
 
-===== Página 23 =====
+  2 
 
 1.8. INTERLUDIO: NÚMEROS COMPLEJOS
 
@@ -299,7 +278,7 @@ $$z^{*}z = r^{2}.$$
 
 Por supuesto, es cierto que todo complejo conjugado es en sí mismo un número complejo, pero a menudo es útil pensar en $z$ y $z^{*}$ como pertenecientes a sistemas numéricos "duales" separados. Dual aquí significa que para cada $z$ hay un $z^{*}$ único y viceversa.
 
-===== Página 24 =====
+  2 
 
 24 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -315,7 +294,7 @@ Para un sistema clásico, el espacio de estados es un conjunto (el conjunto de e
 
 Antes de hablar sobre espacios vectoriales, necesito aclarar el término vector. Como sabes, usamos este término para indicar un
 
-===== Página 25 =====
+  2 
 
 1.9. INTERLUDIO: ESPACIOS VECTORIALES
 
@@ -329,7 +308,7 @@ En mecánica cuántica, un espacio vectorial está compuesto por elementos $|A\r
 
 $$|A\rangle + |B\rangle = |C\rangle.$$
 
-===== Página 26 =====
+  2 
 
 2.  La adición de vectores es conmutativa:
 
@@ -355,7 +334,7 @@ $$|zA\rangle = z|A\rangle = |B\rangle.$$
 
 $$z\{|A\rangle + |B\rangle\} = z|A\rangle + z|B\rangle$$ $$\{z + w\} |A\rangle = z|A\rangle + w|A\rangle.$$
 
-===== Página 27 =====
+  2 
 
 1.9. INTERLUDIO: ESPACIOS VECTORIALES 27
 
@@ -373,7 +352,7 @@ $$\left( \begin{array}{c}\alpha_{1}\\ \alpha_{2} \end{array} \right)$$
 
 e identificando esta "pila" con el vector ket $|A\rangle$. Los números complejos $\alpha$ son los componentes de $|A\rangle$. Puedes sumar dos vectores columna sumando sus componentes:
 
-===== Página 28 =====
+  2 
 
 28 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -393,7 +372,7 @@ Normalmente, no mezclamos vectores de diferente dimensionalidad.
 
 Como hemos visto, los números complejos tienen una versión dual: en forma de números complejos conjugados. Del mismo modo, un espacio vectorial complejo tiene una versión dual que es esencialmente el espacio vectorial complejo conjugado. Por cada vector ket $|A\rangle$, hay un vector "bra" en el espacio dual, denotado por $\langle A|$. ¿Por qué los extraños términos bra y ket? Pronto definiremos productos internos de bras y kets, usando expresiones como $\langle B|A\rangle$ para formar bra-kets o corchetes. Los productos internos son extremadamente
 
-===== Página 29 =====
+  2 
 
 1.9. INTERLUDIO: ESPACIOS VECTORIALES 29
 
@@ -419,7 +398,7 @@ $$\langle A|z^{*}.$$
 
 En el ejemplo concreto donde los kets se representan por vectores columna, los bras duales se representan por vectores fila,
 
-===== Página 30 =====
+  3 
 
 30 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -443,7 +422,7 @@ El resultado de esta operación es un número complejo. Los axiomas para los pro
 
 $$\langle C|\{|A\rangle + |B\rangle\} = \langle C|A\rangle + \langle C|B\rangle.$$
 
-===== Página 31 =====
+  3 
 
 1.9. INTERLUDIO: ESPACIOS VECTORIALES 31
 
@@ -467,7 +446,7 @@ $$= \beta_{1}^{*}\alpha_{1} + \beta_{2}^{*}\alpha_{2} + \beta_{3}^{*}\alpha_{3} 
 
 La regla para los productos internos es esencialmente la misma que para los productos escalares: suma los productos de los componentes correspondientes de los vectores cuyo producto interno se está calculando.
 
-===== Página 32 =====
+  3 
 
 32 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -491,7 +470,7 @@ Este es el análogo de decir que dos 3-vectores son ortogonales si su producto e
 
 Al trabajar con 3-vectores ordinarios, es extremadamente útil introducir un conjunto de tres vectores unitarios mutuamente ortogonales y usarlos como base para construir cualquier vector. Un ejemplo
 
-===== Página 33 =====
+  3 
 
 1.9. INTERLUDIO: ESPACIOS VECTORIALES 33
 
@@ -503,7 +482,7 @@ El mismo principio es cierto para los espacios vectoriales complejos. Se puede c
 
 Consideremos un espacio $N$-dimensional y una base ortonormal particular de vectores ket etiquetados $|i\rangle$. La etiqueta $i$ va desde 1 hasta $N$. Considera un vector $|A\rangle$, escrito como una suma de vectores
 
-===== Página 34 =====
+  3 
 
 34 LECCIÓN 1. SISTEMAS Y EXPERIMENTOS
 
@@ -545,7 +524,7 @@ Art: Podría ser. No creo que sigamos en California.
 
 En física clásica, conocer el estado de un sistema implica conocer todo lo necesario para predecir el futuro de ese sistema. Como hemos visto en la lección anterior, los sistemas cuánticos no son completamente predecibles. Evidentemente, los estados cuánticos tienen un significado diferente al de los estados clásicos. De manera muy aproximada, conocer un estado cuántico significa saber todo lo que se puede saber sobre cómo se preparó el sistema. En el capítulo anterior, hablamos sobre el uso de un aparato para preparar el estado de un espín. De hecho, asumimos implícitamente que
 
-===== Página 36 =====
+  3 
 
 36 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -561,7 +540,7 @@ No sé cuál será la respuesta definitiva a esta pregunta, o incluso si resulta
 
 En la práctica, lo que esto significa para el espín cuántico de la Lección 1 es que, cuando el aparato $\mathcal{A}$ actúa y nos dice que $\sigma_{z} = +1$ o $\sigma_{z} = -1$, no hay más que conocer, o
 
-===== Página 37 =====
+  3 
 
 2.2. REPRESENTANDO ESTADOS DE ESPÍN
 
@@ -577,7 +556,7 @@ Por otro lado, si el aparato está orientado a lo largo del eje $x$ y registra $
 
 La idea de que no hay variables ocultas tiene una representación matemática muy simple: el espacio de estados para un solo espín tiene solo dos dimensiones. Este punto merece énfasis:
 
-===== Página 38 =====
+  3 
 
 38 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -595,7 +574,7 @@ Estas ecuaciones son extremadamente abstractas, y no es en absoluto obvio cuál 
 
 - Dado que el espín ha sido preparado en el estado $|A\rangle$, y que el aparato está orientado a lo largo de $z$, la
 
-===== Página 39 =====
+  3 
 
 2.2. REPRESENTANDO ESTADOS DE ESPÍN 39
 
@@ -613,7 +592,7 @@ Otros dos puntos son importantes: Primero, nótese que $|u\rangle$ y $|d\rangle$
 
 $$\begin{array}{rcl}{\langle u|d\rangle} & = & {0}\\ {} & {} & {}\\ {\langle d|u\rangle} & = & {0.} \end{array} \quad (2.3)$$
 
-===== Página 40 =====
+  4 
 
 40 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -631,7 +610,7 @@ $$\langle A|A\rangle = 1.$$
 
 Este es un principio muy general de la mecánica cuántica que se extiende a todos los sistemas cuánticos: el estado de un sistema está representado por un vector unitario (normalizado) en un espacio vectorial de estados. Además, las magnitudes al cuadrado de los componentes del vector de estado, a lo largo de vectores base particulares, representan probabilidades para varios resultados experimentales.
 
-===== Página 41 =====
+  4 
 
 2.3. A LO LARGO DEL EJE X
 
@@ -648,7 +627,7 @@ A continuación, observemos el vector $|l\rangle$. Esto es lo que sabemos: cuand
 $$\langle r|l\rangle = 0$$
 $$\langle l|r\rangle = 0.$$
 
-===== Página 42 =====
+  4 
 
 42 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -666,7 +645,7 @@ Finalmente, esto nos lleva a $|i\rangle$ y $|o\rangle$, los vectores que represe
 
 $$\langle i|o\rangle = 0. \quad (2.7)$$
 
-===== Página 43 =====
+  4 
 
 2.4. A LO LARGO DEL EJE Y 43
 
@@ -680,7 +659,7 @@ En las dos primeras ecuaciones, $|o\rangle$ toma el papel de $|A\rangle$ de las 
 
 $$\begin{array}{rcl}{\langle o|r\rangle\langle r|o\rangle} & = & {\frac{1}{2}}\\ {} & {} & {}\\ {\langle o|l\rangle\langle l|o\rangle} & = & {\frac{1}{2}} \end{array} \quad (2.9)$$
 
-===== Página 44 =====
+  4 
 
 44 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -694,7 +673,7 @@ $$\begin{array}{rcl}{|i\rangle} & = & {\frac{1}{\sqrt{2}} |u\rangle + \frac{i}{\
 
 Es interesante que dos de los componentes en las Ecs. 2.11 sean imaginarios. Por supuesto, hemos dicho todo el tiempo que el espacio de estados es un espacio vectorial complejo, pero hasta ahora no hemos tenido que usar números complejos en nuestros cálculos. ¿Son los números complejos en las Ecs. 2.11 una conveniencia o una necesidad? Dado nuestro marco para los estados de espín, no hay manera de evitarlos. Es algo tedioso demostrar esto, pero los pasos son sencillos. El siguiente ejercicio te da una hoja de ruta. La necesidad de números complejos es una característica general de la mecánica cuántica, y veremos más ejemplos a medida que avancemos.
 
-===== Página 45 =====
+  4 
 
 2.5. CONTANDO PARÁMETROS 45
 
@@ -720,7 +699,7 @@ Si $\alpha^{*}\beta$ es puramente imaginario, entonces $\alpha$ y $\beta$ no pue
 
 Siempre es importante saber cuántos parámetros independientes se necesitan para caracterizar un sistema. Por ejemplo, las coordenadas generalizadas que usamos en el Volumen I (denominadas $q_{i}$) representaban cada una un grado de libertad independiente. Ese enfoque nos liberó de la difícil tarea de escribir ecuaciones explícitas para describir restricciones físicas. En la misma línea, nuestra próxima tarea es contar el número de estados físicamente distintos que hay para un espín. Lo haré de dos maneras, para mostrar que se obtiene la misma respuesta de cualquier forma.
 
-===== Página 46 =====
+  4 
 
 46 LECCIÓN 2. ESTADOS CUÁNTICOS
 
@@ -732,7 +711,7 @@ Como dije antes, eventualmente veremos que las propiedades físicas de un vector
 
 $$\alpha_{u}|u\rangle + \alpha_{d}|d\rangle$$
 
-===== Página 47 =====
+  4 
 
 2.6. REPRESENTANDO ESTADOS DE ESPÍN
 
@@ -748,7 +727,7 @@ $$\begin{array}{l}{|u\rangle = \left( \begin{array}{c}{1}\\ {0} \end{array} \rig
 
 Con estos vectores columna en mano, será fácil crear vectores columna para $|r\rangle$ y $|l\rangle$ usando las Ecs. 2.5 y 2.6, y para $|i\rangle$ y $|o\rangle$ usando las Ecs. 2.11. Haremos eso en la próxima lección, donde se necesitan estos resultados.
 
-===== Página 48 =====
+  4 
 
 2.7 Poniendo Todo Junto
 
@@ -758,7 +737,7 @@ Hemos cubierto mucho terreno en esta lección. Antes de continuar, hagamos un ba
 
 - Encontramos que se necesitan dos parámetros independientes para especificar un estado de espín, y luego elegimos arbitrariamente uno de los pares ortogonales, $|u\rangle$ y $|d\rangle$, como nuestros vectores base para representar todos los estados de espín —a pesar de que los dos números complejos en un vector de estado requieren cuatro números reales para especificarlos. ¿Cómo nos salimos con la nuestra? Fuimos lo suficientemente inteligentes para notar que estos cuatro números no son todos independientes.$^4$ La restricción de normalización (la probabilidad total debe ser igual a 1) elimina un parámetro independiente, y la "indiferencia de fase"
 
-===== Página 49 =====
+  4 
 
 2.7. PONIENDO TODO JUNTO
 
@@ -770,11 +749,11 @@ Hemos cubierto mucho terreno en esta lección. Antes de continuar, hagamos un ba
 
 Mientras lográbamos estos resultados concretos, tuvimos la oportunidad de ver algo de matemáticas de vectores de estado en acción y aprender algo sobre cómo estos objetos matemáticos corresponden a espines físicos. Aunque nos centraremos en el espín, los mismos conceptos y técnicas se aplican a otros sistemas cuánticos también. Por favor, tómate un poco de tiempo para asimilar el material que hemos cubierto hasta ahora antes de pasar a la siguiente lección. Como dije al principio, realmente valdrá la pena.
 
-===== Página 50 =====
+  5 
 
 1
 
-===== Página 51 =====
+  5 
 
 # Lección 3
 
@@ -792,7 +771,7 @@ Art: Hmm, supongo que ese gen no voló.
 
 No, no fuimos construidos para percibir fenómenos cuánticos; no de la misma manera que fuimos construidos para sentir cosas clásicas como la fuerza o la temperatura. Pero somos criaturas muy adaptables y hemos podido sustituir las matemáticas abstractas por
 
-===== Página 52 =====
+  5 
 
 52 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -808,7 +787,7 @@ Los estados en mecánica cuántica se describen matemáticamente como vectores e
 
 Los observables son las cosas que mides. Por ejemplo, podemos hacer mediciones directas de las coordenadas de una partícula; la energía, el momento o el momento angular de un sistema; o el campo eléctrico en un punto del espacio. Los observables también están asociados con un espacio vectorial, pero no son vectores de estado. Son las cosas que mides — $\sigma_{x}$ sería un ejemplo— y están representados por operadores lineales. A John Wheeler le gustaba llamar a tales objetos matemáticos máquinas. Imaginaba una máquina con dos puertos: una entrada
 
-===== Página 53 =====
+  5 
 
 3.1. INTERLUDIO: OPERADORES LINEALES
 
@@ -830,7 +809,7 @@ $$\mathbf{M}\{|A\rangle + |B\rangle\} = \mathbf{M}|A\rangle + \mathbf{M}|B\rangl
 
 Para dar una representación concreta de los operadores lineales, volvemos a la representación de vectores fila y columna para bras
 
-===== Página 54 =====
+  5 
 
 54 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -854,7 +833,7 @@ $$\sum_{j}\langle k|\mathbf{M}|j\rangle \alpha_{j} = \sum_{j}\beta_{j}\langle k|
 
 Para dar sentido a este resultado, recuerda que $\langle k|j\rangle$ es cero si $j$ y $k$ no son iguales, y 1 si son iguales. Eso significa que la suma en el lado derecho colapsa a un solo término, $\beta_{k}$.
 
-===== Página 55 =====
+  5 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 55
 
@@ -872,7 +851,7 @@ Podemos escribir esto en forma matricial también. La Ec. 3.3 se convierte en
 
 $$\left( \begin{array}{ccc}m_{11} & m_{12} & m_{13}\\ m_{21} & m_{22} & m_{23}\\ m_{31} & m_{32} & m_{33} \end{array} \right)\left( \begin{array}{c}\alpha_{1}\\ \alpha_{2}\\ \alpha_{3} \end{array} \right) = \left( \begin{array}{c}\beta_{1}\\ \beta_{2}\\ \beta_{3} \end{array} \right). \quad (3.4)$$
 
-===== Página 56 =====
+  5 
 
 56 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -892,7 +871,7 @@ Hay tanto ventajas como desventajas en representar vectores y operadores lineale
 
 En general, cuando un operador lineal actúa sobre un vector, cambiará la dirección del vector. Esto significa que lo que
 
-===== Página 57 =====
+  5 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 57
 
@@ -912,7 +891,7 @@ simplemente se multiplica por 3 cuando $\mathbf{M}$ actúa sobre él. Pruébalo.
 
 $$\left( \begin{array}{c}{0}\\ {1} \end{array} \right).$$
 
-===== Página 58 =====
+  5 
 
 58 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -938,7 +917,7 @@ $$\langle B|\mathbf{M}.$$
 
 Mantendré la discusión breve diciéndote la regla para este tipo de multiplicación. Es más simple en forma de componentes.
 
-===== Página 59 =====
+  5 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 59
 
@@ -960,7 +939,7 @@ $$\sum_{i}m_{ji}\alpha_{i} = \beta_{j},$$
 
 y formemos su complejo conjugado,
 
-===== Página 60 =====
+  6 
 
 60 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -979,7 +958,7 @@ Cuando cambiamos una ecuación de la forma ket a la forma bra, debemos modificar
 
 En notación matricial, intercambiar filas y columnas se llama transponer y se indica con un superíndice $T$. Por lo tanto, la transpuesta de la matriz $\mathbf{M}$ es
 
-===== Página 61 =====
+  6 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 61
 
@@ -1005,7 +984,7 @@ $$\langle A|\mathbf{M}^{\dagger} = \langle B|.$$
 
 Los números reales juegan un papel especial en la física. Los resultados de cualquier medición son números reales. A veces, medimos dos cantidades, las juntamos con una $i$ (formando un
 
-===== Página 62 =====
+  6 
 
 62 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1021,7 +1000,7 @@ En otras palabras, si volteas una matriz hermítica sobre la diagonal principal 
 
 Supongamos que $\lambda$ y $|\lambda \rangle$ representan un valor propio y el vector propio correspondiente del operador hermítico $\mathbf{L}$. En símbolos,
 
-===== Página 63 =====
+  6 
 
 3.1. INTERLUDIO: OPERADORES LINEALES
 
@@ -1049,7 +1028,7 @@ $$\langle \lambda |\mathbf{L}|\lambda \rangle = \lambda^{*}\langle \lambda |\lam
 
 Obviamente, para que ambas ecuaciones sean verdaderas, $\lambda$ debe ser igual a $\lambda^{*}$. En otras palabras, $\lambda$ (y por lo tanto cualquier valor propio de un operador hermítico) debe ser real.
 
-===== Página 64 =====
+  6 
 
 64 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1065,7 +1044,7 @@ Llegamos ahora al teorema matemático básico —lo llamaré el teorema fundamen
 
 Se puede resumir el teorema fundamental de la siguiente manera: Los vectores propios de un operador hermítico forman una base ortonormal. Demostrémoslo, comenzando con el segundo punto.
 
-===== Página 65 =====
+  6 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 65
 
@@ -1087,7 +1066,7 @@ $$(\lambda_{1} - \lambda_{2})\langle \lambda_{1}|\lambda_{2}\rangle = 0.$$
 
 Por lo tanto, si $\lambda_{1}$ y $\lambda_{2}$ son diferentes, el producto interno $\langle \lambda_{1}|\lambda_{2}\rangle$ debe ser cero. En otras palabras, los dos vectores propios deben ser ortogonales.
 
-===== Página 66 =====
+  6 
 
 66 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1113,7 +1092,7 @@ $$\mathbf{L}|A\rangle = \lambda (\alpha |\lambda_{1}\rangle + \beta |\lambda_{2}
 
 Esta ecuación demuestra que cualquier combinación lineal de $|\lambda_{1}\rangle$ y $|\lambda_{2}\rangle$ es también un vector propio de $\mathbf{L}$, con el mismo
 
-===== Página 67 =====
+  6 
 
 3.1. INTERLUDIO: OPERADORES LINEALES 67
 
@@ -1127,7 +1106,7 @@ La parte final del teorema establece que los vectores propios son completos. En 
 
 A veces nos encontramos con un conjunto de vectores propios linealmente independientes que no forman un conjunto ortonormal. Esto suele ocurrir cuando un sistema tiene estados degenerados —estados distintos que tienen el mismo valor propio. En esa situación, siempre podemos usar los vectores linealmente independientes que tenemos, para crear un conjunto ortonormal que genere el mismo espacio. El método es el procedimiento de Gram-Schmidt al que me referí anteriormente. La Fig. 3.1 ilustra cómo funciona para el caso simple de dos
 
-===== Página 68 =====
+  6 
 
 68 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1137,7 +1116,7 @@ vectores linealmente independientes. Comenzamos con los dos vectores $\vec{V}_{1
 
 El primer paso es dividir $\vec{V}_{1}$ por su propia longitud, $|\vec{V}_{1}|$, lo que nos da un vector unitario paralelo a $\vec{V}_{1}$. Llamaremos a ese vector unitario $\hat{\mathbf{v}}_{1}$, y $\hat{\mathbf{v}}_{1}$ se convierte en el primer vector de nuestro conjunto ortonormal. A continuación, proyectamos $\vec{V}_{2}$ sobre la dirección de $\hat{\mathbf{v}}_{1}$ formando el producto interno $\langle \vec{V}_{2}|\hat{\mathbf{v}}_{1}\rangle$. Ahora, restamos $\langle \vec{V}_{2}|\hat{\mathbf{v}}_{1}\rangle$ de $\vec{V}_{2}$. Llamaremos al resultado de esta resta $\vec{V}_{2\perp}$. Puedes ver en la Fig. 3.1 que $\vec{V}_{2\perp}$ es ortogonal a $\hat{\mathbf{v}}_{1}$. Por último, dividimos $\vec{V}_{2\perp}$ por su propia longitud para formar el segundo miembro de nuestra
 
-===== Página 69 =====
+  6 
 
 3.2. LOS PRINCIPIOS
 
@@ -1153,7 +1132,7 @@ Un observable también podría llamarse un medible. Es algo que puedes medir con
 
 - **Principio 1:** Las cantidades observables o medibles de la mecánica cuántica están representadas por operadores lineales **L**.
 
-===== Página 70 =====
+  7 
 
 70 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1173,7 +1152,7 @@ $$P(\lambda_{i}) = \langle A|\lambda_{i}\rangle \langle \lambda_{i}|A\rangle. \q
 
 Te recuerdo que los $\lambda_{i}$ son los valores propios de **L**, y $|\lambda_{i}\rangle$ son los vectores propios correspondientes.
 
-===== Página 71 =====
+  7 
 
 3.2. LOS PRINCIPIOS
 
@@ -1183,7 +1162,7 @@ Recordemos algunos puntos importantes de nuestra discusión anterior sobre espin
 
 Cuando se mide un observable, el resultado es siempre un número real extraído de un conjunto de resultados posibles. Por ejemplo, si se mide la energía de un átomo, el resultado será uno de los niveles de energía establecidos del átomo. Para el caso familiar del espín, los valores posibles de cualquiera de las componentes son $\pm 1$. El aparato nunca da ningún otro resultado. El Principio 2 define la relación entre el operador que representa un observable y las salidas numéricas posibles de la medición. Es decir, el resultado de una medición es siempre uno de los valores propios del operador correspondiente. Por lo tanto, cada componente del operador de espín debe tener dos
 
-===== Página 72 =====
+  7 
 
 72 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1193,7 +1172,7 @@ El Principio 3 es el más interesante. Al menos yo lo encuentro así. Habla de e
 
 Pero supongamos que en cambio te dicen que el espín está en uno de los dos estados, $|u\rangle$ o $|r\rangle$ (arriba o derecha). No hay nada que puedas medir que te diga inequívocamente el estado verdadero del espín. Medir $\sigma_{z}$ no lo hará. Si obtienes $\sigma_{z} = +1$, es posible que el estado inicial fuera $|r\rangle$ ya que hay un 50 por ciento de probabilidad de obtener esta respuesta en el estado $|r\rangle$. Por esa razón, se dice que $|u\rangle$ y $|d\rangle$ son físicamente distinguibles, pero $|u\rangle$ y $|r\rangle$ no lo son. Se podría decir que el producto interno de dos estados es una medida de la incapacidad para distinguirlos con certeza. A veces este producto interno se llama solapamiento. El Principio 3 requiere que los estados físicamente distintos estén representados por vectores de estado ortogonales, es decir, vectores sin solapamiento. Así, para estados de espín, $\langle u|d\rangle = 0$ pero $\langle u|r\rangle = \frac{1}{\sqrt{2}}$.
 
-===== Página 73 =====
+  7 
 
 3.2. LOS PRINCIPIOS 73
 
@@ -1211,7 +1190,7 @@ Una consecuencia importante de los principios es la siguiente:
 
 **Los operadores que representan observables son hermíticos.**
 
-===== Página 74 =====
+  7 
 
 74 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1225,7 +1204,7 @@ Como sabes, los físicos reconocen varios tipos de cantidades físicas, como esc
 
 En nuestros viajes hasta ahora, hemos visto más de un tipo de vector. El 3-vector es el más directo y sirve como prototipo. Es una representación matemática de una flecha en el espacio tridimensional, y a menudo se representa por tres números reales, escritos como una matriz columna. Debido a que sus componentes son de valor real, los 3-vectores no son lo suficientemente ricos
 
-===== Página 75 =====
+  7 
 
 3.4. CONSTRUYENDO OPERADORES DE ESPÍN
 
@@ -1239,7 +1218,7 @@ Pero ¿qué significa eso realmente? En términos físicos, significa esto: Así
 
 Ahora, trabajemos en los detalles de los operadores de espín. El primer objetivo es construir operadores para representar las componentes del espín, $\sigma_{x}$, $\sigma_{y}$ y $\sigma_{z}$. Luego construiremos sobre esos resultados para construir un operador que represente una componente de espín en cualquier dirección. Como es habitual, comenzamos con $\sigma_{z}$. Sabemos que $\sigma_{z}$ tiene valores definidos e inequívocos para los estados $|u\rangle$ y $|d\rangle$,
 
-===== Página 76 =====
+  7 
 
 76 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1262,7 +1241,7 @@ y
 
 $$\left( \begin{array}{cc}(\sigma_{z})_{11} & (\sigma_{z})_{12}\\ (\sigma_{z})_{21} & (\sigma_{z})_{22} \end{array} \right)\left( \begin{array}{c}0\\ 1 \end{array} \right) = -\left( \begin{array}{c}0\\ 1 \end{array} \right). \quad (3.15)$$
 
-===== Página 77 =====
+  7 
 
 3.4. CONSTRUYENDO OPERADORES DE ESPÍN
 
@@ -1280,7 +1259,7 @@ Este es nuestro primer ejemplo de un operador mecánico-cuántico. Resumamos lo 
 
 ¿Podemos hacer lo mismo para las otras dos componentes del espín, $\sigma_{x}$ y $\sigma_{y}$? Sí, podemos. $^3$ Los vectores propios de $\sigma_{x}$ son $|r\rangle$ y $|l\rangle$, con valores propios $+1$ y $-1$ respectivamente. En forma de ecuación,
 
-===== Página 78 =====
+  7 
 
 78 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1300,7 +1279,7 @@ $$\left( \begin{array}{cc}(\sigma_{x})_{11} & (\sigma_{x})_{12}\\ (\sigma_{x})_{
 
 y
 
-===== Página 79 =====
+  7 
 
 3.4. CONSTRUYENDO OPERADORES DE ESPÍN 79
 
@@ -1324,7 +1303,7 @@ $$|i\rangle = \left( \begin{array}{c}\frac{1}{\sqrt{2}}\\ \frac{i}{\sqrt{2}} \en
 
 y un cálculo fácil da
 
-===== Página 80 =====
+  8 
 
 80 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1343,7 +1322,7 @@ Este es un momento conveniente para advertirte sobre un peligro potencial. La co
 1.  Los operadores son las cosas que usamos para calcular valores propios y vectores propios.
 2.  Los operadores actúan sobre vectores de estado (que son objetos matemáticos abstractos), no sobre sistemas físicos reales.
 
-===== Página 81 =====
+  8 
 
 3.  Cuando un operador actúa sobre un vector de estado, produce un nuevo vector de estado.
 
@@ -1357,7 +1336,7 @@ $$\sigma_{z}|d\rangle = -|d\rangle.$$
 
 En estas situaciones, no hay trampa porque $|u\rangle$ y $|d\rangle$ son vectores propios de $\sigma_{z}$. Si el sistema se prepara en, digamos, el estado $|d\rangle$, una medición definitivamente dará el resultado $-1$, y el operador $\sigma_{z}$ transforma el estado preparado en el estado post-medición correspondiente, $- |d\rangle$. El estado $- |d\rangle$ es el mismo que $|d\rangle$ excepto por una constante multiplicativa, por lo que los dos estados son realmente el mismo. No hay problemas aquí.
 
-===== Página 82 =====
+  8 
 
 82 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1377,7 +1356,7 @@ Bien, aquí está nuestra trampa. Contrariamente a lo que puedas pensar, el vect
 
 Pero seguramente ese vector de estado debe tener algo que ver con el resultado de la medición? De hecho, sí. Encontraremos parte de la respuesta en la Lección 4, donde veremos cómo el nuevo vector de estado nos permite calcular las probabilidades de cada resultado posible de la medición. Sin embargo, el resultado de una medición no puede describirse adecuadamente sin tener en cuenta el aparato como parte del sistema. Lo que realmente sucede durante una medición es el tema de la Sección 7.8.
 
-===== Página 83 =====
+  8 
 
 3.6. 3-VECTORES OPERADORES REVISITADOS
 
@@ -1391,7 +1370,7 @@ Claramente, no son vectores de estado; son operadores (escritos como matrices) q
 
 Medimos las componentes del espín orientando el aparato $\mathcal{A}$ a lo largo de cualquiera de los tres ejes y luego activándolo. Pero entonces, ¿por qué no orientar $\mathcal{A}$ a lo largo de cualquier eje y medir la componente de $\sigma$ a lo largo de ese eje? En otras palabras, toma cualquier 3-vector unitario $\hat{n}$ con componentes $n_{x}$, $n_{y}$ y $n_{z}$, y orienta
 
-===== Página 84 =====
+  8 
 
 84 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1409,7 +1388,7 @@ Para aclarar el significado de esta ecuación, ten en cuenta que los componentes
 
 $$\sigma_{n} = n_{x}\left( \begin{array}{cc}0 & 1\\ 1 & 0 \end{array} \right) + n_{y}\left( \begin{array}{cc}0 & -i\\ i & 0 \end{array} \right) + n_{z}\left( \begin{array}{cc}1 & 0\\ 0 & -1 \end{array} \right).$$
 
-===== Página 85 =====
+  8 
 
 3.7. COSECHANDO LOS RESULTADOS 85
 
@@ -1429,7 +1408,7 @@ donde $\theta$ es el ángulo entre el eje $z$ y el eje $\hat{n}$. Sustituyendo e
 
 $$\sigma_{n} = \left( \begin{array}{cc}{\cos \theta} & {\sin \theta}\\ {\sin \theta} & {-\cos \theta} \end{array} \right).$$
 
-===== Página 86 =====
+  8 
 
 86 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1449,7 +1428,7 @@ $$\lambda_{2} = -1$$ $$|\lambda_{2}\rangle = \left( \begin{array}{c}{-\sin \frac
 
 Nótese algunos hechos importantes. Primero, los dos valores propios son nuevamente $+1$ y $-1$. Esto no debería ser una sorpresa; el aparato $\mathcal{A}$ solo puede dar una de estas dos respuestas sin importar hacia dónde apunte. Pero es bueno ver esto surgir de las ecuaciones. El segundo hecho es que los dos vectores propios son ortogonales.
 
-===== Página 87 =====
+  8 
 
 3.7. COSECHANDO LOS RESULTADOS 87
 
@@ -1467,7 +1446,7 @@ Desafortunadamente, necesitamos hacer un poco de trampa usando una ecuación que
 
 $$\langle \mathbf{L}\rangle = \sum_{i}\lambda_{i}P(\lambda_{i}). \quad (3.29)$$
 
-===== Página 88 =====
+  8 
 
 88 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1491,13 +1470,13 @@ Habiendo llegado tan lejos, quizás quieras probar suerte con un problema ligera
 
 **Ejercicio 3.4:** Sean $n_{z} = \cos \theta$, $n_{x} = \sin \theta \cos \phi$, y $n_{y} = \sin \theta \sin \phi$. Los ángulos $\theta$ y $\phi$ están definidos según las convenciones habituales para coordenadas esféricas (Fig. 3.2). Calcula los valores propios y vectores propios para la matriz de la Ec. 3.26.
 
-===== Página 89 =====
+  8 
 
 3.7. COSECHANDO LOS RESULTADOS 89
 
  Figura 3.2: Coordenadas Esféricas. Este diagrama ilustra las etiquetas de coordenadas esféricas convencionales $r$, $\theta$ y $\phi$. También ilustra la conversión a coordenadas cartesianas: $x = r \sin \theta \cos \phi$, $y = r \sin \theta \sin \phi$, y $z = r \cos \theta$.  
 
-===== Página 90 =====
+  9 
 
 90 LECCIÓN 3. PRINCIPIOS DE LA MECÁNICA CUÁNTICA
 
@@ -1521,7 +1500,7 @@ existe alguna dirección $\hat{n}$, tal que
 
 $$\vec{\sigma}\cdot \vec{n} |A\rangle = |A\rangle.$$
 
-===== Página 91 =====
+  9 
 
 3.8. EL PRINCIPIO DE POLARIZACIÓN DEL ESPÍN 91
 
@@ -1562,7 +1541,7 @@ Lenny: Vas a tener que hacerlo.
 
 Hasta ahora, nuestra discusión sobre la mecánica cuántica ha ignorado el movimiento, el cambio y la evolución temporal. Hemos tratado principalmente con situaciones estáticas: la preparación de un estado, la medición de un observable, y las probabilidades de varios resultados. Pero el mundo no es estático. Las cosas cambian con el tiempo: los péndulos oscilan, los planetas orbitan, los electrones saltan de un nivel de energía a otro. Necesitamos una ley que describa cómo evolucionan los estados cuánticos.
 
-===== Página 94 =====
+  9 
 
 94 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1576,7 +1555,7 @@ En mecánica clásica, la función que gobierna la evolución temporal es el Ham
 
 El Hamiltoniano es el generador de las traslaciones temporales. Así como el momento es el generador de las traslaciones espaciales, la energía (el Hamiltoniano) es el generador de las traslaciones en el tiempo. Esta es una idea profunda que conecta la mecánica cuántica con la mecánica clásica y con las simetrías del espacio-tiempo.
 
-===== Página 95 =====
+  9 
 
 4.2. EL OPERADOR HAMILTONIANO 95
 
@@ -1594,7 +1573,7 @@ Aquí, $\hbar$ (h barra) es la constante de Planck dividida por $2\pi$. Es una c
 
 Observa que la Ec. 4.1 es una ecuación diferencial de primer orden en el tiempo. Esto significa que si conocemos el estado en el tiempo $t=0$, digamos $|\Psi(0)\rangle$, podemos (en principio) determinar el estado en cualquier tiempo futuro $t$. La evolución es determinista y, lo que es crucial, es unitaria.
 
-===== Página 96 =====
+  9 
 
 96 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1618,7 +1597,7 @@ donde $E$ es un número real (el valor propio de la energía). ¿Cómo evolucion
 
 $$|\Psi(t)\rangle = e^{-i\mathbf{H}t/\hbar} |E\rangle = e^{-iEt/\hbar} |E\rangle.$$
 
-===== Página 97 =====
+  9 
 
 4.4. EL QUINTO PRINCIPIO 97
 
@@ -1638,7 +1617,7 @@ donde $\mathbf{H}$ es el operador Hamiltoniano, que es el operador hermítico co
 
 Este principio completa el conjunto de principios fundamentales que necesitamos para hacer mecánica cuántica no relativista.
 
-===== Página 98 =====
+  9 
 
 98 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1664,7 +1643,7 @@ Es común escribir esto como
 
 $$\mathbf{H} = -\vec{B} \cdot \vec{\sigma},$$
 
-===== Página 99 =====
+  9 
 
 4.5. EJEMPLO: EL ESPÍN EN UN CAMPO MAGNÉTICO 99
 
@@ -1691,7 +1670,7 @@ Como $|u\rangle$ y $|d\rangle$ son autoestados de $\mathbf{H}$,
 $$e^{-i\mathbf{H}t}|u\rangle = e^{-iE_{u}t}|u\rangle = e^{iBt}|u\rangle,$$
 $$e^{-i\mathbf{H}t}|d\rangle = e^{-iE_{d}t}|d\rangle = e^{-iBt}|d\rangle.$$
 
-===== Página 100 =====
+  10 
 
 100 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1721,7 +1700,7 @@ Nuestro estado $|\Psi(t)\rangle$ tiene la forma $|u\rangle + e^{-i\phi}|d\rangle
 - $\phi = \pi/2$: $|o\rangle$? Cuidado: $|o\rangle = |u\rangle - i|d\rangle$ corresponde a $e^{-i\phi} = -i = e^{-i\pi/2}$, así que $\phi = \pi/2$ da $|o\rangle$ (eje $y$ negativo).
 - $\phi = 3\pi/2$ (o $-\pi/2$): $|i\rangle$ (eje $y$ positivo).
 
-===== Página 101 =====
+  10 
 
 4.6. CONMUTADORES Y EL PRINCIPIO DE INCERTIDUMBRE 101
 
@@ -1741,7 +1720,7 @@ Si los operadores conmutan, es decir, $[\mathbf{A}, \mathbf{B}] = 0$, entonces $
 
 El conmutador es fundamental en mecánica cuántica por varias razones. Una de las más importantes es que está en el corazón del principio de incertidumbre de Heisenberg.
 
-===== Página 102 =====
+  10 
 
 102 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1768,7 +1747,7 @@ $$[\sigma_z, \sigma_x] = 2i\sigma_y. \quad (4.4)$$
 
 Estas relaciones son análogas a las relaciones de conmutación del momento angular en mecánica cuántica. No es casualidad: el espín es un momento angular intrínseco.
 
-===== Página 103 =====
+  10 
 
 4.6. CONMUTADORES Y EL PRINCIPIO DE INCERTIDUMBRE 103
 
@@ -1790,7 +1769,7 @@ $$\Delta \sigma_x \, \Delta \sigma_y \geq 1.$$
 
 Pero en el estado $|u\rangle$, ¿cuáles son $\Delta \sigma_x$ y $\Delta \sigma_y$? Las probabilidades para $\sigma_x$ son $P(+1)=1/2$ y $P(-1)=1/2$, por lo que la desviación estándar es $\Delta \sigma_x = 1$. Lo mismo para $\sigma_y$. Por lo tanto, $\Delta \sigma_x \Delta \sigma_y = 1$, que satisface la desigualdad como igualdad. ¡El estado $|u\rangle$ es un estado de mínima incertidumbre para el par ($\sigma_x, \sigma_y$)!
 
-===== Página 104 =====
+  10 
 
 104 LECCIÓN 4. TIEMPO Y CAMBIO
 
@@ -1818,7 +1797,7 @@ Lenny: Sí. Y de ahí viene toda la diversión.
 
 Art: No me gusta cómo suena eso.
 
-===== Página 105 =====
+  10 
 
 5.1. ESPACIOS DE HILBERT DE MÚLTIPLES PARTÍCULAS 105
 
@@ -1840,7 +1819,7 @@ $$|i\rangle_A \otimes |j\rangle_B,$$
 
 que a menudo escribimos simplemente como $|i\rangle_A |j\rangle_B$ o $|i, j\rangle_{AB}$ o incluso $|ij\rangle$.
 
-===== Página 106 =====
+  10 
 
 106 LECCIÓN 5. SISTEMAS COMPUESTOS Y ENTRELAZAMIENTO
 
@@ -1862,7 +1841,7 @@ El ejemplo más famoso de estado entrelazado para dos espines es uno de los **es
 
 $$|\Phi^+\rangle = \frac{1}{\sqrt{2}} (|u\rangle_A |u\rangle_B + |d\rangle_A |d\rangle_B). \quad (5.1)$$
 
-===== Página 107 =====
+  10 
 
 5.2. ESTADOS PRODUCTO Y ESTADOS ENTRELAZADOS 107
 
@@ -1882,7 +1861,7 @@ Pero hay algo más. Después de que Alice mide y obtiene, digamos, $+1$, el esta
 
 $$(|u\rangle\langle u|_A \otimes I_B) |\Phi^+\rangle$$
 
-===== Página 108 =====
+  10 
 
 108 LECCIÓN 5. SISTEMAS COMPUESTOS Y ENTRELAZAMIENTO
 
@@ -1902,7 +1881,7 @@ y se extiende por linealidad a estados no factorizables.
 
 Si queremos medir $\sigma_z$ solo en el espín A, eso corresponde al operador $\sigma_z \otimes I$. Para medir $\sigma_x$ solo en el espín B, es $I \otimes \sigma_x$.
 
-===== Página 109 =====
+  10 
 
 5.4. BASES PARA DOS ESPINES 109
 
@@ -1927,7 +1906,7 @@ Estos estados son ortonormales y forman una base completa para el espacio de 4 d
 
 El entrelazamiento llevó a Einstein, Podolsky y Rosen (EPR) a argumentar que la mecánica cuántica era incompleta. Propusieron que debería haber "elementos de realidad" (variables ocultas) que determinaran los resultados de las mediciones, y que la mecánica cuántica era solo una descripción estadística de esos elementos subyacentes.
 
-===== Página 110 =====
+  11 
 
 110 LECCIÓN 5. SISTEMAS COMPUESTOS Y ENTRELAZAMIENTO
 
@@ -1953,7 +1932,7 @@ Introdujimos el producto tensorial como la forma de construir espacios de Hilber
 
 ---
 
-===== Página 170 =====
+  17 
 
 # Lección 6
 
@@ -1969,7 +1948,7 @@ Lenny: Relacionarse es algo natural en un lugar como este. Y no solo porque est�
 
 Descubrir cómo se combinan los sistemas para formar sistemas más grandes es una gran parte de lo que hacemos en física. No hace falta que te diga que un átomo es una colección de nucleones y electrones, cada uno de los cuales podría considerarse un sistema cuántico por derecho propio.
 
-===== Página 171 =====
+  17 
 
 150 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -1983,7 +1962,7 @@ $$\alpha_{C}|C\rangle + \alpha_{X}|X\rangle.$$
 
 Notarás que he usado una notación inusual para los vectores ket de Alicia. Esto es para distinguirlos de los kets de Beto. La nueva notación pretende disuadirnos de sumar vectores en el espacio de Alicia $S_{A}$ con vectores en el espacio de Beto $S_{B}$. El $S_{A}$ de Alicia es un espacio vectorial bidimensional, definido por los dos vectores base $|C\rangle$ y $|X\rangle$.
 
-===== Página 172 =====
+  17 
 
 6.1. INTERLUDIO: PRODUCTOS TENSORIALES
 
@@ -2001,13 +1980,13 @@ $$S_{AB} = S_{A} \otimes S_{B}.$$
 
 Para definir $S_{AB}$, es suficiente especificar sus vectores base. Los vectores base son exactamente lo que cabría esperar. La parte superior
 
-===== Página 173 =====
+  17 
 
 152 LECCIÓN 6. ENTRELAZAMIENTO
 
  Figura 6.1: Los estados base del sistema compuesto $S_{AB}$, mostrados como una tabla. En la parte superior están las etiquetas de estado para el dado de Beto. Las etiquetas de estado para la moneda de Alicia se muestran a la izquierda. Las etiquetas de estado para el sistema combinado son las entradas de la tabla. Cada etiqueta de estado combinada muestra el estado de cada uno de los dos subsistemas. Por ejemplo, la etiqueta de estado $C4$ denota un estado en el que la moneda de Alicia muestra $C$ y el dado de Beto muestra 4.  
 
-===== Página 174 =====
+  17 
 
 6.1. INTERLUDIO: PRODUCTOS TENSORIALES
 
@@ -2025,7 +2004,7 @@ A veces, necesitaremos referirnos a un vector base arbitrario en $S_{AB}$. Para 
 
 $$|ab\rangle,$$
 
-===== Página 175 =====
+  17 
 
 154 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2045,7 +2024,7 @@ Los sistemas con tres o más componentes pueden representarse mediante productos
 
 Ahora que hemos descrito los espacios separados de Alicia y Beto, $S_{A}$ y $S_{B}$, así como el espacio combinado $S_{AB}$, todavía nos queda un poco más de notación por establecer. Alicia tiene un conjunto de operadores, etiquetados como $\sigma$, que actúan sobre su sistema. Beto tiene un conjunto similar
 
-===== Página 176 =====
+  17 
 
 6.2. CORRELACIÓN CLÁSICA 155
 
@@ -2059,7 +2038,7 @@ Antes de llegar al entrelazamiento cuántico, dediquemos unos minutos a lo que p
 
 Carlos tiene dos monedas en sus manos —una de diez centavos y una de veinticinco centavos (un *dime* y un *quarter*). Las mezcla y las sostiene, una en cada mano, para
 
-===== Página 177 =====
+  17 
 
 156 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2073,7 +2052,7 @@ Por supuesto que no. Lo que violaría la relatividad sería que la observación 
 
 Hagamos este experimento muchas veces, ya sea con muchas parejas Alicia-Beto o con la misma pareja a lo largo del tiempo. Para ser cuantitativos, Carlos (ha vuelto, habiendo aceptado nuestras disculpas) pinta un "$\sigma = +1$" en cada moneda de diez centavos y un "$\sigma = -1$" en cada moneda de veinticinco centavos. Si asumimos que Carlos es realmente aleatorio en la forma en que mezcla las monedas, surgirán los siguientes hechos:
 
-===== Página 178 =====
+  17 
 
 6.2. CORRELACIÓN CLÁSICA 157
 
@@ -2093,7 +2072,7 @@ o
 
 $$\langle \sigma_{A}\sigma_{B}\rangle - \langle \sigma_{A}\rangle \langle \sigma_{B}\rangle \neq 0. \quad (6.2)$$
 
-===== Página 179 =====
+  17 
 
 158 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2111,7 +2090,7 @@ donde $P_A(a)$ y $P_B(b)$ son las probabilidades individuales para $a$ y $b$. (A
 
 **Ejercicio 6.1:** Demuestra que si $P(a,b)$ se factoriza, entonces la correlación entre $a$ y $b$ es cero.
 
-===== Página 180 =====
+  18 
 
 6.2. CORRELACIÓN CLÁSICA 159
 
@@ -2125,7 +2104,7 @@ Un punto relacionado es que el conocimiento completo de un sistema en física cl
 
 Estos conceptos clásicos están profundamente arraigados en nuestro pensamiento. Son la base de nuestra comprensión instintiva del mundo físico, y es muy difícil superarlos.
 
-===== Página 181 =====
+  18 
 
 160 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2143,7 +2122,7 @@ Como explicamos en el Interludio, etiquetar un vector base con un par de índice
 
 Veamos un ejemplo. Considera algún operador lineal $\mathbf{M}$ que actúa sobre el espacio de estados del sistema compuesto. Como es habitual, puede representarse como una matriz. Los elementos de matriz se construyen colocando el operador entre
 
-===== Página 182 =====
+  18 
 
 6.4. DOS ESPINES
 
@@ -2167,7 +2146,7 @@ $$|\Psi \rangle = \sum_{a,b}\psi(a,b)|ab\rangle.$$
 
 Volviendo a nuestro ejemplo, imaginemos dos espines: el de Alicia y el de Beto. Para ponerlo en un contexto que podamos visualizar, imagina que los espines están unidos a dos partículas y que las dos partículas están fijas en el espacio en dos ubicaciones diferentes pero cercanas.
 
-===== Página 183 =====
+  18 
 
 162 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2185,7 +2164,7 @@ De acuerdo con los principios que establecimos anteriormente, el espacio de esta
 
 Trabajemos en una base en la que se especifiquen las componentes $z$ de ambos espines. Los vectores base son
 
-===== Página 184 =====
+  18 
 
 6.5. ESTADOS PRODUCTO 163
 
@@ -2207,7 +2186,7 @@ Asumimos que cada estado está normalizado:
 
 $$\begin{array}{rcl}\alpha_u^*\alpha_u + \alpha_d^*\alpha_d & = & 1\\ \beta_u^*\beta_u + \beta_d^*\beta_d & = & 1. \end{array} \quad (6.4)$$
 
-===== Página 185 =====
+  18 
 
 164 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2225,7 +2204,7 @@ La característica principal de un estado producto es que cada subsistema se com
 
 Mencionaré aquí que los productos tensoriales y los estados producto son dos cosas diferentes, a pesar de sus nombres de sonido similar.$^2$
 
-===== Página 186 =====
+  18 
 
 6.6. PARÁMETROS DEL ESTADO PRODUCTO 165
 
@@ -2243,7 +2222,7 @@ $$\psi_{uu}|uu\rangle + \psi_{ud}|ud\rangle + \psi_{du}|du\rangle + \psi_{dd}|dd
 
 donde hemos usado los símbolos con subíndice $\psi$ (en lugar de
 
-===== Página 187 =====
+  18 
 
 166 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2261,7 +2240,7 @@ El estado singlete no puede escribirse como un estado producto. Lo mismo es cier
 
 $$\frac{1}{\sqrt{2}}\big(|ud\rangle + |du\rangle \big)$$ $$\frac{1}{\sqrt{2}}\big(|uu\rangle + |dd\rangle \big)$$ $$\frac{1}{\sqrt{2}}\big(|uu\rangle - |dd\rangle \big),$$
 
-===== Página 188 =====
+  18 
 
 6.8. OBSERVABLES DE ALICIA Y BETO 167
 
@@ -2280,7 +2259,7 @@ que también están máximamente entrelazados. La razón para llamarlos singlete
 
 Hasta ahora, hemos discutido el espacio de estados del sistema de dos espines Alicia-Beto, pero no sus observables. Algunos de estos observables son obvios, incluso si su representación matemática no lo es. En particular, utilizando sus aparatos $\mathcal{A}$ y $\mathcal{B}$, Alicia y Beto pueden medir las componentes de sus espines:
 
-===== Página 189 =====
+  18 
 
 168 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2296,7 +2275,7 @@ $$\begin{array}{rcl}{\sigma_z|u\rangle} & = & {|u\rangle}\\ {} & {} & {}\\ {\sig
 
 Por supuesto, la configuración de Beto es idéntica a la de Alicia, por lo que podemos escribir un conjunto paralelo de ecuaciones que muestran cómo actúan las componentes de $\tau$ sobre los estados de Beto:
 
-===== Página 190 =====
+  19 
 
 6.8. OBSERVABLES DE ALICIA Y BETO 169
 
@@ -2306,7 +2285,7 @@ Ahora consideremos cómo deberían definirse los operadores cuando actúan sobre
 
 $$\begin{array}{rcl}{\sigma_z|uu\rangle} & = & {|uu\rangle}\\ {} & {} & {}\\ {\sigma_z|du\rangle} & = & {-|du\rangle}\\ {} & {} & {}\\ {\sigma_x|ud\rangle} & = & {|dd\rangle}\\ {} & {} & {}\\ {\sigma_x|dd\rangle} & = & {|ud\rangle} \end{array} \quad (6.8)$$
 
-===== Página 191 =====
+  19 
 
 170 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2316,7 +2295,7 @@ De nuevo, la regla es que las componentes del espín de Alicia actúan solo sobr
 
 Estamos siendo un poco descuidados con nuestra notación. Los vectores de un espacio producto tensorial son nuevos vectores, construidos a partir de los vectores de dos espacios más pequeños. Técnicamente, lo mismo es cierto para los operadores. Si fuéramos pedantes, insistiríamos en escribir las versiones de producto tensorial de $\sigma_{z}$ y $\tau_{x}$ como $\sigma_{z} \otimes I$ y $I \otimes \tau_{x}$, respectivamente, donde $I$ es el operador identidad. De hecho, podemos resaltar dos propiedades importantes de los operadores de producto
 
-===== Página 192 =====
+  19 
 
 6.8. OBSERVABLES DE ALICIA Y BETO 171
 
@@ -2336,7 +2315,7 @@ Esta notación es engorrosa, y normalmente nos limitaremos al lenguaje más simp
 
 Tendremos más que decir sobre los operadores compuestos en la próxima sección. Además, en la Lección 7, el lenguaje de la Ec. 6.11 nos ayudará a ver cómo trabajar con productos tensoriales en forma de componentes.
 
-===== Página 193 =====
+  19 
 
 172 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2360,7 +2339,7 @@ $$\langle \sigma_{x}\rangle^{2} + \langle \sigma_{y}\rangle^{2} + \langle \sigma
 
 lo que nos dice que no todos los valores esperados pueden ser cero. Este hecho sigue siendo válido para todos los estados producto. Sin embargo,
 
-===== Página 194 =====
+  19 
 
 6.8. OBSERVABLES DE ALICIA Y BETO 173
 
@@ -2384,7 +2363,7 @@ $$\langle \sigma_z\rangle = \frac{1}{2}\Big(\langle ud| - \langle du|\Big)\Big(|
 
 Una inspección rápida muestra que esto es igual a cero. A continuación, consideremos $\langle \sigma_x\rangle$:
 
-===== Página 195 =====
+  19 
 
 174 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2406,7 +2385,7 @@ y de hecho todos los valores esperados de $\sigma$ son cero. No hace falta decir
 
 Si el valor esperado de una componente de $\sigma$ es cero, significa que el resultado experimental es igualmente probable que sea
 
-===== Página 196 =====
+  19 
 
 1 o $-1$. En otras palabras, el resultado es completamente incierto. Aunque conocemos el vector de estado exacto, $|sing\rangle$, no sabemos nada en absoluto sobre el resultado de cualquier medición de cualquier componente de cualquiera de los dos espines.
 
@@ -2420,7 +2399,7 @@ En nuestro ejemplo de "entrelazamiento clásico" que involucra a Alicia, Beto y 
 
 Imaginemos una configuración cuántica de Alicia-Beto-Carlos. El papel de Carlos es preparar dos espines en el estado entrelazado
 
-===== Página 197 =====
+  19 
 
 176 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2432,7 +2411,7 @@ La primera pregunta es si Alicia y Beto pueden medir simultáneamente sus propio
 
 Supongamos que Alicia mide $\sigma_{z}$ y Beto mide $\tau_{z}$, y luego multiplican los resultados. En otras palabras, conspiran para medir el producto $\tau_{z}\sigma_{z}$.
 
-===== Página 198 =====
+  19 
 
 6.9. OBSERVABLES COMPUESTOS 177
 
@@ -2454,7 +2433,7 @@ $$\tau_{z}\sigma_{z}|sing\rangle = -|sing\rangle.$$
 
 Evidentemente, $|sing\rangle$ es un vector propio del observable $\tau_{z}\sigma_{z}$ con valor propio $-1$. Examinemos el significado de este resultado. Alicia mide $\sigma_{z}$ y Beto mide $\tau_{z}$; cuando se reúnen y comparan resultados, encuentran que han medido valores opuestos. A veces, Beto mide $+1$ y
 
-===== Página 199 =====
+  19 
 
 178 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2474,7 +2453,7 @@ $$\tau_{x}\sigma_{x}|sing\rangle = -|sing\rangle.$$
 
 Ahora esto es un poco sorprendente: $|sing\rangle$ también es un vector propio de $\tau_{x}\sigma_{x}$ con valor propio $-1$. Es mucho menos obvio con solo mirar $|sing\rangle$ que las componentes $x$ de los dos espines
 
-===== Página 200 =====
+  20 
 
 6.9. OBSERVABLES COMPUESTOS 179
 
@@ -2498,7 +2477,7 @@ $$|T_{2}\rangle = \frac{1}{\sqrt{2}}\Big(|uu\rangle + |dd\rangle \Big)$$ $$|T_{3
 
 e interpreta.
 
-===== Página 201 =====
+  20 
 
 180 LECCIÓN 6. ENTRELAZAMIENTO
 
@@ -2510,7 +2489,7 @@ $$\vec{\sigma} \cdot \vec{\tau} = \sigma_x \tau_x + \sigma_y \tau_y + \sigma_z \
 
 Uno podría pensar que se puede encontrar un valor para este observable si Beto mide todas las componentes de $\tau$, mientras que Alicia mide todas las componentes de $\sigma$; entonces podrían multiplicar las componentes y sumarlas. El problema es que Beto no puede medir simultáneamente las componentes individuales de $\tau$, porque no conmutan. Del mismo modo, Alicia no puede medir más de una componente de $\sigma$ a la vez. Para medir $\vec{\sigma} \cdot \vec{\tau}$, se debe construir un nuevo tipo de aparato, uno que mida $\vec{\sigma} \cdot \vec{\tau}$ sin medir ninguna componente individual. No es obvio cómo podría hacerse eso. Aquí hay un ejemplo concreto de cómo podría llevarse a cabo tal medición: Algunos átomos tienen espines que se describen de la misma manera que los espines de los electrones. Cuando dos de estos átomos están cerca uno del otro —por ejemplo, dos átomos vecinos en una red cristalina— el Hamiltoniano dependerá de los espines. En algunas situaciones, el Hamiltoniano de los espines vecinos es proporcional a $\vec{\sigma} \cdot \vec{\tau}$. Si ese es el caso, entonces medir $\vec{\sigma} \cdot \vec{\tau}$ es equivalente a medir la energía del par atómico. Medir esta energía es una sola medición del operador compuesto
 
-===== Página 202 =====
+  20 
 
 6.9. OBSERVABLES COMPUESTOS 181
 
@@ -2539,7 +2518,7 @@ Supón que el sistema comienza en el estado $|uu\rangle$. ¿Cuál es el estado e
 
 ---
 
-===== Página 204 =====
+  20 
 
 # Lección 7
 
@@ -2555,7 +2534,7 @@ El otro mira a su alrededor, levanta las manos en obvia frustración, y le dice 
 
 "Lo siento, Albert. Así son las cosas. Toma, déjame invitarte una cerveza".
 
-===== Página 205 =====
+  20 
 
 184 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2571,7 +2550,7 @@ Construir productos tensoriales a partir de matrices y vectores columna no es di
 
 La parte complicada es entender por qué estas reglas funcionan —por qué nos permiten construir matrices y vectores columna que tienen las propiedades que deseamos. Abordaremos el problema de dos maneras diferentes. Primero, construiremos operadores compuestos utilizando el método probado y verdadero que desarrollamos en la Lección 3. Luego, te mostraremos cómo construir operadores compuestos directamente a partir de sus operadores componentes.
 
-===== Página 206 =====
+  20 
 
 7.1. INTERLUDIO: MATRICES DE PRODUCTO TENSORIAL 185
 
@@ -2591,7 +2570,7 @@ $^1$En la Lección 3, por casualidad escribimos el índice $j$ en el lado izquie
 
 $^2$Por supuesto, podríamos haber usado un conjunto diferente de vectores base, como $|rr\rangle, |rl\rangle$, etc. Hacerlo resultaría en un conjunto diferente de elementos de matriz.
 
-===== Página 207 =====
+  20 
 
 186 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2615,7 +2594,7 @@ $$\sigma_z \otimes I =
 -\langle dd|uu\rangle & -\langle dd|ud\rangle & -\langle dd|du\rangle & -\langle dd|dd\rangle
 \end{pmatrix}. \quad (7.3)$$
 
-===== Página 208 =====
+  20 
 
 7.1. INTERLUDIO: MATRICES DE PRODUCTO TENSORIAL 187
 
@@ -2665,7 +2644,7 @@ $$(\sigma_z \otimes I)|uu\rangle = |uu\rangle,$$
 
 tal como esperamos. ¿Qué sucede si aplicamos la misma matriz al vector columna $|du\rangle$ de las Ecs. 7.5? Realizando la multiplicación de matrices obtenemos $-|du\rangle$, tal como debería ser.
 
-===== Página 209 =====
+  20 
 
 188 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2693,7 +2672,7 @@ El mismo patrón funciona para matrices de cualquier tamaño. Este tipo de multi
 
 Todo esto se aplica perfectamente a los vectores columna y fila, que son solo matrices especializadas. El producto tensorial de dos vectores columna $2 \times 1$ es un vector columna $4 \times 1$. Si $a$ y $b$ son vectores columna $2 \times 1$, su producto tensorial se ve así:
 
-===== Página 210 =====
+  21 
 
 7.1. INTERLUDIO: MATRICES DE PRODUCTO TENSORIAL 189
 
@@ -2719,7 +2698,7 @@ $$|ud\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 0 \\
 $$|du\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1 \\ 0 \end{pmatrix} =
 \begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}$$
 
-===== Página 211 =====
+  21 
 
 190 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2754,7 +2733,7 @@ Observa que $\sigma_x \otimes \tau_z$ no es lo mismo que $\sigma_z \otimes \tau_
 
 Hasta aquí, todo bien. Pero a continuación, veremos algo un poco más interesante. Con la ayuda de algunos ejercicios, intentaremos convencerte de que el producto de Kronecker es realmente el producto tensorial para matrices —en otras palabras, que la mitad de Alicia de la matriz solo afecta a su mitad del vector columna, y lo mismo para Beto. Esto es complicado debido a la forma en que el producto de Kronecker mezcla los elementos de sus bloques constituyentes.
 
-===== Página 212 =====
+  21 
 
 7.1. INTERLUDIO: MATRICES DE PRODUCTO TENSORIAL 191
 
@@ -2787,7 +2766,7 @@ El siguiente ejercicio ayudará a cristalizar la idea de que la mitad-$\sigma$ d
 
 **Ejercicio 7.2:** Calcula los elementos de matriz de $\sigma_z \otimes \tau_x$ formando productos internos como hicimos en la Ec. 7.2.
 
-===== Página 213 =====
+  21 
 
 192 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2814,7 +2793,7 @@ e) Realiza la multiplicación de matrices en el lado izquierdo, resultando en un
 
 f) Finalmente, verifica que los vectores columna resultantes en los lados izquierdo y derecho sean idénticos.
 
-===== Página 214 =====
+  21 
 
 7.2. INTERLUDIO: PRODUCTOS EXTERNOS 193
 
@@ -2838,7 +2817,7 @@ $$|\psi\rangle \langle \varphi| |A\rangle \equiv |\psi\rangle \langle \varphi|A\
 
 $^3$A veces también podemos cambiar el orden de izquierda a derecha, pero eso requiere más cuidado.
 
-===== Página 215 =====
+  21 
 
 194 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2859,7 +2838,7 @@ Observa que el resultado es siempre proporcional a $|\psi\rangle$. Se puede deci
   $$|\psi\rangle \langle \psi| |\psi\rangle = |\psi\rangle$$
 * Cualquier vector ortogonal a $|\psi\rangle$ es un vector propio con valor propio cero. Por lo tanto, los valores propios de $|\psi\rangle \langle \psi|$ son todos 0 o 1, y solo hay un vector propio con valor propio unitario. Ese vector propio es el propio $|\psi\rangle$.
 
-===== Página 216 =====
+  21 
 
 7.2. INTERLUDIO: PRODUCTOS EXTERNOS 195
 
@@ -2881,7 +2860,7 @@ $$\text{Tr} \, |\psi\rangle \langle \psi| \, \mathbf{L} = \sum_i \langle i|\psi\
 
 $^4$Una matriz hermítica $\mathbf{M}$ puede diagonalizarse mediante una transformación $\mathbf{P}^\dagger\mathbf{MP}$, donde $\mathbf{P}$ es una matriz unitaria cuyas columnas son los vectores propios normalizados de $\mathbf{M}$. La traza de $\mathbf{M}$ es invariante bajo esta transformación. No hemos demostrado este conocido resultado.
 
-===== Página 217 =====
+  21 
 
 196 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2903,7 +2882,7 @@ Beto razona de la siguiente manera: Si Alicia preparó el espín en el estado $|
 
 Por otro lado, si Alicia preparó el espín en el estado $|\varphi\rangle$, entonces el valor esperado de $\mathbf{L}$ es $\text{Tr} \, |\varphi\rangle \langle \varphi|\mathbf{L} = \langle \varphi|\mathbf{L}|\varphi\rangle$.
 
-===== Página 218 =====
+  21 
 
 7.3. MATRICES DENSIDAD 197
 
@@ -2927,7 +2906,7 @@ $$\rho = P_1 |\varphi_1\rangle \langle \varphi_1| + P_2 |\varphi_2\rangle \langl
 
 Además, puede usar exactamente la misma regla, Ec. 7.13, para calcular el valor esperado.
 
-===== Página 219 =====
+  21 
 
 198 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2945,7 +2924,7 @@ $$\langle \mathbf{L} \rangle = \sum_{a,a'} L_{a',a} \rho_{a,a'}. \quad (7.14)$$
 
 La física clásica también tiene su noción de estados puros y mezcla, aunque no se llaman con esos nombres. Solo para ilustrar, consideremos un sistema de dos partículas moviéndose a lo largo de una línea. Según las reglas de la mecánica clásica, podemos calcular las órbitas de las partículas si conocemos los valores de sus posiciones ($x_1$ y $x_2$) y momentos ($p_1$ y $p_2$) en un cierto instante de tiempo. El estado del sistema se especifica así mediante cuatro números: $x_1, x_2, p_1,$ y $p_2$. Si conocemos estos cuatro números, tenemos una descripción tan completa del sistema de dos partículas como es posible tener: no hay más que saber. Podemos llamar a esto un estado clásico puro.
 
-===== Página 220 =====
+  22 
 
 7.4. ENTRELAZAMIENTO Y MATRICES DENSIDAD 199
 
@@ -2967,7 +2946,7 @@ $$\Psi(a, b).$$
 
 $^5$Por "extendida" queremos decir que $\rho(x_1, x_2, p_1, p_2)$ será distinta de cero para un rango de valores de sus argumentos, no solo un valor. Cuanto mayor sea este rango, más extendida se vuelve $\rho$.
 
-===== Página 221 =====
+  22 
 
 200 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -2989,7 +2968,7 @@ Hay un punto sutil sobre nuestra notación para matrices densidad que vale la pe
 
 $$L_{aa'} = \langle a|\mathbf{L}|a'\rangle$$
 
-===== Página 222 =====
+  22 
 
 7.5. ENTRELAZAMIENTO PARA DOS ESPINES 201
 
@@ -3015,7 +2994,7 @@ $$\rho_{aa'} = \psi^*(a') \psi(a).$$
 
 Esta ecuación te dice cómo calcular un elemento de la matriz densidad de Alicia. Si nos limitamos a nuestra familiar base de $\sigma_z$, cada índice $a$ y $a'$ puede tomar los valores arriba y abajo, por lo que Alicia tiene una matriz densidad de $2 \times 2$.
 
-===== Página 223 =====
+  22 
 
 202 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3046,7 +3025,7 @@ La respuesta a esta última pregunta es sí; podemos capturar la descripción co
 
 Consideremos un observable $\mathbf{L}$ del sistema de Alicia. Como cualquier observable, puede representarse como una matriz:
 
-===== Página 224 =====
+  22 
 
 7.5. ENTRELAZAMIENTO PARA DOS ESPINES 203
 
@@ -3064,7 +3043,7 @@ A primera vista, parece que hemos igualado una matriz $4 \times 4$ a una matriz 
 
 $^6$También podríamos llamarlo producto de Kronecker, ya que estamos hablando de matrices. La distinción formal no es importante para nuestros propósitos.
 
-===== Página 225 =====
+  22 
 
 204 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3086,7 +3065,7 @@ $$\rho_{a'a} = \sum_b \psi^*(a, b) \psi(a', b). \quad (7.20)$$
 
 La matriz $2 \times 2$ $\rho_{a'a}$ es la **matriz densidad de Alicia**. Observa que $\rho_{a'a}$ no depende de ningún índice $b$ ya que ha sido
 
-===== Página 226 =====
+  22 
 
 7.5. ENTRELAZAMIENTO PARA DOS ESPINES 205
 
@@ -3108,7 +3087,7 @@ Para determinar $P(a)$, comenzamos con $P(a, b)$, la probabilidad de que el sist
 
 $$P(a, b) = \psi^*(a, b) \psi(a, b).$$
 
-===== Página 227 =====
+  22 
 
 206 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3132,7 +3111,7 @@ Aquí hay algunas propiedades de las matrices densidad:
   $$\rho^2 = \rho$$
   $$\text{Tr}(\rho^2) = 1$$
 
-===== Página 228 =====
+  22 
 
 7.5. ENTRELAZAMIENTO PARA DOS ESPINES 207
 
@@ -3150,7 +3129,7 @@ Antes de que intentes los siguientes ejercicios, mencionaré una cosa más sobre
 
 $^7$Como mencionamos anteriormente, en la Sección 7.2, una matriz hermítica $\mathbf{M}$ puede diagonalizarse mediante una transformación $\mathbf{P}^\dagger\mathbf{MP}$, donde $\mathbf{P}$ es una matriz unitaria cuyas columnas son los vectores propios normalizados de $\mathbf{M}$.
 
-===== Página 229 =====
+  22 
 
 208 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3178,7 +3157,7 @@ b) Ahora, supongamos
 
 c) Si $\rho$ es una matriz densidad, ¿representa un estado puro o un estado mezcla?
 
-===== Página 230 =====
+  23 
 
 7.6. CÁLCULO DE LA MATRIZ DENSIDAD DE ALICIA 209
 
@@ -3198,7 +3177,7 @@ $$|\Psi\rangle = \frac{1}{\sqrt{2}} \left( |ud\rangle + |du\rangle \right).$$
 
 Observa que dos de los vectores base tienen un coeficiente de $\frac{1}{\sqrt{2}}$, mientras que los otros dos tienen coeficientes de cero. El estado está normalizado porque la suma de los coeficientes al cuadrado es 1. Además, los cuatro coeficientes resultan ser reales, lo que simplifica el proceso de conjugación compleja.
 
-===== Página 231 =====
+  23 
 
 210 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3220,7 +3199,7 @@ $$\rho_{dd} = \psi^*(d, u)\psi(d, u) + \psi^*(d, d)\psi(d, d) = \frac{1}{2}.$$
 
 Estos valores son los elementos de una matriz $2 \times 2$:
 
-===== Página 232 =====
+  23 
 
 7.6. CÁLCULO DE LA MATRIZ DENSIDAD DE ALICIA 211
 
@@ -3240,7 +3219,7 @@ Para cada uno, calcula la matriz densidad de Alicia y la matriz densidad de Beto
 
 $^8$Art es poeta, y ni siquiera es consciente de ello.
 
-===== Página 233 =====
+  23 
 
 212 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3258,7 +3237,7 @@ El entrelazamiento es la generalización mecánico-cuántica de la correlación.
 
 Siempre que la distribución de probabilidad no se factorice, hay correlaciones no nulas como las describí en la Desigualdad 6.2.
 
-===== Página 234 =====
+  23 
 
 7.7. PRUEBAS DE ENTRELAZAMIENTO 213
 
@@ -3280,7 +3259,7 @@ A partir de este ejercicio, podemos aprender algo sobre el entrelazamiento. Si u
 
 Si $C(A, B) = 0$, entonces no hay correlación (y no hay entrelazamiento) en absoluto.
 
-===== Página 235 =====
+  23 
 
 214 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3306,7 +3285,7 @@ Observa que solo depende de las variables de Alicia. Quizás no es muy sorprende
 
 Ahora, voy a demostrar un teorema clave sobre los valores propios de la matriz densidad de Alicia, bajo la suposición de un estado producto. Es cierto solo para estados no entrelazados y sirve para identificarlos. El teorema dice que para cualquier estado producto, la matriz densidad de Alicia (o de Beto) tiene exactamente un
 
-===== Página 236 =====
+  23 
 
 7.7. PRUEBAS DE ENTRELAZAMIENTO 215
 
@@ -3328,7 +3307,7 @@ Si la dimensión del espacio de estados de Alicia es $N_A$, entonces hay $N_A - 
 
 Para resumir el teorema: Si el sistema compuesto Alicia-Beto está en un estado producto, entonces la matriz densidad de Alicia (o de Beto)
 
-===== Página 237 =====
+  23 
 
 216 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3344,7 +3323,7 @@ $$\rho_{a'a} = \frac{1}{N_A} \delta_{a'a}. \quad (7.27)$$
 
 ¿Por qué está decepcionada Alicia? Vuelve a la Ec. 7.22. Esta ecuación dice que la probabilidad de un estado particular $a$ es el elemento diagonal de $\rho$, pero la Ec. 7.27 nos dice que todas las probabilidades son iguales. ¿Qué podría ser menos informativo que una distribución de probabilidad tan carente de estructura que cada resultado posible es igualmente probable?
 
-===== Página 238 =====
+  23 
 
 7.8. EL PROCESO DE MEDICIÓN 217
 
@@ -3358,7 +3337,7 @@ Hemos visto que los sistemas cuánticos evolucionan de maneras que parecen irrec
 
 Comencemos notando que cada medición involucra
 
-===== Página 239 =====
+  23 
 
 218 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3377,7 +3356,7 @@ $$|d\rangle.$$
 
 A partir de estos dos conjuntos de vectores base, podemos construir un espacio de estados compuesto (producto tensorial) que tiene los seis vectores base
 
-===== Página 240 =====
+  24 
 
 7.8. EL PROCESO DE MEDICIÓN 219
 
@@ -3400,7 +3379,7 @@ De manera similar, podemos requerir que si el espín está en el estado abajo, c
 
 $$|d, b\rangle \rightarrow |d, -1\rangle. \quad (7.29)$$
 
-===== Página 241 =====
+  24 
 
 220 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3424,7 +3403,7 @@ $$\alpha_u|u, b\rangle + \alpha_d|d, b\rangle \rightarrow \alpha_u|u, +1\rangle 
 
 Este estado final es un estado entrelazado. De hecho, si $\alpha_u = -\alpha_d$, es el estado singlete máximamente entrelazado. Efectivamente, se puede mirar el aparato e inmediatamente deducir cuál es el estado del espín: si el aparato lee $+1$, el espín está arriba, y si lee $-1$, el espín está abajo. Además, la probabilidad de que el aparato final muestre $+1$ es
 
-===== Página 242 =====
+  24 
 <!--SR:!2000-01-01,1,250!2026-02-15,1,230-->
 
 7.8. EL PROCESO DE MEDICIÓN 221
@@ -3441,7 +3420,7 @@ Todo esto está muy bien, pero ¿qué sucede cuando Beto mira a Alicia? Para sus
 
 ¿El último ente en mirar el sistema colapsa la función de onda, o solo se entrelaza? ¿O hay
 
-===== Página 243 =====
+  24 
 
 222 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3457,7 +3436,7 @@ El problema, por supuesto, es que los dos grupos entienden cosas diferentes por 
 
 Primero, ampliemos la definición del sistema de Alicia y el sistema de Beto. Hasta ahora, he usado el término sistema de Alicia para significar algún sistema que Alicia lleva consigo y en el que puede hacer experimentos. Para el resto de esta sección, usaré el término para significar otra cosa: el sistema de Alicia consiste no solo en algún sistema que ella lleva, sino también en el aparato
 
-===== Página 244 =====
+  24 
 
 7.9. ENTRELAZAMIENTO Y LOCALIDAD 223
 
@@ -3483,7 +3462,7 @@ y puede estar entrelazada. La descripción completa de Alicia de su sistema, su 
 
 $$\rho_{aa'} = \sum_b \psi^*(a'b) \psi(ab). \quad (7.31)$$
 
-===== Página 245 =====
+  24 
 
 224 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3505,7 +3484,7 @@ Observa que agregamos primas a algunos de los símbolos para evitar mezclarlos e
 
 $$\rho_{aa'} = \sum_{b,b',b''} \psi^*(a'b'') U^\dagger_{b''b} U_{bb'} \psi(ab').$$
 
-===== Página 246 =====
+  24 
 
 7.10. EL SIMULADOR CUÁNTICO: INTRO AL TEOREMA DE BELL 225
 
@@ -3523,7 +3502,7 @@ Esto es exactamente lo mismo que la Ec. 7.31. En otras palabras, $\rho_{aa'}$ es
 
 Es interesante que la unitariedad jugó un papel prominente en garantizar que ninguna señal pueda enviarse instantáneamente. Si $U$ no hubiera sido unitaria, la matriz densidad final de Alicia sí se habría visto afectada por Beto.
 
-===== Página 247 =====
+  24 
 
 226 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3537,7 +3516,7 @@ Al comienzo del juego, los coeficientes $\alpha$ se inicializan con algún valor
 
 El ordenador también almacena la orientación tridimensional clásica del aparato en forma de dos ángulos o un
 
-===== Página 248 =====
+  24 
 
 7.10. EL SIMULADOR CUÁNTICO: INTRO AL TEOREMA DE BELL 227
 
@@ -3545,7 +3524,7 @@ El ordenador también almacena la orientación tridimensional clásica del apara
 
 vector unitario. El teclado te permite establecer estos ángulos y cambiarlos a voluntad. Un elemento más se almacena en la memoria, a saber, el valor ($+1$ o $-1$) que representa el número en la ventana del aparato. La pantalla del ordenador muestra el aparato. Como experimentador, tú eliges cómo se orientará tu aparato. También hay
 
-===== Página 249 =====
+  24 
 
 228 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3561,7 +3540,7 @@ Siendo un buen experimentador, haces muchas pruebas y recopilas estadísticas, q
 
 A continuación, intentemos lo mismo con dos ordenadores, A y B, simulando dos espines cuánticos. Si los espines comienzan en un estado producto y nunca interactúan, podemos simplemente jugar
 
-===== Página 250 =====
+  25 
 
 7.10. EL SIMULADOR CUÁNTICO: INTRO AL TEOREMA DE BELL 229
 
@@ -3575,7 +3554,7 @@ y actualiza estos números usando la ecuación de Schrödinger. Cada pantalla de
 
 ¿Podemos probar esto? De nuevo, la respuesta es sí—y ese es el contenido esencial del teorema de Bell. Cualquier simulación clásica de la mecánica cuántica que intente separar espacialmente los aparatos de Alicia y Beto debe tener un cable instantáneo que conecte los ordenadores separados con una memoria central que almacene y actualice el vector de estado.
 
-===== Página 251 =====
+  25 
 
 230 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3589,7 +3568,7 @@ De todas las ideas contraintuitivas que la mecánica cuántica nos impone, el en
 
 $^9$En otras palabras, sistemas que permiten enviar señales al instante.
 
-===== Página 252 =====
+  25 
 
 7.11. RESUMEN DEL ENTRELAZAMIENTO 231
 
@@ -3619,7 +3598,7 @@ $$\langle \tau_x \rangle^2 + \langle \tau_y \rangle^2 + \langle \tau_z \rangle^2
 
 **Correlación:** $\langle \sigma_z \tau_z \rangle - \langle \sigma_z \rangle \langle \tau_z \rangle = 0$
 
-===== Página 253 =====
+  25 
 
 232 LECCIÓN 7. MÁS SOBRE ENTRELAZAMIENTO
 
@@ -3651,7 +3630,7 @@ $$\langle \tau_z \sigma_z \rangle, \langle \tau_x \sigma_x \rangle, \langle \tau
 
 **Correlación:** $\langle \sigma_z \tau_z \rangle - \langle \sigma_z \rangle \langle \tau_z \rangle = -1$
 
-===== Página 254 =====
+  25 
 
 7.11. RESUMEN DEL ENTRELAZAMIENTO 233
 
@@ -3698,7 +3677,7 @@ $$\langle \tau_x \sigma_x \rangle = -2\sqrt{0.24}$$
 
 ---
 
-===== Página 256 =====
+  25 
 
 # Lección 8
 
@@ -3718,7 +3697,7 @@ Art: Buen punto.
 
 Para el ciudadano de a pie, la mecánica cuántica trata sobre la luz que son partículas y los electrones que son ondas. Pero hasta ahora, apenas he mencionado las partículas, y la única mención de las ondas ha sido la función de onda, que hasta ahora no ha tenido nada que ver con ondas. Entonces, ¿cuándo llegamos a la mecánica cuántica "real"?
 
-===== Página 257 =====
+  25 
 
 236 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3736,7 +3715,7 @@ $$|\Psi\rangle = \sum_{\lambda} \psi(\lambda) |\lambda\rangle. \quad (8.1)$$
 
 Como recordarás de las Secciones 5.1.2 y 5.1.3, las cantidades
 
-===== Página 258 =====
+  25 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 237
 
@@ -3760,7 +3739,7 @@ $$\begin{pmatrix}
 \psi(\lambda_5)
 \end{pmatrix}.$$
 
-===== Página 259 =====
+  25 
 
 238 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3778,7 +3757,7 @@ $$P(\lambda) = \psi^*(\lambda)\psi(\lambda).$$
 
 Hasta ahora, los sistemas que hemos estudiado han tenido vectores de estado de dimensión finita. Por ejemplo, el espín simple se describe mediante un espacio de estados bidimensional. Por esta razón, los observables han tenido solo un número finito de valores observables posibles. Pero hay observables más complicados que pueden tener un número infinito de valores. Un ejemplo es una partícula. Las coordenadas de una partícula son observables, pero, a diferencia del espín, las coordenadas tienen un número infinito de valores posibles. Por ejemplo, una partícula que se mueve a lo largo del eje $x$ puede encontrarse en cualquier valor real de $x$. En otras palabras, $x$ es una variable continuamente infinita. Cuando los observables de un sistema son continuos, la función de onda se convierte verdaderamente en una función de una variable continua. Para aplicar la mecánica cuántica a este tipo de sistema, tenemos que expandir la idea
 
-===== Página 260 =====
+  26 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 239
 
@@ -3795,7 +3774,7 @@ Ahora, precisemos qué queremos decir cuando decimos "Las funciones son vectores
 3. La adición de funciones es asociativa.
 4. Hay una función cero única tal que cuando la sumas a cualquier función, obtienes la misma función.
 
-===== Página 261 =====
+  26 
 
 240 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3812,7 +3791,7 @@ Para usar esta idea de manera efectiva, necesitaremos generalizar algunos de los
 
 * Las **integrales** reemplazan a las sumas.
 
-===== Página 262 =====
+  26 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 241
 
@@ -3832,7 +3811,7 @@ Consideremos un bra $\langle \Psi|$ y un ket $|\Phi\rangle$ y definamos su produ
 
 $$\langle \Psi | \Phi \rangle = \int_{-\infty}^{\infty} \psi^*(x) \varphi(x) dx. \quad (8.2)$$
 
-===== Página 263 =====
+  26 
 
 242 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3852,7 +3831,7 @@ $$\int_{-\infty}^{\infty} \psi^*(x)\psi(x) dx = 1. \quad (8.3)$$
 **Las Funciones Delta de Dirac Reemplazan a las Deltas de Kronecker:**
 Hasta ahora, esto debería ser muy familiar. La función delta de Dirac puede serlo menos. La función delta es el análogo de la delta de Kronecker, $\delta_{ij}$. La delta de Kronecker se define como 0 para $i \neq j$ y 1 para $i = j$. Pero también puede definirse de otra manera. Considera cualquier vector $F_i$ en un espacio de dimensión finita. Es fácil ver que la delta de Kronecker satisface
 
-===== Página 264 =====
+  26 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 243
 
@@ -3870,13 +3849,13 @@ La Ec. 8.4 define esta nueva entidad, llamada función delta de Dirac, que resul
 
 $$\frac{n}{\sqrt{\pi}} e^{-(nx)^2}$$
 
-===== Página 265 =====
+  26 
 
 244 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
  Figura 8.1: Aproximaciones a la Función Delta de Dirac. Estas aproximaciones se basan en $\frac{n}{\sqrt{\pi}} e^{-(nx)^2}$ y se representan para valores crecientes de $n$. 
 
-===== Página 266 =====
+  26 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 245
 
@@ -3900,7 +3879,7 @@ o
 
 $$FG \Big|_a^b - \int_a^b G dF = \int_a^b F dG.$$
 
-===== Página 267 =====
+  26 
 
 246 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3919,7 +3898,7 @@ Los bras y kets son la mitad de la historia en mecánica cuántica; la otra mita
 
 El concepto de un operador lineal es bastante simple: es una máquina que actúa sobre una función y da otra función.
 
-===== Página 268 =====
+  26 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 247
 
@@ -3939,7 +3918,7 @@ Esto, por supuesto, es un subconjunto minúsculo de los posibles operadores line
 
 Ahora, consideremos la propiedad de ser hermítico. Una forma conveniente de definir un operador hermítico es a través de sus elementos de matriz, colocándolo entre un bra y un ket. Puedes colocar un operador $\mathbf{L}$ de dos maneras diferentes:
 
-===== Página 269 =====
+  26 
 
 248 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -3967,7 +3946,7 @@ $$\langle \Phi | \mathbf{X} | \Psi \rangle = \int \varphi^*(x) x \psi(x) dx.$$
 
 Debido a que $x$ es real, es fácil ver que estas dos integrales son complejas conjugadas entre sí, y por lo tanto que $\mathbf{X}$ es hermítico.
 
-===== Página 270 =====
+  27 
 
 8.1. INTERLUDIO: FUNCIONES CONTINUAS 249
 
@@ -3989,7 +3968,7 @@ $$\langle \Psi | \mathbf{D} | \Phi \rangle = -\langle \Phi | \mathbf{D} | \Psi \
 
 que es el diametralmente opuesto a lo que queríamos. A diferencia del operador $\mathbf{X}$, $\mathbf{D}$ no es hermítico. En cambio, satisface
 
-===== Página 271 =====
+  27 
 
 250 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4011,7 +3990,7 @@ Mantén esta fórmula en mente. Pronto jugará un papel principal en la definici
 
 En mecánica clásica, el "estado de un sistema" significa todo lo que necesitas saber para predecir el futuro del sistema, dadas las fuerzas que actúan sobre él. Eso, por supuesto, significa las posiciones de todas las partículas que componen el sistema, así como los momentos de esas partículas. Desde una perspectiva clásica, las posiciones y momentos instantáneos son variables completamente independientes. Por ejemplo, para una partícula de masa $m$ que se mueve
 
-===== Página 272 =====
+  27 
 
 8.2. EL ESTADO DE UNA PARTÍCULA 251
 
@@ -4029,7 +4008,7 @@ Sin embargo, esto es incorrecto. Ya hemos visto que las cosas que serían simult
 
 Ya sea que estemos hablando de espines ($\sigma_z, \sigma_x$) o de posiciones y momentos ($x, p$), la incompatibilidad es en última instancia un hecho experimental.
 
-===== Página 273 =====
+  27 
 
 252 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4047,7 +4026,7 @@ donde el valor propio se denota por $x_0$. En términos de funciones de onda, es
 
 $$x \psi(x) = x_0 \psi(x). \quad (8.11)$$
 
-===== Página 274 =====
+  27 
 
 8.2. EL ESTADO DE UNA PARTÍCULA 253
 
@@ -4067,7 +4046,7 @@ Evidentemente, entonces, cada número real $x_0$ es un valor propio de $\mathbf{
 
 $$\psi(x) = \delta(x - x_0)$$
 
-===== Página 275 =====
+  27 
 
 254 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4093,7 +4072,7 @@ $$\langle x | \Psi \rangle = \psi(x). \quad (8.13)$$
 
 En otras palabras, la función de onda, $\psi(x)$, de una partícula que se mueve en la dirección $x$ es la proyección de un vector de estado $|\Psi\rangle$ sobre los vectores propios de la posición. También nos referiremos a $\psi(x)$ como la función de onda en la **representación de posiciones**.
 
-===== Página 276 =====
+  27 
 
 8.2. EL ESTADO DE UNA PARTÍCULA 255
 
@@ -4113,7 +4092,7 @@ o, en términos de su acción sobre funciones de onda,
 
 $$\mathbf{P} \psi(x) = -i\hbar \frac{d\psi(x)}{dx}. \quad (8.15)$$
 
-===== Página 277 =====
+  27 
 
 256 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4137,7 +4116,7 @@ $$\psi_p(x) = A e^{\frac{ipx}{\hbar}}.$$
 
 El subíndice $p$ es solo un recordatorio de que $\psi_p(x)$ es el vector propio de $\mathbf{P}$ con el valor propio específico $p$. Es una función de $x$, pero está etiquetada por un valor propio de $\mathbf{P}$.
 
-===== Página 278 =====
+  27 
 
 8.2. EL ESTADO DE UNA PARTÍCULA 257
 
@@ -4156,7 +4135,7 @@ Un punto de cierto interés se sigue de las Ecs. 8.13 y 8.17. El producto intern
 $$\langle x | p \rangle = \frac{1}{\sqrt{2\pi}} e^{\frac{ipx}{\hbar}}$$
 $$\langle p | x \rangle = \frac{1}{\sqrt{2\pi}} e^{-\frac{ipx}{\hbar}}. \quad (8.18)$$
 
-===== Página 279 =====
+  27 
 
 258 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4173,7 +4152,7 @@ $$e^{\frac{ipx}{\hbar}}$$
 
 está dada por
 
-===== Página 280 =====
+  28 
 
 8.2. EL ESTADO DE UNA PARTÍCULA 259
 
@@ -4189,7 +4168,7 @@ Durante los últimos cien años, los físicos se han preocupado principalmente p
 
 Todos estos objetos son demasiado pequeños para ser vistos con los mejores microscopios ópticos, y mucho menos a simple vista. La razón no es solo que nuestros ojos sean insuficientemente sensibles. El hecho más importante es que los ojos y los microscopios ópticos son sensibles al espectro visible, que comprende longitudes de onda al menos unos pocos miles de veces más largas que el tamaño de un átomo. Como regla general, no se pueden resolver objetos mucho más pequeños que la longitud de onda que se utiliza para observarlos. Por esta razón, la historia de la física del siglo XX fue en gran parte una búsqueda
 
-===== Página 281 =====
+  28 
 
 260 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4207,7 +4186,7 @@ $$P(x) = \psi^*(x)\psi(x).$$
 
 Como veremos, ningún experimento puede determinar simultáneamente la posición y el momento de una partícula. Pero si renunciamos a determinar cualquier cosa sobre la posición, el momento puede medirse con precisión. La situación es bastante análoga a la de las componentes $x$ y $z$ de un espín. Cualquier valor puede medirse, pero no ambos.
 
-===== Página 282 =====
+  28 
 
 8.3. TRANSFORMADAS DE FOURIER / BASE DE MOMENTO 261
 
@@ -4225,7 +4204,7 @@ Ahora está claro que hay dos formas de representar un vector de estado. Una for
 
 Estamos a punto de ver el gran poder de la notación bra-ket de Dirac para simplificar cosas complicadas. Primero, recordemos una idea importante de lecciones anteriores. Supongamos que definimos una base ortonormal de estados a través de los vectores propios de
 
-===== Página 283 =====
+  28 
 
 262 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4247,7 +4226,7 @@ $$\psi(x) = \langle x | \Psi \rangle. \quad (8.23)$$
 
 Ahora supongamos que queremos conocer la función de onda $\tilde{\psi}(p)$ en la representación de momentos. Aquí están los pasos detallados:
 
-===== Página 284 =====
+  28 
 
 8.3. TRANSFORMADAS DE FOURIER / BASE DE MOMENTO 263
 
@@ -4262,7 +4241,7 @@ Ahora supongamos que queremos conocer la función de onda $\tilde{\psi}(p)$ en l
 
 Esta ecuación nos muestra exactamente cómo transformar una función de onda dada en la representación de posiciones en la función de onda correspondiente en la representación de momentos. ¿Para qué sirve? Supongamos que se conoce la función de onda de posición para alguna partícula; sin embargo, el objetivo de tu experimento es medir el momento, y quieres conocer
 
-===== Página 285 =====
+  28 
 
 264 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4279,7 +4258,7 @@ Es igual de fácil ir en la otra dirección. Supongamos que conocemos $\tilde{\p
 * La expresión $\langle p | \Psi \rangle$ es justamente la función de onda $\tilde{\psi}(p)$, y $\langle x | p \rangle$ nos la da la primera de las Ecs. 8.18.
   $$\langle x | p \rangle = \frac{1}{\sqrt{2\pi}} e^{\frac{ipx}{\hbar}}.$$
 
-===== Página 286 =====
+  28 
 
 8.4. CONMUTADORES Y CORCHETES DE POISSON 265
 
@@ -4297,7 +4276,7 @@ La relación entre la representación de posiciones y la de momentos resumida po
 
 Anteriormente, en la Lección 4, formulamos dos principios importantes sobre los conmutadores. El primero tenía que ver con la conexión entre la mecánica clásica y la mecánica cuántica;
 
-===== Página 287 =====
+  28 
 
 266 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4320,7 +4299,7 @@ $$\mathbf{X}\mathbf{P} \psi(x) = -i\hbar x \frac{d\psi(x)}{dx}. \quad (8.28)$$
 
 Ahora, intentémoslo con $\mathbf{X}$ y $\mathbf{P}$ en el orden opuesto:
 
-===== Página 288 =====
+  28 
 
 8.4. CONMUTADORES Y CORCHETES DE POISSON 267
 
@@ -4344,7 +4323,7 @@ $$[\mathbf{X}, \mathbf{P}] = i\hbar. \quad (8.30)$$
 
 Esto en sí mismo es extremadamente importante. El hecho de que $\mathbf{X}$ y $\mathbf{P}$ no conmuten es la clave para entender por qué no son medibles simultáneamente. Pero las cosas se vuelven aún más interesantes cuando comparamos esta ecuación con la Equivalencia 8.27, que relaciona conmutadores con corchetes de Poisson clásicos. En
 
-===== Página 289 =====
+  28 
 
 268 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4366,7 +4345,7 @@ Haremos eso en la próxima sección.
 
 Ahora recordemos el segundo principio que involucra conmutadores. En la Lección 4, encontramos que dos observables $\mathbf{L}$ y $\mathbf{M}$ no pueden determinarse simultáneamente a menos que conmuten. Si no conmutan, no puedes medir $\mathbf{L}$ sin interferir con una medición de $\mathbf{M}$. No es posible encontrar vectores propios simultáneos de dos observables que no conmutan. Esto llevó al principio de incertidumbre general.
 
-===== Página 290 =====
+  29 
 
 8.5. EL PRINCIPIO DE INCERTIDUMBRE DE HEISENBERG 269
 
@@ -4386,7 +4365,7 @@ $$\Delta \mathbf{X} \, \Delta \mathbf{P} \geq \frac{1}{2} |\langle \Psi | [\math
 
 y reemplazando $[\mathbf{X}, \mathbf{P}]$ con $i\hbar$ resulta en
 
-===== Página 291 =====
+  29 
 
 270 LECCIÓN 8. PARTÍCULAS Y ONDAS
 
@@ -4406,7 +4385,7 @@ El resultado es completamente uniforme, sin picos en ninguna parte del eje $x$. 
 
 La Fig. 8.2 ilustra la definición de incertidumbre para la variable de posición $x$. En la mitad superior de la figura, puedes ver que la incertidumbre $\Delta x$ es una medida de cuán extendida está la función en relación con su valor esperado $\langle x \rangle$. La
 
-===== Página 292 =====
+  29 
 
 8.5. EL PRINCIPIO DE INCERTIDUMBRE DE HEISENBERG 271
 
@@ -4426,7 +4405,7 @@ La mitad inferior de la Fig. 8.2 muestra cómo se puede simplificar el cálculo 
 
 ---
 
-===== Página 294 =====
+  29 
 
 # Lección 9
 
@@ -4446,7 +4425,7 @@ Los dos primeros volúmenes de la serie Mínimo Teórico se han centrado en gran
 
 ¹N. del T.: Juego de palabras intraducible entre "operator" (operador matemático) y "operator" (cirujano, operario).
 
-===== Página 295 =====
+  29 
 
 274 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4466,7 +4445,7 @@ Esta lección trata sobre la **Ecuación de Schrödinger Original** —la ecuaci
 
 El movimiento de partículas ordinarias (no relativistas) en mecánica clásica está gobernado por un Hamiltoniano, igual a la
 
-===== Página 296 =====
+  29 
 
 9.1. UN EJEMPLO SENCILLO 275
 
@@ -4486,7 +4465,7 @@ Observa que ahora estamos escribiendo $\psi$ como una función tanto de $x$ como
 
 $$\frac{\partial \psi(x, t)}{\partial t} = -c \frac{\partial \psi(x, t)}{\partial x}, \quad (9.3)$$
 
-===== Página 297 =====
+  29 
 
 276 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4508,7 +4487,7 @@ $$\int_{-\infty}^{\infty} \psi^*(x)\psi(x) dx$$
 
 sea igual a 1. En otras palabras, queremos que $\psi(x)$ decaiga agradablemente a cero en el infinito para que la integral no explote. La Fig.
 
-===== Página 298 =====
+  29 
 
 9.1. UN EJEMPLO SENCILLO 277
 
@@ -4522,7 +4501,7 @@ Tuve una razón para darle el nombre $c$ a nuestra constante —el símbolo $c$ 
 
 ²Esto incluye tanto la parte real como la imaginaria de $\psi(x)$.
 
-===== Página 299 =====
+  29 
 
 278 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4536,7 +4515,7 @@ Dado que la función de onda de nuestra partícula se mueve rígidamente a lo la
 
 ⁴N. del T.: "Zaxon" es una adaptación del término "zax" del cuento de Dr. Seuss, usado en el texto original.
 
-===== Página 300 =====
+  30 
 
 9.1. UN EJEMPLO SENCILLO 279
 
@@ -4560,7 +4539,7 @@ $$\frac{\partial H}{\partial x} = -\dot{p} = 0.$$
 
 Por lo tanto, en la descripción clásica de nuestra partícula, el momento se conserva y la posición se mueve con velocidad fija $c$. En la descripción mecánico-cuántica, toda la distribución de probabilidad y el valor esperado se mueven con velocidad $c$. En otras palabras, el valor esperado de la posición se comporta según las ecuaciones clásicas del movimiento.
 
-===== Página 301 =====
+  30 
 
 280 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4576,7 +4555,7 @@ $$T = \frac{1}{2} m v^2.$$
 
 Como recordarás, el momento de una partícula clásica es
 
-===== Página 302 =====
+  30 
 
 9.2. PARTÍCULAS LIBRES NO RELATIVISTAS 281
 
@@ -4598,7 +4577,7 @@ $$p^2/2m.$$
 
 La versión cuántica reemplaza $p$ con $\mathbf{P}$:
 
-===== Página 303 =====
+  30 
 
 282 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4626,7 +4605,7 @@ $$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2
 
 Esta es la ecuación de Schrödinger tradicional para una partícula libre no relativista ordinaria. Es un tipo particular de ecuación de onda, pero, en contraste con el ejemplo anterior, las ondas
 
-===== Página 304 =====
+  30 
 
 9.3. ECUACIÓN DE SCHRÖDINGER INDEPENDIENTE DEL TIEMPO 283
 
@@ -4638,7 +4617,7 @@ de diferentes longitudes de onda (y momentos) se mueven con diferentes velocidad
 
 Vamos a resolver la ecuación de Schrödinger dependiente del tiempo para partículas libres no relativistas, pero primero necesitamos
 
-===== Página 305 =====
+  30 
 
 284 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4664,7 +4643,7 @@ Esto no debería ser una sorpresa —después de todo, $E$ representa un valor p
 
 Como vimos en la Sección 4.13, cada solución de la ecuación de Schrödinger independiente del tiempo nos permite construir una solución dependiente del tiempo.
 
-===== Página 306 =====
+  30 
 
 9.3. ECUACIÓN DE SCHRÖDINGER INDEPENDIENTE DEL TIEMPO 285
 
@@ -4684,7 +4663,7 @@ $$\tilde{\psi}(p, t) = \tilde{\psi}(p) \exp \frac{i(px - \frac{p^2 t}{2m})}{\hba
 
 En otras palabras, solo la fase cambia con el tiempo, mientras que la magnitud permanece constante. Lo que hace esto tan interesante es que la probabilidad $P(p)$ no cambia en absoluto con el tiempo. Esto, por supuesto, es una consecuencia de la conservación del momento, pero solo se cumple si no hay fuerzas actuando sobre la partícula.
 
-===== Página 307 =====
+  30 
 
 286 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4704,7 +4683,7 @@ $$v = \frac{d}{dt} \int \psi^*(x, t) \, x \, \psi(x, t) dx.$$
 
 ¿Por qué $\langle \Psi | \mathbf{X} | \Psi \rangle$ varía con el tiempo? Porque $\psi$ depende del tiempo, y de hecho sabemos exactamente cómo. La dependencia temporal de $\psi$ está gobernada por la ecuación de Schrödinger dependiente del tiempo. Podríamos usar ese hecho para deducir cómo $\langle \Psi | \mathbf{X} | \Psi \rangle$ varía con el tiempo. Lo he hecho de esta manera —por fuerza bruta— y lleva varias páginas. Afortunadamente, los métodos abstractos que aprendiste en lecciones anteriores lo hacen más fácil; de hecho, ya hemos hecho la mayor parte del trabajo en la Lección 4. De hecho, antes de continuar, te recomiendo que repases la Lección 4, especialmente la Sección 4.9, desde el principio hasta la aparición de la Ec. 4.17. Para reafirmar la Ec. 4.17,
 
-===== Página 308 =====
+  30 
 
 9.4. VELOCIDAD Y MOMENTO 287
 
@@ -4730,7 +4709,7 @@ Sustituyendo esto en la Ec. 9.10 e insertando ese resultado en la Ec. 9.9, encon
 
 $$v = \frac{\langle \mathbf{P} \rangle}{m}$$
 
-===== Página 309 =====
+  30 
 
 288 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4748,7 +4727,7 @@ Antes de pasar al tema de las fuerzas en mecánica cuántica, quiero hacer una p
 
 1. Comienza con un sistema clásico. Esto significa un conjunto de coordenadas $x$ y momentos $p$. En nuestro ejemplo, solo había una coordenada y un momento, pero el procedimiento es fácil de generalizar. Las coordenadas y los momentos vienen en pares, $x_i$ y $p_i$. El sistema clásico también tiene un Hamiltoniano, que es una función de las $x$ y las $p$.
 
-===== Página 310 =====
+  31 
 
 9.5. CUANTIZACIÓN 289
 
@@ -4764,7 +4743,7 @@ Este procedimiento de **cuantización** es el medio por el cual las ecuaciones c
 
 Todo esto plantea una pregunta del "huevo y la gallina": ¿Qué viene primero —la teoría clásica o la teoría cuántica? ¿Debería
 
-===== Página 311 =====
+  31 
 
 290 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4778,7 +4757,7 @@ Dicho esto, ahora continuaré cuantizando el movimiento de partículas, pero est
 
 El mundo sería un lugar aburrido si todas las partículas fueran libres. Las fuerzas son lo que hace que las partículas hagan cosas interesantes, como ensamblarse en átomos, moléculas, barras de chocolate y agujeros negros. La fuerza sobre una partícula dada es la suma total de las fuerzas ejercidas sobre ella por todas las demás partículas del universo. En la práctica, generalmente asumimos que conocemos
 
-===== Página 312 =====
+  31 
 
 9.6. FUERZAS 291
 
@@ -4798,7 +4777,7 @@ En mecánica cuántica, procedemos de manera diferente; escribimos un Hamiltonia
 
 $$\mathbf{V} |\Psi\rangle \rightarrow V(x) \psi(x).$$
 
-===== Página 313 =====
+  31 
 
 292 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4823,7 +4802,7 @@ $$E \psi = -\frac{\hbar^2}{2m} \frac{\partial^2 \psi}{\partial x^2} + V(x) \psi.
 
 ⁵Técnicamente, esto también es cierto para partículas libres. Sin embargo, en el caso de partículas libres, establecemos $V(x)$ igual a 0.
 
-===== Página 314 =====
+  31 
 
 9.6. FUERZAS 293
 
@@ -4845,7 +4824,7 @@ $$\frac{d}{dt} \langle \mathbf{P} \rangle = \frac{i}{2m\hbar} \langle [\mathbf{P
 
 El primer término es cero porque un operador conmuta con cualquier función de sí mismo. Para calcular el segundo término, usaremos
 
-===== Página 315 =====
+  31 
 
 294 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4869,7 +4848,7 @@ que es el análogo cuántico de la ecuación de Newton para la tasa de cambio te
 
 **Ejercicio 9.3:** Muestra que el lado derecho de la Ec. 9.17 se simplifica al lado derecho de la Ec. 9.16. Pista: Primero expande el segundo término tomando la derivada del producto. Luego busca cancelaciones.
 
-===== Página 316 =====
+  31 
 
 9.7. MOVIMIENTO LINEAL Y LÍMITE CLÁSICO 295
 
@@ -4883,7 +4862,7 @@ $$\frac{d}{dt} \langle \mathbf{P} \rangle = -\frac{dV(\langle x \rangle)}{d\lang
 
 Examinemos este punto más de cerca. Matemáticamente, no hemos hecho suposiciones sobre las formas de nuestros paquetes de ondas. Pero tácitamente los hemos imaginado como funciones bien formadas con un solo máximo, que se desvanecen suavemente hacia cero en las direcciones positiva y negativa. Esta con-
 
-===== Página 317 =====
+  31 
 
 296 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4897,7 +4876,7 @@ $$\langle F(x) \rangle \neq F(\langle x \rangle).$$
 
 El lado derecho es una función del centro del paquete de ondas. No es lo mismo que el lado izquierdo, que corres-
 
-===== Página 318 =====
+  31 
 
 9.7. MOVIMIENTO LINEAL Y LÍMITE CLÁSICO 297
 
@@ -4913,7 +4892,7 @@ En igualdad de condiciones, cuando la masa de una partícula es grande, la funci
 
 ⁶Recuerda que $-\langle \frac{dV}{dx} \rangle$ representa la fuerza en esa ecuación.
 
-===== Página 319 =====
+  31 
 
 298 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4925,7 +4904,7 @@ lar a la Fig. 9.4. El paquete de ondas se extenderá y se desintegrará. Si, por
 
 ⁷No tan elocuente como la frase final de Garrison Keillor, pero cierto de todos modos.
 
-===== Página 320 =====
+  32 
 
 9.7. MOVIMIENTO LINEAL Y LÍMITE CLÁSICO 299
 
@@ -4945,7 +4924,7 @@ Ahora, $p$ está tan concentrado como puede estarlo, pero para un objeto macrosc
 
 $$m \Delta v \, \Delta x \sim \hbar.$$
 
-===== Página 321 =====
+  32 
 
 300 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4961,7 +4940,7 @@ Ahora, si pongo una bola de boliche en el suelo, sé muy bien que la incertidumb
 
 En el límite de la mecánica cuántica, donde $m$ es muy pequeña y $\Delta x$ tiende a ser grande, la función de onda se moverá bajo la influencia de un potencial irregular, que percibe como mucho más agudo y con más características que la propia función de onda. Eso es cuando la función de onda se rompe. Por otro lado, a medida que $m$ se hace muy grande, $\Delta x$ se hace pequeño. Para una bola de boliche grande, el paquete de ondas podría estar muy concentrado. Cuando se mueve a través de un potencial con picos, esta diminuta función de onda encuentra un potencial cuyas características son (comparativamente) muy amplias. Moverse a través de características amplias y suaves no rompe la función de onda en pedazos. Las masas grandes y los potenciales suaves caracterizan el límite clásico. Una partícula con baja masa, moviéndose a través de un potencial abrupto, se comporta como un sistema mecánico-cuántico.
 
-===== Página 322 =====
+  32 
 
 9.8. INTEGRALES DE TRAYECTORIA 301
 
@@ -4973,7 +4952,7 @@ Antes de dejar este tema, me gustaría mencionar los **paquetes de ondas de mín
 
 La mecánica hamiltoniana clásica se centra en los cambios incrementales paso a paso en el estado de un sistema. Pero hay otra forma de formular la mecánica —el **Principio de Mínima Acción**— en el que el enfoque está en historias completas. Para una partícula, esto significa observar la trayectoria completa de la partícula desde algún tiempo inicial hasta algún tiempo final. El contenido de los dos enfoques es el mismo, pero el énfasis es diferen-
 
-===== Página 323 =====
+  32 
 
 302 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -4987,7 +4966,7 @@ Según el principio de mínima acción, la trayectoria real es aquella de **acci
 
 ⁸Estrictamente hablando, el principio debería llamarse Principio de Acción Estacionaria. Las trayectorias reales son puntos estacionarios de la acción y no siempre mínimos. Para nuestros propósitos, este detalle no es importante.
 
-===== Página 324 =====
+  32 
 
 9.8. INTEGRALES DE TRAYECTORIA 303
 
@@ -4999,7 +4978,7 @@ $$A = \int_{t_1}^{t_2} L(x, \dot{x}) dt \quad (9.19)$$
 
 o
 
-===== Página 325 =====
+  32 
 
 304 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -5009,7 +4988,7 @@ $$A = \int_{t_1}^{t_2} \left( \frac{m \dot{x}^2}{2} - V(x) \right) dt.$$
 
 La idea es probar todas las trayectorias posibles que conectan los dos puntos finales, y calcular $A$ para cada una de ellas. La
 
-===== Página 326 =====
+  32 
 
 9.8. INTEGRALES DE TRAYECTORIA 305
 
@@ -5023,7 +5002,7 @@ Ahora, pasemos a la mecánica cuántica. La idea de una trayectoria bien definid
 
 ¹⁰Para mantener nuestros diagramas simples, no mostramos un eje $\dot{x}$ aunque el Lagrangiano claramente depende de $\dot{x}$.
 
-===== Página 327 =====
+  32 
 
 306 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -5047,7 +5026,7 @@ $$C_{1,2} = \langle x_2 | e^{-i\mathbf{H}t} | x_1 \rangle. \quad (9.22)$$
 
 Ahora, dividamos el intervalo de tiempo $t$ en dos intervalos más pequeños de tamaño $t/2$ (ver Fig. 9.6). El operador $e^{-i\mathbf{H}t}$ puede escribirse
 
-===== Página 328 =====
+  32 
 
 9.8. INTEGRALES DE TRAYECTORIA 307
 
@@ -5069,7 +5048,7 @@ La Fig. 9.6 muestra la misma idea en términos visuales. Clásicamente, para ir 
 
 Podemos llevar esta idea más allá y dividir el intervalo de tiempo en muchos intervalos diminutos, como se ilustra en la Fig. 9.7. No escribiré las fórmulas complicadas, pero la idea debería ser clara. Para cada pequeño intervalo de tiempo, digamos de tamaño $\epsilon$,
 
-===== Página 329 =====
+  32 
 
 308 LECCIÓN 9. DINÁMICA DE PARTÍCULAS
 
@@ -5097,7 +5076,7 @@ En esta ecuación, $\mathbf{U}$ aparece $N$ veces como factor, donde $N$ es el n
 
 Tal expresión puede llamarse la amplitud para la trayectoria dada. Pero la partícula no viaja a lo largo de una trayectoria particular. En cambio, en el límite de un gran número de intervalos de tiempo infinitesimales, la amplitud es una integral sobre
 
-===== Página 330 =====
+  33 
 
 9.8. INTEGRALES DE TRAYECTORIA 309
 
@@ -5123,7 +5102,7 @@ La formulación de integral de trayectoria no es meramente un truco matemático 
 
 ---
 
-===== Página 332 =====
+  33 
 
 # Lección 10
 
@@ -5139,7 +5118,7 @@ En esta lección, aprenderemos sobre el segundo ingrediente básico de la mecán
 
 El oscilador armónico no es un objeto particular como un átomo de hidrógeno o un quark. Es realmente un marco matemático para comprender una enorme cantidad de fenómenos. Este
 
-===== Página 333 =====
+  33 
 
 312 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5159,7 +5138,7 @@ El signo negativo nos dice que la fuerza actúa opuesta al desplazamiento y empu
 
 ¿Por qué los osciladores armónicos son tan prevalentes en física? Porque casi cualquier función suave se asemeja a una parábola cerca de un mínimo de la función. De hecho, muchos tipos de sistemas se caracterizan por una función de energía que puede aproximarse mediante una función cuadrática de alguna variable que representa un desplazamiento del equilibrio. Cuando se perturban,
 
-===== Página 334 =====
+  33 
 
 313
 
@@ -5172,7 +5151,7 @@ estos sistemas oscilarán todos alrededor del punto de equilibrio. Aquí hay otr
 
 La lista continúa, pero la matemática es siempre la misma. Solo para tener un ejemplo en mente, imaginemos el oscilador como un peso que cuelga de un resorte. No hace falta decir que apenas necesitamos mecánica cuántica para describir un peso y resorte ordinarios, así que imaginemos una versión muy pequeña de este mismo sistema y luego cuanticémosla.
 
-===== Página 335 =====
+  33 
 
 314 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5194,7 +5173,7 @@ $$L = \frac{1}{2} \dot{x}^2 - \frac{1}{2} \omega^2 x^2. \quad (10.3)$$
 
 La constante $\omega$ se define como $\omega = \sqrt{\frac{k}{m}}$ y resulta ser la frecuencia del oscilador.
 
-===== Página 336 =====
+  33 
 
 10.1. LA DESCRIPCIÓN CLÁSICA 315
 
@@ -5220,7 +5199,7 @@ Igualando los lados izquierdo y derecho (Ecs. 10.7 y 10.6) de la ecuación de La
 
 $$-\omega^2 x = \ddot{x}. \quad (10.8)$$
 
-===== Página 337 =====
+  33 
 
 316 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5238,7 +5217,7 @@ lo que nos muestra que $\omega$ es efectivamente la frecuencia del oscilador. Cu
 
 Ahora, volvamos a nuestra versión microscópica del sistema peso-y-resorte —digamos, no más grande que una sola molécula. Al principio, esto parece ridículo. ¿Cómo podríamos construir un resorte tan pequeño? Pero de hecho, la naturaleza proporciona todo tipo de resortes microscópicos. Muchas moléculas consisten en dos átomos —por ejemplo, un átomo pesado y uno ligero. Hay fuerzas que mantienen la molécula en equilibrio con los átomos separados por una cierta distancia. Cuando el átomo ligero se desplaza, será atraído de vuelta a la ubicación de equilibrio. La
 
-===== Página 338 =====
+  33 
 
 10.2. DESCRIPCIÓN MECÁNICO-CUÁNTICA 317
 
@@ -5256,7 +5235,7 @@ $$\int_{-\infty}^{+\infty} \psi^*(x)\psi(x) dx = 1. \quad (10.10)$$
 
 Esto no parecería ser una gran restricción. Sea cual sea el lado derecho de esta ecuación, siempre podríamos multiplicar $\psi$ por alguna constante para hacer que la integral sea igual a 1 — a menos que la integral sea cero o infinita. Dado que $\psi^*(x)\psi(x)$
 
-===== Página 339 =====
+  33 
 
 318 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5275,7 +5254,7 @@ Usando la definición directa de la mecánica clásica, encontramos que el Hamil
 
 ¹Esta idea se explica en el Volumen I.
 
-===== Página 340 =====
+  34 
 
 10.2. DESCRIPCIÓN MECÁNICO-CUÁNTICA 319
 
@@ -5297,7 +5276,7 @@ $$H = \frac{1}{2} p^2 + \frac{1}{2} \omega^2 x^2. \quad (10.11)$$
 
 ²No necesitamos usar un signo de suma porque solo hay un grado de libertad.
 
-===== Página 341 =====
+  34 
 
 320 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5319,7 +5298,7 @@ $$\mathbf{H} |\psi(x)\rangle \quad \Rightarrow \quad -\frac{\hbar^2}{2} \frac{\p
 
 Estamos usando derivadas parciales porque en general $\psi$ también depende de otra variable, el tiempo. El tiempo no es un operador y
 
-===== Página 342 =====
+  34 
 
 10.3. LA ECUACIÓN DE SCHRÖDINGER 321
 
@@ -5339,7 +5318,7 @@ Esta ecuación dice que si conoces $\psi$ (tanto la parte real como la imaginari
 
 Puedes resolver esta ecuación de varias maneras. Por ejemplo, puedes resolverla numéricamente en un ordenador. Comienza con un valor conocido de $\psi(x)$ y actualízalo ligeramente calculando la derivada. Una vez que tengas la derivada, calcula cómo cambia $\psi(x)$ en un pequeño incremento de tiempo. Luego,
 
-===== Página 343 =====
+  34 
 
 322 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5359,7 +5338,7 @@ $$-\frac{\hbar^2}{2} \frac{\partial^2 \psi_E(x)}{\partial x^2} + \frac{1}{2} \om
 
 Para resolver esta ecuación, debemos:
 
-===== Página 344 =====
+  34 
 
 10.4. NIVELES DE ENERGÍA 323
 
@@ -5374,7 +5353,7 @@ De hecho, para la mayoría de los valores de $E$, incluyendo todos los números 
 
 Esta es una restricción muy poderosa. De hecho, para casi todos los valores de $E$, no hay soluciones normalizables. Pero para ciertos valores muy especiales de $E$ tales soluciones existen, y las encontraremos.
 
-===== Página 345 =====
+  34 
 
 324 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5392,7 +5371,7 @@ Hay un teorema matemático muy útil que ayuda a identificar el estado fundament
 
 Por lo tanto, todo lo que tenemos que hacer para encontrar el estado fundamental de nuestro oscilador armónico es encontrar una solución sin nodos para algún valor
 
-===== Página 346 =====
+  34 
 
 10.5. EL ESTADO FUNDAMENTAL 325
 
@@ -5408,7 +5387,7 @@ Esta función se muestra esquemáticamente en la Fig. 10.1. Como puedes ver, est
 
 Veamos si podemos determinar qué le hace el Hamiltoniano a esta función. El primer término del Hamiltoniano (el lado izquierdo de la Ec. 10.14) nos dice que apliquemos el operador
 
-===== Página 347 =====
+  34 
 
 326 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5439,7 +5418,7 @@ Por lo tanto, la ecuación completa se convierte en
 
 $$\frac{\hbar \omega}{2} e^{-\frac{\omega}{2\hbar} x^2} - \frac{1}{2} \omega^2 x^2 e^{-\frac{\omega}{2\hbar} x^2} + \frac{1}{2} \omega^2 x^2 e^{-\frac{\omega}{2\hbar} x^2} = E e^{-\frac{\omega}{2\hbar} x^2}.$$
 
-===== Página 348 =====
+  34 
 
 10.6. OPERADORES DE CREACIÓN Y ANIQUILACIÓN 327
 
@@ -5463,8 +5442,7 @@ A lo largo de estas lecciones, hemos visto dos formas de pensar sobre la mecáni
 
 Hasta ahora, en nuestro estudio del oscilador armónico nos hemos centrado en funciones y ecuaciones diferenciales. Pero la herramienta más poderosa en muchos casos —particularmente para el oscilador
 
-===== Página 349 =====
-
+ 
 328 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
 armónico— es el método del operador. Reduce todo el estudio de funciones de onda y ecuaciones de onda a un número muy pequeño de trucos algebraicos, que casi siempre involucran las relaciones de conmutación. De hecho, cada vez que veas un par de operadores, mi consejo es que determines su conmutador. Si el conmutador es un nuevo operador que no has visto antes, encuentra su conmutador con el par original. Ahí es cuando comienza la diversión.
@@ -5477,7 +5455,7 @@ $$\mathbf{H} = \frac{\mathbf{P}^2 + \omega^2 \mathbf{X}^2}{2}. \quad (10.17)$$
 
 Para determinar el resto de los niveles de energía, usaremos algunos trucos. La idea es utilizar hábilmente las propiedades de $\mathbf{X}$ y $\mathbf{P}$ (en particular, la relación de conmutación $[\mathbf{X}, \mathbf{P}] = i\hbar$) para construir dos nuevos operadores, llamados **operadores de creación y aniquilación**. Cuando un operador de creación actúa sobre un vector propio de energía, produce un nuevo vector propio que tiene el siguiente nivel de energía más alto. Un operador de aniquilación hace exactamente lo contrario: produce un vector propio cuya energía es un nivel más bajo que la energía del vector propio con el que comenzó. Así que, hablando aproximadamente, lo que crean y aniquilan es energía. También se les llama operadores de **subida y bajada**. Pero recuerda: los operadores actúan sobre vectores de estado, no sobre sistemas. Para ver cómo funcionan estos operadores, reescribamos el Hamiltoniano en la forma
 
-===== Página 350 =====
+  35 
 
 10.6. OPERADORES DE CREACIÓN Y ANIQUILACIÓN 329
 
@@ -5495,7 +5473,7 @@ $$\mathbf{H} \ "=" \ \frac{1}{2} (\mathbf{P} + i\omega \mathbf{X})(\mathbf{P} - 
 
 y eso es casi correcto. ¿Por qué casi? Porque cuánticamente, $\mathbf{P}$ y $\mathbf{X}$ no conmutan, y debemos tener cuidado con el orden de las operaciones. Expandamos nuestra expresión factorizada y veamos en qué podría diferir del Hamiltoniano original en la Ec. 10.18. Manteniendo un cuidadoso registro del orden de los factores, podemos expandir la expresión de la siguiente manera:
 
-===== Página 351 =====
+  35 
 
 330 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5520,7 +5498,7 @@ En otras palabras, la expresión factorizada con la que empezamos en la Ec. 10.1
 
 $$\mathbf{H} = \frac{1}{2} (\mathbf{P} + i\omega \mathbf{X})(\mathbf{P} - i\omega \mathbf{X}) + \frac{\omega \hbar}{2}.$$
 
-===== Página 352 =====
+  35 
 
 10.6. OPERADORES DE CREACIÓN Y ANIQUILACIÓN 331
 
@@ -5539,7 +5517,7 @@ para el operador de subida. Pero la historia a veces se adelanta a lo obvio. His
 $$a_- = \frac{i}{\sqrt{2\omega \hbar}} (\mathbf{P} - i\omega \mathbf{X}), \quad (10.20)$$
 $$a_+ = \frac{-i}{\sqrt{2\omega \hbar}} (\mathbf{P} + i\omega \mathbf{X}), \quad (10.21)$$
 
-===== Página 353 =====
+  35 
 
 332 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5565,7 +5543,7 @@ llamado el **operador número**. Una vez más, esto es solo un nombre, pero como
 
 $$\mathbf{H} = \omega \hbar (N + 1/2). \quad (10.23)$$
 
-===== Página 354 =====
+  35 
 
 10.6. OPERADORES DE CREACIÓN Y ANIQUILACIÓN 333
 
@@ -5587,7 +5565,7 @@ $$[a_-, N] = a_-.$$
 
 Podemos hacer lo mismo con $a_+$ y $N$. El resultado es casi el mismo excepto por el signo. Aquí está la lista completa de conmutadores en un paquete ordenado:
 
-===== Página 355 =====
+  35 
 
 334 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5605,7 +5583,7 @@ $$N(a_+|n\rangle) = [a_+ N - (a_+ N - N a_+)]|n\rangle.$$
 
 La expresión entre corchetes en el lado derecho es la misma que $N a_+$, con el término $a_+ N$ sumado y luego restado. Pero
 
-===== Página 356 =====
+  35 
 
 10.6. OPERADORES DE CREACIÓN Y ANIQUILACIÓN 335
 
@@ -5627,7 +5605,7 @@ Obviamente, podemos hacer esto una y otra vez para encontrar los vectores propio
 
 $$a_-|n\rangle = |n-1\rangle. \quad (10.28)$$
 
-===== Página 357 =====
+  35 
 
 336 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5645,7 +5623,7 @@ Esta cuantización de los niveles de energía del oscilador armónico fue uno de
 
 ³El vector 0 es el vector cuyos componentes son todos cero. El vector $|0\rangle$, por otro lado, es un vector de estado con componentes distintos de cero.
 
-===== Página 358 =====
+  35 
 
 10.7. DE VUELTA A LAS FUNCIONES DE ONDA 337
 
@@ -5665,7 +5643,7 @@ o, dividiendo por la constante,
 
 $$(\mathbf{P} - i\omega \mathbf{X}) \psi_0(x) = 0.$$
 
-===== Página 359 =====
+  35 
 
 338 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5677,7 +5655,7 @@ $$\frac{d\psi_0}{dx} = -\frac{\omega x}{\hbar} \psi_0(x).$$
 
 Esta es una ecuación diferencial simple que puedes resolver fácilmente.
 
-===== Página 360 =====
+  36 
 
 10.7. DE VUELTA A LAS FUNCIONES DE ONDA 339
 
@@ -5705,7 +5683,7 @@ $$\psi_1(x) = i \left( -\hbar \left( -\frac{\omega}{\hbar} x e^{-\frac{\omega}{2
 $$= i \left( \omega x e^{-\frac{\omega}{2\hbar} x^2} + \omega x e^{-\frac{\omega}{2\hbar} x^2} \right)$$
 $$= 2i \omega x e^{-\frac{\omega}{2\hbar} x^2},$$
 
-===== Página 361 =====
+  36 
 
 340 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5723,7 +5701,7 @@ $$\psi_2(x) = \left( -\hbar + 2\omega x^2 \right) e^{-\frac{\omega}{2\hbar} x^2}
 
 Y así continúa, todo el camino hacia arriba en la escalera. Podemos ver otro patrón aquí: cada función propia es un polinomio en $x$ multiplicado por $e^{-\frac{\omega}{2\hbar} x^2}$. Debido a que la exponencial tiende a cero más rápido
 
-===== Página 362 =====
+  36 
 
 10.7. DE VUELTA A LAS FUNCIONES DE ONDA 341
 
@@ -5735,7 +5713,7 @@ Estas funciones propias contienen otra lección importante. Aunque se aproximan 
 
 ⁴Resulta que estos ceros ocurren para valores reales de $x$, pero eso no es obvio a partir de lo que hemos visto. En un sentido físico, los ceros parecen un poco extraños, porque son puntos donde la masa en movimiento nunca se encontrará, aunque esté yendo y viniendo alegremente.
 
-===== Página 363 =====
+  36 
 
 342 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5752,7 +5730,7 @@ Considera el ejemplo de la radiación electromagnética en una cavidad, como se 
 Hay muchas longitudes de onda que pueden caber en la cavidad. Consideremos ondas de longitud $\lambda$. Como todas las ondas, estas ondas oscilan, muy parecido a una masa en el extremo de un resorte. Pero es importante no confundirse aquí: los osciladores no son masas unidas a resortes. Lo que realmente oscila son los campos eléctrico y magnético. Para cada longitud de onda, hay un oscilador armónico matemático que describe la amplitud o intensidad del campo. Eso es un montón de osciladores armónicos funcionando todos simultáneamente. Afortunadamente, sin embargo, todos oscilan independientemente, por lo que podemos centrar nuestra atención en ondas de una longitud de onda particular e ignorar todas las
 
 
-===== Página 365 =====
+  36 
 
 
 344 LECCIÓN 10. EL OSCILADOR ARMÓNICO
@@ -5775,7 +5753,7 @@ $$\frac{2\pi \hbar c}{\lambda} n,$$
 
 donde $n$ puede ser cualquier entero desde cero en adelante. En otras palabras,
 
-===== Página 366 =====
+  36 
 
 10.8. LA IMPORTANCIA DE LA CUANTIZACIÓN 345
 
@@ -5793,7 +5771,7 @@ $$E(\lambda) = \frac{2\pi \hbar c}{\lambda}.$$
 
 Aquí, podemos ver algo que ha dominado la física durante más de un siglo: cuanto más corta es la longitud de onda de un fotón, mayor es su energía. ¿Por qué estaría un físico interesado en hacer fotones de longitud de onda corta, dado que son costosos en energía? La respuesta es para ver con mayor claridad. Como se discutió en la Lección 1, para resolver un objeto de un tamaño dado, debes usar ondas de ese tamaño o más pequeñas. Para ver una figura humana, una longitud de onda de unas pocas pulgadas es suficientemente buena. Para ver una mota de polvo diminuta, puede que necesites luz visible de una longitud de onda mucho más pequeña. Para resolver las partes de un protón, la longitud de onda debe ser más pequeña que $10^{-15}$ metros, y los correspondientes
 
-===== Página 367 =====
+  36 
 
 346 LECCIÓN 10. EL OSCILADOR ARMÓNICO
 
@@ -5803,7 +5781,7 @@ Con esa nota, mis amigos, concluimos este volumen de la serie Mínimo Teórico. 
 
 © Margaret Sloan
 
-===== Página 368 =====
+  36 
 
 # Apéndice
 
@@ -5813,7 +5791,7 @@ $$\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
 $$\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
 $$\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$
 
-===== Página 369 =====
+  36 
 
 348 APÉNDICE
 
@@ -5849,7 +5827,7 @@ $$|o\rangle = \begin{pmatrix} \frac{1}{\sqrt{2}} \\ -\frac{i}{\sqrt{2}} \end{pma
 \sigma_x|o\rangle = -i|i\rangle,\quad
 \sigma_y|o\rangle = -|o\rangle$$
 
-===== Página 370 =====
+  37 
 
 APÉNDICE 349
 
@@ -5877,7 +5855,7 @@ n_z & (n_x - i n_y) \\
 (n_x + i n_y) & -n_z
 \end{pmatrix}$$
 
-===== Página 371 =====
+  37 
 
 350 APÉNDICE
 
@@ -5927,4 +5905,4 @@ $$\begin{array}{c|cccc}
 \tau_y & |ii\rangle & -|io\rangle & |oi\rangle & -|oo\rangle
 \end{array}$$
 
-===== Página 372 =====
+  37 
