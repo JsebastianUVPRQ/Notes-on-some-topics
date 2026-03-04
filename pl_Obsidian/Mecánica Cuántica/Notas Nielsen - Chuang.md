@@ -815,5 +815,133 @@ Supongamos que la matriz es $A$. Buscamos $A = UJ$ (izquierda) y $A = KU$ (derec
 
 # SOLUCION
 
+Este es uno de los problemas más fascinantes (y notoriamente sutiles) del apéndice sobre el teorema de Solovay-Kitaev en _Quantum Computation and Quantum Information_ de Nielsen y Chuang. La clave para resolverlo es entender cómo los conmutadores de un grupo reducen el error multiplicativamente mientras el tamaño de la secuencia crece exponencialmente.
+
+Vamos a desglosar y demostrar cada punto paso a paso, combinando el rigor matemático con la intuición detrás del algoritmo.
+
+### Parte 1: La red iterada y su precisión
+
+**Objetivo:** Demostrar por inducción sobre $k$ que $\mathcal{G}_{4^k l}$ es una $d^k \delta \epsilon^{2^k - 1}$-red en $S_{\epsilon^{2^k}}$.
+
+- **Caso base ($k=0$):** Sustituyendo $k=0$ en las fórmulas, la longitud de la red es $4^0 l = l$. El espacio objetivo es $S_{\epsilon^{2^0}} = S_\epsilon$. La precisión es $d^0 \delta \epsilon^{2^0 - 1} = \delta$. Esto nos dice que $\mathcal{G}_l$ es una $\delta$-red en $S_\epsilon$, lo cual es exactamente la suposición inicial del problema.
+    
+- **Paso inductivo:** Asumamos que para $k-1$, la red $\mathcal{G}_{4^{k-1} l}$ es una $\delta_{k-1}$-red en el espacio $S_{\epsilon_{k-1}}$, donde la precisión es $\delta_{k-1} = d^{k-1} \delta \epsilon^{2^{k-1} - 1}$ y el radio es $\epsilon_{k-1} = \epsilon^{2^{k-1}}$.
+    
+    Queremos aproximar un elemento arbitrario $U$ en un entorno más pequeño, $S_{\epsilon_k}$, donde $\epsilon_k = (\epsilon_{k-1})^2 = \epsilon^{2^k}$. Cualquier $U$ en este espacio se puede descomponer como un conmutador $U = [V, W]$, donde $V, W \in S_{\epsilon_{k-1}}$.
+    
+    Por nuestra hipótesis inductiva, podemos aproximar $V$ y $W$ usando elementos $\tilde{V}, \tilde{W} \in \mathcal{G}_{4^{k-1} l}$ con un error máximo de $\delta_{k-1}$. El conmutador de estas aproximaciones, $[\tilde{V}, \tilde{W}]$, aproximará a $U$.
+    
+    Según el lema del conmutador de Solovay-Kitaev, el error de esta aproximación está acotado por $d \cdot \epsilon_{k-1} \cdot \delta_{k-1}$. Sustituyendo nuestros valores:
+    
+    $$\text{Error} \leq d (\epsilon^{2^{k-1}}) (d^{k-1} \delta \epsilon^{2^{k-1} - 1}) = d^k \delta \epsilon^{2^k - 1}$$
+    
+    Como evaluar un conmutador $[A, B] = A B A^\dagger B^\dagger$ requiere 4 operaciones, la longitud de la nueva secuencia de compuertas será $4 \times (4^{k-1} l) = 4^k l$. Por lo tanto, $\mathcal{G}_{4^k l}$ cubre $S_{\epsilon^{2^k}}$ con la precisión requerida.
+    
+
+---
+
+### Parte 2: Alcanzando el error $\epsilon$
+
+**Objetivo:** Demostrar que al elegir $k$ y $l$ adecuadamente, la red resultante tiene una precisión de al menos $\epsilon$.
+
+Se nos da $k \equiv \lceil \log_2(\frac{\log(1/\epsilon)}{\log(1/\epsilon_0)}) \rceil$ y una red base $\mathcal{G}_l$ que es una $\delta_0$-red para $S_{\epsilon_0}$ tal que $d^k \delta_0 = \epsilon_0$.
+
+Si tomamos el resultado de la Parte 1 y hacemos las sustituciones correspondientes para la red base ($\epsilon \leftarrow \epsilon_0$ y $\delta \leftarrow \delta_0$), sabemos que $\mathcal{G}_{4^k l}$ es una red en $S_{\epsilon_0^{2^k}}$ con la siguiente precisión (error máximo):
+
+$$\text{Precisión} = d^k \delta_0 \epsilon_0^{2^k - 1}$$
+
+Sustituyendo la condición $d^k \delta_0 = \epsilon_0$:
+
+$$\text{Precisión} = (\epsilon_0) \epsilon_0^{2^k - 1} = \epsilon_0^{2^k}$$
+
+Ahora, analicemos la definición de $k$. Al deshacer el logaritmo y el techo ($\lceil \cdot \rceil$), tenemos que:
+
+$$2^k \geq \frac{\log(1/\epsilon)}{\log(1/\epsilon_0)}$$
+
+Multiplicando cruzado y usando propiedades de logaritmos:
+
+$$2^k \log(1/\epsilon_0) \geq \log(1/\epsilon) \implies \log((1/\epsilon_0)^{2^k}) \geq \log(1/\epsilon) \implies (1/\epsilon_0)^{2^k} \geq 1/\epsilon$$
+
+Invirtiendo ambos lados (lo que invierte la desigualdad):
+
+$$\epsilon_0^{2^k} \leq \epsilon$$
+
+Dado que el error de nuestra red es $\epsilon_0^{2^k}$ y hemos demostrado que $\epsilon_0^{2^k} \leq \epsilon$, concluimos estrictamente que $\mathcal{G}_{4^k l}$ funciona como una $\epsilon$-red para $S_{\epsilon_0^{2^k}}$.
+
+---
+
+### Parte 3: Limitando la longitud $l$ con SK estándar
+
+**Objetivo:** Usar Solovay-Kitaev para acotar $l$.
+
+Necesitamos encontrar la longitud $l$ de la red base $\mathcal{G}_l$ para que alcance una precisión de $\delta_0 = \epsilon_0 / d^k$.
+
+El teorema original de Solovay-Kitaev establece que lograr un error $\delta$ requiere un número de compuertas del orden de $O(\log^c(1/\delta))$, con $c = \log(5)/\log(3/2)$.
+
+Sustituyendo nuestra $\delta_0$:
+
+$$l = O\left(\log^c(1/\delta_0)\right) = O\left(\log^c\left(\frac{d^k}{\epsilon_0}\right)\right)$$
+
+Usando propiedades de los logaritmos:
+
+$$l = O\left( (\log(d^k) - \log(\epsilon_0))^c \right) = O\left( (k \log(d) - \log(\epsilon_0))^c \right)$$
+
+Dado que $d$ y $\epsilon_0$ son constantes, el término dominante dentro del paréntesis es proporcional a $k$. Por lo tanto, la longitud asintótica es simplemente $l = O(k^c)$.
+
+---
+
+### Parte 4: Complejidad total para $SU(2)$
+
+**Objetivo:** Calcular el número total de compuertas multiplicando los factores.
+
+El tamaño total de nuestra secuencia construida es $L = 4^k l$. Vamos a expresar esto en términos de nuestro error objetivo final $\epsilon$:
+
+1. **Evaluando $4^k$:**
+    
+    Sabemos que $k \approx \log_2(\frac{\log(1/\epsilon)}{\log(1/\epsilon_0)})$.
+    
+    Por lo tanto, $2^k \approx \frac{\log(1/\epsilon)}{\log(1/\epsilon_0)}$.
+    
+    Al elevar al cuadrado: $4^k = (2^k)^2 \approx \left( \frac{\log(1/\epsilon)}{\log(1/\epsilon_0)} \right)^2 = O(\log^2(1/\epsilon))$.
+    
+2. **Evaluando $l$:**
+    
+    De la Parte 3 sabemos que $l = O(k^c)$.
+    
+    Como $k = O(\log(\log(1/\epsilon)))$, obtenemos $l = O(\log^c(\log(1/\epsilon)))$.
+    
+
+Multiplicando ambos resultados, el número de compuertas requeridas es:
+
+$$L = O(\log^2(1/\epsilon) \log^c (\log(1/\epsilon)))$$
+
+_(Nota técnica: Físicamente, para aproximar cualquier compuerta arbitraria de $SU(2)$, se extrae primero una aproximación burda que deja un error en $S_{\epsilon_0}$, y se descompone ese error recursivamente hacia abajo usando conmutadores, rematando con redes finas en las "hojas" del árbol de descomposición. La matemática de las longitudes que acabamos de derivar captura exactamente el costo de ese árbol)._
+
+---
+
+### Parte 5: Por qué cualquier $c > 2$ es válido (El "Bootstrapping")
+
+**Objetivo:** Demostrar cómo reducir el exponente $c$.
+
+El resultado de la Parte 4 redujo enormemente el costo computacional de Solovay-Kitaev. Pasamos de $O(\log^{3.97}(1/\epsilon))$ (algoritmo estándar) a $O(\log^2(1/\epsilon) \log^{3.97}(\log(1/\epsilon)))$. Observa que el exponente dominante sobre $\log(1/\epsilon)$ bajó a exactamente 2.
+
+Para lograr un $c$ (exponente sobre el factor iterado $\log \log$) arbitrariamente cercano a 2, **podemos usar nuestro propio algoritmo como el nuevo "algoritmo base"**.
+
+Llamemos al algoritmo de SK estándar "Algoritmo 0". Lo que hicimos en la Parte 3 fue usar el Algoritmo 0 para construir $\mathcal{G}_l$.
+
+¿Qué pasa si en lugar de eso usamos nuestro nuevo algoritmo mejorado ("Algoritmo 1") para construir $\mathcal{G}_l$?
+
+1. La longitud de la red base pasaría a ser $l_{nueva} = O(\log^2(1/\delta_0) \log^{3.97}(\log(1/\delta_0)))$.
+    
+2. Como $\log(1/\delta_0) = O(k)$, esto nos da $l_{nueva} = O(k^2 \log^{3.97}(k))$.
+    
+3. La longitud total final sería $4^k \cdot l_{nueva} = O(\log^2(1/\epsilon) \cdot k^2 \log^{3.97}(k))$.
+    
+
+Al reemplazar $k$ por $O(\log(\log(1/\epsilon)))$, obtenemos una cota donde el factor de crecimiento pasa a concentrarse en logaritmos de tercer y cuarto nivel (p. ej., $\log(\log(\log(1/\epsilon)))$). Matemáticamente, cualquier función de la forma $k^2 \log^{3.97}(k)$ crece más lento que $k^{2 + \gamma}$ para cualquier constante $\gamma > 0$ por más pequeña que sea.
+
+Al repetir esta auto-inyección recursiva suficientes veces, podemos empujar todos los términos rezagados hacia exponentes insignificantes, garantizando que el factor secundario se acote por $O(\log^{2 + \gamma}(\log(1/\epsilon)))$. Así es como se demuestra que el resultado se mantiene para cualquier $c > 2$.
+
+---
 
 
