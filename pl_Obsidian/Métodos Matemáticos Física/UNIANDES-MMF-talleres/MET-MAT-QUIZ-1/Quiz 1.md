@@ -62,3 +62,4 @@ $$\int_{0}^{\infty} \frac{x^2 dx}{x^6 + a^6}, \quad a > 0$$
 Sea $P(x) = ax^2 + bx + c$ un polinomio de grado 2 tal que $b^2 < 4ac$. Evaluar la integral:
 $$\int_{-\infty}^{\infty} \frac{x dx}{P(x)^2}$$
 Explicar por qué se requiere la condición $b^2 < 4ac$.
+
