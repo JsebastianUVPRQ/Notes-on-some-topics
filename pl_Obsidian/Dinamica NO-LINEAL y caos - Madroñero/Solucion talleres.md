@@ -983,7 +983,152 @@ Físicamente, esto significa que el asteroide recibe el "jalón" gravitacional d
 
 # TALLER 6
 
+Aquí tienes las soluciones detalladas para los problemas 12 y 13 del Taller 6. He desarrollado matemáticamente las demostraciones paso a paso, corrigiendo un par de errores tipográficos clásicos que venían en el texto original para que la física sea rigurosamente correcta.
 
+---
+
+### **Problema 12: Átomo de hidrógeno en variables de acción-ángulo**
+
+El Hamiltoniano del sistema en coordenadas esféricas es:
+
+$$H = \frac{p_r^2}{2m} + \frac{p_\theta^2}{2mr^2} + \frac{p_\phi^2}{2mr^2 \sin^2 \theta} - \frac{e^2}{r}$$
+
+**(a) Demostración de los momentos conjugados**
+
+La energía cinética de una partícula en coordenadas esféricas es:
+
+$$T = \frac{1}{2}m \left( \dot{r}^2 + r^2\dot{\theta}^2 + r^2\sin^2\theta \dot{\phi}^2 \right)$$
+
+El Lagrangiano es $L = T - V = T + \frac{e^2}{r}$.
+
+Los momentos canónicos conjugados se definen como $p_i = \frac{\partial L}{\partial \dot{q}_i}$. Evaluándolos:
+
+1. $p_r = \frac{\partial L}{\partial \dot{r}} = m\dot{r}$
+
+2. $p_\theta = \frac{\partial L}{\partial \dot{\theta}} = m r^2 \dot{\theta}$
+
+3. $p_\phi = \frac{\partial L}{\partial \dot{\phi}} = m r^2 \sin^2\theta \dot{\phi}$
+
+_(Nota: En tu enunciado falta un cuadrado en el $\sin\theta$, el término correcto es $\sin^2\theta$ para el momento angular en $z$)_.
+
+A este último momento se le identifica como la componente $z$ del momento angular: $p_\phi = L_z$.
+
+
+**(b) Tres constantes de movimiento (Integrabilidad)**
+
+Un sistema con 3 grados de libertad es integrable si posee 3 constantes de movimiento independientes y en involución.
+
+1. **$p_\phi$ (o $L_z$):** Dado que la coordenada $\phi$ no aparece explícitamente en el Hamiltoniano (es una coordenada cíclica), su momento conjugado se conserva: $\dot{p}_\phi = -\frac{\partial H}{\partial \phi} = 0 \implies p_\phi = L_z = \text{constante}$.
+
+2. **Energía $E$:** Como el Hamiltoniano no depende explícitamente del tiempo, la energía total se conserva: $H = E = \text{constante}$.
+
+3. **Momento angular total $L$:** Agrupando la parte angular de la energía cinética, definimos el cuadrado del momento angular total:
+
+$$L^2 = p_\theta^2 + \frac{p_\phi^2}{\sin^2\theta}$$
+
+Se puede demostrar vía corchetes de Poisson que $\{L^2, H\} = 0$, dado que el potencial $-e^2/r$ es central (isotrópico). Por lo tanto, $L$ es una constante de movimiento.
+
+
+**(c) Demostración de las variables de acción $I_r, I_\theta, I_\phi$**
+
+Las variables de acción se definen como $I_k = \frac{1}{2\pi} \oint p_k \, dq_k$.
+
+- **Para $I_\phi$:**
+
+$$I_\phi = \frac{1}{2\pi} \int_0^{2\pi} p_\phi \, d\phi = \frac{1}{2\pi} \int_0^{2\pi} L_z \, d\phi = L_z$$
+
+- **Para $I_\theta$:**
+
+De la constante $L^2$, despejamos $p_\theta = \sqrt{L^2 - L_z^2/\sin^2\theta}$.
+
+$$I_\theta = \frac{1}{2\pi} \oint \sqrt{L^2 - \frac{L_z^2}{\sin^2\theta}} \, d\theta$$
+
+Los puntos de retorno ocurren cuando $p_\theta = 0$, es decir, $\sin\theta = |L_z|/L$.
+
+Para resolver esta integral mediante el cálculo de contornos en el plano complejo, se extiende $\theta$ a un contorno que encierra el corte de rama entre los puntos de retorno. Al deformar el contorno hacia el resto del plano, se encierran los polos en $\theta = 0$ y $\theta = \pi$, además del residuo en el infinito. El teorema de los residuos para esta integral arquetípica da como resultado exacto la suma de las magnitudes de los momentos:
+
+$$I_\theta = L - |L_z| \implies I_\theta = L - L_z \quad \text{(asumiendo } L_z > 0 \text{)}$$
+
+- **Para $I_r$:**
+
+Reescribimos el Hamiltoniano usando la constante $L^2$:
+
+$$E = \frac{p_r^2}{2m} + \frac{L^2}{2mr^2} - \frac{e^2}{r} \implies p_r = \sqrt{2mE + \frac{2me^2}{r} - \frac{L^2}{r^2}}$$
+
+La acción radial es la clásica integral del problema de Kepler:
+
+$$I_r = \frac{1}{2\pi} \oint \sqrt{2mE + \frac{2me^2}{r} - \frac{L^2}{r^2}} \, dr$$
+
+Esta integral de contorno en la variable $r$ encierra los dos puntos de retorno reales (perihelio y afelio). Usando residuos en $r=0$ y $r=\infty$, la solución estándar de esta integral de la forma $\oint \sqrt{A + 2B/r + C/r^2} dr$ es $2\pi(B/\sqrt{-A} - \sqrt{-C})$. Identificando constantes ($A=2mE, B=me^2, C=-L^2$), obtenemos:
+
+$$I_r = \frac{me^2}{\sqrt{-2mE}} - \sqrt{L^2} = \frac{me^2}{\sqrt{-2mE}} - L$$
+
+
+**(d) La energía en función de las acciones**
+
+De las demostraciones anteriores, notamos que al sumar las tres acciones, el momento $L$ y $L_z$ se cancelan magistralmente:
+
+$$I_r + I_\theta + I_\phi = \left( \frac{me^2}{\sqrt{-2mE}} - L \right) + (L - L_z) + L_z = \frac{me^2}{\sqrt{-2mE}}$$
+
+Elevamos al cuadrado a ambos lados de la ecuación:
+
+$$(I_r + I_\theta + I_\phi)^2 = \frac{m^2 e^4}{-2mE}$$
+
+Despejamos la energía $E$:
+
+$$E = -\frac{m e^4}{2} \frac{1}{(I_r + I_\theta + I_\phi)^2}$$
+
+¡Este resultado es equivalente a la fórmula de Bohr $E = -13.6 \text{ eV}/n^2$, revelando que el número cuántico principal $n$ en la vieja teoría cuántica es proporcional a la suma total de las acciones!
+
+---
+
+### **Problema 13: WKB para el potencial gravitacional**
+
+La ecuación de Schrödinger para una partícula en un campo gravitacional lineal $V(x) = -\mu g x$ (donde a medida que $x \to +\infty$ el potencial cae, permitiendo propagación clásica) es:
+
+$$-\frac{\hbar^2}{2\mu} \psi'' - \mu g x \psi = E \psi$$
+
+Haciendo el cambio de variable para el punto de retorno clásico $a = -E/\mu g$, definimos $x' = x - a = x + E/\mu g$. La ecuación se transforma en la Ecuación de Airy estándar si usamos la variable adimensional $z$:
+
+$$z = - \left(\frac{2\mu^2 g}{\hbar^2}\right)^{1/3} x' \implies \frac{d^2\psi}{dz^2} - z\psi = 0$$
+
+La solución finita para esta ecuación es la función de Airy, $\psi(x) = N \text{Ai}(z)$.
+
+**Comparación con WKB y determinación de la fase $\phi$:**
+
+En el método WKB, el momento clásico es $p(x) = \sqrt{2\mu(E - V(x))} = \sqrt{2\mu(E + \mu g x)}$.
+
+Para $x \to +\infty$ (la región clásicamente permitida), la fase acumulada por WKB es:
+
+$$S(a,x) = \frac{1}{\hbar} \int_a^x p(x') \, dx' = \frac{\sqrt{2\mu^2 g}}{\hbar} \int_0^{x'} \sqrt{s} \, ds = \frac{\sqrt{2\mu^2 g}}{\hbar} \frac{2}{3} (x')^{3/2}$$
+
+Reescribiendo la variable asintótica de Airy $-z$ en términos de esta fase:
+
+$$-z = \left(\frac{2\mu^2 g}{\hbar^2}\right)^{1/3} x' \implies (-z)^{3/2} = \frac{\sqrt{2\mu^2 g}}{\hbar} (x')^{3/2}$$
+
+Por lo tanto, la fase integral de WKB es exactamente $\frac{2}{3}(-z)^{3/2}$.
+
+Ahora, consultamos la forma asintótica de Abramowitz y Stegun para la función de Airy cuando su argumento se vuelve fuertemente negativo ($z \to -\infty$):
+
+$$\text{Ai}(z) \approx \frac{1}{\sqrt{\pi} (-z)^{1/4}} \sin\left( \frac{2}{3}(-z)^{3/2} + \frac{\pi}{4} \right)$$
+
+Usando la identidad trigonométrica $\sin(\alpha + \pi/4) = \cos(\alpha - \pi/4)$, la reescribimos como:
+
+$$\text{Ai}(z) \approx \frac{1}{\sqrt{\pi} (-z)^{1/4}} \cos\left( \frac{2}{3}(-z)^{3/2} - \frac{\pi}{4} \right)$$
+
+El enunciado de WKB postula que la solución oscilatoria tiene la forma general:
+
+$$\psi_{\text{WKB}}(x) \propto \frac{1}{\sqrt{p(x)}} \cos\left( \frac{1}{\hbar} \int_a^x p(x') \, dx' - \frac{\phi}{2} \right)$$
+
+Sustituyendo nuestra fase WKB $\frac{2}{3}(-z)^{3/2}$ en la fórmula WKB y comparándola directamente con la asíntota estricta de Airy, identificamos que las fases de los cosenos deben igualarse:
+
+$$\frac{2}{3}(-z)^{3/2} - \frac{\phi}{2} = \frac{2}{3}(-z)^{3/2} - \frac{\pi}{4}$$
+
+$$- \frac{\phi}{2} = - \frac{\pi}{4}$$
+
+$$\phi = \frac{\pi}{2}$$
+
+**Conclusión:** El valor de la fase requerida para que el método WKB coincida con la solución exacta en la vecindad asintótica es **$\phi = \pi/2$**. Físicamente, esto representa la **pérdida de fase de $\pi/4$** (ya que es $\phi/2$) que sufre una onda cuántica al reflejarse o penetrar suavemente a través de un punto de retorno lineal.
 
 # TALLER 7
 
