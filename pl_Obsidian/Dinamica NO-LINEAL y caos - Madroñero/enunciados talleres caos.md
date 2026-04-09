@@ -224,7 +224,6 @@ $$
 
 (b) Muestre que la dinámica en las vecindades de los puntos fijos estables de $\overline{H}$ se describe por un oscilador armónico.
 
-A continuación se presenta la extracción de los enunciados y expresiones matemáticas de los talleres 1 a 9, ordenados numéricamente por problema. Se incluyen únicamente los problemas que se pudieron recuperar de los archivos proporcionados. Los problemas 12, 13 y 15 no aparecen en los documentos o no son legibles (taller08.pdf está corrupto).
 
 ---
 
