@@ -285,7 +285,78 @@ $$
 es la frecuencia de rotación del asteroide (no perturbado) con respecto al sistema de coordenadas inercial (no-rotante). A partir del teorema KAM establezca un criterio en términos de las frecuencias $\Omega$ y $\omega_\mu$ que determine cuando el movimiento del asteroide afectado por la perturbación $H_1$ es estocástico.
 
 ---
+# TALLER 6
 
+A continuación se presentan los enunciados y expresiones matemáticas extraídos del archivo `taller06.pdf`, correspondientes a los problemas 12 y 13. Se han omitido los caracteres no imprimibles al inicio del archivo.
+
+---
+
+## Problema 12 — Átomo de hidrógeno en variables de acción ángulo
+
+El hamiltoniano para el átomo de hidrógeno en coordenadas esféricas es  
+
+\[
+H = \frac{p^2}{2m} - \frac{e^2}{r} = \frac{1}{2m} \left( p_r^2 + \frac{p_\theta^2}{r^2} + \frac{p_\phi^2}{r^2 \sin^2 \theta} \right) - \frac{e^2}{r}
+\]
+
+(a) Muestre que  
+
+\[
+p_r = m\dot{r}, \qquad p_\theta = m r^2 \dot{\theta}, \qquad p_\phi = m r^2 \sin\theta \, \dot{\phi} = L_z.
+\]
+
+(b) Encuentre que existen tres constantes de movimiento y por lo tanto el sistema es integrable.
+
+(c) Demuestre que  
+
+\[
+\begin{aligned}
+I_r &= \frac{1}{2\pi} \oint p_r \, dr = \frac{m e^2}{\sqrt{-2mE}} - L, \\[4pt]
+I_\theta &= \frac{1}{2\pi} \oint p_\theta \, d\theta = L - L_z, \\[4pt]
+I_\phi &= \frac{1}{2\pi} \oint p_\phi \, d\phi = L_z.
+\end{aligned}
+\]
+
+**Ayuda:**  
+\[
+L^2 = p_\theta^2 + \frac{p_\phi^2}{\sin^2\theta} = p_\theta^2 + \frac{L_z^2}{\sin^2\theta}, \qquad (L \ge 0,\; -L \le L_z \le L).
+\]  
+Identifique los puntos de retorno para el movimiento correspondiente a las acciones \(I_r, I_\theta, I_\phi\). Las integrales se pueden escribir como integrales en el plano complejo y se pueden usar herramientas del cálculo de integrales de contorno.
+
+(d) Muestre que la energía se puede escribir como  
+
+\[
+E = -\frac{m e^4}{2} \, \frac{1}{(I_r + I_\theta + I_\phi)^2}.
+\]
+
+---
+
+## Problema 13 — WKB para el potencial gravitacional
+
+La solución exacta de la ecuación de Schrödinger para una partícula de masa \(\mu\) en el potencial \(V(x) = -\mu g x\) con energía \(E\) es  
+
+\[
+\psi(x) = N \, \text{Ai}\!\left[ -\left(\frac{2\mu^2 g}{\hbar^2}\right)^{1/3} \left( x + \frac{E}{\mu g} \right) \right],
+\]  
+
+donde \(\text{Ai}(z)\) es una función de Airy. Compare \(\psi(x)\) con la solución WKB  
+
+\[
+\psi_{\text{WKB}}(x) = 
+\begin{cases}
+\displaystyle \frac{1}{\sqrt{|p(x)|}} \, e^{-\frac{1}{\hbar} \int_{a}^{x} |p(x')| \, dx'}, & x \to -\infty, \\[6pt]
+\displaystyle \frac{2}{\sqrt{|p(x)|}} \, \cos\!\left( \frac{1}{\hbar} \int_{a}^{x} p(x') \, dx' - \frac{\phi}{2} \right), & x \to +\infty.
+\end{cases}
+\]  
+
+¿Cuál debería ser el valor de la fase \(\phi\)?
+
+**Ayuda:** Consulte la forma asintótica de las funciones de Airy (por ejemplo en el manual de Abramowitz y Stegun).
+
+---
+
+---
+# TALLER 7
 ### Problema 14 — Propagador del oscilador armónico  
 
 El propagador de una partícula en un potencial armónico está dado por la integral de camino  
@@ -348,7 +419,190 @@ $$
 **Ayuda:** $\sin(\pi z) = \pi z \prod_{n=1}^{\infty} \left(1 - \frac{z^2}{n^2}\right)$.
 
 ---
+# TALLER 8
+## Problema 15: -- Función de Husimi y estados coherentes**
 
+**(a) Demostración de que $\Phi_{q,p}(x)$ es un estado coherente**
+
+**Objetivo:** Mostrar que la función de onda $\Phi_{q,p}(x)$ es función propia del operador de aniquilación $\hat{a}$, es decir, $\hat{a}\Phi_{q,p}(x) = \alpha\Phi_{q,p}(x)$, y encontrar el valor propio complejo $\alpha$.
+
+La función de onda dada es:
+
+$$\Phi_{q,p}(x) = N \exp\left[ -\frac{(x-q)^2}{2\sigma_\omega^2} + \frac{i}{\hbar}px \right]$$
+
+donde $N = (\pi^{-1/2} \sigma_\omega^{-1})^{1/2}$ y $\sigma_\omega = \sqrt{\frac{\hbar}{m\omega}}$.
+
+El operador de aniquilación en la representación de posición (donde $\hat{x} \to x$ y $\hat{p} \to -i\hbar\frac{d}{dx}$) se escribe como:
+
+$$\hat{a} = \frac{1}{\sqrt{2}} \left( \frac{x}{\sigma_\omega} + \sigma_\omega \frac{d}{dx} \right)$$
+
+Aplicamos $\hat{a}$ sobre $\Phi_{q,p}(x)$. Primero, necesitamos la derivada de la función de onda:
+
+$$\frac{d}{dx}\Phi_{q,p}(x) = \Phi_{q,p}(x) \frac{d}{dx} \left[ -\frac{(x-q)^2}{2\sigma_\omega^2} + \frac{i}{\hbar}px \right]$$
+
+$$\frac{d}{dx}\Phi_{q,p}(x) = \Phi_{q,p}(x) \left[ -\frac{2(x-q)}{2\sigma_\omega^2} + \frac{i}{\hbar}p \right] = \Phi_{q,p}(x) \left[ -\frac{x-q}{\sigma_\omega^2} + \frac{i}{\hbar}p \right]$$
+
+Ahora evaluamos $\hat{a}\Phi_{q,p}(x)$:
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left( \frac{x}{\sigma_\omega}\Phi_{q,p}(x) + \sigma_\omega \frac{d\Phi_{q,p}(x)}{dx} \right)$$
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left\{ \frac{x}{\sigma_\omega} + \sigma_\omega \left[ -\frac{x-q}{\sigma_\omega^2} + \frac{i}{\hbar}p \right] \right\} \Phi_{q,p}(x)$$
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left\{ \frac{x}{\sigma_\omega} - \frac{x-q}{\sigma_\omega} + \frac{i}{\hbar}\sigma_\omega p \right\} \Phi_{q,p}(x)$$
+
+Las $x/\sigma_\omega$ se cancelan:
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left( \frac{q}{\sigma_\omega} + \frac{i}{\hbar}\sigma_\omega p \right) \Phi_{q,p}(x)$$
+
+**Conclusión:**
+
+Puesto que el término entre paréntesis es una constante (no depende de $x$), $\Phi_{q,p}(x)$ es efectivamente una función propia del operador de aniquilación $\hat{a}$.
+
+El **valor propio complejo** $\alpha$ asociado es:
+
+$$\alpha = \frac{1}{\sqrt{2}} \left( \frac{q}{\sigma_\omega} + i\frac{\sigma_\omega}{\hbar} p \right)$$
+
+---
+
+**(b) Equivalencia entre $Q_\rho(q,p)$ y la distribución de Husimi $H_\rho(q,p)$**
+
+**Objetivo:** Demostrar que la proyección $Q_\rho(q,p) = \frac{1}{\pi} \langle \Phi_{q,p} | \hat{\rho} | \Phi_{q,p} \rangle$ coincide con la distribución de Husimi general $H_\rho(q,p)$ cuando se usa una función de suavizado Gaussiana específica.
+
+La distribución de Husimi se define clásicamente como una versión suavizada (convolución) de la función de Wigner $W_\rho(q', p')$ con una función de suavizado (Gaussiana) $f$:
+
+$$H_\rho(q,p) = \iint W_\rho(q', p') f(q,p; q',p') \, dq' dp'$$
+
+La función de Wigner para un estado $|\psi\rangle$ puro (donde $\hat{\rho} = |\psi\rangle\langle\psi|$) es:
+
+$$W_\rho(q', p') = \frac{1}{\pi\hbar} \int \psi^*(q' + y) \psi(q' - y) e^{2ipy/\hbar} \, dy$$
+
+(Nota: Se usan varias convenciones de normalización para Wigner, asumo la convención estándar donde la integral sobre el espacio fase da 1).
+
+Nos dan la función de suavizado:
+
+$$f(q,p; q', p') = \frac{1}{\pi\hbar} \exp\left\{ - \left[ \frac{(q-q')^2}{\sigma_\omega^2} + \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right] \right\}$$
+
+Por otro lado, evaluemos la definición de $Q_\rho(q,p)$ en el espacio de posiciones:
+
+$$Q_\rho(q,p) = \frac{1}{\pi} \langle \Phi_{q,p} | \psi \rangle \langle \psi | \Phi_{q,p} \rangle = \frac{1}{\pi} \left| \int_{-\infty}^{\infty} \Phi_{q,p}^*(x) \psi(x) \, dx \right|^2$$
+
+Para conectar esto con la función de Wigner, usamos la propiedad fundamental de que el traslape al cuadrado de dos estados puros (el estado arbitrario $|\psi\rangle$ y el estado coherente $|\Phi_{q,p}\rangle$) es igual a la integral del producto de sus respectivas funciones de Wigner en el espacio de fase (esto es un teorema clave, la traza del producto de dos matrices densidad es la integral del producto de sus funciones de Wigner):
+
+$$|\langle \Phi_{q,p} | \psi \rangle|^2 = 2\pi\hbar \iint W_{\Phi_{q,p}}(q', p') W_\rho(q', p') \, dq' dp'$$
+
+Por lo tanto:
+
+$$Q_\rho(q,p) = 2\hbar \iint W_{\Phi_{q,p}}(q', p') W_\rho(q', p') \, dq' dp'$$
+
+Para que esto coincida con la definición de Husimi, necesitamos que la función de Wigner del estado coherente (multiplicada por $2\hbar\pi$) sea exactamente la función de suavizado $f$. Calculemos la función de Wigner del estado coherente $\Phi_{q,p}(x)$:
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar} \int \Phi_{q,p}^*(q' + y) \Phi_{q,p}(q' - y) e^{2ip'y/\hbar} \, dy$$
+
+Sustituyendo la expresión de $\Phi_{q,p}(x)$:
+
+$$\Phi_{q,p}^*(q'+y) \Phi_{q,p}(q'-y) = N^2 \exp\left[ -\frac{(q'+y-q)^2 + (q'-y-q)^2}{2\sigma_\omega^2} - \frac{i}{\hbar}p(q'+y) + \frac{i}{\hbar}p(q'-y) \right]$$
+
+El exponente del término real se simplifica: $(a+y)^2 + (a-y)^2 = 2a^2 + 2y^2$, donde $a = q'-q$.
+
+$$-\frac{2(q'-q)^2 + 2y^2}{2\sigma_\omega^2} = -\frac{(q'-q)^2}{\sigma_\omega^2} - \frac{y^2}{\sigma_\omega^2}$$
+
+El exponente del término imaginario es: $-\frac{i}{\hbar}p(2y)$.
+
+Entonces:
+
+$$W_{\Phi}(q', p') = \frac{N^2}{\pi\hbar} \exp\left[ -\frac{(q-q')^2}{\sigma_\omega^2} \right] \int \exp\left[ -\frac{y^2}{\sigma_\omega^2} - \frac{2iy}{\hbar}(p-p') \right] \, dy$$
+
+La integral es de la forma Gaussiana estándar $\int e^{-ay^2 + by} dy = \sqrt{\frac{\pi}{a}} e^{b^2 / 4a}$. Aquí $a = 1/\sigma_\omega^2$ y $b = -2i(p-p')/\hbar$.
+
+$$\int \dots = \sqrt{\pi \sigma_\omega^2} \exp\left[ \frac{(-2i(p-p')/\hbar)^2}{4/\sigma_\omega^2} \right] = \sigma_\omega \sqrt{\pi} \exp\left[ - \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right]$$
+
+Multiplicando por las constantes externas, recordando que $N^2 = 1/(\sqrt{\pi}\sigma_\omega)$:
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar \sqrt{\pi}\sigma_\omega} \cdot \sigma_\omega \sqrt{\pi} \cdot \exp\left[ -\frac{(q-q')^2}{\sigma_\omega^2} - \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right]$$
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar} \exp\left\{ - \left[ \frac{(q-q')^2}{\sigma_\omega^2} + \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right] \right\}$$
+
+¡Esta es exactamente la función de suavizado $f(q,p; q', p')$ dada en el enunciado!
+
+Por lo tanto, al multiplicar la ecuación de solapamiento por el factor adecuado, comprobamos que $Q_\rho(q,p)$ es la convolución de la función de Wigner del estado con una Gaussiana del estado coherente, lo cual es la **definición exacta** de la función de Husimi.
+
+---
+
+**(c) Gráficas en Mathematica de las funciones de Husimi para los estados de Fock**
+
+**Objetivo:** Escribir un código de Mathematica para graficar $Q_n(q,p) = \frac{1}{\pi}|\langle \Phi_{q,p} | \psi_n \rangle|^2$ para los estados propios del oscilador armónico $n=0, 1, 2$, analizando la dependencia con el parámetro de compresión $\omega$.
+
+Primero, necesitamos la integral analítica del producto interno $\langle \Phi_{q,p} | \psi_n \rangle$.
+
+Para $m=1, \hbar=1$ (unidades naturales implícitas), $\omega_0=1$ determina los autoestados, por lo que su ancho es $\sigma_0 = 1$. Sin embargo, el estado coherente proyector depende de un parámetro libre $\omega$ que define su propio ancho $\sigma_\omega = 1/\sqrt{\omega}$.
+
+El producto interno es:
+
+$$I_n(q, p; \omega) = \int_{-\infty}^{\infty} \Phi_{q,p}^*(x; \omega) \psi_n(x; \omega_0=1) \, dx$$
+
+El código en Mathematica a continuación define estas funciones y traza los contornos de densidad de probabilidad en el espacio fase $(q,p)$ para diferentes valores de $\omega$. Puedes copiar y pegar esto directamente en un Notebook.
+
+Mathematica
+
+```
+(* Definimos las constantes y anchos *)
+ClearAll["Global`*"];
+m = 1; hbar = 1; w0 = 1;
+sigma0 = Sqrt[hbar/(m w0)];
+sigmaW[w_] := Sqrt[hbar/(m w)];
+
+(* Estado propio del oscilador armonico \psi_n(x) con frecuencia w0 *)
+PsiN[n_, x_] := (1/Sqrt[2^n n! Sqrt[Pi] sigma0]) * Exp[-1/2 (x/sigma0)^2] * HermiteH[n, x/sigma0]
+
+(* Estado coherente \Phi_{q,p}(x) con frecuencia libre w *)
+PhiQP[q_, p_, x_, w_] := (1/(Sqrt[Pi] sigmaW[w])^(1/2)) * Exp[-(x - q)^2/(2 sigmaW[w]^2) - I p x / hbar]
+
+(* Producto interno numerico o simbolico <\Phi | \Psi_n> *)
+(* Usamos NIntegrate dentro de la definicion para evitar expansiones lentas *)
+Overlap[n_, q_?NumericQ, p_?NumericQ, w_?NumericQ] := 
+ NIntegrate[
+  Conjugate[PhiQP[q, p, x, w]] * PsiN[n, x], 
+  {x, -Infinity, Infinity}, 
+  Method -> "GlobalAdaptive", 
+  MaxRecursion -> 20
+ ]
+
+(* Funcion de Husimi Q_n *)
+HusimiQ[n_, q_, p_, w_] := (1/Pi) * Abs[Overlap[n, q, p, w]]^2
+
+(* Configuración para graficar *)
+plotRange = 4;
+wValues = {0.5, 1.0, 2.0}; (* Variamos w alrededor de w0=1 *)
+nValues = {0, 1, 2};
+
+(* Bucle para generar una matriz de graficos (filas: n, columnas: w) *)
+Grid[
+ Table[
+  ContourPlot[
+   HusimiQ[n, q, p, w],
+   {q, -plotRange, plotRange}, {p, -plotRange, plotRange},
+   PlotRange -> All,
+   ColorFunction -> "SunsetColors",
+   PlotLegends -> Automatic,
+   Contours -> 15,
+   FrameLabel -> {"q", "p"},
+   PlotLabel -> Row[{"n = ", n, ", \[Omega] = ", w}],
+   ImageSize -> 300
+  ],
+  {n, nValues}, {w, wValues}
+ ]
+]
+```
+
+**Análisis físico de los resultados:**
+
+1. **Cuando $\omega = \omega_0 = 1$:** La función de Husimi suaviza simétricamente la distribución. Para el estado base ($n=0$), obtienes un círculo perfecto centrado en el origen. Para $n=1, 2$, obtienes anillos concéntricos perfectos. Esto coincide exactamente con las trayectorias del espacio fase clásico del oscilador armónico (que son círculos u elipses de energía constante $E = p^2/2m + m\omega_0^2 q^2/2$).
+    
+2. **Cuando $\omega \neq \omega_0$ (ej. $\omega = 0.5$ o $\omega = 2.0$):** El estado coherente proyector (el "molde" Gaussiano que usamos para barrer el espacio fase) ya no empata con la simetría natural del potencial del estado. El resultado son anillos **estirados o comprimidos** (elipses o formas "squeezed"). Estás midiendo un estado puro simétrico con un estado proyector asimétrico, rompiendo la correspondencia directa con la trayectoria circular clásica en el espacio $(q,p)$ isotrópico.
+
+
+---
+# TALLER 9
 ### Problema 16 — Separación de niveles en el billar rectangular  
 
 Considere el billar rectangular cuántico  

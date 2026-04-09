@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dinamica NO-LINEAL y caos - Madroñero/enunciados talleres caos.md",
+                "file": "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de enunciados talleres caos"
+              "title": "Enlaces salientes de Solucion talleres"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamica NO-LINEAL y caos - Madroñero/enunciados talleres caos.md",
+                "file": "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de enunciados talleres caos"
+              "title": "Esquema de Solucion talleres"
             }
           },
           {
@@ -250,10 +250,10 @@
       "obsidian-spaced-repetition:Revisar Tarjetas": false
     }
   },
-  "active": "b7b6f900948d6acc",
+  "active": "178f51482237bed6",
   "lastOpenFiles": [
-    "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
     "Dinamica NO-LINEAL y caos - Madroñero/enunciados talleres caos.md",
+    "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
     "2026-04-08.md",
     "Dinamica NO-LINEAL y caos - Madroñero",
     "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-Final-2023/flashcards.md",

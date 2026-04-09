@@ -981,3 +981,366 @@ $$\frac{\omega_\mu}{\Omega} \approx \frac{p}{q}$$
 Físicamente, esto significa que el asteroide recibe el "jalón" gravitacional de Júpiter en el mismo lugar de su órbita periódicamente. Estas zonas de caos generadas por la perturbación de $H_1$ son lo que los astrónomos conocen empíricamente como los **Huecos de Kirkwood** (por ejemplo, en las resonancias 3:1, 5:2 o 2:1), donde los asteroides son expulsados, dejando "espacios vacíos" en el cinturón.
 
 
+# TALLER 6
+
+
+
+# TALLER 7
+
+---
+
+### **Problema 14: Propagador del oscilador armónico**
+
+**(a) Separación de la acción clásica y las fluctuaciones**
+
+Queremos evaluar la integral de camino $K(x, T|x_0, 0) = \int \mathcal{D}x \, e^{\frac{i}{\hbar} S[x(t)]}$.
+
+Hacemos la sustitución $x(t) = x_{cl}(t) + y(t)$. Aquí $x_{cl}(t)$ es la solución exacta a la ecuación de Euler-Lagrange (trayectoria clásica) con condiciones de frontera $x_{cl}(0) = x_0$ y $x_{cl}(T) = x$.
+
+Dado que $x(t)$ también debe cumplir estas condiciones de frontera, la fluctuación $y(t)$ debe anularse en los extremos: $y(0) = 0$ y $y(T) = 0$.
+
+Sustituimos en la acción $S$:
+
+$$S[x_{cl} + y] = \int_0^T \left[ \frac{1}{2}m(\dot{x}_{cl} + \dot{y})^2 - \frac{1}{2}m\omega^2(x_{cl} + y)^2 \right] dt$$
+
+Expandimos los binomios y agrupamos:
+
+$$S = \int_0^T \left( \frac{m}{2}\dot{x}_{cl}^2 - \frac{m\omega^2}{2}x_{cl}^2 \right) dt + \int_0^T \left( m\dot{x}_{cl}\dot{y} - m\omega^2 x_{cl}y \right) dt + \int_0^T \left( \frac{m}{2}\dot{y}^2 - \frac{m\omega^2}{2}y^2 \right) dt$$
+
+El primer término es exactamente $S_{cl}$. El último término es la acción de las fluctuaciones $S[y]$.
+
+Analizamos el término cruzado (el del medio). Integramos por partes la derivada de $y$:
+
+$$\int_0^T m\dot{x}_{cl}\dot{y} \, dt = \left[ m\dot{x}_{cl} y \right]_0^T - \int_0^T m\ddot{x}_{cl} y \, dt$$
+
+El término de frontera se anula porque $y(T) = y(0) = 0$. Reagrupando el término cruzado completo:
+
+$$\text{Término cruzado} = - \int_0^T m(\ddot{x}_{cl} + \omega^2 x_{cl}) y \, dt$$
+
+Como $x_{cl}$ obedece la ecuación de movimiento de Newton $\ddot{x}_{cl} + \omega^2 x_{cl} = 0$, el paréntesis se anula.
+
+Por lo tanto, la acción se desacopla exactamente: $S[x] = S_{cl} + S[y]$.
+
+La medida de integración es invariante ante traslaciones ($\mathcal{D}x = \mathcal{D}y$), así que:
+
+$$K(x, T|x_0, 0) = e^{\frac{i}{\hbar}S_{cl}} \int_{y(0)=0}^{y(T)=0} \mathcal{D}y \, e^{\frac{i}{\hbar}S[y]} = e^{\frac{i}{\hbar}S_{cl}} K(0, T|0, 0)$$
+
+**(b) Cálculo de la acción clásica $S_{cl}$**
+
+La solución general es $x_{cl}(t) = A \sin(\omega t) + B \cos(\omega t)$.
+
+Aplicamos condiciones de frontera:
+
+1. $x_{cl}(0) = x_0 \implies B = x_0$
+    
+2. $x_{cl}(T) = x \implies A \sin(\omega T) + x_0 \cos(\omega T) = x \implies A = \frac{x - x_0 \cos(\omega T)}{\sin(\omega T)}$
+    
+
+Para evaluar la integral de la acción, usamos el teorema del virial (integrando por partes $\dot{x}^2$):
+
+$$S_{cl} = \int_0^T \left( \frac{1}{2}m\dot{x}^2 - \frac{1}{2}m\omega^2 x^2 \right) dt = \left[ \frac{1}{2}m x \dot{x} \right]_0^T - \int_0^T \frac{1}{2}mx(\ddot{x} + \omega^2 x) dt$$
+
+El segundo término es cero (ecuación de movimiento). Nos queda solo la frontera:
+
+$$S_{cl} = \frac{m}{2} \left[ x_{cl}(T)\dot{x}_{cl}(T) - x_{cl}(0)\dot{x}_{cl}(0) \right] = \frac{m}{2} \left[ x \dot{x}_{cl}(T) - x_0 \dot{x}_{cl}(0) \right]$$
+
+Derivamos $x_{cl}(t)$ para hallar las velocidades en los extremos:
+
+$\dot{x}_{cl}(0) = A\omega = \omega \frac{x - x_0 \cos(\omega T)}{\sin(\omega T)}$
+
+$\dot{x}_{cl}(T) = A\omega \cos(\omega T) - B\omega \sin(\omega T) = \omega \left[ \frac{x \cos(\omega T) - x_0 \cos^2(\omega T)}{\sin(\omega T)} - \frac{x_0 \sin^2(\omega T)}{\sin(\omega T)} \right] = \omega \frac{x \cos(\omega T) - x_0}{\sin(\omega T)}$
+
+Sustituyendo en $S_{cl}$:
+
+$$S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ x(x\cos(\omega T) - x_0) - x_0(x - x_0\cos(\omega T)) \right]$$
+
+$$S_{cl} = \frac{m\omega}{2\sin(\omega T)} \left[ x^2\cos(\omega T) - xx_0 - xx_0 + x_0^2\cos(\omega T) \right] = \frac{m\omega}{2\sin(\omega T)} \left( (x^2 + x_0^2)\cos(\omega T) - 2xx_0 \right)$$
+
+Dado el resultado de (a), el propagador es trivialmente $K = F(T) e^{\frac{i}{\hbar}S_{cl}}$.
+
+**(c) Evaluación del factor pre-exponencial $F(T)$**
+
+Expandimos $y(t) = \sum_{n=1}^\infty a_n \sin\left(\frac{n\pi t}{T}\right)$. La derivada es $\dot{y}(t) = \sum_{n=1}^\infty a_n \frac{n\pi}{T} \cos\left(\frac{n\pi t}{T}\right)$.
+
+Sustituimos en $S[y] = \int_0^T \frac{m}{2} (\dot{y}^2 - \omega^2 y^2) dt$. Por la ortogonalidad de senos y cosenos, las integrales cruzadas se anulan y $\int \sin^2 dt = \int \cos^2 dt = T/2$:
+
+$$S[y] = \frac{mT}{4} \sum_{n=1}^\infty a_n^2 \left[ \left(\frac{n\pi}{T}\right)^2 - \omega^2 \right]$$
+
+La integral de camino $\int \mathcal{D}y$ se convierte en un producto infinito de integrales gaussianas ordinarias sobre los coeficientes $a_n$. El resultado de una integral de $\exp(i\alpha a_n^2)$ es proporcional a $\alpha^{-1/2}$, así que:
+
+$$K(0,T|0,0) \propto \prod_{n=1}^\infty \left[ \left(\frac{n\pi}{T}\right)^2 - \omega^2 \right]^{-1/2}$$
+
+Para evitar constantes de normalización infinitas, calculamos el ratio entre el oscilador armónico $K_\omega$ y la partícula libre $K_0$ (cuando $\omega \to 0$):
+
+$$\frac{K_\omega}{K_0} = \prod_{n=1}^\infty \left[ \frac{\left(\frac{n\pi}{T}\right)^2 - \omega^2}{\left(\frac{n\pi}{T}\right)^2} \right]^{-1/2} = \left[ \prod_{n=1}^\infty \left( 1 - \frac{\omega^2 T^2}{n^2\pi^2} \right) \right]^{-1/2}$$
+
+Usando la identidad proporcionada $\sin(\pi z) = \pi z \prod (1 - z^2/n^2)$ con $z = \frac{\omega T}{\pi}$:
+
+$$\prod_{n=1}^\infty \left( 1 - \frac{\omega^2 T^2}{n^2\pi^2} \right) = \frac{\sin(\omega T)}{\omega T}$$
+
+Por lo tanto, el ratio es $\left( \frac{\omega T}{\sin(\omega T)} \right)^{1/2}$.
+
+Multiplicando por el factor de la partícula libre $K_0 = \left(\frac{m}{2\pi i \hbar T}\right)^{1/2}$, obtenemos $F(T)$:
+
+$$F(T) = \left(\frac{m}{2\pi i \hbar T}\right)^{1/2} \left( \frac{\omega T}{\sin(\omega T)} \right)^{1/2} = \left(\frac{m\omega}{2\pi i \hbar \sin(\omega T)}\right)^{1/2}$$
+
+Ensamblando el propagador completo, comprobamos el resultado.
+
+_(Nota: El enunciado original tiene un error algebraico al final. Escribe $(x+x_0)^2 \cos(\omega T)$. La forma correcta, deducida impecablemente en el literal b, es $(x^2+x_0^2) \cos(\omega T)$. Al ensamblar, confía en tu demostración de (b))._
+
+---
+
+# TALLER 8
+## Problema 15: -- Función de Husimi y estados coherentes**
+
+**(a) Demostración de que $\Phi_{q,p}(x)$ es un estado coherente**
+
+**Objetivo:** Mostrar que la función de onda $\Phi_{q,p}(x)$ es función propia del operador de aniquilación $\hat{a}$, es decir, $\hat{a}\Phi_{q,p}(x) = \alpha\Phi_{q,p}(x)$, y encontrar el valor propio complejo $\alpha$.
+
+La función de onda dada es:
+
+$$\Phi_{q,p}(x) = N \exp\left[ -\frac{(x-q)^2}{2\sigma_\omega^2} + \frac{i}{\hbar}px \right]$$
+
+donde $N = (\pi^{-1/2} \sigma_\omega^{-1})^{1/2}$ y $\sigma_\omega = \sqrt{\frac{\hbar}{m\omega}}$.
+
+El operador de aniquilación en la representación de posición (donde $\hat{x} \to x$ y $\hat{p} \to -i\hbar\frac{d}{dx}$) se escribe como:
+
+$$\hat{a} = \frac{1}{\sqrt{2}} \left( \frac{x}{\sigma_\omega} + \sigma_\omega \frac{d}{dx} \right)$$
+
+Aplicamos $\hat{a}$ sobre $\Phi_{q,p}(x)$. Primero, necesitamos la derivada de la función de onda:
+
+$$\frac{d}{dx}\Phi_{q,p}(x) = \Phi_{q,p}(x) \frac{d}{dx} \left[ -\frac{(x-q)^2}{2\sigma_\omega^2} + \frac{i}{\hbar}px \right]$$
+
+$$\frac{d}{dx}\Phi_{q,p}(x) = \Phi_{q,p}(x) \left[ -\frac{2(x-q)}{2\sigma_\omega^2} + \frac{i}{\hbar}p \right] = \Phi_{q,p}(x) \left[ -\frac{x-q}{\sigma_\omega^2} + \frac{i}{\hbar}p \right]$$
+
+Ahora evaluamos $\hat{a}\Phi_{q,p}(x)$:
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left( \frac{x}{\sigma_\omega}\Phi_{q,p}(x) + \sigma_\omega \frac{d\Phi_{q,p}(x)}{dx} \right)$$
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left\{ \frac{x}{\sigma_\omega} + \sigma_\omega \left[ -\frac{x-q}{\sigma_\omega^2} + \frac{i}{\hbar}p \right] \right\} \Phi_{q,p}(x)$$
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left\{ \frac{x}{\sigma_\omega} - \frac{x-q}{\sigma_\omega} + \frac{i}{\hbar}\sigma_\omega p \right\} \Phi_{q,p}(x)$$
+
+Las $x/\sigma_\omega$ se cancelan:
+
+$$\hat{a}\Phi_{q,p}(x) = \frac{1}{\sqrt{2}} \left( \frac{q}{\sigma_\omega} + \frac{i}{\hbar}\sigma_\omega p \right) \Phi_{q,p}(x)$$
+
+**Conclusión:**
+
+Puesto que el término entre paréntesis es una constante (no depende de $x$), $\Phi_{q,p}(x)$ es efectivamente una función propia del operador de aniquilación $\hat{a}$.
+
+El **valor propio complejo** $\alpha$ asociado es:
+
+$$\alpha = \frac{1}{\sqrt{2}} \left( \frac{q}{\sigma_\omega} + i\frac{\sigma_\omega}{\hbar} p \right)$$
+
+---
+
+**(b) Equivalencia entre $Q_\rho(q,p)$ y la distribución de Husimi $H_\rho(q,p)$**
+
+**Objetivo:** Demostrar que la proyección $Q_\rho(q,p) = \frac{1}{\pi} \langle \Phi_{q,p} | \hat{\rho} | \Phi_{q,p} \rangle$ coincide con la distribución de Husimi general $H_\rho(q,p)$ cuando se usa una función de suavizado Gaussiana específica.
+
+La distribución de Husimi se define clásicamente como una versión suavizada (convolución) de la función de Wigner $W_\rho(q', p')$ con una función de suavizado (Gaussiana) $f$:
+
+$$H_\rho(q,p) = \iint W_\rho(q', p') f(q,p; q',p') \, dq' dp'$$
+
+La función de Wigner para un estado $|\psi\rangle$ puro (donde $\hat{\rho} = |\psi\rangle\langle\psi|$) es:
+
+$$W_\rho(q', p') = \frac{1}{\pi\hbar} \int \psi^*(q' + y) \psi(q' - y) e^{2ipy/\hbar} \, dy$$
+
+(Nota: Se usan varias convenciones de normalización para Wigner, asumo la convención estándar donde la integral sobre el espacio fase da 1).
+
+Nos dan la función de suavizado:
+
+$$f(q,p; q', p') = \frac{1}{\pi\hbar} \exp\left\{ - \left[ \frac{(q-q')^2}{\sigma_\omega^2} + \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right] \right\}$$
+
+Por otro lado, evaluemos la definición de $Q_\rho(q,p)$ en el espacio de posiciones:
+
+$$Q_\rho(q,p) = \frac{1}{\pi} \langle \Phi_{q,p} | \psi \rangle \langle \psi | \Phi_{q,p} \rangle = \frac{1}{\pi} \left| \int_{-\infty}^{\infty} \Phi_{q,p}^*(x) \psi(x) \, dx \right|^2$$
+
+Para conectar esto con la función de Wigner, usamos la propiedad fundamental de que el traslape al cuadrado de dos estados puros (el estado arbitrario $|\psi\rangle$ y el estado coherente $|\Phi_{q,p}\rangle$) es igual a la integral del producto de sus respectivas funciones de Wigner en el espacio de fase (esto es un teorema clave, la traza del producto de dos matrices densidad es la integral del producto de sus funciones de Wigner):
+
+$$|\langle \Phi_{q,p} | \psi \rangle|^2 = 2\pi\hbar \iint W_{\Phi_{q,p}}(q', p') W_\rho(q', p') \, dq' dp'$$
+
+Por lo tanto:
+
+$$Q_\rho(q,p) = 2\hbar \iint W_{\Phi_{q,p}}(q', p') W_\rho(q', p') \, dq' dp'$$
+
+Para que esto coincida con la definición de Husimi, necesitamos que la función de Wigner del estado coherente (multiplicada por $2\hbar\pi$) sea exactamente la función de suavizado $f$. Calculemos la función de Wigner del estado coherente $\Phi_{q,p}(x)$:
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar} \int \Phi_{q,p}^*(q' + y) \Phi_{q,p}(q' - y) e^{2ip'y/\hbar} \, dy$$
+
+Sustituyendo la expresión de $\Phi_{q,p}(x)$:
+
+$$\Phi_{q,p}^*(q'+y) \Phi_{q,p}(q'-y) = N^2 \exp\left[ -\frac{(q'+y-q)^2 + (q'-y-q)^2}{2\sigma_\omega^2} - \frac{i}{\hbar}p(q'+y) + \frac{i}{\hbar}p(q'-y) \right]$$
+
+El exponente del término real se simplifica: $(a+y)^2 + (a-y)^2 = 2a^2 + 2y^2$, donde $a = q'-q$.
+
+$$-\frac{2(q'-q)^2 + 2y^2}{2\sigma_\omega^2} = -\frac{(q'-q)^2}{\sigma_\omega^2} - \frac{y^2}{\sigma_\omega^2}$$
+
+El exponente del término imaginario es: $-\frac{i}{\hbar}p(2y)$.
+
+Entonces:
+
+$$W_{\Phi}(q', p') = \frac{N^2}{\pi\hbar} \exp\left[ -\frac{(q-q')^2}{\sigma_\omega^2} \right] \int \exp\left[ -\frac{y^2}{\sigma_\omega^2} - \frac{2iy}{\hbar}(p-p') \right] \, dy$$
+
+La integral es de la forma Gaussiana estándar $\int e^{-ay^2 + by} dy = \sqrt{\frac{\pi}{a}} e^{b^2 / 4a}$. Aquí $a = 1/\sigma_\omega^2$ y $b = -2i(p-p')/\hbar$.
+
+$$\int \dots = \sqrt{\pi \sigma_\omega^2} \exp\left[ \frac{(-2i(p-p')/\hbar)^2}{4/\sigma_\omega^2} \right] = \sigma_\omega \sqrt{\pi} \exp\left[ - \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right]$$
+
+Multiplicando por las constantes externas, recordando que $N^2 = 1/(\sqrt{\pi}\sigma_\omega)$:
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar \sqrt{\pi}\sigma_\omega} \cdot \sigma_\omega \sqrt{\pi} \cdot \exp\left[ -\frac{(q-q')^2}{\sigma_\omega^2} - \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right]$$
+
+$$W_{\Phi}(q', p') = \frac{1}{\pi\hbar} \exp\left\{ - \left[ \frac{(q-q')^2}{\sigma_\omega^2} + \frac{\sigma_\omega^2(p-p')^2}{\hbar^2} \right] \right\}$$
+
+¡Esta es exactamente la función de suavizado $f(q,p; q', p')$ dada en el enunciado!
+
+Por lo tanto, al multiplicar la ecuación de solapamiento por el factor adecuado, comprobamos que $Q_\rho(q,p)$ es la convolución de la función de Wigner del estado con una Gaussiana del estado coherente, lo cual es la **definición exacta** de la función de Husimi.
+
+---
+
+**(c) Gráficas en Mathematica de las funciones de Husimi para los estados de Fock**
+
+**Objetivo:** Escribir un código de Mathematica para graficar $Q_n(q,p) = \frac{1}{\pi}|\langle \Phi_{q,p} | \psi_n \rangle|^2$ para los estados propios del oscilador armónico $n=0, 1, 2$, analizando la dependencia con el parámetro de compresión $\omega$.
+
+Primero, necesitamos la integral analítica del producto interno $\langle \Phi_{q,p} | \psi_n \rangle$.
+
+Para $m=1, \hbar=1$ (unidades naturales implícitas), $\omega_0=1$ determina los autoestados, por lo que su ancho es $\sigma_0 = 1$. Sin embargo, el estado coherente proyector depende de un parámetro libre $\omega$ que define su propio ancho $\sigma_\omega = 1/\sqrt{\omega}$.
+
+El producto interno es:
+
+$$I_n(q, p; \omega) = \int_{-\infty}^{\infty} \Phi_{q,p}^*(x; \omega) \psi_n(x; \omega_0=1) \, dx$$
+
+El código en Mathematica a continuación define estas funciones y traza los contornos de densidad de probabilidad en el espacio fase $(q,p)$ para diferentes valores de $\omega$. Puedes copiar y pegar esto directamente en un Notebook.
+
+Mathematica
+
+```
+(* Definimos las constantes y anchos *)
+ClearAll["Global`*"];
+m = 1; hbar = 1; w0 = 1;
+sigma0 = Sqrt[hbar/(m w0)];
+sigmaW[w_] := Sqrt[hbar/(m w)];
+
+(* Estado propio del oscilador armonico \psi_n(x) con frecuencia w0 *)
+PsiN[n_, x_] := (1/Sqrt[2^n n! Sqrt[Pi] sigma0]) * Exp[-1/2 (x/sigma0)^2] * HermiteH[n, x/sigma0]
+
+(* Estado coherente \Phi_{q,p}(x) con frecuencia libre w *)
+PhiQP[q_, p_, x_, w_] := (1/(Sqrt[Pi] sigmaW[w])^(1/2)) * Exp[-(x - q)^2/(2 sigmaW[w]^2) - I p x / hbar]
+
+(* Producto interno numerico o simbolico <\Phi | \Psi_n> *)
+(* Usamos NIntegrate dentro de la definicion para evitar expansiones lentas *)
+Overlap[n_, q_?NumericQ, p_?NumericQ, w_?NumericQ] := 
+ NIntegrate[
+  Conjugate[PhiQP[q, p, x, w]] * PsiN[n, x], 
+  {x, -Infinity, Infinity}, 
+  Method -> "GlobalAdaptive", 
+  MaxRecursion -> 20
+ ]
+
+(* Funcion de Husimi Q_n *)
+HusimiQ[n_, q_, p_, w_] := (1/Pi) * Abs[Overlap[n, q, p, w]]^2
+
+(* Configuración para graficar *)
+plotRange = 4;
+wValues = {0.5, 1.0, 2.0}; (* Variamos w alrededor de w0=1 *)
+nValues = {0, 1, 2};
+
+(* Bucle para generar una matriz de graficos (filas: n, columnas: w) *)
+Grid[
+ Table[
+  ContourPlot[
+   HusimiQ[n, q, p, w],
+   {q, -plotRange, plotRange}, {p, -plotRange, plotRange},
+   PlotRange -> All,
+   ColorFunction -> "SunsetColors",
+   PlotLegends -> Automatic,
+   Contours -> 15,
+   FrameLabel -> {"q", "p"},
+   PlotLabel -> Row[{"n = ", n, ", \[Omega] = ", w}],
+   ImageSize -> 300
+  ],
+  {n, nValues}, {w, wValues}
+ ]
+]
+```
+
+**Análisis físico de los resultados:**
+
+1. **Cuando $\omega = \omega_0 = 1$:** La función de Husimi suaviza simétricamente la distribución. Para el estado base ($n=0$), obtienes un círculo perfecto centrado en el origen. Para $n=1, 2$, obtienes anillos concéntricos perfectos. Esto coincide exactamente con las trayectorias del espacio fase clásico del oscilador armónico (que son círculos u elipses de energía constante $E = p^2/2m + m\omega_0^2 q^2/2$).
+    
+2. **Cuando $\omega \neq \omega_0$ (ej. $\omega = 0.5$ o $\omega = 2.0$):** El estado coherente proyector (el "molde" Gaussiano que usamos para barrer el espacio fase) ya no empata con la simetría natural del potencial del estado. El resultado son anillos **estirados o comprimidos** (elipses o formas "squeezed"). Estás midiendo un estado puro simétrico con un estado proyector asimétrico, rompiendo la correspondencia directa con la trayectoria circular clásica en el espacio $(q,p)$ isotrópico.
+
+# TALLER 9
+
+
+### **Problema 16: Separación de niveles en el billar rectangular**
+
+**El Espectro de Energías**
+
+Al resolver la ecuación de Schrödinger bidimensional estática $-\frac{\hbar^2}{2M}\nabla^2 \psi = E\psi$ con condiciones de Dirichlet ($\psi=0$ en los bordes), las variables se separan. Los autovalores son:
+
+$$E_{n,m} = \frac{\pi^2 \hbar^2}{2M} \left( \frac{n^2}{a^2} + \frac{m^2}{b^2} \right), \quad n,m \in \mathbb{Z}^+$$
+
+Podemos factorizar para parametrizar en función de la razón de los lados $\gamma = (a/b)^2$:
+
+$$E_{n,m} \propto n^2 + \gamma m^2$$
+
+**Distribución de Vecinos Cercanos (NND) y la razón $a/b$**
+
+El teorema de Berry-Tabor establece que en sistemas cuánticos cuyo límite clásico es **integrable** (como este billar regular donde la energía se separa en $E_x$ y $E_y$), las secuencias de energía se comportan como variables aleatorias incorrelacionadas.
+
+1. **Caso Irracional ($\gamma$ es irracional, ej. $\sqrt{2}$):** No existen combinaciones de $n, m$ que produzcan la misma energía. Los niveles evitan cruzarse de forma correlacionada y caen en un espectro puramente aleatorio. El espaciamiento $s$ entre niveles de energía contiguos sigue la distribución de Poisson: $P(s) = e^{-s}$.
+    
+2. **Caso Racional ($\gamma$ es racional, ej. $1$ o $4/3$):** Existe una tremenda cantidad de _degeneraciones accidentales_ (múltiples pares $n,m$ dan la misma energía). Esto rompe el supuesto de independencia estricta. El histograma muestra una anomalía gigante en $s=0$ (las degeneraciones) y no obedece una curva de Poisson perfecta.
+    
+
+A continuación, genero un widget interactivo donde calculo los niveles de energía en tiempo real y grafico el NND para que veas el colapso del espectro al variar la relación de las paredes de la caja.
+
+Muéstrame la visualización
+
+---
+
+### **Problema 17: Probabilidad conjunta de autovectores en GOE**
+
+**Determinación de la constante $c$**
+
+El Ensamble Ortogonal Gaussiano (GOE) representa matrices simétricas reales invariantes bajo rotaciones ortogonales. Para un autovector particular, esta invariancia significa que la distribución de sus componentes $(x_1, \dots, x_N)$ no tiene direcciones preferidas en $\mathbb{R}^N$; depende exclusivamente de la restricción de que el autovector debe estar normalizado a 1.
+
+Esto nos da la densidad de probabilidad microcanónica sobre la esfera $N$-dimensional:
+
+$$\rho(x_1, \dots, x_N) = c \, \delta\left(1 - \sum_{j=1}^N x_j^2\right)$$
+
+Para encontrar $c$, forzamos la condición de normalización de la probabilidad sobre todo el espacio de configuraciones $\mathbb{R}^N$:
+
+$$\int_{-\infty}^\infty \dots \int_{-\infty}^\infty c \, \delta\left(1 - \sum_{j=1}^N x_j^2\right) dx_1 \dots dx_N = 1$$
+
+Como el integrando depende únicamente de la distancia radial al origen al cuadrado ($r^2 = \sum x_j^2$), es extremadamente eficiente cambiar a **coordenadas esféricas $N$-dimensionales**.
+
+El elemento de volumen en estas coordenadas es $d^Nx = r^{N-1} d\Omega_{N-1} dr$, donde $d\Omega_{N-1}$ es el elemento de ángulo sólido.
+
+La integral sobre todas las coordenadas angulares simplemente da el área de la superficie de una esfera unitaria en $N$ dimensiones, la cual llamaremos $S_{N-1}$. Su valor estándar conocido (que surge de integrar gaussianas) es:
+
+$$S_{N-1} = \frac{2\pi^{N/2}}{\Gamma(N/2)}$$
+
+Reescribiendo nuestra integral en términos de $r$:
+
+$$c \, S_{N-1} \int_{0}^\infty \delta(1 - r^2) r^{N-1} dr = 1$$
+
+Para resolver la integral con la delta de Dirac, hacemos el cambio de variable $u = r^2$.
+
+Diferenciando obtenemos $du = 2r dr$, por lo que $dr = \frac{du}{2\sqrt{u}}$. Además, $r^{N-1} = u^{(N-1)/2}$. Los límites siguen siendo $0$ a $\infty$.
+
+$$\int_{0}^\infty \delta(1 - u) u^{(N-1)/2} \frac{du}{2u^{1/2}} = \frac{1}{2} \int_{0}^\infty \delta(1 - u) u^{(N/2) - 1} du$$
+
+La delta de Dirac colapsa la integral evaluando el integrando en $u=1$:
+
+$$\frac{1}{2} (1)^{(N/2) - 1} = \frac{1}{2}$$
+
+Igualamos a nuestra normalización:
+
+$$c \, S_{N-1} \left(\frac{1}{2}\right) = 1 \implies c = \frac{2}{S_{N-1}}$$
+
+Sustituyendo el valor algebraico de la superficie hiper-esférica:
+
+$$c = \frac{2}{\frac{2\pi^{N/2}}{\Gamma(N/2)}} = \frac{\Gamma(N/2)}{\pi^{N/2}}$$
