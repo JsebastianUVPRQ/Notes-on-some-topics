@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
+                "file": "2026-04-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solucion talleres"
+              "title": "2026-04-17"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
+                "file": "2026-04-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Solucion talleres"
+              "title": "Esquema de 2026-04-17"
             }
           },
           {
@@ -231,11 +231,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,8 +253,9 @@
   },
   "active": "178f51482237bed6",
   "lastOpenFiles": [
-    "Dinamica NO-LINEAL y caos - Madroñero/enunciados talleres caos.md",
     "Dinamica NO-LINEAL y caos - Madroñero/Solucion talleres.md",
+    "2026-04-17.md",
+    "Dinamica NO-LINEAL y caos - Madroñero/enunciados talleres caos.md",
     "2026-04-08.md",
     "Dinamica NO-LINEAL y caos - Madroñero",
     "Métodos Matemáticos Física/UNIANDES-MMF-talleres/MET-MAT-Final-2023/flashcards.md",
@@ -278,7 +280,6 @@
     "Mecánica Cuántica/Postulados.md",
     "Assignment 8 y Assignment 10 del curso MIT 8.04.md",
     "assigment pset 7.md",
-    "2025-12-31.md",
     "Mecánica clásica/Parciales - alexander",
     "Untitled.canvas",
     "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
