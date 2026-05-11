@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-28.md",
+                "file": "plan-03-keys-credenciales-api-2.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-28"
+              "title": "plan-03-keys-credenciales-api-2.0"
             }
           }
         ],
@@ -240,8 +240,9 @@
   },
   "active": "b7b6f900948d6acc",
   "lastOpenFiles": [
-    "Docker/Configuring environment containers.md",
     "2026-04-28.md",
+    "plan-03-keys-credenciales-api-2.0.md",
+    "Docker/Configuring environment containers.md",
     "Docker/Docker Hub.md",
     "Docker/Docker containers And Docker images.md",
     "2026-04-27.md",
@@ -266,7 +267,6 @@
     "Fisica fundamental 5/Flashcards Fisica Fundamental 5 V Physics.md",
     "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Taller 12 Metodos matematicos.md",
     "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Princeton lectures in analysis.md",
-    "Métodos Matemáticos Física/UNIANDES-MMF-talleres/Ejercicios Transformadas de Fourier Normas.md",
     "Mecánica clásica/Parciales - alexander",
     "Untitled.canvas",
     "Imagen de WhatsApp 2024-03-20 a las 21.23.48_854f5998.jpg",
