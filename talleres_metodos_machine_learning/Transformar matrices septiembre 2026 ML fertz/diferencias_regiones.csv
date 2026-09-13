@@ -1,0 +1,11 @@
+﻿region,bbox,media_diff,p90_diff,pct_pix_gt30,media_blur_diff,media_ssim,interpretacion
+Ventana / paisaje exterior,"(0,75)-(165,460)",33.97,79.0,41.51,27.4,0.363,El paisaje exterior cambia: árboles/cielo en A frente a una torre/edificio en B.
+Reloj de pared,"(815,45)-(925,175)",14.13,37.0,11.9,8.5,0.764,"La posición de las agujas cambia; por tanto, la hora representada es distinta."
+Ropa del profesor,"(435,275)-(700,580)",14.99,43.0,24.54,11.99,0.839,La chaqueta cambia de azul oscuro a marrón y la camisa cambia de rosada a azul.
+Cartel de la pared,"(800,225)-(900,420)",40.86,136.0,29.28,29.24,0.443,"El cartel cambia color, texto e iconografía: verde / 'Learn Create Grow' frente a azul / 'Better Ideas Bigger Future'."
+Laptop del escritorio,"(155,420)-(300,545)",27.73,53.0,46.82,22.24,0.597,Cambia el aspecto del portátil y la representación visible de su superficie/pantalla.
+Vaso/taza del escritorio,"(315,445)-(380,535)",40.67,146.0,34.38,32.78,0.554,Aparece un vaso claro en A y una taza/vaso oscuro en B.
+Botella,"(330,835)-(420,1005)",31.82,77.0,42.93,29.23,0.886,La botella cambia de roja a azul.
+Cuaderno,"(430,945)-(680,1060)",24.22,69.0,33.12,20.87,0.849,La cubierta cambia de roja a azul.
+Pantalla del portátil inferior derecho,"(690,830)-(975,1030)",29.19,100.0,28.68,24.42,0.594,La pantalla cambia de una interfaz/gráfico oscuro a una pantalla clara con texto.
+Teléfono,"(535,1035)-(635,1125)",34.63,134.0,28.17,27.53,0.554,El teléfono cambia de una apariencia clara/blanca a negra.
