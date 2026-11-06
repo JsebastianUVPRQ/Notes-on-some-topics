@@ -1,4 +1,7 @@
 
+Explica los prerrequisitos, los conceptos usados (en general), la razón de ser, etc; de los ejercicios. Luego resuelve paso a paso
+
+---
 1. **(1 punto)**
 
    (a) i) Considere dos kets $|\alpha\rangle$ y $|\beta\rangle$. Suponga que todas las amplitudes de probabilidad de que tanto $|\alpha\rangle$ como $|\beta\rangle$ se encuentren en cada uno de los elementos de una base completa $\{|a_i\rangle\}$ son conocidas. Encuentre la representación matricial del operador $|\alpha\rangle\langle\beta|$ en dicha base.  
