@@ -83,7 +83,7 @@ $$
 
 ---
 
-## SOLUCION
+# SOLUCION
 
 
 $$
@@ -258,7 +258,7 @@ $$
 \boxed{\{\hat B\}}.
 $$
 
-# Prerrequisitos y conceptos fundamentales
+## Prerrequisitos y conceptos fundamentales
 
 Antes de resolver los ejercicios, conviene tener claros cinco conceptos: el espacio de estados, los observables, la regla de Born, el valor esperado y la matriz de densidad.
 
@@ -357,7 +357,7 @@ $$\boxed{\langle\hat A\rangle=\operatorname{Tr}(\hat\rho\hat A).}$$
 
 Esta fórmula es útil porque describe tanto estados puros como mezclas estadísticas.
 
-# Ejercicio 2 — Fundamentos de medición cuántica
+## Ejercicio 2 — Fundamentos de medición cuántica
 
 ## (a) ¿Qué características debe tener un ket para representar el estado físico de un sistema? ¿Por qué?
 
@@ -481,7 +481,7 @@ $$\langle\hat O\rangle=0$$
 
 para cualquier valor de $\theta$, y analizar si los estados de la familia son físicamente diferentes.
 
-## Prerrequisitos
+### Prerrequisitos
 
 Hay dos ideas fundamentales para resolver este ejercicio.
 
