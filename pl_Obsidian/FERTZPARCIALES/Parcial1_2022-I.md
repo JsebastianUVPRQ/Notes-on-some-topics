@@ -1,6 +1,6 @@
 ## ENUNCIADOS
 
-
+Explica los prerrequisitos, los conceptos usados (en general), la razón de ser, etc; de los ejercicios. Luego resuelve paso a paso
 1. **(2 puntos.)** En la base ortonormal $\{|1\rangle,|2\rangle,|3\rangle\}$ del espacio de kets de un sistema, los observables compatibles $\hat A$ y $\hat B$ tienen la siguiente representación matricial:  
 
 $$
@@ -83,7 +83,7 @@ $$
 
 ---
 
-# SOLUCION
+# SOLUCIONES
 
 
 $$
@@ -112,7 +112,7 @@ U=
 -\dfrac{i}{2}&\dfrac1{\sqrt2}&\dfrac{i}{2}
 \end{pmatrix}.
 $$
-### (a) i) $U$ trAnsforma la base original en la base de kets propios simultáneos
+# 1 (a) i) $U$ TRAnsforma la base original en la base de kets propios simultáneos
 
 Primero, $U$ es unitaria:
 $$
@@ -357,7 +357,7 @@ $$\boxed{\langle\hat A\rangle=\operatorname{Tr}(\hat\rho\hat A).}$$
 
 Esta fórmula es útil porque describe tanto estados puros como mezclas estadísticas.
 
-## Ejercicio 2 — Fundamentos de medición cuántica
+# Ejercicio 2 — Fundamentos de medición cuántica
 
 ## (a) ¿Qué características debe tener un ket para representar el estado físico de un sistema? ¿Por qué?
 
@@ -481,7 +481,7 @@ $$\langle\hat O\rangle=0$$
 
 para cualquier valor de $\theta$, y analizar si los estados de la familia son físicamente diferentes.
 
-### Prerrequisitos
+## Prerrequisitos
 
 Hay dos ideas fundamentales para resolver este ejercicio.
 
@@ -800,7 +800,7 @@ Lo que cambia es el tipo de estado descrito:
 
 El caso puro puede considerarse un caso particular del general, tomando una única probabilidad igual a uno.
 
-## Síntesis de los resultados
+# Síntesis de los resultados
 
 | Numeral | Resultado o concepto fundamental                                                                                                       |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
